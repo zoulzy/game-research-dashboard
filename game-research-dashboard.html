@@ -126,6 +126,28 @@
     .mobile-game-card .actions { display:grid; gap:10px; }
     body[data-device="mobile"] .desktop-only { display:none !important; }
     body[data-device="desktop"] .mobile-only { display:none !important; }
+    body[data-device="mobile"] .container { padding: 14px; }
+    body[data-device="mobile"] .hero, body[data-device="mobile"] .panel { padding: 16px; border-radius: 16px; }
+    body[data-device="mobile"] h1 { font-size: 28px; line-height: 1.15; }
+    body[data-device="mobile"] h2 { font-size: 22px; }
+    body[data-device="mobile"] .header, body[data-device="mobile"] .grid { grid-template-columns: 1fr; }
+    body[data-device="mobile"] .span-12, body[data-device="mobile"] .span-8, body[data-device="mobile"] .span-6, body[data-device="mobile"] .span-4 { grid-column: span 1; }
+    body[data-device="mobile"] .toolbar { display:grid; grid-template-columns: 1fr; align-items: stretch; }
+    body[data-device="mobile"] .toggle { display:grid; grid-template-columns: 1fr 1fr; gap:8px; width:100%; }
+    body[data-device="mobile"] .toggle button, body[data-device="mobile"] button.action, body[data-device="mobile"] .toolbar label, body[data-device="mobile"] .toolbar select { width:100%; }
+    body[data-device="mobile"] .toolbar label { display:grid; gap:6px; }
+    body[data-device="mobile"] .meta { gap:8px; }
+    body[data-device="mobile"] .chip { font-size:11px; }
+    body[data-device="mobile"] .kpi { grid-template-columns: repeat(2, 1fr); }
+    body[data-device="mobile"] .kpi .item { padding: 12px; }
+    body[data-device="mobile"] .value { font-size: 20px; }
+    body[data-device="mobile"] .section-title { align-items:flex-start; flex-direction:column; }
+    body[data-device="mobile"] .logo { width:64px; height:64px; flex-basis:64px; border-radius:12px; }
+    body[data-device="mobile"] .logo-title { gap:10px; }
+    body[data-device="mobile"] .table-wrap { display:none; }
+    body[data-device="mobile"] .top-picks-mobile { display:grid; gap:12px; margin-top:10px; }
+    body[data-device="mobile"] .report-grid, body[data-device="mobile"] .status-grid, body[data-device="mobile"] .cards { grid-template-columns: 1fr; }
+    body[data-device="mobile"] textarea { min-height: 76px; }
     @media (max-width: 960px) {
       .header, .grid, .kpi { grid-template-columns: 1fr; }
       .span-12, .span-8, .span-6, .span-4 { grid-column: span 1; }
