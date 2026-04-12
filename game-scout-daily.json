@@ -1,0 +1,856 @@
+{
+  "meta": {
+    "title": "CN/KR Mobile Game Research Dashboard",
+    "date": "2026-04-12",
+    "timezone": "Asia/Bangkok",
+    "mode": "analyst",
+    "status": "active",
+    "source_of_truth": "Obsidian Vault",
+    "delivery_target": "Daily 08:00",
+    "generated_at": "2026-04-12T08:06:58+07:00",
+    "is_demo": false,
+    "status_options": [
+      "New",
+      "Reviewing",
+      "Watchlist",
+      "Pass",
+      "Drop"
+    ],
+    "notes": [
+      "Corrected shortlist: removed large/globalized titles that do not fit local-publisher prospecting.",
+      "This pass prefers local CN sources, untranslated titles, and smaller/mid teams or at least non-obvious global-live candidates.",
+      "Status and comment updates write back into the JSON file when the dashboard is served via dashboard_server.py."
+    ],
+    "market_reference": {
+      "source": "Remembered Thailand top-grossing genre lanes from prior chart review",
+      "date_observed": "2026-04-01"
+    }
+  },
+  "headline": "Fresh CN local-source pass adds one newly launched survival roguelike and two prereg titles with visible live-service structure, but conviction falls off quickly after the top two.",
+  "games": [
+    {
+      "id": "qi-jie-meng-tan",
+      "title": "七界梦谭",
+      "logo_path": "https://img-tc.tapimg.com/market/images/18f53921f902770dc356251e60e4b55f.jpeg/_tap_appicon.jpg",
+      "developer": "飞光阁工作室",
+      "publisher": "上海拾异信息科技有限责任公司",
+      "developer_country": "CN",
+      "genre": "MMORPG",
+      "subgenre": "Open-world xianxia RPG",
+      "platforms": [
+        "Android",
+        "iOS",
+        "PC"
+      ],
+      "first_server_launch_date": "2026-04-29",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 24,
+      "why_it_matters": "Among currently visible local CN candidates, this is one of the clearest untranslated RPG bets. It maps to Thailand's proven appetite for long-tail RPG progression, world exploration, and class/build experimentation.",
+      "analysis_note": "Seen only through local CN TapTap materials. No English or Thai localization was visible on the source page. Reservation count is large, but the studio/publisher profile is still more locally surfaced than the previously rejected global-facing giants.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/611414"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/611414",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-10",
+      "default_status": "New",
+      "status": "Watchlist",
+      "comment": "Good RPG fit, but still need stronger source confirmation beyond TapTap.",
+      "priority": "high",
+      "tags": [
+        "rpg",
+        "mmorpg",
+        "xianxia",
+        "open-world"
+      ],
+      "fit_with_th_top_genres": [
+        "RPG",
+        "Open-world RPG",
+        "Long-tail progression"
+      ],
+      "thai_market_rationale": "Thai top-revenue memory strongly favors RPG-heavy progression systems. 七界梦谭 is the best local-source fit in this corrected pass for that lane.",
+      "last_status_updated": "2026-04-10T21:53:04+07:00",
+      "last_comment_updated": null,
+      "status_history": [
+        {
+          "at": "2026-04-10T20:51:16+07:00",
+          "from": "New",
+          "to": "Watchlist"
+        },
+        {
+          "at": "2026-04-10T21:52:55+07:00",
+          "from": "Watchlist",
+          "to": "Drop"
+        },
+        {
+          "at": "2026-04-10T21:53:04+07:00",
+          "from": "Drop",
+          "to": "Watchlist"
+        }
+      ]
+    },
+    {
+      "id": "ye-mu-zhi-xia",
+      "title": "夜幕之下",
+      "logo_path": "https://img-tc.tapimg.com/market/images/66ca19a582601d3b0e46f224654be88c.png/_tap_appicon.jpg",
+      "developer": "不眠夜工作室",
+      "publisher": "shixinwen",
+      "developer_country": "CN",
+      "genre": "RPG",
+      "subgenre": "Female-oriented narrative RPG",
+      "platforms": [
+        "Android",
+        "iOS",
+        "PC"
+      ],
+      "first_server_launch_date": "2026-03-03",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 20,
+      "why_it_matters": "This is a more exploratory pick: still untranslated and locally surfaced, but commercially interesting because it targets female-oriented RPG spending and stronger narrative/character monetization behavior.",
+      "analysis_note": "Local TapTap page shows Chinese-only positioning and a test phase rather than a Thailand/SEA launch. Thai fit is weaker than mainstream action/collection RPG, so this should stay in Reviewing or Watchlist unless stronger monetization proof appears.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/746164"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/746164",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-10",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Need publisher clarity before escalation.",
+      "priority": "medium",
+      "tags": [
+        "rpg",
+        "female-oriented",
+        "narrative",
+        "character-collection"
+      ],
+      "fit_with_th_top_genres": [
+        "RPG",
+        "Character-driven monetization"
+      ],
+      "thai_market_rationale": "Not as clean a fit as combat-heavy RPG, but still closer to a proven spend category than cozy simulation candidates. Worth watching, not yet a top conviction title.",
+      "last_status_updated": null,
+      "last_comment_updated": "2026-04-10T21:39:36+07:00",
+      "status_history": []
+    },
+    {
+      "id": "xue-song",
+      "title": "雪松",
+      "logo_path": "https://img-tc.tapimg.com/market/images/bd86d6edd9791bad904348047631a7b3.png/_tap_appicon.jpg",
+      "developer": "纳罗达制作委员会",
+      "publisher": "霍尔果斯纳罗达网络科技有限公司",
+      "developer_country": "CN",
+      "genre": "Strategy",
+      "subgenre": "Military real-time tactics",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-10",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 23,
+      "why_it_matters": "This is the cleanest non-RPG candidate in the corrected pass. It connects to Thailand's proven strategy / 4X / survival appetite via tactical systems, squad management, and long-tail account growth potential.",
+      "analysis_note": "Local CN TapTap page shows a live test rather than a global localized rollout. The visual style is niche, but the strategy lane is commercially relevant enough to justify tracking.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/718446"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/718446",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-10",
+      "default_status": "New",
+      "status": "Watchlist",
+      "comment": "Most interesting strategy-side candidate; keep tracking systems and monetization clues.",
+      "priority": "high",
+      "tags": [
+        "strategy",
+        "military",
+        "tactics",
+        "system-heavy"
+      ],
+      "fit_with_th_top_genres": [
+        "Strategy",
+        "System-heavy progression"
+      ],
+      "thai_market_rationale": "Thailand's top-revenue memory includes strategy-heavy spenders such as Whiteout Survival and Last War, so 雪松 is a more relevant local-source strategy watch candidate than the previous global-facing shortlist.",
+      "last_status_updated": "2026-04-10T20:24:53+07:00",
+      "last_comment_updated": null,
+      "status_history": [
+        {
+          "at": "2026-04-10T20:24:53+07:00",
+          "from": "New",
+          "to": "Watchlist"
+        }
+      ]
+    },
+    {
+      "id": "huan-xiang-shao-nu-gong-hui",
+      "title": "幻想少女公会",
+      "logo_path": "https://img-tc.tapimg.com/market/images/86ec962178cd200e9f2925c8ab7c2a0d.jpg/_tap_appicon.jpg",
+      "developer": "凉屋游戏",
+      "publisher": "深圳市凉屋游戏科技有限公司",
+      "developer_country": "CN",
+      "genre": "RPG",
+      "subgenre": "Idle monster-girl card RPG",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-02",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 22,
+      "why_it_matters": "Among today's fresh local-source finds, this is the cleanest newly launched CN-only idle/card RPG with visible IAP and strong early traction. It is closer to Thailand's proven RPG/collection spend lane than the softer lifestyle picks.",
+      "analysis_note": "Evidence: TapTap CN app page shows 简体中文 only, 有内购, 安卓/iOS support, and 上线日期 2026-04-02; the official activity post on the same page says 2026-04-02 10:00 正式上线. Supplier/developer is 凉屋游戏 with no English or Thai localization visible on the source page. Inference: the local-only presentation and launch freshness make it worth tracking, but ChillyRoom can self-publish, so publisher-opportunity upside is weaker than for smaller teams.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/742940"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/742940",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-11",
+      "default_status": "Watchlist",
+      "status": "Watchlist",
+      "comment": "Fresh CN-only idle RPG signal, but self-publishing capability lowers whitespace.",
+      "priority": "high",
+      "tags": [
+        "rpg",
+        "idle",
+        "card",
+        "monster-girl",
+        "collection"
+      ],
+      "fit_with_th_top_genres": [
+        "RPG",
+        "Idle RPG",
+        "Collection RPG"
+      ],
+      "thai_market_rationale": "The strongest angle is long-tail RPG collection and light-idle retention, which is still closer to Thai spend behavior than casual utility-style titles.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "yi-wan-guang-nian",
+      "title": "亿万光年",
+      "logo_path": "https://img-tc.tapimg.com/market/images/0cf8685cfd8f9ed2fe4201bae4c75ec8.png/_tap_appicon.jpg",
+      "developer": "广州未知矩阵网络有限公司",
+      "publisher": "木叶村数字科技（北京）有限公司",
+      "developer_country": "CN",
+      "genre": "Strategy",
+      "subgenre": "Space RTS / SLG",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-08",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 21,
+      "why_it_matters": "This is the best newly surfaced CN strategy-side candidate from today's local source pass: a fresh Chinese-language launch combining SLG progression with RTS fleet control, which maps better to Thailand's strategy spend lane than most reserve-list fillers.",
+      "analysis_note": "Evidence: TapTap CN app page shows 简体中文 only, 有内购, 安卓/iOS support, and 上线日期 2026-04-08; the page also tags the game as 战争 / 星战 / SLG / 策略 and shows #4 on TapTap 新品榜. No English or Thai localization was visible on the source page. Inference: strategy fit is real enough for a watchlist add, but the publisher/developer profile is not tiny and early user feedback already flags server and monetization issues.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/220456"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/220456",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-11",
+      "default_status": "Watchlist",
+      "status": "Watchlist",
+      "comment": "Best strategy-side new launch today, but server stability and monetization need watching.",
+      "priority": "high",
+      "tags": [
+        "strategy",
+        "slg",
+        "rts",
+        "space",
+        "war"
+      ],
+      "fit_with_th_top_genres": [
+        "Strategy",
+        "SLG",
+        "System-heavy progression"
+      ],
+      "thai_market_rationale": "Thailand continues to support large-scale strategy progression games, so a CN-only space SLG/RTS hybrid is still commercially relevant even if the publisher is not especially small.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "xiao-hua-xian-la-bei-er-zhi-yue",
+      "title": "小花仙：拉贝尔之约",
+      "logo_path": "https://img-tc.tapimg.com/market/images/011ec91c0e60d886b060005e78f10408.jpg/_tap_appicon.jpg",
+      "developer": "上海淘米网络科技有限公司",
+      "publisher": "上海淘米网络科技有限公司",
+      "developer_country": "CN",
+      "genre": "Simulation",
+      "subgenre": "Female-oriented social sim / dress-up",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-03",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 18,
+      "why_it_matters": "This is a fresh CN launch with visible IAP and a clearly local-language female-oriented live-service loop. It is weaker than the RPG/strategy adds for Thailand, but still more commercially plausible than hobbyist single-player entries.",
+      "analysis_note": "Evidence: TapTap CN app page shows 简体中文 only, 有内购, 安卓/iOS support, and 上线日期 2026-04-03; the page copy explicitly says 4月3日正式公测 and presents the game as a种植 / 剧情 / 换装 slow-life social title. No English or Thai localization was visible on the source page. Inference: the women-oriented social/dress-up lane is less core for Thai top-grossing than RPG/strategy, and the Taomee IP is established, so this is more of a secondary watch candidate than a top pick.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/787611"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/787611",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-11",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Live-service signals are real, but Thai fit is softer and the IP is already sizable.",
+      "priority": "medium",
+      "tags": [
+        "female-oriented",
+        "dress-up",
+        "social-sim",
+        "collection",
+        "lifestyle"
+      ],
+      "fit_with_th_top_genres": [
+        "Female-oriented live service",
+        "Collection / customization"
+      ],
+      "thai_market_rationale": "This is more exploratory than conviction-led: it has monetizable fashion/social loops, but it does not fit Thailand's strongest remembered spend lanes as cleanly as RPG and strategy.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "li-ming-zhi-qian",
+      "title": "黎明之前",
+      "logo_path": "https://img-tc.tapimg.com/market/images/4bed8ddfaf29ac8a6529374bef66cced.jpg/_tap_appicon.jpg",
+      "developer": "巨浪游戏",
+      "publisher": "西木木",
+      "developer_country": "CN",
+      "genre": "Strategy",
+      "subgenre": "Zombie survival base-defense sim",
+      "platforms": [
+        "Android",
+        "iOS",
+        "Steam"
+      ],
+      "first_server_launch_date": "2026-04-04",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 17,
+      "why_it_matters": "This is the smallest-team-feeling title in today's batch and one of the few recent CN launches still presenting through a local-only TapTap page. The survival/base-defense loop could travel, even if the monetization model looks more ad-heavy than ideal.",
+      "analysis_note": "Evidence: TapTap CN app page shows a Chinese-only presentation, ranks #10 on 新品榜, and the announcement on-page says 4月4日0点正式发布; the game description frames the loop as white-day base building plus night defense against zombies. User reviews on the source page repeatedly discuss ad-based unlocks and ad-reduction changes. Inference: there is enough local-source freshness to keep it in review, but monetization likely leans ad/hybrid rather than classic F2P+IAP, so conviction is lower.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/654849"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/654849",
+      "monetization_model": "F2P + ads / IAP hybrid unclear",
+      "iap_signal": "unclear",
+      "first_seen": "2026-04-11",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Local-source freshness is good, but the monetization mix looks ad-heavy.",
+      "priority": "medium",
+      "tags": [
+        "strategy",
+        "survival",
+        "zombie",
+        "base-defense",
+        "simulation"
+      ],
+      "fit_with_th_top_genres": [
+        "Strategy",
+        "Survival progression"
+      ],
+      "thai_market_rationale": "The survival-defense structure is more exportable than its tiny presentation suggests, but it is still below the clearer RPG and SLG fits for Thailand.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "xi-er-lan-si-zhan-ji",
+      "title": "希尔兰斯战记",
+      "logo_path": "https://img-tc.tapimg.com/market/images/684a38084b3268c600da166b248e0988.png/_tap_appicon.jpg",
+      "developer": "权二工作室",
+      "publisher": "baoyi",
+      "developer_country": "CN",
+      "genre": "Strategy",
+      "subgenre": "Fantasy tower-defense card RPG",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-09",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 19,
+      "why_it_matters": "This is a usable extra CN-only watch candidate from today's local-source scan: a freshly launched fantasy tower-defense/card title with visible IAP and lighter-strategy retention hooks, which gives Thailand-facing tracking breadth beyond today's stronger idle RPG and space-SLG adds.",
+      "analysis_note": "Evidence: TapTap CN all-info page shows Android 正式上线日期 2026-04-09, 支持语言 简体中文, and 是否有内购 有内购; the main app page frames it as a five-faction medieval fantasy tower-defense title from 权二工作室, with no English or Thai localization visible on the checked local source pages. Early user reviews on the local page mention gacha pressure, maintenance complaints, and paywall-like progression friction. Inference: the local-only presentation and fresh launch are good enough for a secondary add, but monetization quality and strategic depth still look shakier than the day's top picks.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/808261"
+        },
+        {
+          "label": "TapTap game info",
+          "url": "https://www.taptap.cn/app/808261/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/808261",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-11",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Fresh CN-only launch with visible IAP, but early complaints already lean paywall-heavy.",
+      "priority": "medium",
+      "tags": [
+        "strategy",
+        "tower-defense",
+        "card",
+        "fantasy",
+        "gacha"
+      ],
+      "fit_with_th_top_genres": [
+        "Strategy",
+        "Card progression",
+        "Tower-defense systems"
+      ],
+      "thai_market_rationale": "Thailand does support strategy progression spend, but tower-defense/card hybrids usually rank below the clearest RPG and SLG lanes, so this is better as a secondary review candidate than a lead pick.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "chou-ka-qiu-sheng-huang-dao",
+      "title": "抽卡求生：荒岛",
+      "logo_path": "https://img-tc.tapimg.com/market/images/f0dffc817c83de223e03a3188e3dbb4f.jpg/_tap_appicon.jpg",
+      "developer": "Continuous Surprise Studio",
+      "publisher": "SKY工作室",
+      "developer_country": "CN",
+      "genre": "Strategy",
+      "subgenre": "Survival roguelike sim",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-11",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 19,
+      "why_it_matters": "This is the freshest smaller-team CN launch surfaced today: a locally presented survival roguelike with immediate launch traction and a systems-heavy loop that can travel even without blockbuster production values.",
+      "analysis_note": "Evidence: TapTap CN 新品榜 shows #3, 昨天首发, and 上线日期 2026-04-11; the all-info page shows Android 正式上线日期 2026-04-11 and 支持语言 简体中文. The page is tagged 独立游戏 / 生存 / Roguelike / 策略, and recent local reviews explicitly discuss ad pressure and reward tuning. No English or Thai localization was visible on the checked TapTap source pages. Inference: this is a real fresh local-only mobile launch worth tracking, but monetization looks more ad-hybrid than clean F2P+IAP and overall production scale is modest.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/709805"
+        },
+        {
+          "label": "TapTap game info",
+          "url": "https://www.taptap.cn/app/709805/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/709805",
+      "monetization_model": "F2P + ads / IAP hybrid unclear",
+      "iap_signal": "unclear",
+      "first_seen": "2026-04-12",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Fresh CN launch with local-only evidence, but monetization already looks ad-heavy.",
+      "priority": "high",
+      "tags": [
+        "strategy",
+        "survival",
+        "roguelike",
+        "indie",
+        "simulation"
+      ],
+      "fit_with_th_top_genres": [
+        "Strategy",
+        "Survival progression"
+      ],
+      "thai_market_rationale": "The survival-systems loop is more exportable than the presentation suggests, but the ad-heavy feel lowers its value versus cleaner RPG/SLG candidates.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "long-dao-yi-shou-qi-yuan",
+      "title": "龙岛异兽起源",
+      "logo_path": "https://img-tc.tapimg.com/market/images/5a4c6985b64388411066b851e6cf86fa.jpg/_tap_appicon.jpg",
+      "developer": "微乐游戏",
+      "publisher": "家乡互动（厦门）网络科技有限公司",
+      "developer_country": "CN",
+      "genre": "Simulation",
+      "subgenre": "Open-world dinosaur survival",
+      "platforms": [
+        "Android",
+        "iOS",
+        "PC"
+      ],
+      "first_server_launch_date": "",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 20,
+      "why_it_matters": "Among today's non-live additions, this is the clearest survival-side commercial bet: a CN-only prereg title with very strong local traction, creature-collection fantasy, and multiplayer territory-building hooks that could travel to Thailand if the execution lands.",
+      "analysis_note": "Evidence: TapTap CN 预约榜 shows #6 with 预约 115 万 and local-only Chinese copy framing the game as a 恐龙开放世界冒险手游 with 生存 / 开放世界 / 冒险 / 恐龙 tags; the description highlights exploration, evolution, bosses, and clan/territory play. No English or Thai localization was visible on the checked TapTap source pages. Inference: the mobile survival/open-world lane is relevant enough to watch, but the title is already very hot locally and its prereg scale lowers publisher-whitespace upside versus smaller-team finds.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/805993"
+        },
+        {
+          "label": "TapTap game info",
+          "url": "https://www.taptap.cn/app/805993/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/805993",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-12",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Big local traction makes it worth tracking, but whitespace is narrower than for smaller teams.",
+      "priority": "high",
+      "tags": [
+        "survival",
+        "open-world",
+        "dinosaur",
+        "multiplayer",
+        "creature-progression"
+      ],
+      "fit_with_th_top_genres": [
+        "Survival progression",
+        "Open-world progression",
+        "Collection / growth systems"
+      ],
+      "thai_market_rationale": "Its best angle is long-tail survival progression plus creature growth, which is more commercially plausible in Thailand than pure cozy or puzzle-led candidates.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "luan-tu-cai-shi-jie",
+      "title": "乱涂彩世界",
+      "logo_path": "https://img-tc.tapimg.com/market/images/31124d6f0fb3125715bc533b617fea23.png/_tap_appicon.jpg",
+      "developer": "百奥游戏",
+      "publisher": "广州天梯网络科技有限公司",
+      "developer_country": "CN",
+      "genre": "Action",
+      "subgenre": "Casual color-shooter card RPG",
+      "platforms": [
+        "Android",
+        "iOS",
+        "PC"
+      ],
+      "first_server_launch_date": "",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 18,
+      "why_it_matters": "This is a usable secondary CN-only prereg add because the local page already exposes gacha-facing reward design and live-service structure rather than a one-off hobby project.",
+      "analysis_note": "Evidence: TapTap CN 预约榜 shows #5 with 预约 35 万; the page tags include 弹幕射击 and 卡牌, and the prereg rewards explicitly promise 钻石, 抽卡券, and 自选SR. The page is fully Chinese-language on the checked local source and no English or Thai localization was visible. Inference: the title looks more commercially structured than its goofy positioning suggests, but Thai genre fit is softer and the publisher is not especially small, so this belongs below the stronger survival-side adds.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/748842"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/748842",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-12",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Local-only prereg with explicit gacha rewards, but Thai fit is softer than the survival add.",
+      "priority": "medium",
+      "tags": [
+        "action",
+        "casual",
+        "card",
+        "gacha",
+        "color-shooter"
+      ],
+      "fit_with_th_top_genres": [
+        "Collection RPG",
+        "Light action live service"
+      ],
+      "thai_market_rationale": "The clearest hook is lightweight gacha/live-service structure rather than genre fit; it is a breadth add, not a conviction-led top pick.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    }
+  ],
+  "daily_reports": [
+    {
+      "date": "2026-04-10",
+      "headline": "Corrected shortlist after removing invalid large/globalized candidates. Current list is now local-source and untranslated-first.",
+      "game_ids": [
+        "qi-jie-meng-tan",
+        "ye-mu-zhi-xia",
+        "xue-song"
+      ],
+      "new_game_ids": [
+        "qi-jie-meng-tan",
+        "ye-mu-zhi-xia",
+        "xue-song"
+      ],
+      "top_pick_ids": [
+        "qi-jie-meng-tan",
+        "xue-song"
+      ],
+      "cross_game_insight": "After applying the tighter filter, the best local-source opportunities skew toward untranslated RPG and strategy candidates rather than globally marketed tentpoles.",
+      "notes": [
+        "No Korean candidate was promoted in this corrected pass because the quickly accessible KR options were either too large, too globally exposed, or not verified enough.",
+        "Next pass should continue direct KR local-source scouting rather than forcing low-confidence inclusions."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "qi-jie-meng-tan",
+          "status": "Watchlist",
+          "comment": "Good RPG fit, but still need stronger source confirmation beyond TapTap."
+        },
+        {
+          "game_id": "ye-mu-zhi-xia",
+          "status": "Reviewing",
+          "comment": "Need publisher clarity before escalation."
+        },
+        {
+          "game_id": "xue-song",
+          "status": "Watchlist",
+          "comment": "Most interesting strategy-side candidate; keep tracking systems and monetization clues."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-11",
+      "headline": "Fresh CN local-source pass adds two stronger watchlist launches, two secondary live-service candidates, and one extra tower-defense/card watch candidate from TapTap's latest new-game surfaces.",
+      "game_ids": [
+        "huan-xiang-shao-nu-gong-hui",
+        "yi-wan-guang-nian",
+        "xiao-hua-xian-la-bei-er-zhi-yue",
+        "li-ming-zhi-qian",
+        "xi-er-lan-si-zhan-ji"
+      ],
+      "new_game_ids": [
+        "huan-xiang-shao-nu-gong-hui",
+        "yi-wan-guang-nian",
+        "xiao-hua-xian-la-bei-er-zhi-yue",
+        "li-ming-zhi-qian",
+        "xi-er-lan-si-zhan-ji"
+      ],
+      "top_pick_ids": [
+        "huan-xiang-shao-nu-gong-hui",
+        "yi-wan-guang-nian"
+      ],
+      "cross_game_insight": "Today's usable CN-only additions still skew toward recent launch pages rather than prereg pages: one idle/card RPG, one space strategy title, two secondary lifestyle/survival candidates, and one extra tower-defense/card title with softer conviction because monetization complaints surfaced immediately.",
+      "notes": [
+        "No KR title was promoted today because the quickly accessible KR local sources did not produce a better fit than these CN-only additions within the time window.",
+        "Top-pick quality is acceptable but not perfect: one candidate has stronger self-publishing capability and another already shows live-ops complaints.",
+        "The extra add today is still secondary quality: 希尔兰斯战记 has clean local-only evidence and visible IAP, but early player feedback is already flagging monetization friction."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "huan-xiang-shao-nu-gong-hui",
+          "status": "Watchlist",
+          "comment": "Fresh CN-only idle RPG signal, but self-publishing capability lowers whitespace."
+        },
+        {
+          "game_id": "yi-wan-guang-nian",
+          "status": "Watchlist",
+          "comment": "Best strategy-side new launch today, but server stability and monetization need watching."
+        },
+        {
+          "game_id": "xiao-hua-xian-la-bei-er-zhi-yue",
+          "status": "Reviewing",
+          "comment": "Live-service signals are real, but Thai fit is softer and the IP is already sizable."
+        },
+        {
+          "game_id": "li-ming-zhi-qian",
+          "status": "Reviewing",
+          "comment": "Local-source freshness is good, but the monetization mix looks ad-heavy."
+        },
+        {
+          "game_id": "xi-er-lan-si-zhan-ji",
+          "status": "Reviewing",
+          "comment": "Fresh CN-only launch with visible IAP, but early complaints already lean paywall-heavy."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "headline": "Fresh CN local-source pass adds one newly launched survival roguelike and two prereg titles with visible live-service structure, but conviction falls off quickly after the top two.",
+      "game_ids": [
+        "chou-ka-qiu-sheng-huang-dao",
+        "long-dao-yi-shou-qi-yuan",
+        "luan-tu-cai-shi-jie"
+      ],
+      "new_game_ids": [
+        "chou-ka-qiu-sheng-huang-dao",
+        "long-dao-yi-shou-qi-yuan",
+        "luan-tu-cai-shi-jie"
+      ],
+      "top_pick_ids": [
+        "chou-ka-qiu-sheng-huang-dao",
+        "long-dao-yi-shou-qi-yuan"
+      ],
+      "cross_game_insight": "Today's usable adds again come from CN-only TapTap surfaces rather than KR sources: one just-launched smaller-scale survival roguelike, one high-traction dinosaur survival prereg title, and one secondary color-shooter/gacha prereg page with explicit pull-economy rewards.",
+      "notes": [
+        "No KR title was promoted today because the quickly accessible KR local sources did not beat these CN-only additions on freshness plus local-only evidence within the time window.",
+        "Top-pick quality is mixed: one add already looks ad-hybrid, while the dinosaur survival title may be too hot locally to offer much whitespace.",
+        "Today's third add is explicitly secondary quality: 乱涂彩世界 shows a clearer gacha economy than many filler prereg pages, but Thai fit is still softer than survival/RPG lanes."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "chou-ka-qiu-sheng-huang-dao",
+          "status": "Reviewing",
+          "comment": "Fresh CN launch with local-only evidence, but monetization already looks ad-heavy."
+        },
+        {
+          "game_id": "long-dao-yi-shou-qi-yuan",
+          "status": "Reviewing",
+          "comment": "Big local traction makes it worth tracking, but whitespace is narrower than for smaller teams."
+        },
+        {
+          "game_id": "luan-tu-cai-shi-jie",
+          "status": "Reviewing",
+          "comment": "Local-only prereg with explicit gacha rewards, but Thai fit is softer than the survival add."
+        }
+      ]
+    }
+  ],
+  "candidate_pipeline": {
+    "pending_verification": [
+      "Check whether 幻想少女公会 shows any SEA-facing channel expansion beyond the CN TapTap page, because the developer can self-publish.",
+      "Watch 亿万光年 live-ops quality and monetization complaints before promoting it further.",
+      "Confirm whether 小花仙：拉贝尔之约 has any SEA localization signals beyond the CN-only launch page.",
+      "Clarify whether 黎明之前 monetizes primarily via ads or also includes scalable IAP hooks.",
+      "Check whether 希尔兰斯战记 stabilizes its economy and whether its early paywall complaints persist after launch week.",
+      "Check whether 抽卡求生：荒岛 introduces clearer IAP hooks or remains primarily ad-driven after launch week.",
+      "Confirm whether 龙岛异兽起源 develops visible SEA-facing channels or remains a CN-only prereg phenomenon.",
+      "Watch whether 乱涂彩世界 hardens into a scalable gacha economy or stays too casual/lightweight for Thai spend lanes."
+    ],
+    "rejected_today": [
+      "Removed The Seven Deadly Sins: Origin, Arknights: Endfield, Neverness to Everness, and MONGIL: STAR DIVE because they were too large, too globally exposed, or already too close to active global servicing for local-publisher prospecting."
+    ],
+    "duplicates_or_updates": [
+      "2026-04-11 added four fresh CN local-source candidates from TapTap new-game surfaces; existing older entries were preserved unchanged.",
+      "2026-04-11 expanded the CN local-source shortlist from four to five titles by adding 希尔兰斯战记 as a secondary tower-defense/card watch candidate.",
+      "2026-04-12 added three fresh CN local-source candidates from TapTap new-game surfaces; existing older entries were preserved unchanged."
+    ]
+  },
+  "watchlists": {
+    "studios": [
+      "Continuous Surprise Studio",
+      "SKY工作室",
+      "上海淘米网络科技有限公司",
+      "不眠夜工作室",
+      "凉屋游戏",
+      "巨浪游戏",
+      "广州未知矩阵网络有限公司",
+      "微乐游戏",
+      "权二工作室",
+      "百奥游戏",
+      "纳罗达制作委员会",
+      "飞光阁工作室"
+    ],
+    "genres": [
+      "Casual color-shooter card RPG",
+      "Fantasy tower-defense card RPG",
+      "Female-oriented RPG",
+      "Female-oriented social sim",
+      "Idle card RPG",
+      "Open-world dinosaur survival",
+      "Space RTS/SLG",
+      "Survival roguelike sim",
+      "System-heavy strategy",
+      "Untranslated RPG",
+      "Zombie survival strategy"
+    ],
+    "monetization_patterns": [
+      "Ad-hybrid survival monetization",
+      "Character-driven narrative monetization",
+      "Creature-growth survival live service",
+      "Fashion/social retention loops",
+      "Idle collection + equipment progression",
+      "Long-tail progression and class/build depth",
+      "Prereg gacha reward ladders",
+      "RTS/SLG hybrid progression",
+      "Squad/tactical retention systems",
+      "Tower-defense/card gacha monetization"
+    ]
+  },
+  "cross_game_insight": {
+    "pattern_of_the_day": "Today again favored CN-only TapTap surfaces: the strongest adds are still local-language pages with either immediate launch momentum or explicit prereg/live-service signals, while anything beyond the top two drops quickly into secondary-quality territory.",
+    "caveats": [
+      "Today's pass is again CN-only; no KR candidate beat these three on freshness plus local-only evidence within the time window.",
+      "One top-pick candidate already shows ad-friction concerns, and another may be too large/hot locally to leave much whitespace for external publishing.",
+      "SEA/Thailand non-launch status is based on absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
+    ]
+  },
+  "team_brief": {
+    "summary": "Today's new adds are usable but mixed: the fresh survival roguelike and dinosaur survival prereg page are the only clear watch candidates, while the color-shooter/gacha title is mainly a breadth add.",
+    "top_messages": [
+      "抽卡求生：荒岛 is the freshest smaller-scale CN launch today, but monetization already looks ad-heavy.",
+      "龙岛异兽起源 has the strongest survival-side commercial signal in today's batch, though local hype reduces whitespace.",
+      "乱涂彩世界 was added for economy visibility and local-only positioning, not because it outranks the top two on Thai fit."
+    ]
+  },
+  "kpis": {
+    "top_picks_today": 2,
+    "candidate_pipeline": 11,
+    "pending_verification": 8,
+    "new_games_today": 3,
+    "weekly_syntheses": 1
+  }
+}

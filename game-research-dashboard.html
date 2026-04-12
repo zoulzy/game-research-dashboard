@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Game Research Dashboard</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: rgba(18,25,52,0.92);
+      --panel-2: #182248;
+      --text: #eef2ff;
+      --muted: #9fb0d8;
+      --accent: #6ea8fe;
+      --good: #5dd39e;
+      --warn: #ffcc66;
+      --bad: #ff7b7b;
+      --violet: #c4b5fd;
+      --chip: #22305f;
+      --border: rgba(255,255,255,0.08);
+      --shadow: 0 10px 35px rgba(0,0,0,0.22);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: linear-gradient(180deg, #0a0f1f, #101731 45%, #0b1020);
+      color: var(--text);
+    }
+    a { color: #9dcbff; }
+    .container { max-width: 1560px; margin: 0 auto; padding: 24px; }
+    .header {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(320px, 1fr);
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .hero, .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(6px);
+    }
+    h1, h2, h3 { margin: 0 0 10px 0; }
+    p { margin: 0; }
+    .sub { color: var(--muted); line-height: 1.55; }
+    .meta, .toolbar { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; align-items:center; }
+    .chip, .toggle button, select, textarea, button.action {
+      background: var(--chip);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 10px;
+      font-size: 12px;
+    }
+    .chip { border-radius: 999px; padding: 6px 10px; }
+    .toggle button { cursor:pointer; padding: 8px 14px; border-radius: 999px; }
+    .toggle button.active { background: var(--accent); color: #081120; font-weight: 700; }
+    .grid { display:grid; grid-template-columns: repeat(12, 1fr); gap:16px; }
+    .span-12 { grid-column: span 12; }
+    .span-8 { grid-column: span 8; }
+    .span-6 { grid-column: span 6; }
+    .span-4 { grid-column: span 4; }
+    .cards { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:14px; }
+    .card, .report-card, .status-card {
+      background: var(--panel-2);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 16px;
+    }
+    .report-card { display:grid; gap:14px; }
+    .report-grid, .status-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap:12px; }
+    .report-game, .status-card { background: rgba(11,16,32,0.28); }
+    .label { color: var(--muted); font-size: 12px; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.04em; }
+    .value { font-size: 24px; font-weight: 700; }
+    .kpi { display:grid; grid-template-columns: repeat(5, 1fr); gap:12px; margin-top:14px; }
+    .kpi .item { background: var(--panel-2); border: 1px solid var(--border); border-radius: 14px; padding: 14px; }
+    .section-title { display:flex; justify-content:space-between; align-items:center; gap:8px; margin-bottom:10px; }
+    .small { font-size: 12px; color: var(--muted); }
+    .badge {
+      display:inline-flex; align-items:center; gap:6px; margin-left:8px; padding:4px 8px;
+      border-radius:999px; font-size:11px; font-weight:700; letter-spacing:.04em;
+      border:1px solid var(--border);
+    }
+    .badge-new { background: rgba(93,211,158,.12); color: var(--good); border-color: rgba(93,211,158,.35); }
+    .badge-top { background: rgba(110,168,254,.12); color: #9dcbff; border-color: rgba(110,168,254,.35); }
+    .table-wrap { overflow:auto; }
+    table { width:100%; border-collapse: collapse; margin-top:8px; font-size: 14px; }
+    th, td { text-align:left; padding:12px 10px; border-bottom:1px solid var(--border); vertical-align: top; }
+    th { color: var(--muted); font-weight:600; }
+    ul { margin: 10px 0 0 18px; }
+    li { margin: 8px 0; }
+    .stack { display:grid; gap:12px; }
+    .empty { color: var(--muted); font-style: italic; }
+    .analyst-only.hidden, .team-only.hidden { display:none !important; }
+    .save-note, .error {
+      display:none; margin-top:12px; padding:12px 14px; border-radius:12px;
+    }
+    .save-note { background: rgba(93,211,158,.1); border:1px solid rgba(93,211,158,.25); color:#d6ffe8; }
+    .error { background: rgba(255,123,123,.1); border:1px solid rgba(255,123,123,.25); color:#ffd4d4; }
+    .logo-title { display:flex; gap:12px; align-items:flex-start; }
+    .logo {
+      width:84px; height:84px; object-fit:cover; border-radius:14px; border:1px solid var(--border); flex:0 0 84px;
+      background:#0f172a;
+    }
+    .meta-lines { display:grid; gap:4px; }
+    .status-new { color: var(--good); }
+    .status-reviewing { color: var(--warn); }
+    .status-watchlist { color: #9dcbff; }
+    .status-pass { color: var(--violet); }
+    .status-drop { color: var(--bad); }
+    textarea { width:100%; min-height: 90px; padding:10px 12px; resize:vertical; font-family:inherit; }
+    select { padding:8px 10px; }
+    button.action { padding:8px 12px; cursor:pointer; }
+    .toolbar select { padding:8px 10px; }
+    .pill-row { display:flex; gap:8px; flex-wrap:wrap; }
+    @media (max-width: 960px) {
+      .header, .grid, .kpi { grid-template-columns: 1fr; }
+      .span-12, .span-8, .span-6, .span-4 { grid-column: span 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <section class="hero">
+        <h1 id="title">Game Research Dashboard</h1>
+        <p id="headline" class="sub">Loading dashboard data…</p>
+        <div class="meta" id="meta-chips"></div>
+        <div class="toolbar">
+          <div class="toggle">
+            <button id="mode-analyst" class="active">Analyst mode</button>
+            <button id="mode-team">Team brief mode</button>
+          </div>
+          <label class="small">Date view
+            <select id="report-date-select"></select>
+          </label>
+          <button id="save-snapshot" class="action">Save today snapshot</button>
+          <span class="small">Served by <code>dashboard_server.py</code></span>
+        </div>
+        <div class="kpi" id="kpi-grid"></div>
+        <div id="save-note" class="save-note"></div>
+        <div id="load-error" class="error"></div>
+      </section>
+      <section class="panel">
+        <h3>How this works now</h3>
+        <ul id="notes-list"></ul>
+        <div class="small" style="margin-top:10px;">The date selector lets you revisit stored daily reports. Daily cards now include source links, platforms, first-server dates, status, and comment snapshots.</div>
+      </section>
+    </div>
+
+    <div class="grid">
+      <section class="panel span-8">
+        <div class="section-title">
+          <h2>Latest / Selected Top Picks</h2>
+          <span class="small" id="top-picks-summary"></span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Game</th>
+                <th>Official / source page</th>
+                <th>Platform</th>
+                <th>Origin first server date</th>
+                <th>Genre</th>
+                <th>Thai market fit</th>
+                <th>Status</th>
+                <th>Confidence</th>
+                <th>Analysis note</th>
+                <th class="analyst-only">Score</th>
+              </tr>
+            </thead>
+            <tbody id="top-picks-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel span-4">
+        <div class="section-title">
+          <h2>Watchlist</h2>
+          <span class="small">Thai revenue-aware</span>
+        </div>
+        <div class="cards" id="watchlist-cards"></div>
+      </section>
+
+      <section class="panel span-12">
+        <div class="section-title">
+          <h2>Daily Research Log</h2>
+          <span class="small">Stored by date, with source links and day-specific snapshots</span>
+        </div>
+        <div class="stack" id="daily-log"></div>
+      </section>
+
+      <section class="panel span-12">
+        <div class="section-title">
+          <h2>Active Status Board</h2>
+          <span class="small">Shows all games across all dates whose current status is New, Reviewing, Watchlist, or Pass</span>
+        </div>
+        <div class="status-grid" id="active-status-board"></div>
+      </section>
+
+      <section class="panel span-6 analyst-only" id="pipeline-panel">
+        <h2>Candidate Pipeline</h2>
+        <div class="stack" id="pipeline-content"></div>
+      </section>
+
+      <section class="panel span-6">
+        <h2>Cross-Game Insight</h2>
+        <div class="cards" id="insight-cards"></div>
+      </section>
+
+      <section class="panel span-12 team-only hidden" id="team-brief-panel">
+        <h2>Team Brief</h2>
+        <div class="cards" id="team-brief-cards"></div>
+      </section>
+    </div>
+  </div>
+
+  <script>
+    const DATA_URL = './game-scout-daily.json';
+    const IS_READ_ONLY_HOST = !['127.0.0.1', 'localhost'].includes(window.location.hostname);
+    let currentMode = 'analyst';
+    let statusOptions = ['New', 'Reviewing', 'Watchlist', 'Pass', 'Drop'];
+    let gamesById = new Map();
+    let reports = [];
+    let selectedDate = null;
+
+    const $ = (id) => document.getElementById(id);
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+    }
+
+    function confidenceClass(value) {
+      const v = String(value || '').toLowerCase();
+      if (v.includes('high')) return 'high';
+      if (v.includes('medium')) return 'medium';
+      return 'low';
+    }
+
+    function normalizeStatus(value) {
+      return String(value || 'Reviewing').trim();
+    }
+
+    function statusClass(value) {
+      return `status-${normalizeStatus(value).toLowerCase().replace(/\s+/g, '-')}`;
+    }
+
+    function showMessage(text, isError = false) {
+      const note = isError ? $('load-error') : $('save-note');
+      note.style.display = 'block';
+      note.textContent = text;
+      clearTimeout(showMessage._timer);
+      showMessage._timer = setTimeout(() => { note.style.display = 'none'; }, isError ? 3500 : 1800);
+    }
+
+    async function postJson(url, payload) {
+      if (IS_READ_ONLY_HOST) {
+        throw new Error('Read-only hosted mode');
+      }
+      const response = await fetch(url, {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(payload)
+      });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.json();
+    }
+
+    function resolveGames(data) {
+      gamesById = new Map((data.games || []).map((game) => [game.id, game]));
+      reports = Array.isArray(data.daily_reports) ? [...data.daily_reports].sort((a, b) => String(b.date || '').localeCompare(String(a.date || ''))) : [];
+      selectedDate = selectedDate || (reports[0] ? reports[0].date : null);
+    }
+
+    function renderMeta(data) {
+      const meta = data.meta || {};
+      statusOptions = Array.isArray(meta.status_options) && meta.status_options.length ? meta.status_options : statusOptions;
+      $('title').textContent = meta.title || 'Game Research Dashboard';
+      $('headline').textContent = data.headline || 'No headline available.';
+      $('meta-chips').innerHTML = [
+        `Source of truth: ${meta.source_of_truth || 'Unknown'}`,
+        `Delivery target: ${meta.delivery_target || 'N/A'}`,
+        `Status: ${meta.status || 'unknown'}`,
+        `Date: ${selectedDate || meta.date || 'N/A'}`,
+        meta.is_demo ? 'Dataset: Demo' : 'Dataset: Live'
+      ].map((chip) => `<span class="chip">${escapeHtml(chip)}</span>`).join('');
+      const notes = meta.notes || [];
+      $('notes-list').innerHTML = notes.length ? notes.map((n) => `<li>${escapeHtml(n)}</li>`).join('') : '<li class="empty">No workflow notes available.</li>';
+      if (IS_READ_ONLY_HOST) {
+        $('save-note').style.display = 'block';
+        $('save-note').textContent = 'Hosted mode: dashboard is read-only here. Edit JSON locally, commit to GitHub, and let Vercel redeploy.';
+      }
+    }
+
+    function renderKpis(data) {
+      const k = data.kpis || {};
+      const entries = [
+        ['Top picks today', k.top_picks_today ?? 0],
+        ['All tracked games', k.candidate_pipeline ?? 0],
+        ['Pending verification', k.pending_verification ?? 0],
+        ['New games today', k.new_games_today ?? 0],
+        ['Weekly syntheses', k.weekly_syntheses ?? 0]
+      ];
+      $('kpi-grid').innerHTML = entries.map(([label, value]) => `<div class="item"><div class="label">${escapeHtml(label)}</div><div class="value">${escapeHtml(value)}</div></div>`).join('');
+    }
+
+    function getReportByDate(date) {
+      return reports.find((r) => r.date === date) || reports[0] || null;
+    }
+
+    function renderDateSelector() {
+      $('report-date-select').innerHTML = reports.map((r) => `<option value="${escapeHtml(r.date)}" ${r.date === selectedDate ? 'selected' : ''}>${escapeHtml(r.date)}</option>`).join('');
+    }
+
+    function buildStatusSelect(gameId, status) {
+      return `<select class="status-select ${statusClass(status)}" data-game-id="${escapeHtml(gameId)}" ${IS_READ_ONLY_HOST ? 'disabled title="Hosted mode is read-only"' : ''}>${statusOptions.map((option) => `<option value="${escapeHtml(option)}" ${option === status ? 'selected' : ''}>${escapeHtml(option)}</option>`).join('')}</select>`;
+    }
+
+    function gameSource(game) {
+      const sourceUrl = game.official_website || game.official_or_source_page || ((game.source_links || [])[0] || {}).url || '';
+      const sourceLabel = game.official_website ? 'Official website' : (((game.source_links || [])[0] || {}).label || 'Local source');
+      return { sourceUrl, sourceLabel };
+    }
+
+    function gameSnapshot(report, gameId) {
+      return (report.game_snapshots || []).find((s) => s.game_id === gameId) || null;
+    }
+
+    function logoHtml(game) {
+      const logoUrl = `/assets/logo-proxy/${encodeURIComponent(game.id || '')}`;
+      const fallbackUrl = game.logo_path || '';
+      return `<div class="logo-title"><img class="logo" src="${logoUrl}" alt="${escapeHtml(game.title)} logo" loading="eager" referrerpolicy="no-referrer" data-fallback-src="${escapeHtml(fallbackUrl)}" onerror="if(this.dataset.fallbackSrc && !this.dataset.fallbackTried){this.dataset.fallbackTried='1';this.src=this.dataset.fallbackSrc;return;}this.style.display='none';"><div class="meta-lines"><div><strong>${escapeHtml(game.title)}</strong></div><div class="small">${escapeHtml(game.developer || 'Unknown developer')}</div><div class="small">Country: ${escapeHtml(game.developer_country || 'Unknown')}</div></div></div>`;
+    }
+
+    function renderTopPicks() {
+      const report = getReportByDate(selectedDate);
+      const orderedIds = report ? [...new Set([...(report.new_game_ids || []), ...(report.game_ids || []), ...(report.top_pick_ids || [])])] : [];
+      const picks = orderedIds.map((id) => gamesById.get(id)).filter(Boolean);
+      $('top-picks-summary').textContent = report ? `${report.date} · ${picks.length} game(s) added today` : 'No report';
+      $('top-picks-body').innerHTML = picks.length ? picks.map((game) => {
+        const snap = gameSnapshot(report, game.id);
+        const status = normalizeStatus(game.status || game.default_status || snap?.status || 'Reviewing');
+        const { sourceUrl, sourceLabel } = gameSource(game);
+        const isNew = (report.new_game_ids || []).includes(game.id);
+        return `<tr>
+          <td>${logoHtml(game)}${isNew ? '<span class="badge badge-new">NEW</span>' : ''}<div class="small">First seen: ${escapeHtml(game.first_seen || report.date || '—')}</div></td>
+          <td>${sourceUrl ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(sourceLabel)}</a>` : '<span class="small">Not found yet</span>'}<div class="small">${escapeHtml(game.publisher || '')}</div></td>
+          <td>${escapeHtml((game.platforms || []).join(', ') || 'Unknown')}</td>
+          <td>${escapeHtml(game.first_server_launch_date || 'Unknown')}</td>
+          <td>${escapeHtml(game.genre || 'Unknown')}<br><span class="small">${escapeHtml(game.subgenre || '')}</span></td>
+          <td><div class="small">${escapeHtml((game.fit_with_th_top_genres || []).join(', ') || '—')}</div><div class="small">${escapeHtml(game.thai_market_rationale || '—')}</div></td>
+          <td>${buildStatusSelect(game.id, status)}<div class="small">${escapeHtml(game.last_status_updated || '')}</div></td>
+          <td class="${confidenceClass(game.confidence)}">${escapeHtml(game.confidence || 'unknown')}</td>
+          <td><div class="small">${escapeHtml(game.analysis_note || '—')}</div></td>
+          <td class="analyst-only ${confidenceClass(game.confidence)}">${escapeHtml(game.score ?? '—')}/30</td>
+        </tr>`;
+      }).join('') : '<tr><td colspan="10" class="empty">No top picks yet.</td></tr>';
+    }
+
+    function renderWatchlists(data) {
+      const watch = data.watchlists || {};
+      const cards = [['Studios to watch', watch.studios || []], ['Genres to watch', watch.genres || []], ['Monetization patterns', watch.monetization_patterns || []]];
+      $('watchlist-cards').innerHTML = cards.map(([label, items]) => `<div class="card"><div class="label">${escapeHtml(label)}</div>${items.length ? `<ul>${items.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>` : '<div class="empty">No items</div>'}</div>`).join('');
+    }
+
+    function renderDailyLog() {
+      $('daily-log').innerHTML = reports.length ? reports.map((report) => {
+        const games = (report.game_ids || []).map((id) => gamesById.get(id)).filter(Boolean);
+        return `<div class="report-card">
+          <div class="section-title"><div><div class="label">Report date</div><h3>${escapeHtml(report.date || 'Unknown date')}</h3><p class="sub">${escapeHtml(report.headline || 'No headline')}</p></div><span class="small">${games.length} logged game(s)</span></div>
+          <div class="report-grid">${games.map((game) => {
+            const snap = gameSnapshot(report, game.id);
+            const status = normalizeStatus(snap?.status || game.status || game.default_status || 'Reviewing');
+            const comment = snap?.comment || game.comment || '';
+            const { sourceUrl, sourceLabel } = gameSource(game);
+            const isNew = (report.new_game_ids || []).includes(game.id);
+            const isTop = (report.top_pick_ids || []).includes(game.id);
+            return `<div class="report-game status-card">
+              <div>${logoHtml(game)}${isNew ? '<span class="badge badge-new">NEW</span>' : ''}${isTop ? '<span class="badge badge-top">TOP PICK</span>' : ''}</div>
+              <div class="small">${sourceUrl ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(sourceLabel)}</a>` : 'No source link'}</div>
+              <div class="small">Platform: ${escapeHtml((game.platforms || []).join(', ') || 'Unknown')}</div>
+              <div class="small">Origin first server date: ${escapeHtml(game.first_server_launch_date || 'Unknown')}</div>
+              <div class="small">Genre: ${escapeHtml(game.genre || 'Unknown')} / ${escapeHtml(game.subgenre || '—')}</div>
+              <div class="small">Status on this day: <span class="${statusClass(status)}">${escapeHtml(status)}</span></div>
+              <div class="sub">${escapeHtml(game.why_it_matters || '—')}</div>
+              <div class="small">Comment snapshot: ${escapeHtml(comment || '—')}</div>
+            </div>`;
+          }).join('')}</div>
+          <div class="card"><div class="label">Day insight</div><p class="sub">${escapeHtml(report.cross_game_insight || 'No insight logged.')}</p>${(report.notes || []).length ? `<ul>${report.notes.map((note) => `<li>${escapeHtml(note)}</li>`).join('')}</ul>` : ''}</div>
+        </div>`;
+      }).join('') : '<div class="empty">No dated reports yet.</div>';
+    }
+
+    function renderActiveStatusBoard() {
+      const activeStatuses = new Set(['New', 'Reviewing', 'Watchlist', 'Pass']);
+      const games = Array.from(gamesById.values()).filter((game) => activeStatuses.has(normalizeStatus(game.status || game.default_status || 'Reviewing')));
+      $('active-status-board').innerHTML = games.length ? games.map((game) => {
+        const { sourceUrl, sourceLabel } = gameSource(game);
+        const status = normalizeStatus(game.status || game.default_status || 'Reviewing');
+        return `<div class="status-card">
+          <div>${logoHtml(game)}</div>
+          <div class="pill-row"><span class="chip">${escapeHtml(status)}</span><span class="chip">${escapeHtml((game.platforms || []).join(', ') || 'Unknown')}</span><span class="chip">First server: ${escapeHtml(game.first_server_launch_date || 'Unknown')}</span></div>
+          <div class="small">${sourceUrl ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(sourceLabel)}</a>` : 'No source link'}</div>
+          <div class="small">${escapeHtml(game.analysis_note || '—')}</div>
+          <div style="margin-top:10px">${buildStatusSelect(game.id, status)}</div>
+          <div class="small" style="margin-top:10px">Comment</div>
+          <textarea class="comment-input" data-game-id="${escapeHtml(game.id)}" placeholder="Add your opinion..." ${IS_READ_ONLY_HOST ? 'disabled' : ''}>${escapeHtml(game.comment || '')}</textarea>
+          <button class="action save-comment" data-game-id="${escapeHtml(game.id)}" ${IS_READ_ONLY_HOST ? 'disabled title="Hosted mode is read-only"' : ''}>Save comment</button>
+          <div class="small">${escapeHtml(game.last_comment_updated || '')}</div>
+        </div>`;
+      }).join('') : '<div class="empty">No active games in New / Reviewing / Watchlist / Pass.</div>';
+    }
+
+    function renderPipeline(data) {
+      const pipeline = data.candidate_pipeline || {};
+      const sections = [['Pending verification', pipeline.pending_verification || []], ['Rejected today', pipeline.rejected_today || []], ['Duplicates / updates', pipeline.duplicates_or_updates || []]];
+      $('pipeline-content').innerHTML = sections.map(([label, items]) => `<div class="card"><div class="label">${escapeHtml(label)}</div>${items.length ? `<ul>${items.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>` : '<div class="empty">No items</div>'}</div>`).join('');
+    }
+
+    function renderInsights(data) {
+      const insight = data.cross_game_insight || {};
+      $('insight-cards').innerHTML = `<div class="card"><div class="label">Pattern of the day</div><p class="sub">${escapeHtml(insight.pattern_of_the_day || 'No pattern summary yet.')}</p></div><div class="card"><div class="label">Caveats</div>${(insight.caveats || []).length ? `<ul>${insight.caveats.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>` : '<div class="empty">No caveats.</div>'}</div>`;
+    }
+
+    function renderTeamBrief(data) {
+      const brief = data.team_brief || {};
+      $('team-brief-cards').innerHTML = `<div class="card"><div class="label">Summary</div><p class="sub">${escapeHtml(brief.summary || 'No team brief summary yet.')}</p></div><div class="card"><div class="label">Top messages</div>${(brief.top_messages || []).length ? `<ul>${brief.top_messages.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>` : '<div class="empty">No team messages.</div>'}</div>`;
+    }
+
+    async function bindInteractiveControls() {
+      document.querySelectorAll('select.status-select').forEach((select) => {
+        const value = normalizeStatus(select.value);
+        select.className = `status-select ${statusClass(value)}`;
+        select.onchange = async (event) => {
+          const gameId = event.target.dataset.gameId;
+          const status = normalizeStatus(event.target.value);
+          try {
+            const result = await postJson('/api/game-update', { game_id: gameId, status });
+            const game = gamesById.get(gameId);
+            if (game) {
+              game.status = result.status;
+              game.last_status_updated = result.last_status_updated;
+            }
+            document.querySelectorAll(`select.status-select[data-game-id="${CSS.escape(gameId)}"]`).forEach((el) => {
+              el.value = status;
+              el.className = `status-select ${statusClass(status)}`;
+            });
+            renderActiveStatusBoard();
+            bindInteractiveControls();
+            showMessage(`Saved status for ${game?.title || gameId}: ${status}`);
+          } catch (error) {
+            showMessage(`Could not save status for ${gameId}: ${error.message}`, true);
+          }
+        };
+      });
+
+      document.querySelectorAll('button.save-comment').forEach((button) => {
+        button.onclick = async () => {
+          const gameId = button.dataset.gameId;
+          const textarea = document.querySelector(`textarea.comment-input[data-game-id="${CSS.escape(gameId)}"]`);
+          const comment = textarea ? textarea.value : '';
+          try {
+            const result = await postJson('/api/game-update', { game_id: gameId, comment });
+            const game = gamesById.get(gameId);
+            if (game) {
+              game.comment = result.comment;
+              game.last_comment_updated = result.last_comment_updated;
+            }
+            renderActiveStatusBoard();
+            bindInteractiveControls();
+            showMessage(`Saved comment for ${game?.title || gameId}`);
+          } catch (error) {
+            showMessage(`Could not save comment for ${gameId}: ${error.message}`, true);
+          }
+        };
+      });
+    }
+
+    function setMode(mode) {
+      currentMode = mode;
+      $('mode-analyst').classList.toggle('active', mode === 'analyst');
+      $('mode-team').classList.toggle('active', mode === 'team');
+      document.querySelectorAll('.analyst-only').forEach((el) => el.classList.toggle('hidden', mode !== 'analyst'));
+      document.querySelectorAll('.team-only').forEach((el) => el.classList.toggle('hidden', mode !== 'team'));
+      $('pipeline-panel').classList.toggle('hidden', mode !== 'analyst');
+      $('team-brief-panel').classList.toggle('hidden', mode !== 'team');
+    }
+
+    async function loadData() {
+      try {
+        const response = await fetch(DATA_URL, { cache: 'no-store' });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        resolveGames(data);
+        renderDateSelector();
+        renderMeta(data);
+        renderKpis(data);
+        renderTopPicks();
+        renderWatchlists(data);
+        renderDailyLog();
+        renderActiveStatusBoard();
+        renderPipeline(data);
+        renderInsights(data);
+        renderTeamBrief(data);
+        await bindInteractiveControls();
+        setMode(currentMode);
+      } catch (error) {
+        $('load-error').style.display = 'block';
+        $('load-error').textContent = `Could not load ${DATA_URL}: ${error.message}. Run the local dashboard server from this folder.`;
+      }
+    }
+
+    $('mode-analyst').addEventListener('click', () => setMode('analyst'));
+    $('mode-team').addEventListener('click', () => setMode('team'));
+    $('report-date-select').addEventListener('change', (event) => {
+      selectedDate = event.target.value;
+      loadData();
+    });
+    if (IS_READ_ONLY_HOST) {
+      $('save-snapshot').disabled = true;
+      $('save-snapshot').title = 'Hosted mode is read-only';
+    }
+
+    $('save-snapshot').addEventListener('click', async () => {
+      try {
+        const report = getReportByDate(selectedDate);
+        const result = await postJson('/api/save-snapshot', {
+          date: selectedDate,
+          headline: report?.headline || '',
+          game_ids: report?.game_ids || Array.from(gamesById.values()).filter((game) => String(game.first_seen || '') === String(selectedDate || '')).map((game) => game.id),
+          top_pick_ids: report?.top_pick_ids || [],
+          new_game_ids: report?.new_game_ids || [],
+          cross_game_insight: report?.cross_game_insight || '',
+          notes: report?.notes || []
+        });
+        showMessage(`Saved snapshot for ${result.date}`);
+        loadData();
+      } catch (error) {
+        showMessage(`Could not save snapshot: ${error.message}`, true);
+      }
+    });
+
+    loadData();
+  </script>
+</body>
+</html>

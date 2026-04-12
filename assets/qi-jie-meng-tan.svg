@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+  <rect width="96" height="96" rx="20" fill="#3b1f5f"/>
+  <circle cx="48" cy="48" r="28" fill="#6f4bd8" opacity="0.85"/>
+  <text x="48" y="56" text-anchor="middle" font-size="28" font-family="Arial, sans-serif" fill="#ffffff">七</text>
+</svg>
