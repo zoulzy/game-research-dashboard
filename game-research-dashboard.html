@@ -281,6 +281,8 @@
     }
 
     function detectDeviceProfile() {
+      const forced = new URLSearchParams(window.location.search).get('device');
+      if (forced === 'mobile' || forced === 'desktop') return forced;
       const ua = navigator.userAgent || '';
       const isPhoneUA = /Android|iPhone|iPod|Mobile|Windows Phone/i.test(ua);
       const isTabletUA = /iPad|Tablet/i.test(ua);
