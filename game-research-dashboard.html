@@ -86,6 +86,7 @@
     .badge-new { background: rgba(93,211,158,.12); color: var(--good); border-color: rgba(93,211,158,.35); }
     .badge-top { background: rgba(110,168,254,.12); color: #9dcbff; border-color: rgba(110,168,254,.35); }
     .table-wrap { overflow:auto; }
+    .top-picks-mobile { display:none; }
     table { width:100%; border-collapse: collapse; margin-top:8px; font-size: 14px; }
     th, td { text-align:left; padding:12px 10px; border-bottom:1px solid var(--border); vertical-align: top; }
     th { color: var(--muted); font-weight:600; }
@@ -115,9 +116,39 @@
     button.action { padding:8px 12px; cursor:pointer; }
     .toolbar select { padding:8px 10px; }
     .pill-row { display:flex; gap:8px; flex-wrap:wrap; }
+    .mobile-game-card {
+      display:grid; gap:12px; padding:14px; border-radius:16px; border:1px solid var(--border);
+      background: rgba(11,16,32,0.34);
+    }
+    .mobile-game-card .row { display:grid; gap:4px; }
+    .mobile-game-card .row-label { font-size:11px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+    .mobile-game-card .row-value { font-size: 13px; line-height: 1.5; }
+    .mobile-game-card .actions { display:grid; gap:10px; }
+    body[data-device="mobile"] .desktop-only { display:none !important; }
+    body[data-device="desktop"] .mobile-only { display:none !important; }
     @media (max-width: 960px) {
       .header, .grid, .kpi { grid-template-columns: 1fr; }
       .span-12, .span-8, .span-6, .span-4 { grid-column: span 1; }
+      .container { padding: 14px; }
+      .hero, .panel { padding: 16px; border-radius: 16px; }
+      h1 { font-size: 28px; line-height: 1.15; }
+      h2 { font-size: 22px; }
+      .toolbar { display:grid; grid-template-columns: 1fr; align-items: stretch; }
+      .toggle { display:grid; grid-template-columns: 1fr 1fr; gap:8px; width:100%; }
+      .toggle button, button.action, .toolbar label, .toolbar select { width:100%; }
+      .toolbar label { display:grid; gap:6px; }
+      .meta { gap:8px; }
+      .chip { font-size:11px; }
+      .kpi { grid-template-columns: repeat(2, 1fr); }
+      .kpi .item { padding: 12px; }
+      .value { font-size: 20px; }
+      .section-title { align-items:flex-start; flex-direction:column; }
+      .logo { width:64px; height:64px; flex-basis:64px; border-radius:12px; }
+      .logo-title { gap:10px; }
+      .table-wrap { display:none; }
+      .top-picks-mobile { display:grid; gap:12px; margin-top:10px; }
+      .report-grid, .status-grid, .cards { grid-template-columns: 1fr; }
+      textarea { min-height: 76px; }
     }
   </style>
 </head>
@@ -128,6 +159,7 @@
         <h1 id="title">Game Research Dashboard</h1>
         <p id="headline" class="sub">Loading dashboard data…</p>
         <div class="meta" id="meta-chips"></div>
+        <div class="meta" id="device-meta"></div>
         <div class="toolbar">
           <div class="toggle">
             <button id="mode-analyst" class="active">Analyst mode</button>
@@ -156,7 +188,7 @@
           <h2>Latest / Selected Top Picks</h2>
           <span class="small" id="top-picks-summary"></span>
         </div>
-        <div class="table-wrap">
+        <div class="table-wrap desktop-only">
           <table>
             <thead>
               <tr>
@@ -175,6 +207,7 @@
             <tbody id="top-picks-body"></tbody>
           </table>
         </div>
+        <div class="top-picks-mobile mobile-only" id="top-picks-mobile"></div>
       </section>
 
       <section class="panel span-4">
@@ -226,6 +259,7 @@
     let gamesById = new Map();
     let reports = [];
     let selectedDate = null;
+    let currentDevice = 'desktop';
 
     const $ = (id) => document.getElementById(id);
 
@@ -244,6 +278,27 @@
 
     function normalizeStatus(value) {
       return String(value || 'Reviewing').trim();
+    }
+
+    function detectDeviceProfile() {
+      const ua = navigator.userAgent || '';
+      const isPhoneUA = /Android|iPhone|iPod|Mobile|Windows Phone/i.test(ua);
+      const isTabletUA = /iPad|Tablet/i.test(ua);
+      const narrowViewport = window.innerWidth <= 820;
+      const coarsePointer = window.matchMedia('(pointer: coarse)').matches;
+      if (isTabletUA && window.innerWidth > 900) return 'desktop';
+      if (isPhoneUA || (narrowViewport && coarsePointer)) return 'mobile';
+      return 'desktop';
+    }
+
+    function applyDeviceProfile() {
+      const nextDevice = detectDeviceProfile();
+      const changed = currentDevice !== nextDevice;
+      currentDevice = nextDevice;
+      document.body.dataset.device = nextDevice;
+      const badgeLabel = nextDevice === 'mobile' ? 'Optimized for mobile' : 'Optimized for laptop / desktop';
+      $('device-meta').innerHTML = `<span class="chip">Device: ${escapeHtml(nextDevice)}</span><span class="chip">${escapeHtml(badgeLabel)}</span>`;
+      return changed;
     }
 
     function statusClass(value) {
@@ -337,6 +392,25 @@
       return `<div class="logo-title"><img class="logo" src="${logoUrl}" alt="${escapeHtml(game.title)} logo" loading="eager" referrerpolicy="no-referrer" data-fallback-src="${escapeHtml(fallbackUrl)}" onerror="if(this.dataset.fallbackSrc && !this.dataset.fallbackTried){this.dataset.fallbackTried='1';this.src=this.dataset.fallbackSrc;return;}this.style.display='none';"><div class="meta-lines"><div><strong>${escapeHtml(game.title)}</strong></div><div class="small">${escapeHtml(game.developer || 'Unknown developer')}</div><div class="small">Country: ${escapeHtml(game.developer_country || 'Unknown')}</div></div></div>`;
     }
 
+    function topPickMobileCard(game, report, snap) {
+      const status = normalizeStatus(game.status || game.default_status || snap?.status || 'Reviewing');
+      const { sourceUrl, sourceLabel } = gameSource(game);
+      const isNew = (report.new_game_ids || []).includes(game.id);
+      const isTop = (report.top_pick_ids || []).includes(game.id);
+      return `<article class="mobile-game-card">
+        <div>
+          ${logoHtml(game)}
+          <div class="pill-row" style="margin-top:10px;">${isNew ? '<span class="badge badge-new">NEW</span>' : ''}${isTop ? '<span class="badge badge-top">TOP PICK</span>' : ''}<span class="chip">${escapeHtml(status)}</span><span class="chip">${escapeHtml(game.confidence || 'unknown')}</span></div>
+        </div>
+        <div class="row"><div class="row-label">Source</div><div class="row-value">${sourceUrl ? `<a href="${escapeHtml(sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(sourceLabel)}</a>` : 'Not found yet'}${game.publisher ? `<div class="small">${escapeHtml(game.publisher)}</div>` : ''}</div></div>
+        <div class="row"><div class="row-label">Market fit</div><div class="row-value">${escapeHtml((game.fit_with_th_top_genres || []).join(', ') || '—')}<div class="small">${escapeHtml(game.thai_market_rationale || '—')}</div></div></div>
+        <div class="row"><div class="row-label">Genre & platform</div><div class="row-value">${escapeHtml(game.genre || 'Unknown')} / ${escapeHtml(game.subgenre || '—')}<div class="small">${escapeHtml((game.platforms || []).join(', ') || 'Unknown')}</div></div></div>
+        <div class="row"><div class="row-label">Origin first server date</div><div class="row-value">${escapeHtml(game.first_server_launch_date || 'Unknown')}</div></div>
+        <div class="row"><div class="row-label">Analysis note</div><div class="row-value">${escapeHtml(game.analysis_note || '—')}</div></div>
+        <div class="row analyst-only"><div class="row-label">Score</div><div class="row-value">${escapeHtml(game.score ?? '—')}/30</div></div>
+      </article>`;
+    }
+
     function renderTopPicks() {
       const report = getReportByDate(selectedDate);
       const orderedIds = report ? [...new Set([...(report.new_game_ids || []), ...(report.game_ids || []), ...(report.top_pick_ids || [])])] : [];
@@ -360,6 +434,10 @@
           <td class="analyst-only ${confidenceClass(game.confidence)}">${escapeHtml(game.score ?? '—')}/30</td>
         </tr>`;
       }).join('') : '<tr><td colspan="10" class="empty">No top picks yet.</td></tr>';
+      $('top-picks-mobile').innerHTML = picks.length ? picks.map((game) => {
+        const snap = gameSnapshot(report, game.id);
+        return topPickMobileCard(game, report, snap);
+      }).join('') : '<div class="empty">No top picks yet.</div>';
     }
 
     function renderWatchlists(data) {
@@ -515,6 +593,8 @@
       }
     }
 
+    applyDeviceProfile();
+
     $('mode-analyst').addEventListener('click', () => setMode('analyst'));
     $('mode-team').addEventListener('click', () => setMode('team'));
     $('report-date-select').addEventListener('change', (event) => {
@@ -542,6 +622,15 @@
         loadData();
       } catch (error) {
         showMessage(`Could not save snapshot: ${error.message}`, true);
+      }
+    });
+
+    window.addEventListener('resize', () => {
+      if (applyDeviceProfile() && gamesById.size) {
+        renderTopPicks();
+        renderDailyLog();
+        renderActiveStatusBoard();
+        setMode(currentMode);
       }
     });
 
