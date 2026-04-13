@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "CN/KR Mobile Game Research Dashboard",
-    "date": "2026-04-12",
+    "date": "2026-04-13",
     "timezone": "Asia/Bangkok",
     "mode": "analyst",
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-12T11:27:42+07:00",
+    "generated_at": "2026-04-13T08:00:29+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -26,7 +26,7 @@
       "date_observed": "2026-04-01"
     }
   },
-  "headline": "Fresh CN local-source pass adds one newly launched survival roguelike and two prereg titles with visible live-service structure, but conviction falls off quickly after the top two.",
+  "headline": "Fresh CN local-source pass adds one stronger card-RPG paid test, one strategy-side SLG near-launch, and one secondary female-oriented prereg candidate; conviction again falls off after the top two.",
   "games": [
     {
       "id": "qi-jie-meng-tan",
@@ -629,6 +629,174 @@
       "last_status_updated": null,
       "last_comment_updated": null,
       "status_history": []
+    },
+    {
+      "id": "nv-shen-zhi-guang",
+      "title": "女神之光",
+      "logo_path": "https://img-tc.tapimg.com/market/images/970e6156393432e2771a66debd677aef.png/_tap_appicon.jpg",
+      "developer": "智智工作室",
+      "publisher": "岳阳县松影网络科技有限公司",
+      "developer_country": "CN",
+      "genre": "RPG",
+      "subgenre": "Fantasy card RPG",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-11",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 24,
+      "why_it_matters": "This is today's cleanest fresh CN-only RPG add: a newly opened paid test with visible card-collection structure, Chinese-only presentation, and immediate live-service activity that maps well to Thailand's proven collection-RPG spend lane.",
+      "analysis_note": "Evidence: TapTap CN 新品榜 shows 女神之光 at #8; the app page says 测试下载已开启 and 限量不删档计费 with 2026/04/11 test timing, while the checked all-info page shows 简体中文 and 有内购. The local page frames it around 二次元幻想角色收集、策略养成、回合对战 and shows only CN-local presentation on the checked source pages. Inference: the local-only setup and paid-test structure make it a real watch candidate, though the underlying studio still needs more verification beyond TapTap and the theme is somewhat crowded.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/835740"
+        },
+        {
+          "label": "TapTap game info",
+          "url": "https://www.taptap.cn/app/835740/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/835740",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-13",
+      "default_status": "Watchlist",
+      "status": "Watchlist",
+      "comment": "Fresh CN-only card RPG with visible IAP and paid-test structure; strongest new RPG add today.",
+      "priority": "high",
+      "tags": [
+        "rpg",
+        "card",
+        "fantasy",
+        "collection",
+        "turn-based"
+      ],
+      "fit_with_th_top_genres": [
+        "RPG",
+        "Collection RPG",
+        "Character progression"
+      ],
+      "thai_market_rationale": "The strongest export angle is familiar: collectible fantasy units, progression depth, and likely banner-driven monetization, which fits Thai RPG spending patterns better than today's softer sim/creator titles.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "xin-tiao-xian-luo",
+      "title": "心跳陷落",
+      "logo_path": "https://img-tc.tapimg.com/market/images/6c4a8ed1410b6ac1dfc927aeeeb8ea66.png/_tap_appicon.jpg",
+      "developer": "《心跳陷落》创作团队",
+      "publisher": "苏州沁游网络科技有限公司",
+      "developer_country": "CN",
+      "genre": "RPG",
+      "subgenre": "Female-oriented urban fantasy romance RPG",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 20,
+      "why_it_matters": "This is a usable secondary add because the local prereg page already shows live-service reward structure and a polished female-oriented relationship RPG loop rather than a vague concept page.",
+      "analysis_note": "Evidence: TapTap CN 预约榜 shows 心跳陷落 at #18 with 预约 19 万; tags on the checked page include 换装 / 恋爱 / 女性向 / 剧情 / 角色扮演, and the prereg ladder promises 钻石*300 plus 招募协议*5. The checked source pages were Chinese-language only, with no visible English or Thai localization. Inference: this likely monetizes through character/relationship collection and cosmetics, making it worth a secondary watch, but Thai fit is narrower than mainstream RPG/SLG lanes and the publisher is not especially whitespace-rich.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/786394"
+        },
+        {
+          "label": "TapTap game info",
+          "url": "https://www.taptap.cn/app/786394/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/786394",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-13",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Visible prereg economy is real, but female-oriented fit is secondary versus stronger RPG/SLG lanes.",
+      "priority": "medium",
+      "tags": [
+        "rpg",
+        "female-oriented",
+        "romance",
+        "dress-up",
+        "urban-fantasy"
+      ],
+      "fit_with_th_top_genres": [
+        "RPG",
+        "Character-driven monetization"
+      ],
+      "thai_market_rationale": "It is more commercially interesting than a pure narrative VN because the page already signals gacha/currency structure, but it still sits below broader RPG and strategy candidates for Thai market conviction.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "san-guo-tian-xia-gui-xin",
+      "title": "三国：天下归心",
+      "logo_path": "https://img-tc.tapimg.com/market/images/b7d3eebfe1d6c75c43898142dea30778.png/_tap_appicon.jpg",
+      "developer": "乘风工作室",
+      "publisher": "上饶越昶网络科技有限公司",
+      "developer_country": "CN",
+      "genre": "Strategy",
+      "subgenre": "Three Kingdoms national-war SLG",
+      "platforms": [
+        "Android",
+        "iOS",
+        "PC"
+      ],
+      "first_server_launch_date": "2026-04-16",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 23,
+      "why_it_matters": "This is today's strongest strategy-side add: a local Chinese prereg/near-launch SLG with clear resource and draw economy, direct anti-grind positioning, and genre fit that lines up with Thailand's proven war-strategy spend behavior.",
+      "analysis_note": "Evidence: TapTap CN shows 三国：天下归心 with 04月16日 首发 and tags 策略 / SLG / 三国 / 战争 / 国战; the page explicitly calls it a 新国战 SLG 手游. The prereg rewards shown on-page include 288元宝 and 20连抽, and the checked Android all-info page shows 简体中文 with no visible English or Thai localization on the source pages. Inference: the monetization and faction-war framing make it one of today's best commercial fits, though the reservation scale is already sizable enough that publisher-whitespace may be narrower than for smaller launches.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/759941"
+        },
+        {
+          "label": "TapTap game info",
+          "url": "https://www.taptap.cn/app/759941/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/759941",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-13",
+      "default_status": "Watchlist",
+      "status": "Watchlist",
+      "comment": "Best strategy-side add today: clear SLG fit and visible draw/resource economy, but already fairly hot locally.",
+      "priority": "high",
+      "tags": [
+        "strategy",
+        "slg",
+        "three-kingdoms",
+        "war",
+        "national-war"
+      ],
+      "fit_with_th_top_genres": [
+        "Strategy",
+        "War SLG",
+        "Long-tail alliance progression"
+      ],
+      "thai_market_rationale": "Thailand's top-grossing memory still supports war/SLG spend lanes, so a lighter-but-still-systemic 国战 title is a cleaner commercial fit than today's niche sim or creator-platform candidates.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
     }
   ],
   "daily_reports": [
@@ -767,6 +935,47 @@
           "comment": "Local-only prereg with explicit gacha rewards, but Thai fit is softer than the survival add."
         }
       ]
+    },
+    {
+      "date": "2026-04-13",
+      "headline": "Fresh CN local-source pass adds one stronger card-RPG paid test, one strategy-side SLG near-launch, and one secondary female-oriented prereg candidate; conviction again falls off after the top two.",
+      "game_ids": [
+        "nv-shen-zhi-guang",
+        "xin-tiao-xian-luo",
+        "san-guo-tian-xia-gui-xin"
+      ],
+      "new_game_ids": [
+        "nv-shen-zhi-guang",
+        "xin-tiao-xian-luo",
+        "san-guo-tian-xia-gui-xin"
+      ],
+      "top_pick_ids": [
+        "nv-shen-zhi-guang",
+        "san-guo-tian-xia-gui-xin"
+      ],
+      "cross_game_insight": "Today's usable adds again came from CN-only TapTap surfaces rather than KR sources: the best two are a live paid-test card RPG and a near-launch war SLG, while the female-oriented add is more of a secondary economy-visible watch candidate.",
+      "notes": [
+        "No KR title was promoted today because the quickly accessible KR local sources did not beat these CN-only additions on freshness plus local-only evidence within the time window.",
+        "Top-pick quality is decent but not perfect: one strategy add is already fairly hot locally, and the female-oriented add remains a narrower Thai-fit bet.",
+        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "nv-shen-zhi-guang",
+          "status": "Watchlist",
+          "comment": "Fresh CN-only card RPG with visible IAP and paid-test structure; strongest new RPG add today."
+        },
+        {
+          "game_id": "xin-tiao-xian-luo",
+          "status": "Reviewing",
+          "comment": "Visible prereg economy is real, but female-oriented fit is secondary versus stronger RPG/SLG lanes."
+        },
+        {
+          "game_id": "san-guo-tian-xia-gui-xin",
+          "status": "Watchlist",
+          "comment": "Best strategy-side add today: clear SLG fit and visible draw/resource economy, but already fairly hot locally."
+        }
+      ]
     }
   ],
   "candidate_pipeline": {
@@ -778,15 +987,20 @@
       "Check whether 希尔兰斯战记 stabilizes its economy and whether its early paywall complaints persist after launch week.",
       "Check whether 抽卡求生：荒岛 introduces clearer IAP hooks or remains primarily ad-driven after launch week.",
       "Confirm whether 龙岛异兽起源 develops visible SEA-facing channels or remains a CN-only prereg phenomenon.",
-      "Watch whether 乱涂彩世界 hardens into a scalable gacha economy or stays too casual/lightweight for Thai spend lanes."
+      "Watch whether 乱涂彩世界 hardens into a scalable gacha economy or stays too casual/lightweight for Thai spend lanes.",
+      "Check whether 女神之光 opens any SEA-facing channels beyond its CN TapTap paid-test pages, because the current evidence is still platform-local.",
+      "Confirm whether 心跳陷落 stays CN-only or begins surfacing SEA-facing romance/female-oriented social channels before launch.",
+      "Watch whether 三国：天下归心 keeps its low-grind / high-welfare positioning after launch or hardens into a more standard spend-heavy SLG economy."
     ],
     "rejected_today": [
-      "Removed The Seven Deadly Sins: Origin, Arknights: Endfield, Neverness to Everness, and MONGIL: STAR DIVE because they were too large, too globally exposed, or already too close to active global servicing for local-publisher prospecting."
+      "Removed The Seven Deadly Sins: Origin, Arknights: Endfield, Neverness to Everness, and MONGIL: STAR DIVE because they were too large, too globally exposed, or already too close to active global servicing for local-publisher prospecting.",
+      "2026-04-13 skipped more globally exposed, premium-leaning, or PC-first local pages in favor of three mobile candidates with clearer CN-only mobile-service signals."
     ],
     "duplicates_or_updates": [
       "2026-04-11 added four fresh CN local-source candidates from TapTap new-game surfaces; existing older entries were preserved unchanged.",
       "2026-04-11 expanded the CN local-source shortlist from four to five titles by adding 希尔兰斯战记 as a secondary tower-defense/card watch candidate.",
-      "2026-04-12 added three fresh CN local-source candidates from TapTap new-game surfaces; existing older entries were preserved unchanged."
+      "2026-04-12 added three fresh CN local-source candidates from TapTap new-game surfaces; existing older entries were preserved unchanged.",
+      "2026-04-13 added three fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged."
     ]
   },
   "watchlists": {
@@ -802,7 +1016,10 @@
       "权二工作室",
       "百奥游戏",
       "纳罗达制作委员会",
-      "飞光阁工作室"
+      "飞光阁工作室",
+      "智智工作室",
+      "乘风工作室",
+      "《心跳陷落》创作团队"
     ],
     "genres": [
       "Casual color-shooter card RPG",
@@ -815,7 +1032,10 @@
       "Survival roguelike sim",
       "System-heavy strategy",
       "Untranslated RPG",
-      "Zombie survival strategy"
+      "Zombie survival strategy",
+      "Fantasy card RPG",
+      "Female-oriented urban fantasy romance RPG",
+      "Three Kingdoms national-war SLG"
     ],
     "monetization_patterns": [
       "Ad-hybrid survival monetization",
@@ -827,29 +1047,32 @@
       "Prereg gacha reward ladders",
       "RTS/SLG hybrid progression",
       "Squad/tactical retention systems",
-      "Tower-defense/card gacha monetization"
+      "Tower-defense/card gacha monetization",
+      "Prereg draw/currency ladders",
+      "Paid-test card collection monetization",
+      "War-SLG resource + draw economy"
     ]
   },
   "cross_game_insight": {
-    "pattern_of_the_day": "Today again favored CN-only TapTap surfaces: the strongest adds are still local-language pages with either immediate launch momentum or explicit prereg/live-service signals, while anything beyond the top two drops quickly into secondary-quality territory.",
+    "pattern_of_the_day": "Today again favored CN-only TapTap surfaces: the best adds expose either immediate paid-test monetization or explicit prereg draw/resource ladders, while conviction drops after the top two.",
     "caveats": [
-      "Today's pass is again CN-only; no KR candidate beat these three on freshness plus local-only evidence within the time window.",
-      "One top-pick candidate already shows ad-friction concerns, and another may be too large/hot locally to leave much whitespace for external publishing.",
+      "Today's pass again ended up CN-only; no KR candidate beat these three on freshness plus local-only evidence within the time window.",
+      "One top-pick candidate is already fairly hot locally, and the female-oriented add is a secondary Thai-fit bet rather than a conviction-led top pick.",
       "SEA/Thailand non-launch status is based on absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
     ]
   },
   "team_brief": {
-    "summary": "Today's new adds are usable but mixed: the fresh survival roguelike and dinosaur survival prereg page are the only clear watch candidates, while the color-shooter/gacha title is mainly a breadth add.",
+    "summary": "Today's new adds are usable and cleaner than filler: 女神之光 and 三国：天下归心 are the only clear watch candidates, while 心跳陷落 is mainly a secondary economy-visible female-oriented add.",
     "top_messages": [
-      "抽卡求生：荒岛 is the freshest smaller-scale CN launch today, but monetization already looks ad-heavy.",
-      "龙岛异兽起源 has the strongest survival-side commercial signal in today's batch, though local hype reduces whitespace.",
-      "乱涂彩世界 was added for economy visibility and local-only positioning, not because it outranks the top two on Thai fit."
+      "女神之光 is the strongest fresh RPG add today because the page already shows CN-only paid-test plus IAP structure.",
+      "三国：天下归心 is the best strategy-side add thanks to clear war-SLG positioning and explicit prereg draw/resource rewards.",
+      "心跳陷落 was added for visible live-service economy and local-only presentation, not because it outranks the top two on Thai fit."
     ]
   },
   "kpis": {
     "top_picks_today": 2,
-    "candidate_pipeline": 11,
-    "pending_verification": 8,
+    "candidate_pipeline": 14,
+    "pending_verification": 11,
     "new_games_today": 3,
     "weekly_syntheses": 1
   }
