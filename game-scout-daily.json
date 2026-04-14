@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "CN/KR Mobile Game Research Dashboard",
-    "date": "2026-04-13",
+    "date": "2026-04-14",
     "timezone": "Asia/Bangkok",
     "mode": "analyst",
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-13T08:00:29+07:00",
+    "generated_at": "2026-04-14T22:02:56+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -26,7 +26,7 @@
       "date_observed": "2026-04-01"
     }
   },
-  "headline": "Fresh CN local-source pass adds one stronger card-RPG paid test, one strategy-side SLG near-launch, and one secondary female-oriented prereg candidate; conviction again falls off after the top two.",
+  "headline": "Fresh CN local-source reserve pass adds one stronger city-builder test and two secondary female/cozy prereg candidates; conviction is usable but softer than the better RPG/SLG days.",
   "games": [
     {
       "id": "qi-jie-meng-tan",
@@ -797,6 +797,158 @@
       "last_status_updated": null,
       "last_comment_updated": null,
       "status_history": []
+    },
+    {
+      "id": "hui-guang-zhi-cheng-1907",
+      "title": "辉光之城1907",
+      "logo_path": "https://img-tc.tapimg.com/market/images/c90979d2d39c579b851af8f55e532746.jpg/_tap_appicon.jpg",
+      "developer": "薄雾集",
+      "publisher": "上海旷仕科技有限公司",
+      "developer_country": "CN",
+      "genre": "Simulation",
+      "subgenre": "City-building / logistics sim",
+      "platforms": [
+        "Android",
+        "iOS",
+        "PC"
+      ],
+      "first_server_launch_date": "2026-Q4",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 20,
+      "why_it_matters": "Today's strongest fresh local-source add is a smaller-scale city-building / logistics sim with active CN test recruitment. It is not a perfect Thailand top-grossing fit, but it offers more systems depth and publishing whitespace than the softer lifestyle candidates surfaced beside it.",
+      "analysis_note": "Evidence: TapTap CN reservation page showed 预约榜 #9, 测试招募已开启, 安卓/iOS/PC support, and 上线日期 26年Q4 on 2026-04-14. The page description pitches real logistics / supply-flow city construction, and the legal supplier is 上海旷仕科技有限公司 with studio label 薄雾集. No English or Thai localization was visible on the checked local source pages. Inference: this looks like a local-first systems-driven sim that could monetize through construction / progression loops, but Thai commercial fit is still weaker than a cleaner RPG/SLG candidate.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/832010"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/832010",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "unclear",
+      "first_seen": "2026-04-14",
+      "default_status": "Watchlist",
+      "status": "Watchlist",
+      "comment": "Most interesting add today: local-only city-builder test with clearer systems than the other reserve pages.",
+      "priority": "high",
+      "tags": [
+        "simulation",
+        "city-building",
+        "management",
+        "logistics"
+      ],
+      "fit_with_th_top_genres": [
+        "Simulation",
+        "System-heavy progression"
+      ],
+      "thai_market_rationale": "It is not as direct a fit as RPG or war SLG, but system-heavy construction and economy loops can still travel better than pure cozy/decorative titles when live-ops depth is real.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "dai-hao-lian",
+      "title": "代号莲",
+      "logo_path": "https://img-tc.tapimg.com/market/images/8901d69eb41c18c153bac9fd157972c7.png/_tap_appicon.jpg",
+      "developer": "隐隐山工作室",
+      "publisher": "shengjingjing",
+      "developer_country": "CN",
+      "genre": "Adventure",
+      "subgenre": "Otome suspense romance",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-Q4",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 18,
+      "why_it_matters": "This is a narrower but still usable local-source add: a CN-only female-oriented suspense/romance title with a sharper thematic hook than most generic otome prereg pages. It broadens the watchlist into a character-driven monetization lane without leaning on a giant publisher.",
+      "analysis_note": "Evidence: TapTap CN reservation page showed 预约榜 #22, 安卓/iOS support, 上线日期 26年Q4, and tags 乙女 / 剧情 / 恋爱 / 养成 / 冒险. The page credits 隐隐山工作室 as developer and lists supplier shengjingjing. No English or Thai localization was visible on the checked local source page. Inference: this looks like a smaller-team local-first otome candidate with possible character/route monetization, but Thai upside is still secondary versus stronger RPG and strategy lanes.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/809354"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/809354",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "unclear",
+      "first_seen": "2026-04-14",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Female-oriented hook is distinctive, but commercialization proof is still lighter than the city-builder add.",
+      "priority": "medium",
+      "tags": [
+        "otome",
+        "romance",
+        "narrative",
+        "suspense",
+        "character-progression"
+      ],
+      "fit_with_th_top_genres": [
+        "Character-driven monetization"
+      ],
+      "thai_market_rationale": "This is more of a breadth watch candidate than a core conviction pick, but female-oriented live-service romance can still matter if collection and event cadence prove out later.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "tong-hua-shi",
+      "title": "童话师",
+      "logo_path": "https://img-tc.tapimg.com/market/images/99a8a0cf7e2084ca9091a57156c90ca6.jpg/_tap_appicon.jpg",
+      "developer": "童话师工作室",
+      "publisher": "佛山时尚都市网络科技有限公司",
+      "developer_country": "CN",
+      "genre": "Simulation",
+      "subgenre": "Cozy gardening / decoration sim",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-Q2",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 17,
+      "why_it_matters": "Among the softer reserve-page candidates, this is the cleanest local-only cozy sim: visible Simplified Chinese support, meaningful reservation traction, and a studio-scale presentation rather than a giant global publisher. It is a secondary add, not a top-conviction one.",
+      "analysis_note": "Evidence: TapTap CN reservation page showed 预约榜 #29, 安卓/iOS support, 上线日期 26年Q2, and tags 模拟经营 / 治愈 / 养成 / 换装 / 可爱; the Android all-info page explicitly listed 支持语言 简体中文. The legal supplier is 佛山时尚都市网络科技有限公司 and the studio label is 童话师工作室. No English or Thai localization was visible on the checked local source pages. Inference: the local-only packaging makes it worth adding for breadth, but Thai spend fit and monetization depth remain clearly softer than RPG/strategy-oriented prospects.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/771038"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/771038",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "unclear",
+      "first_seen": "2026-04-14",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Clean local-only cozy signal, but monetization depth is still the main question.",
+      "priority": "medium",
+      "tags": [
+        "simulation",
+        "cozy",
+        "decorating",
+        "farming",
+        "dress-up"
+      ],
+      "fit_with_th_top_genres": [
+        "Simulation",
+        "Collection / customization"
+      ],
+      "thai_market_rationale": "This is mainly a breadth-tracking add: it may localize well visually, but its likely spending ceiling looks below RPG and strategy lanes unless strong decoration/collection monetization appears later.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
     }
   ],
   "daily_reports": [
@@ -976,6 +1128,47 @@
           "comment": "Best strategy-side add today: clear SLG fit and visible draw/resource economy, but already fairly hot locally."
         }
       ]
+    },
+    {
+      "date": "2026-04-14",
+      "headline": "Fresh CN local-source reserve pass adds one stronger city-builder test and two secondary female/cozy prereg candidates; conviction is usable but softer than the better RPG/SLG days.",
+      "game_ids": [
+        "hui-guang-zhi-cheng-1907",
+        "dai-hao-lian",
+        "tong-hua-shi"
+      ],
+      "new_game_ids": [
+        "hui-guang-zhi-cheng-1907",
+        "dai-hao-lian",
+        "tong-hua-shi"
+      ],
+      "top_pick_ids": [
+        "hui-guang-zhi-cheng-1907",
+        "dai-hao-lian"
+      ],
+      "cross_game_insight": "Today's usable additions again came from CN-only TapTap reserve surfaces rather than KR sources: one systems-heavier city-builder stands out, while the other two adds are secondary female/cozy candidates with weaker monetization proof.",
+      "notes": [
+        "No KR title was promoted today because the quickly accessible KR local sources still did not beat these CN-only adds on freshness plus local-only evidence within the time window.",
+        "Top-pick quality is softer than some earlier RPG/SLG days because today's reserve-page field leaned more toward sim and female-oriented titles than obvious spend-heavy lanes.",
+        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "hui-guang-zhi-cheng-1907",
+          "status": "Watchlist",
+          "comment": "Most interesting add today: local-only city-builder test with clearer systems than the other reserve pages."
+        },
+        {
+          "game_id": "dai-hao-lian",
+          "status": "Reviewing",
+          "comment": "Female-oriented hook is distinctive, but commercialization proof is still lighter than the city-builder add."
+        },
+        {
+          "game_id": "tong-hua-shi",
+          "status": "Reviewing",
+          "comment": "Clean local-only cozy signal, but monetization depth is still the main question."
+        }
+      ]
     }
   ],
   "candidate_pipeline": {
@@ -990,17 +1183,22 @@
       "Watch whether 乱涂彩世界 hardens into a scalable gacha economy or stays too casual/lightweight for Thai spend lanes.",
       "Check whether 女神之光 opens any SEA-facing channels beyond its CN TapTap paid-test pages, because the current evidence is still platform-local.",
       "Confirm whether 心跳陷落 stays CN-only or begins surfacing SEA-facing romance/female-oriented social channels before launch.",
-      "Watch whether 三国：天下归心 keeps its low-grind / high-welfare positioning after launch or hardens into a more standard spend-heavy SLG economy."
+      "Watch whether 三国：天下归心 keeps its low-grind / high-welfare positioning after launch or hardens into a more standard spend-heavy SLG economy.",
+      "Check whether 辉光之城1907 reveals clearer construction / logistics monetization hooks beyond the current CN test-recruitment page.",
+      "Confirm whether 代号莲 stays CN-only or starts surfacing SEA-facing romance/female-oriented channels before launch.",
+      "Watch whether 童话师 remains a light cozy sim or exposes stronger decoration / collection monetization closer to launch."
     ],
     "rejected_today": [
       "Removed The Seven Deadly Sins: Origin, Arknights: Endfield, Neverness to Everness, and MONGIL: STAR DIVE because they were too large, too globally exposed, or already too close to active global servicing for local-publisher prospecting.",
-      "2026-04-13 skipped more globally exposed, premium-leaning, or PC-first local pages in favor of three mobile candidates with clearer CN-only mobile-service signals."
+      "2026-04-13 skipped more globally exposed, premium-leaning, or PC-first local pages in favor of three mobile candidates with clearer CN-only mobile-service signals.",
+      "2026-04-14 rejected Tencent-backed / globally exposed reserve entries and skipped multilingual or non-game-looking local pages in favor of three more contained CN mobile candidates."
     ],
     "duplicates_or_updates": [
       "2026-04-11 added four fresh CN local-source candidates from TapTap new-game surfaces; existing older entries were preserved unchanged.",
       "2026-04-11 expanded the CN local-source shortlist from four to five titles by adding 希尔兰斯战记 as a secondary tower-defense/card watch candidate.",
       "2026-04-12 added three fresh CN local-source candidates from TapTap new-game surfaces; existing older entries were preserved unchanged.",
-      "2026-04-13 added three fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged."
+      "2026-04-13 added three fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged.",
+      "2026-04-14 added three fresh CN local-source reserve candidates from TapTap reserve surfaces; existing older entries were preserved unchanged."
     ]
   },
   "watchlists": {
@@ -1019,7 +1217,10 @@
       "飞光阁工作室",
       "智智工作室",
       "乘风工作室",
-      "《心跳陷落》创作团队"
+      "《心跳陷落》创作团队",
+      "薄雾集",
+      "童话师工作室",
+      "隐隐山工作室"
     ],
     "genres": [
       "Casual color-shooter card RPG",
@@ -1054,25 +1255,25 @@
     ]
   },
   "cross_game_insight": {
-    "pattern_of_the_day": "Today again favored CN-only TapTap surfaces: the best adds expose either immediate paid-test monetization or explicit prereg draw/resource ladders, while conviction drops after the top two.",
+    "pattern_of_the_day": "Today's fresh adds leaned toward CN-only TapTap reserve pages rather than new-launch pages: one system-heavier city-builder survived the filter, while the rest were softer female/cozy candidates with lighter monetization proof.",
     "caveats": [
       "Today's pass again ended up CN-only; no KR candidate beat these three on freshness plus local-only evidence within the time window.",
-      "One top-pick candidate is already fairly hot locally, and the female-oriented add is a secondary Thai-fit bet rather than a conviction-led top pick.",
+      "Top-pick quality is softer than the better RPG/SLG days because reserve-page supply skewed toward sim and female-oriented titles.",
       "SEA/Thailand non-launch status is based on absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
     ]
   },
   "team_brief": {
-    "summary": "Today's new adds are usable and cleaner than filler: 女神之光 and 三国：天下归心 are the only clear watch candidates, while 心跳陷落 is mainly a secondary economy-visible female-oriented add.",
+    "summary": "Today's new adds are usable but softer: 辉光之城1907 is the only clearer watchlist candidate, while 代号莲 and 童话师 are secondary breadth adds from CN-only reserve pages.",
     "top_messages": [
-      "女神之光 is the strongest fresh RPG add today because the page already shows CN-only paid-test plus IAP structure.",
-      "三国：天下归心 is the best strategy-side add thanks to clear war-SLG positioning and explicit prereg draw/resource rewards.",
-      "心跳陷落 was added for visible live-service economy and local-only presentation, not because it outranks the top two on Thai fit."
+      "辉光之城1907 is the strongest fresh add today because it combines local-only test recruitment with clearer city-building / logistics systems than the surrounding reserve-page field.",
+      "代号莲 was added for its sharper female-oriented suspense hook and contained local presentation, not because it already proves a stronger spend lane than RPG/SLG candidates.",
+      "童话师 was added as a clean CN-only cozy-sim breadth watch, but monetization depth remains the main question."
     ]
   },
   "kpis": {
     "top_picks_today": 2,
-    "candidate_pipeline": 14,
-    "pending_verification": 11,
+    "candidate_pipeline": 17,
+    "pending_verification": 14,
     "new_games_today": 3,
     "weekly_syntheses": 1
   }
