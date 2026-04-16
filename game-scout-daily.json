@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "CN/KR Mobile Game Research Dashboard",
-    "date": "2026-04-15",
+    "date": "2026-04-16",
     "timezone": "Asia/Bangkok",
     "mode": "analyst",
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-15T08:01:01+07:00",
+    "generated_at": "2026-04-16T08:01:03+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -26,7 +26,7 @@
       "date_observed": "2026-04-01"
     }
   },
-  "headline": "Fresh CN reserve-page scan adds two clearer RPG/strategy-facing watchlist candidates and two secondary breadth picks; conviction is better than yesterday but still mostly CN-only.",
+  "headline": "Fresh CN local-source scan adds one newly launched Korean-style MMO, one newly surfaced IP card-RPG reserve page, and one lower-whitespace idle-RPG reserve add; quality is usable, but publisher-opportunity upside is mixed.",
   "games": [
     {
       "id": "qi-jie-meng-tan",
@@ -1171,6 +1171,173 @@
       "last_status_updated": null,
       "last_comment_updated": null,
       "status_history": []
+    },
+    {
+      "id": "xin-da-feng-da-geng-ren",
+      "title": "新大奉打更人",
+      "logo_path": "https://img-tc.tapimg.com/market/images/8f7867a9b1acd94bd307a9d5134f5d22.png/_tap_appicon.jpg",
+      "developer": "大奉夜巡组",
+      "publisher": "linsanggeng",
+      "developer_country": "CN",
+      "genre": "RPG",
+      "subgenre": "Story-driven wuxia/xianxia card RPG",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-Q3",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 24,
+      "why_it_matters": "Fresh reserve-page exposure plus a clear card/story positioning makes this one of today's more commercially legible CN-only adds. It could translate into a Thai-facing midcore RPG proposition if the adaptation quality holds.",
+      "analysis_note": "Evidence: TapTap CN reserve page ranks it #3 on 2026-04-16, shows 安卓/iOS support, a 26年Q3 launch window, and local tags 养成 / 剧情 / 卡牌. The on-page official announcement says the game was first revealed and reservation opened on 2026-04-15. No English or Thai localization was visible on the checked CN page. Inference: monetization likely follows F2P + IAP card-RPG norms, but supplier identity is still opaque (listed only as linsanggeng), so publishing-whitespace upside remains unproven.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/838811?os=android"
+        },
+        {
+          "label": "TapTap all-info",
+          "url": "https://www.taptap.cn/app/838811/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/838811?os=android",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-16",
+      "default_status": "Watchlist",
+      "status": "Watchlist",
+      "comment": "Best fresh reserve-page add today, but supplier / publishing capability still needs verification.",
+      "priority": "high",
+      "tags": [
+        "rpg",
+        "card",
+        "story",
+        "ip-adaptation",
+        "wuxia"
+      ],
+      "fit_with_th_top_genres": [
+        "RPG",
+        "Collection RPG",
+        "Narrative-led midcore"
+      ],
+      "thai_market_rationale": "Thailand still monetizes around RPG collection and character-driven progression. 新大奉打更人 is not as obviously mass-market as an MMO, but the card/story lane gives it clearer adaptation potential than today's lower-confidence side picks.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "shen-qi-fen-zheng",
+      "title": "神泣：纷争",
+      "logo_path": "https://img-tc.tapimg.com/market/images/31c530751d325da6a78061da0c31beba.png/_tap_appicon.jpg",
+      "developer": "三九互娱",
+      "publisher": "江苏三九互娱网络科技有限公司",
+      "developer_country": "CN",
+      "genre": "MMORPG",
+      "subgenre": "Korean-style dark-fantasy faction MMO",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-15",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 23,
+      "why_it_matters": "This is the clearest newly launched MMO add from today's local-source scan: it has structured launch, language, and IAP evidence on TapTap, and its old-school KR-MMO feel still maps to Thai long-tail MMORPG spending behavior.",
+      "analysis_note": "Evidence: TapTap CN new-game page ranks it #10 on 2026-04-16; the main app page says 昨天首发 with 上线日期 2026-04-15; the all-info page lists 支持语言 简体中文 and 是否有内购 有内购. The checked CN page shows tags 魔幻 / 多人联机 / MMORPG / 角色扮演 and no visible English or Thai localization. Inference: this is a legitimate F2P + IAP MMO candidate, but early player reviews already mention heavy paywalls / privilege-card friction, so the monetization fit may skew more nostalgic-whale than broad-market.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/839042?os=android"
+        },
+        {
+          "label": "TapTap all-info",
+          "url": "https://www.taptap.cn/app/839042/all-info?platform=android"
+        }
+      ],
+      "official_website": "https://shenqi.3975.com/?utm_source=TapTap&utm_medium=OfficialWebsite&utm_campaign=Android",
+      "official_or_source_page": "https://www.taptap.cn/app/839042?os=android",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "confirmed",
+      "first_seen": "2026-04-16",
+      "default_status": "Watchlist",
+      "status": "Watchlist",
+      "comment": "Strong structured evidence and fresh launch timing, but likely VIP/paywall-heavy.",
+      "priority": "high",
+      "tags": [
+        "mmorpg",
+        "dark-fantasy",
+        "korean-style",
+        "faction-war"
+      ],
+      "fit_with_th_top_genres": [
+        "MMORPG",
+        "Fantasy RPG",
+        "Guild / faction progression"
+      ],
+      "thai_market_rationale": "Thailand can still sustain nostalgia-led MMORPG spenders, especially when account growth, guild coordination, and faction rivalry are visible. 神泣：纷争 is rougher than the best polished global MMO launches, but the local-only rollout keeps it relevant for scouting.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "zong-shi-zhi-shang",
+      "title": "宗师之上",
+      "logo_path": "https://img-tc.tapimg.com/market/images/149da4cd3154d8a5d99cd7a8de3a10a2.png/_tap_appicon.jpg",
+      "developer": "广州灵犀互动娱乐有限公司",
+      "publisher": "广州灵犀互动娱乐有限公司",
+      "developer_country": "CN",
+      "genre": "RPG",
+      "subgenre": "Idle xianxia RPG",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "unknown",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 19,
+      "why_it_matters": "The reserve-page package is commercially clean: idle RPG positioning, explicit 300-draw / month-card style reservation rewards, and strong on-page traction. It is a useful lane marker even if the publisher is larger than ideal.",
+      "analysis_note": "Evidence: TapTap CN reserve page ranks it #4 on 2026-04-16 and shows tags 放置 / 养成 / 竖屏 / 国风 / 角色扮演. The page copy says 预约正式开启 and 限时领300抽; the official activity post highlights 月卡 and 648券 giveaways. No English or Thai localization was visible on the checked CN page. Inference: monetization is very likely F2P + IAP, but publisher-whitespace upside is weaker because 广州灵犀互动娱乐有限公司 is a much more capable self-publisher than the smaller teams preferred for this workflow.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/774700?os=android"
+        },
+        {
+          "label": "TapTap all-info",
+          "url": "https://www.taptap.cn/app/774700/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/774700?os=android",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-16",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Usable idle-RPG add, but Lingxi-sized self-publishing power lowers whitespace.",
+      "priority": "medium",
+      "tags": [
+        "idle",
+        "rpg",
+        "xianxia",
+        "vertical",
+        "collection"
+      ],
+      "fit_with_th_top_genres": [
+        "Idle RPG",
+        "RPG",
+        "Light collection / progression"
+      ],
+      "thai_market_rationale": "Idle progression and easy-session RPG loops can still travel well to Thailand, but this one is more valuable as a watch candidate than as a pure local-publishing opportunity because the operator already looks strong.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
     }
   ],
   "daily_reports": [
@@ -1439,6 +1606,47 @@
           "comment": "Fresh small-studio action add with visible IAP, but still a secondary bet versus the top RPG/strategy picks."
         }
       ]
+    },
+    {
+      "date": "2026-04-16",
+      "headline": "Fresh CN local-source scan adds one newly launched Korean-style MMO, one newly surfaced IP card-RPG reserve page, and one lower-whitespace idle-RPG reserve add; quality is usable, but publisher-opportunity upside is mixed.",
+      "game_ids": [
+        "xin-da-feng-da-geng-ren",
+        "shen-qi-fen-zheng",
+        "zong-shi-zhi-shang"
+      ],
+      "new_game_ids": [
+        "xin-da-feng-da-geng-ren",
+        "shen-qi-fen-zheng",
+        "zong-shi-zhi-shang"
+      ],
+      "top_pick_ids": [
+        "xin-da-feng-da-geng-ren",
+        "shen-qi-fen-zheng"
+      ],
+      "cross_game_insight": "Today's usable additions again came from CN-only TapTap new/reserve surfaces rather than KR sources: 新大奉打更人 wins on fresh reserve momentum, 神泣：纷争 wins on structured live-launch proof, and 宗师之上 is the extra idle-RPG breadth add with lower whitespace.",
+      "notes": [
+        "No KR title was promoted today because the quickly accessible KR local sources still did not beat these CN additions on freshness plus local-only evidence within the time window.",
+        "Top-pick quality is mixed: 神泣：纷争 has the cleanest structured launch/IAP evidence but already shows paywall complaints, while 宗师之上 is useful category coverage but comes from a stronger self-publishing operator than ideal.",
+        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "xin-da-feng-da-geng-ren",
+          "status": "Watchlist",
+          "comment": "Best fresh reserve-page add today, but supplier / publishing capability still needs verification."
+        },
+        {
+          "game_id": "shen-qi-fen-zheng",
+          "status": "Watchlist",
+          "comment": "Strong structured evidence and fresh launch timing, but likely VIP/paywall-heavy."
+        },
+        {
+          "game_id": "zong-shi-zhi-shang",
+          "status": "Reviewing",
+          "comment": "Usable idle-RPG add, but Lingxi-sized self-publishing power lowers whitespace."
+        }
+      ]
     }
   ],
   "candidate_pipeline": {
@@ -1460,13 +1668,17 @@
       "Check whether 驯龙之旅 stays CN-only through its 26年5月 launch window or begins surfacing SEA-facing channels.",
       "Clarify 绿梦：时空之声's launch window and whether its fantasy adventure loop reveals stronger live-ops / collection hooks.",
       "Watch whether 王者舰队 exposes clearer IAP and language metadata as it approaches its 26年4月 launch timing.",
-      "Check whether 冲吧！帕克 remains a contained small-studio CN action test or begins expanding beyond the current TapTap-local presentation."
+      "Check whether 冲吧！帕克 remains a contained small-studio CN action test or begins expanding beyond the current TapTap-local presentation.",
+      "Confirm whether 新大奉打更人 reveals a clearer registered publisher / supplier identity beyond the current TapTap-local linsanggeng listing before launch.",
+      "Watch whether 神泣：纷争's early paywall / privilege-card complaints harden into a retention problem after launch week.",
+      "Confirm whether 宗师之上 remains CN-only through launch or begins surfacing broader SEA-facing channels despite Lingxi's self-publishing strength."
     ],
     "rejected_today": [
       "Removed The Seven Deadly Sins: Origin, Arknights: Endfield, Neverness to Everness, and MONGIL: STAR DIVE because they were too large, too globally exposed, or already too close to active global servicing for local-publisher prospecting.",
       "2026-04-13 skipped more globally exposed, premium-leaning, or PC-first local pages in favor of three mobile candidates with clearer CN-only mobile-service signals.",
       "2026-04-14 rejected Tencent-backed / globally exposed reserve entries and skipped multilingual or non-game-looking local pages in favor of three more contained CN mobile candidates.",
-      "2026-04-15 rejected Tencent/mihoyo-sized, multilingual, English-titled, and non-game-looking local pages in favor of four more contained CN mobile candidates from TapTap reserve surfaces."
+      "2026-04-15 rejected Tencent/mihoyo-sized, multilingual, English-titled, and non-game-looking local pages in favor of four more contained CN mobile candidates from TapTap reserve surfaces.",
+      "2026-04-16 rejected Tencent-sized, clearly global-exposed, offline/non-IAP-leaning, and utility-like local pages in favor of three contained CN mobile candidates from TapTap new/reserve surfaces."
     ],
     "duplicates_or_updates": [
       "2026-04-11 added four fresh CN local-source candidates from TapTap new-game surfaces; existing older entries were preserved unchanged.",
@@ -1474,7 +1686,8 @@
       "2026-04-12 added three fresh CN local-source candidates from TapTap new-game surfaces; existing older entries were preserved unchanged.",
       "2026-04-13 added three fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged.",
       "2026-04-14 added three fresh CN local-source reserve candidates from TapTap reserve surfaces; existing older entries were preserved unchanged.",
-      "2026-04-15 added four fresh CN local-source candidates from TapTap reserve surfaces; existing older entries were preserved unchanged."
+      "2026-04-15 added four fresh CN local-source candidates from TapTap reserve surfaces; existing older entries were preserved unchanged.",
+      "2026-04-16 added three fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged."
     ]
   },
   "watchlists": {
@@ -1500,7 +1713,9 @@
       "上海竹子绿梦网络科技有限公司",
       "咪咕互动娱乐有限公司",
       "北京赫德时代科技有限公司",
-      "逗阵工作室"
+      "逗阵工作室",
+      "大奉夜巡组",
+      "三九互娱"
     ],
     "genres": [
       "Casual color-shooter card RPG",
@@ -1520,7 +1735,10 @@
       "Dragon-raising adventure RPG",
       "Fantasy world-exploration RPG",
       "Naval SLG/card hybrid",
-      "Horde-survival action roguelite"
+      "Horde-survival action roguelite",
+      "Story-driven wuxia/xianxia card RPG",
+      "Korean-style dark-fantasy MMORPG",
+      "Idle xianxia RPG"
     ],
     "monetization_patterns": [
       "Ad-hybrid survival monetization",
@@ -1539,30 +1757,33 @@
       "Creature-collection RPG progression",
       "Fantasy adventure + IAP progression",
       "Naval strategy resource progression",
-      "Small-studio horde-action IAP loop"
+      "Small-studio horde-action IAP loop",
+      "IP card-RPG gacha conversion",
+      "Korean-MMO privilege-card / paywall monetization",
+      "Idle RPG reservation-draw economy"
     ]
   },
   "cross_game_insight": {
-    "pattern_of_the_day": "Today's usable additions again came from CN-only TapTap reserve pages rather than KR sources: a dragon-raising RPG and a fantasy adventure lead the batch, while a naval strategy title and a smaller horde-action test round out the list with lower conviction.",
+    "pattern_of_the_day": "Today's usable additions again came from CN-only TapTap new/reserve surfaces rather than KR sources: 新大奉打更人 wins on fresh reserve momentum, 神泣：纷争 wins on structured live-launch proof, and 宗师之上 is the extra idle-RPG breadth add with lower whitespace.",
     "caveats": [
-      "No KR title was promoted today because the quickly accessible KR local sources did not beat these CN reserve-page adds on freshness plus local-only evidence within the time window.",
-      "Top-pick quality improved versus 2026-04-14 because today's reserve field offered clearer RPG/strategy lanes with visible IAP, not just cozy/female-oriented breadth adds.",
+      "No KR title was promoted today because the quickly accessible KR local sources still did not beat these CN additions on freshness plus local-only evidence within the time window.",
+      "Top-pick quality is mixed: 神泣：纷争 has the cleanest structured launch/IAP evidence but already shows paywall complaints, while 宗师之上 is useful category coverage but comes from a stronger self-publishing operator than ideal.",
       "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
     ]
   },
   "team_brief": {
-    "summary": "Today's adds are stronger than yesterday's softer cozy pass: 驯龙之旅 and 绿梦：时空之声 are the real watchlist entries, while 王者舰队 and 冲吧！帕克 are secondary breadth adds.",
+    "summary": "Today's strongest adds are 新大奉打更人 and 神泣：纷争; 宗师之上 is still worth tracking, but mostly as a lower-whitespace idle-RPG benchmark rather than a clean publishing-opportunity lead.",
     "top_messages": [
-      "驯龙之旅 is the best Thai-fit add today because it combines a dragon-raising RPG loop, visible IAP, and a near-term 26年5月 launch window.",
-      "绿梦：时空之声 is the cleanest smaller-company fantasy adventure candidate in today's reserve field thanks to Simplified-Chinese-only presentation plus visible IAP.",
-      "王者舰队 and 冲吧！帕克 are usable extras, but both trail the top two because monetization proof or category strength is less convincing."
+      "新大奉打更人 is the best fresh reserve-page add because it pairs a new 2026-Q3 window with clear card/story-RPG positioning and local-only presentation.",
+      "神泣：纷争 has the best structured proof today: launch date, Simplified-Chinese support, and confirmed IAP are all visible on TapTap all-info.",
+      "宗师之上 broadens today's slate into idle RPG, but Lingxi's publisher strength materially lowers whitespace."
     ]
   },
   "kpis": {
     "top_picks_today": 2,
-    "candidate_pipeline": 21,
-    "pending_verification": 18,
-    "new_games_today": 4,
+    "candidate_pipeline": 24,
+    "pending_verification": 21,
+    "new_games_today": 3,
     "weekly_syntheses": 1
   }
 }
