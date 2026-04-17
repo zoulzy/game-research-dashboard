@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "CN/KR Mobile Game Research Dashboard",
-    "date": "2026-04-16",
+    "date": "2026-04-17",
     "timezone": "Asia/Bangkok",
     "mode": "analyst",
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-16T08:01:03+07:00",
+    "generated_at": "2026-04-17T08:00:53+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -26,7 +26,7 @@
       "date_observed": "2026-04-01"
     }
   },
-  "headline": "Fresh CN local-source scan adds one newly launched Korean-style MMO, one newly surfaced IP card-RPG reserve page, and one lower-whitespace idle-RPG reserve add; quality is usable, but publisher-opportunity upside is mixed.",
+  "headline": "Fresh CN local-source scan adds three contained midcore mobile candidates plus one niche roguelike wildcard; the best signals come from small-studio-style TapTap pages, but only 英雄守御 has direct IAP confirmation today.",
   "games": [
     {
       "id": "qi-jie-meng-tan",
@@ -1338,6 +1338,228 @@
       "last_status_updated": null,
       "last_comment_updated": null,
       "status_history": []
+    },
+    {
+      "id": "ying-xiong-shou-yu",
+      "title": "英雄守御",
+      "logo_path": "https://img-tc.tapimg.com/market/images/31d49008210ca01619f50596fe41a158.png/_tap_appicon.jpg",
+      "developer": "星辰大海工作室",
+      "publisher": "紫宸互娱（成都）网络科技有限公司",
+      "developer_country": "CN",
+      "genre": "RPG",
+      "subgenre": "Text roguelike idle card RPG",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-05",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 23,
+      "why_it_matters": "This is the cleanest fresh small-studio-style card-RPG add from today's CN local pages: it has a visible launch window, confirmed IAP, and a local-only presentation without the giant-publisher baggage of the more exposed reserve entries.",
+      "analysis_note": "Evidence: TapTap CN 新品榜 ranks it #8 on 2026-04-17 and the reserve ranking also shows it at #19; the main page is labeled 官方参与测试; the all-info page shows 上线日期 26年5月, 支持语言 简体中文, 是否有内购 有内购, and 供应商 紫宸互娱（成都）网络科技有限公司; the page metadata names 星辰大海工作室 as the developer. No English or Thai localization was visible on the checked CN pages. Inference: this looks like a legitimate F2P + IAP midcore card-RPG candidate with better publishing-whitespace upside than today's more obviously exposed alternatives, though the text-heavy presentation may limit mass reach.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/832799?os=android"
+        },
+        {
+          "label": "TapTap all-info",
+          "url": "https://www.taptap.cn/app/832799/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/832799?os=android",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "confirmed",
+      "first_seen": "2026-04-17",
+      "default_status": "Watchlist",
+      "status": "Watchlist",
+      "comment": "Best new add today: local-only card RPG with visible IAP and a near-term launch window.",
+      "priority": "high",
+      "tags": [
+        "rpg",
+        "card",
+        "idle",
+        "roguelike",
+        "text-heavy"
+      ],
+      "fit_with_th_top_genres": [
+        "RPG",
+        "Idle RPG",
+        "Collection / build progression"
+      ],
+      "thai_market_rationale": "Thailand still monetizes around accessible RPG progression and collection loops. 英雄守御 is rougher and more text-heavy than mainstream hits, but its smaller-team feel and confirmed IAP make it a more credible local-publishing watch candidate than another giant-IP reserve page.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "yi-jian-xian-tu",
+      "title": "一剑仙途",
+      "logo_path": "https://img-tc.tapimg.com/market/images/74124e33dce6e269c0321e602c0aed56.png/_tap_appicon.jpg",
+      "developer": "厦门垚垚网络科技有限公司",
+      "publisher": "厦门垚垚网络科技有限公司",
+      "developer_country": "CN",
+      "genre": "RPG",
+      "subgenre": "Xianxia cultivation RPG",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-Q3",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 21,
+      "why_it_matters": "Among today's quieter reserve-page candidates, this is the cleanest untranslated xianxia RPG add from a smaller local operator rather than a globally loud publisher.",
+      "analysis_note": "Evidence: TapTap CN 新品榜 page 2 ranks it #11 on 2026-04-17; the main page is labeled 官方参与测试; the all-info page shows 上线日期 26年Q3, 支持语言 简体中文, and 供应商 厦门垚垚网络科技有限公司; the page metadata also names 厦门垚垚网络科技有限公司 as the developer. No English or Thai localization was visible on the checked CN pages. Inference: monetization is likely F2P + IAP because the package follows standard mobile xianxia RPG conventions, but direct IAP confirmation was not visible in the checked all-info page.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/791973?os=android"
+        },
+        {
+          "label": "TapTap all-info",
+          "url": "https://www.taptap.cn/app/791973/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/791973?os=android",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-17",
+      "default_status": "Watchlist",
+      "status": "Watchlist",
+      "comment": "Clean local-only xianxia reserve add, but IAP remains inferred rather than confirmed.",
+      "priority": "medium",
+      "tags": [
+        "rpg",
+        "xianxia",
+        "cultivation",
+        "fantasy"
+      ],
+      "fit_with_th_top_genres": [
+        "RPG",
+        "Fantasy progression",
+        "Long-tail account growth"
+      ],
+      "thai_market_rationale": "Cultivation and fantasy RPG loops remain legible to Thai RPG audiences, especially when paired with progression-heavy live-service structure. 一剑仙途 is less flashy than a big-IP MMO, but it preserves more whitespace for regional publishing.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "yao-shi-ge-dou",
+      "title": "耀世格斗",
+      "logo_path": "https://img-tc.tapimg.com/market/images/423e31af33fa346a9f64e37ca1a05bc7.jpg/_tap_appicon.jpg",
+      "developer": "满屏闪光工作室",
+      "publisher": "广州聚玩文化科技有限公司",
+      "developer_country": "CN",
+      "genre": "Action",
+      "subgenre": "Sci-fi side-scrolling action fighter",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 22,
+      "why_it_matters": "This is today's best non-RPG breadth add: a local-only action-fighter reserve page from a smaller studio, with a near-term launch window and a more commercially legible combat hook than the cozy/simulation filler further down the list.",
+      "analysis_note": "Evidence: TapTap CN reserve page 2 ranks it #20 on 2026-04-17; the main page is labeled 官方预约 and describes it as a 二次元科幻题材的3D横版格斗手游; the all-info page shows 上线日期 26年4月, 支持语言 简体中文, and 供应商 广州聚玩文化科技有限公司; the page metadata names 满屏闪光工作室 as the developer. No English or Thai localization was visible on the checked CN pages. Inference: monetization is likely F2P + IAP because the page copy emphasizes刷图爆装备, 社交, and long-tail combat progression, but direct IAP confirmation was not visible in the checked all-info page.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/767998?os=android"
+        },
+        {
+          "label": "TapTap all-info",
+          "url": "https://www.taptap.cn/app/767998/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/767998?os=android",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-17",
+      "default_status": "Watchlist",
+      "status": "Watchlist",
+      "comment": "Best action-side add today, but still needs hard IAP confirmation from later metadata or live launch.",
+      "priority": "high",
+      "tags": [
+        "action",
+        "fighter",
+        "anime",
+        "side-scroller",
+        "loot"
+      ],
+      "fit_with_th_top_genres": [
+        "Action RPG",
+        "Midcore combat progression",
+        "Loot / upgrade retention"
+      ],
+      "thai_market_rationale": "Pure fighters are not the safest Thai revenue lane, but build-heavy side-scrolling combat with gear progression can still travel if live-ops and economy depth are real. 耀世格斗 is worth tracking because it stays locally surfaced and not obviously globalized yet.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "gui-yi-rou-ge-ma-jiang",
+      "title": "诡异肉鸽麻将",
+      "logo_path": "https://img-tc.tapimg.com/market/images/ca517ad08847e2fa9ffbcaa964c20536.png/_tap_appicon.jpg",
+      "developer": "超神网络",
+      "publisher": "长沙超神网络科技有限公司",
+      "developer_country": "CN",
+      "genre": "Strategy",
+      "subgenre": "Mahjong roguelike battler",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-09",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "low",
+      "score": 18,
+      "why_it_matters": "This is the useful niche wildcard from today's new-game page: it is freshly launched, still local-only, and comes from a smaller operator rather than a giant publisher, so it is worth a light watch even if the genre fit is narrower.",
+      "analysis_note": "Evidence: TapTap CN 新品榜 ranks it #6 on 2026-04-17; the main page is labeled 独家官方试玩; the all-info page shows 正式上线日期 2026-04-09, 支持语言 简体中文, and 供应商 长沙超神网络科技有限公司; the page metadata names 超神网络 as the developer. No English or Thai localization was visible on the checked CN pages. Inference: the game likely uses some mobile F2P monetization, but direct IAP confirmation was not visible and the Mahjong-roguelike framing is more niche than the stronger RPG/action candidates above.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/788692?os=android"
+        },
+        {
+          "label": "TapTap all-info",
+          "url": "https://www.taptap.cn/app/788692/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/788692?os=android",
+      "monetization_model": "Hybrid / unclear",
+      "iap_signal": "unclear",
+      "first_seen": "2026-04-17",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Fresh and local-only, but monetization clarity and Thai genre fit are weaker than the top three adds.",
+      "priority": "medium",
+      "tags": [
+        "strategy",
+        "roguelike",
+        "mahjong",
+        "indie",
+        "niche"
+      ],
+      "fit_with_th_top_genres": [
+        "Strategy-adjacent systems",
+        "Niche midcore"
+      ],
+      "thai_market_rationale": "This is not a core Thai top-grossing lane, but quirky system-heavy roguelikes can still be worth monitoring when they remain early, local-only, and publisher-light. It is more of a speculative benchmark than a top publishing lead.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
     }
   ],
   "daily_reports": [
@@ -1647,6 +1869,55 @@
           "comment": "Usable idle-RPG add, but Lingxi-sized self-publishing power lowers whitespace."
         }
       ]
+    },
+    {
+      "date": "2026-04-17",
+      "headline": "Fresh CN local-source scan adds three contained midcore mobile candidates plus one niche roguelike wildcard; the best signals come from small-studio-style TapTap pages, but only 英雄守御 has direct IAP confirmation today.",
+      "game_ids": [
+        "ying-xiong-shou-yu",
+        "yi-jian-xian-tu",
+        "yao-shi-ge-dou",
+        "gui-yi-rou-ge-ma-jiang"
+      ],
+      "new_game_ids": [
+        "ying-xiong-shou-yu",
+        "yi-jian-xian-tu",
+        "yao-shi-ge-dou",
+        "gui-yi-rou-ge-ma-jiang"
+      ],
+      "top_pick_ids": [
+        "ying-xiong-shou-yu",
+        "yao-shi-ge-dou",
+        "yi-jian-xian-tu"
+      ],
+      "cross_game_insight": "Today's strongest adds again came from CN-only TapTap new/reserve surfaces rather than KR sources: 英雄守御 wins on confirmed IAP plus contained publisher profile, 耀世格斗 adds the best action-side breadth, and 一剑仙途 supplies a cleaner xianxia reserve-page option with smaller-operator whitespace than the louder giant-IP pages.",
+      "notes": [
+        "No KR title was promoted today because the quickly accessible KR local sources still did not beat these CN additions on freshness plus local-only evidence within the time window.",
+        "Only 英雄守御 had direct 有内购 confirmation on the checked metadata today; the other three adds remain F2P+IAP inferences based on mobile genre norms and page framing.",
+        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "ying-xiong-shou-yu",
+          "status": "Watchlist",
+          "comment": "Best new add today: local-only card RPG with visible IAP and a near-term launch window."
+        },
+        {
+          "game_id": "yi-jian-xian-tu",
+          "status": "Watchlist",
+          "comment": "Clean local-only xianxia reserve add, but IAP remains inferred rather than confirmed."
+        },
+        {
+          "game_id": "yao-shi-ge-dou",
+          "status": "Watchlist",
+          "comment": "Best action-side add today, but still needs hard IAP confirmation from later metadata or live launch."
+        },
+        {
+          "game_id": "gui-yi-rou-ge-ma-jiang",
+          "status": "Reviewing",
+          "comment": "Fresh and local-only, but monetization clarity and Thai genre fit are weaker than the top three adds."
+        }
+      ]
     }
   ],
   "candidate_pipeline": {
@@ -1671,14 +1942,19 @@
       "Check whether 冲吧！帕克 remains a contained small-studio CN action test or begins expanding beyond the current TapTap-local presentation.",
       "Confirm whether 新大奉打更人 reveals a clearer registered publisher / supplier identity beyond the current TapTap-local linsanggeng listing before launch.",
       "Watch whether 神泣：纷争's early paywall / privilege-card complaints harden into a retention problem after launch week.",
-      "Confirm whether 宗师之上 remains CN-only through launch or begins surfacing broader SEA-facing channels despite Lingxi's self-publishing strength."
+      "Confirm whether 宗师之上 remains CN-only through launch or begins surfacing broader SEA-facing channels despite Lingxi's self-publishing strength.",
+      "Watch whether 英雄守御 keeps its contained small-studio profile and whether the confirmed IAP turns into scalable live-service depth after launch.",
+      "Confirm whether 一剑仙途 exposes direct IAP metadata or reward-ladder signals closer to its 26年Q3 launch window.",
+      "Check whether 耀世格斗 reveals clearer IAP hooks and long-tail economy signals before or at its 26年4月 launch timing.",
+      "Clarify whether 诡异肉鸽麻将 stays primarily a niche single-session roguelike or develops broader live-service monetization hooks."
     ],
     "rejected_today": [
       "Removed The Seven Deadly Sins: Origin, Arknights: Endfield, Neverness to Everness, and MONGIL: STAR DIVE because they were too large, too globally exposed, or already too close to active global servicing for local-publisher prospecting.",
       "2026-04-13 skipped more globally exposed, premium-leaning, or PC-first local pages in favor of three mobile candidates with clearer CN-only mobile-service signals.",
       "2026-04-14 rejected Tencent-backed / globally exposed reserve entries and skipped multilingual or non-game-looking local pages in favor of three more contained CN mobile candidates.",
       "2026-04-15 rejected Tencent/mihoyo-sized, multilingual, English-titled, and non-game-looking local pages in favor of four more contained CN mobile candidates from TapTap reserve surfaces.",
-      "2026-04-16 rejected Tencent-sized, clearly global-exposed, offline/non-IAP-leaning, and utility-like local pages in favor of three contained CN mobile candidates from TapTap new/reserve surfaces."
+      "2026-04-16 rejected Tencent-sized, clearly global-exposed, offline/non-IAP-leaning, and utility-like local pages in favor of three contained CN mobile candidates from TapTap new/reserve surfaces.",
+      "2026-04-17 rejected multilingual / English-visible reserve pages, giant-IP global-facing entries, and TapTap-manufacture filler in favor of four more contained CN mobile candidates from TapTap new/reserve surfaces."
     ],
     "duplicates_or_updates": [
       "2026-04-11 added four fresh CN local-source candidates from TapTap new-game surfaces; existing older entries were preserved unchanged.",
@@ -1687,7 +1963,8 @@
       "2026-04-13 added three fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged.",
       "2026-04-14 added three fresh CN local-source reserve candidates from TapTap reserve surfaces; existing older entries were preserved unchanged.",
       "2026-04-15 added four fresh CN local-source candidates from TapTap reserve surfaces; existing older entries were preserved unchanged.",
-      "2026-04-16 added three fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged."
+      "2026-04-16 added three fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged.",
+      "2026-04-17 added four fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged."
     ]
   },
   "watchlists": {
@@ -1715,7 +1992,11 @@
       "北京赫德时代科技有限公司",
       "逗阵工作室",
       "大奉夜巡组",
-      "三九互娱"
+      "三九互娱",
+      "星辰大海工作室",
+      "厦门垚垚网络科技有限公司",
+      "满屏闪光工作室",
+      "超神网络"
     ],
     "genres": [
       "Casual color-shooter card RPG",
@@ -1738,7 +2019,11 @@
       "Horde-survival action roguelite",
       "Story-driven wuxia/xianxia card RPG",
       "Korean-style dark-fantasy MMORPG",
-      "Idle xianxia RPG"
+      "Idle xianxia RPG",
+      "Text roguelike idle card RPG",
+      "Xianxia cultivation RPG",
+      "Sci-fi side-scrolling action fighter",
+      "Mahjong roguelike battler"
     ],
     "monetization_patterns": [
       "Ad-hybrid survival monetization",
@@ -1760,30 +2045,34 @@
       "Small-studio horde-action IAP loop",
       "IP card-RPG gacha conversion",
       "Korean-MMO privilege-card / paywall monetization",
-      "Idle RPG reservation-draw economy"
+      "Idle RPG reservation-draw economy",
+      "Text-card idle progression",
+      "Cultivation RPG live-service progression",
+      "Action-fighter gear progression",
+      "Niche roguelike hybrid monetization"
     ]
   },
   "cross_game_insight": {
-    "pattern_of_the_day": "Today's usable additions again came from CN-only TapTap new/reserve surfaces rather than KR sources: 新大奉打更人 wins on fresh reserve momentum, 神泣：纷争 wins on structured live-launch proof, and 宗师之上 is the extra idle-RPG breadth add with lower whitespace.",
+    "pattern_of_the_day": "Today's strongest adds again came from CN-only TapTap new/reserve surfaces rather than KR sources: 英雄守御 wins on confirmed IAP plus contained publisher profile, 耀世格斗 adds the best action-side breadth, and 一剑仙途 supplies a cleaner xianxia reserve-page option with smaller-operator whitespace than the louder giant-IP pages.",
     "caveats": [
       "No KR title was promoted today because the quickly accessible KR local sources still did not beat these CN additions on freshness plus local-only evidence within the time window.",
-      "Top-pick quality is mixed: 神泣：纷争 has the cleanest structured launch/IAP evidence but already shows paywall complaints, while 宗师之上 is useful category coverage but comes from a stronger self-publishing operator than ideal.",
+      "Only 英雄守御 had direct 有内购 confirmation on the checked metadata today; the other three adds remain F2P+IAP inferences based on mobile genre norms and page framing.",
       "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
     ]
   },
   "team_brief": {
-    "summary": "Today's strongest adds are 新大奉打更人 and 神泣：纷争; 宗师之上 is still worth tracking, but mostly as a lower-whitespace idle-RPG benchmark rather than a clean publishing-opportunity lead.",
+    "summary": "Today's strongest adds are 英雄守御 and 耀世格斗; 一剑仙途 is a good xianxia whitespace watch, while 诡异肉鸽麻将 stays a lower-confidence niche benchmark.",
     "top_messages": [
-      "新大奉打更人 is the best fresh reserve-page add because it pairs a new 2026-Q3 window with clear card/story-RPG positioning and local-only presentation.",
-      "神泣：纷争 has the best structured proof today: launch date, Simplified-Chinese support, and confirmed IAP are all visible on TapTap all-info.",
-      "宗师之上 broadens today's slate into idle RPG, but Lingxi's publisher strength materially lowers whitespace."
+      "英雄守御 is the best fresh add because it combines a May launch window, Simplified-Chinese-only presentation, and confirmed IAP on TapTap all-info.",
+      "耀世格斗 gives today's shortlist better action breadth without drifting into a giant global-facing publisher page.",
+      "一剑仙途 is commercially less proven, but it preserves more regional publishing whitespace than the louder reserve pages around it."
     ]
   },
   "kpis": {
-    "top_picks_today": 2,
-    "candidate_pipeline": 24,
-    "pending_verification": 21,
-    "new_games_today": 3,
+    "top_picks_today": 3,
+    "candidate_pipeline": 28,
+    "pending_verification": 25,
+    "new_games_today": 4,
     "weekly_syntheses": 1
   }
 }
