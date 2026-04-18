@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "CN/KR Mobile Game Research Dashboard",
-    "date": "2026-04-17",
+    "date": "2026-04-18",
     "timezone": "Asia/Bangkok",
     "mode": "analyst",
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-17T08:00:53+07:00",
+    "generated_at": "2026-04-18T08:00:15+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -26,7 +26,7 @@
       "date_observed": "2026-04-01"
     }
   },
-  "headline": "Fresh CN local-source scan adds three contained midcore mobile candidates plus one niche roguelike wildcard; the best signals come from small-studio-style TapTap pages, but only 英雄守御 has direct IAP confirmation today.",
+  "headline": "Fresh CN local-source scan adds one high-whitespace pre-launch extraction adventure, one trending indie survival extraction game, one social sim builder, and one Lineage 1 nostalgia MMORPG clone; the extraction trend dominates but only pre-launch signals are visible.",
   "games": [
     {
       "id": "qi-jie-meng-tan",
@@ -1560,6 +1560,228 @@
       "last_status_updated": null,
       "last_comment_updated": null,
       "status_history": []
+    },
+    {
+      "id": "mo-ri-ying-di",
+      "title": "末日营地",
+      "logo_path": "",
+      "developer": "远方独立游戏",
+      "publisher": "远方网络科技（南京）有限公司",
+      "developer_country": "CN",
+      "genre": "Action",
+      "subgenre": "Zombie survival extraction (搜打撤)",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-06",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 21,
+      "why_it_matters": "Fresh CN-only indie survival extraction game trending on the new-game chart. The '搜打撤' (search-fight-extract) loop is the hottest casual-core action trend in CN right now, and this comes from a genuinely tiny studio with years of TapTap presence, offering real publishing whitespace.",
+      "analysis_note": "Evidence: TapTap CN 新品榜 shows 末日营地 at #8 on 2026-04-18; the all-info page lists 供应商 liugaoding, 开发 远方独立游戏, 发行 远方网络科技（南京）有限公司, 上线日期 2026-04-06, 支持语言 简体中文. The developer has 4-year veteran status on TapTap with multiple small sim games. User reviews discuss in-game payment for weapons/items (支付费用 mentioned in update log). No English or Thai localization visible on the checked CN pages. Inference: the extraction loop is commercially relevant and the team is very small, but the '休闲' tag and modest scale suggest the monetization ceiling may be lower than RPG/SLG candidates.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/807060"
+        },
+        {
+          "label": "TapTap all-info",
+          "url": "https://www.taptap.cn/app/807060/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/807060",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-18",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Trending extraction/survival loop from a tiny indie studio; monetization proof still thin but genre is hot.",
+      "priority": "medium",
+      "tags": [
+        "action",
+        "survival",
+        "extraction",
+        "zombie",
+        "indie"
+      ],
+      "fit_with_th_top_genres": [
+        "Action",
+        "Survival progression"
+      ],
+      "thai_market_rationale": "The extraction loop is the hottest CN casual-core trend right now, and survival themes travel well to Thai audiences. Smaller team means more publishing whitespace, but production scale is modest.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "dai-hao-meng-he",
+      "title": "代号：梦核",
+      "logo_path": "",
+      "developer": "三点饮茶工作室",
+      "publisher": "三点饮茶工作室",
+      "developer_country": "CN",
+      "genre": "Adventure",
+      "subgenre": "Cooperative extraction adventure / horror social",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "TBD",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 24,
+      "why_it_matters": "Strongest pre-launch signal from today's scan: 25万 preregistrations from an extremely tiny first-time studio, tapping into the extraction/co-op adventure trend that's exploding in CN (三角洲行动, 超自然行动组). The team's '打工人 who love making scary games' story is the smallest-operator profile this workflow prefers.",
+      "analysis_note": "Evidence: TapTap CN 预约榜 shows 代号：梦核 at #8 with 预约 25 万 on 2026-04-18; the all-info page lists 厂商 三点饮茶工作室, 供应商 yuxinxin, 支持语言 简体中文, 适龄分级 16+, no system requirements listed. The page description frames it as a 梦境题材的摸金合作冒险社交游戏 with extraction/co-op mechanics. The developer page shows 323 reviews and 2058 follows. No English or Thai localization visible on the checked CN pages. Inference: the massive prereg from a tiny team makes this the highest-whitespace candidate today, but it's still pre-test with no confirmed IAP or launch date, so confidence stays medium.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/817406"
+        },
+        {
+          "label": "TapTap all-info",
+          "url": "https://www.taptap.cn/app/817406/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/817406",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "unclear",
+      "first_seen": "2026-04-18",
+      "default_status": "Watchlist",
+      "status": "Watchlist",
+      "comment": "Highest-whitespace candidate today: 25万 prereg from an extremely tiny studio in the hottest CN extraction trend.",
+      "priority": "high",
+      "tags": [
+        "adventure",
+        "extraction",
+        "co-op",
+        "horror",
+        "social",
+        "indie"
+      ],
+      "fit_with_th_top_genres": [
+        "Action",
+        "Multiplayer co-op"
+      ],
+      "thai_market_rationale": "Extraction/co-op adventure is the hottest CN multiplayer trend and has crossover potential to Thai audiences who already support co-op action titles. The tiny team profile offers maximum publishing whitespace.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "xi-wang-cheng",
+      "title": "希望城",
+      "logo_path": "",
+      "developer": "潮玩星球",
+      "publisher": "深圳潮玩星球互联网科技有限公司",
+      "developer_country": "CN",
+      "genre": "Simulation",
+      "subgenre": "Social sim / toy-collectible builder",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-23",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 19,
+      "why_it_matters": "Reserve-page social sim with a distinctive '潮玩伙伴' (toy companion) collectible system and anti-grind positioning. The building/collecting/farming loop has some cross-market appeal even if the Thai genre fit is softer than RPG/strategy candidates.",
+      "analysis_note": "Evidence: TapTap CN 预约榜 shows 希望城 at #6 with 预约 2 万 on 2026-04-18; the all-info page lists 厂商 潮玩星球, 供应商 深圳潮玩星球互联网科技有限公司, 支持语言 简体中文, 适龄分级 12+. The page description pitches 自由建造, 潮玩伙伴 system with 5 races / hundreds of collectible characters, and an explicit '反内卷' anti-grind angle. No English or Thai localization visible on the checked CN pages. No direct IAP field was surfaced on the all-info page. Inference: the social/collectible builder lane has some export potential, but it's softer than RPG/strategy fits and the publisher already has some infrastructure (multiple other games in their catalog).",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/814677"
+        },
+        {
+          "label": "TapTap all-info",
+          "url": "https://www.taptap.cn/app/814677/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/814677",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "unclear",
+      "first_seen": "2026-04-18",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Distinctive toy-collectible builder with anti-grind positioning, but Thai fit is softer than RPG/strategy lanes.",
+      "priority": "medium",
+      "tags": [
+        "simulation",
+        "social",
+        "builder",
+        "collectible",
+        "cozy"
+      ],
+      "fit_with_th_top_genres": [
+        "Simulation",
+        "Collection / customization"
+      ],
+      "thai_market_rationale": "The collectible/builder loop has some export potential, but social sim is a softer Thai top-grossing fit than RPG and strategy lanes. Worth secondary tracking.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "meng-xiang-yu-zheng-cheng",
+      "title": "梦想与征程",
+      "logo_path": "",
+      "developer": "宜昌子画网络科技有限公司",
+      "publisher": "宜昌子画网络科技有限公司",
+      "developer_country": "CN",
+      "genre": "MMORPG",
+      "subgenre": "Lineage 1 (天堂1) classic revival / dark fantasy MMO",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-17",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "low",
+      "score": 18,
+      "why_it_matters": "A freshly launched Lineage 1 (天堂1) revival clone that taps nostalgia for one of the most monetizable Korean MMO IPs. If execution holds, the dark-fantasy faction-war loop could connect to Thai MMORPG spending, though the production quality looks rough.",
+      "analysis_note": "Evidence: TapTap CN 新品榜 shows 梦想与征程 at #14 with 昨天首发 (launched 2026-04-17), 下载 1万, 关注 1万; the app page describes it as 天堂1经典复刻 with 自由PK, 装备强化, 变身打宝, and 882MB size. Tags include 冒险/3D/开放世界/MMORPG/角色扮演. The supplier is 宜昌子画网络科技有限公司. No English or Thai localization visible on the checked CN pages. User reviews already flag rough UI, poor pathfinding, and mixed execution quality. Inference: the Lineage nostalgia angle is commercially relevant (Lineage is proven in TH/KR markets), but the low-budget clone execution and early quality complaints lower conviction significantly.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/796296"
+        },
+        {
+          "label": "TapTap all-info",
+          "url": "https://www.taptap.cn/app/796296/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/796296",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-18",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Lineage 1 nostalgia clone with rough execution but proven Korean IP monetization potential in TH.",
+      "priority": "low",
+      "tags": [
+        "mmorpg",
+        "lineage",
+        "dark-fantasy",
+        "korean-style",
+        "nostalgia"
+      ],
+      "fit_with_th_top_genres": [
+        "MMORPG",
+        "Fantasy RPG",
+        "Guild / faction progression"
+      ],
+      "thai_market_rationale": "Lineage-style MMORPGs have proven monetization in Thailand, but this is a low-budget clone with mixed early reviews, so conviction is low.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
     }
   ],
   "daily_reports": [
@@ -1918,6 +2140,55 @@
           "comment": "Fresh and local-only, but monetization clarity and Thai genre fit are weaker than the top three adds."
         }
       ]
+    },
+    {
+      "date": "2026-04-18",
+      "headline": "Fresh CN local-source scan adds one high-whitespace pre-launch extraction adventure, one trending indie survival extraction game, one social sim builder, and one Lineage 1 nostalgia MMORPG clone; the extraction trend dominates but only pre-launch signals are visible.",
+      "game_ids": [
+        "mo-ri-ying-di",
+        "dai-hao-meng-he",
+        "xi-wang-cheng",
+        "meng-xiang-yu-zheng-cheng"
+      ],
+      "new_game_ids": [
+        "mo-ri-ying-di",
+        "dai-hao-meng-he",
+        "xi-wang-cheng",
+        "meng-xiang-yu-zheng-cheng"
+      ],
+      "top_pick_ids": [
+        "dai-hao-meng-he",
+        "mo-ri-ying-di",
+        "meng-xiang-yu-zheng-cheng"
+      ],
+      "cross_game_insight": "Today's strongest adds come from CN-only TapTap surfaces: 代号梦核 wins on highest prereg traction from the smallest team in the hottest extraction trend, 末日营地 adds trending indie survival extraction breadth, and 梦想与征程 supplies a Lineage nostalgia MMORPG wildcard despite rough execution.",
+      "notes": [
+        "No KR title was promoted today because the quickly accessible KR local sources still did not beat these CN additions on freshness plus local-only evidence within the time window.",
+        "代号：梦核 has 25万 preregistrations from an extremely tiny first-time studio but no confirmed IAP or launch date yet, so it stays Watchlist rather than a top conviction pick.",
+        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "dai-hao-meng-he",
+          "status": "Watchlist",
+          "comment": "Highest-whitespace candidate today: 25万 prereg from an extremely tiny studio in the hottest CN extraction trend."
+        },
+        {
+          "game_id": "mo-ri-ying-di",
+          "status": "Reviewing",
+          "comment": "Trending extraction/survival loop from a tiny indie studio; monetization proof still thin but genre is hot."
+        },
+        {
+          "game_id": "xi-wang-cheng",
+          "status": "Reviewing",
+          "comment": "Distinctive toy-collectible builder with anti-grind positioning, but Thai fit is softer than RPG/strategy lanes."
+        },
+        {
+          "game_id": "meng-xiang-yu-zheng-cheng",
+          "status": "Reviewing",
+          "comment": "Lineage 1 nostalgia clone with rough execution but proven Korean IP monetization potential in TH."
+        }
+      ]
     }
   ],
   "candidate_pipeline": {
@@ -1946,7 +2217,11 @@
       "Watch whether 英雄守御 keeps its contained small-studio profile and whether the confirmed IAP turns into scalable live-service depth after launch.",
       "Confirm whether 一剑仙途 exposes direct IAP metadata or reward-ladder signals closer to its 26年Q3 launch window.",
       "Check whether 耀世格斗 reveals clearer IAP hooks and long-tail economy signals before or at its 26年4月 launch timing.",
-      "Clarify whether 诡异肉鸽麻将 stays primarily a niche single-session roguelike or develops broader live-service monetization hooks."
+      "Clarify whether 诡异肉鸽麻将 stays primarily a niche single-session roguelike or develops broader live-service monetization hooks.",
+      "Check whether 代号：梦核 confirms IAP and a launch date during its upcoming 惊梦测试.",
+      "Watch whether 末日营地 introduces clearer IAP hooks or remains primarily a small-scale indie extraction game.",
+      "Confirm whether 希望城 stays CN-only through its 04/23 launch or begins surfacing SEA-facing channels.",
+      "Watch whether 梦想与征程 stabilizes after launch week or if the early quality complaints persist and limit traction."
     ],
     "rejected_today": [
       "Removed The Seven Deadly Sins: Origin, Arknights: Endfield, Neverness to Everness, and MONGIL: STAR DIVE because they were too large, too globally exposed, or already too close to active global servicing for local-publisher prospecting.",
@@ -1954,7 +2229,8 @@
       "2026-04-14 rejected Tencent-backed / globally exposed reserve entries and skipped multilingual or non-game-looking local pages in favor of three more contained CN mobile candidates.",
       "2026-04-15 rejected Tencent/mihoyo-sized, multilingual, English-titled, and non-game-looking local pages in favor of four more contained CN mobile candidates from TapTap reserve surfaces.",
       "2026-04-16 rejected Tencent-sized, clearly global-exposed, offline/non-IAP-leaning, and utility-like local pages in favor of three contained CN mobile candidates from TapTap new/reserve surfaces.",
-      "2026-04-17 rejected multilingual / English-visible reserve pages, giant-IP global-facing entries, and TapTap-manufacture filler in favor of four more contained CN mobile candidates from TapTap new/reserve surfaces."
+      "2026-04-17 rejected multilingual / English-visible reserve pages, giant-IP global-facing entries, and TapTap-manufacture filler in favor of four more contained CN mobile candidates from TapTap new/reserve surfaces.",
+      "2026-04-18 rejected giant-IP global-facing entries, TapTap-manufacture filler, AI-companion non-games, and quiz/test pages in favor of four contained CN mobile candidates from TapTap new/reserve surfaces."
     ],
     "duplicates_or_updates": [
       "2026-04-11 added four fresh CN local-source candidates from TapTap new-game surfaces; existing older entries were preserved unchanged.",
@@ -1964,7 +2240,8 @@
       "2026-04-14 added three fresh CN local-source reserve candidates from TapTap reserve surfaces; existing older entries were preserved unchanged.",
       "2026-04-15 added four fresh CN local-source candidates from TapTap reserve surfaces; existing older entries were preserved unchanged.",
       "2026-04-16 added three fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged.",
-      "2026-04-17 added four fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged."
+      "2026-04-17 added four fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged.",
+      "2026-04-18 added four fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged."
     ]
   },
   "watchlists": {
@@ -1996,7 +2273,11 @@
       "星辰大海工作室",
       "厦门垚垚网络科技有限公司",
       "满屏闪光工作室",
-      "超神网络"
+      "超神网络",
+      "远方独立游戏",
+      "三点饮茶工作室",
+      "潮玩星球",
+      "宜昌子画网络科技有限公司"
     ],
     "genres": [
       "Casual color-shooter card RPG",
@@ -2023,7 +2304,11 @@
       "Text roguelike idle card RPG",
       "Xianxia cultivation RPG",
       "Sci-fi side-scrolling action fighter",
-      "Mahjong roguelike battler"
+      "Mahjong roguelike battler",
+      "Zombie survival extraction",
+      "Cooperative extraction adventure / horror social",
+      "Social sim / toy-collectible builder",
+      "Lineage 1 classic revival MMO"
     ],
     "monetization_patterns": [
       "Ad-hybrid survival monetization",
@@ -2049,29 +2334,33 @@
       "Text-card idle progression",
       "Cultivation RPG live-service progression",
       "Action-fighter gear progression",
-      "Niche roguelike hybrid monetization"
+      "Niche roguelike hybrid monetization",
+      "Indie extraction IAP loop",
+      "Pre-launch co-op adventure monetization unclear",
+      "Social collectible builder monetization",
+      "Lineage-style nostalgia MMO IAP"
     ]
   },
   "cross_game_insight": {
-    "pattern_of_the_day": "Today's strongest adds again came from CN-only TapTap new/reserve surfaces rather than KR sources: 英雄守御 wins on confirmed IAP plus contained publisher profile, 耀世格斗 adds the best action-side breadth, and 一剑仙途 supplies a cleaner xianxia reserve-page option with smaller-operator whitespace than the louder giant-IP pages.",
+    "pattern_of_the_day": "Today's strongest adds come from CN-only TapTap surfaces: 代号梦核 wins on highest prereg traction from the smallest team in the hottest extraction trend, 末日营地 adds trending indie survival extraction breadth, and 梦想与征程 supplies a Lineage nostalgia MMORPG wildcard despite rough execution.",
     "caveats": [
       "No KR title was promoted today because the quickly accessible KR local sources still did not beat these CN additions on freshness plus local-only evidence within the time window.",
-      "Only 英雄守御 had direct 有内购 confirmation on the checked metadata today; the other three adds remain F2P+IAP inferences based on mobile genre norms and page framing.",
+      "代号：梦核 has 25万 preregistrations from an extremely tiny first-time studio but no confirmed IAP or launch date yet, so it stays Watchlist rather than a top conviction pick.",
       "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
     ]
   },
   "team_brief": {
-    "summary": "Today's strongest adds are 英雄守御 and 耀世格斗; 一剑仙途 is a good xianxia whitespace watch, while 诡异肉鸽麻将 stays a lower-confidence niche benchmark.",
+    "summary": "Today's most interesting add is 代号：梦核 (highest prereg from smallest team in hottest trend); 末日营地 is a useful extraction-breadth add; 梦想与征程 is a Lineage nostalgia wildcard.",
     "top_messages": [
-      "英雄守御 is the best fresh add because it combines a May launch window, Simplified-Chinese-only presentation, and confirmed IAP on TapTap all-info.",
-      "耀世格斗 gives today's shortlist better action breadth without drifting into a giant global-facing publisher page.",
-      "一剑仙途 is commercially less proven, but it preserves more regional publishing whitespace than the louder reserve pages around it."
+      "代号：梦核 has 25万 prereg from an extremely tiny first-time studio in the cooperative extraction adventure space — maximum publishing whitespace.",
+      "末日营地 adds trending zombie survival extraction from a genuinely small indie team, though monetization proof is thin.",
+      "梦想与征程 is a freshly launched Lineage 1 clone with rough execution but proven Korean MMORPG nostalgia monetization in Thailand."
     ]
   },
   "kpis": {
     "top_picks_today": 3,
-    "candidate_pipeline": 28,
-    "pending_verification": 25,
+    "candidate_pipeline": 32,
+    "pending_verification": 29,
     "new_games_today": 4,
     "weekly_syntheses": 1
   }
