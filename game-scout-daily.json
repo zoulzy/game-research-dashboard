@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "CN/KR Mobile Game Research Dashboard",
-    "date": "2026-04-18",
+    "date": "2026-04-19",
     "timezone": "Asia/Bangkok",
     "mode": "analyst",
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-18T08:00:15+07:00",
+    "generated_at": "2026-04-20T08:38:59+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -26,7 +26,7 @@
       "date_observed": "2026-04-01"
     }
   },
-  "headline": "Fresh CN local-source scan adds one high-whitespace pre-launch extraction adventure, one trending indie survival extraction game, one social sim builder, and one Lineage 1 nostalgia MMORPG clone; the extraction trend dominates but only pre-launch signals are visible.",
+  "headline": "Fresh CN local-source scan adds one small-studio fighting-game test with confirmed IAP, one idle mythology card RPG launch, one cozy food-truck sim, and one reserve-page anime card RPG; quality is mixed with the strongest signals coming from confirmed-IAP small-team launches.",
   "games": [
     {
       "id": "qi-jie-meng-tan",
@@ -1782,6 +1782,229 @@
       "last_status_updated": null,
       "last_comment_updated": null,
       "status_history": []
+    },
+    {
+      "id": "ge-dou-tian-xia",
+      "title": "格斗天下",
+      "logo_path": "",
+      "developer": "格斗工作室",
+      "publisher": "武汉市噢额威文化传媒有限公司",
+      "developer_country": "CN",
+      "genre": "Action",
+      "subgenre": "Fighting / martial-arts action RPG",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-18",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 21,
+      "why_it_matters": "Fresh CN-only fighting-game test from a genuinely small studio with confirmed IAP and Chinese-only presentation. The martial-arts combat progression loop gives it clearer exportable monetization than pure PvP fighters, and the small-operator profile offers real publishing whitespace.",
+      "analysis_note": "Evidence: TapTap CN 新品榜 shows 格斗天下 at #10 on 2026-04-19; the all-info page lists 支持语言 简体中文, 是否有内购 有内购, 供应商 zhangyichuan, 核准主办方 武汉市噢额威文化传媒有限公司. The test is labeled 限量不删档计费 starting 2026/04/18. No English or Thai localization visible on the checked CN pages. Inference: fighting games are a narrower Thai lane than RPG/SLG, but the confirmed IAP, small-studio profile, and combat-progression framing make it a legitimate breadth add.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/841796"
+        },
+        {
+          "label": "TapTap all-info",
+          "url": "https://www.taptap.cn/app/841796/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/841796",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "confirmed",
+      "first_seen": "2026-04-19",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Fresh small-studio fighting test with confirmed IAP, but Thai genre fit is narrower than RPG/strategy.",
+      "priority": "medium",
+      "tags": [
+        "action",
+        "fighting",
+        "martial-arts",
+        "rpg",
+        "combat-progression"
+      ],
+      "fit_with_th_top_genres": [
+        "Action RPG",
+        "Combat progression"
+      ],
+      "thai_market_rationale": "Pure fighters are not the safest Thai revenue lane, but build-heavy martial-arts combat with gear/character progression can still travel if the economy depth is real. The small-studio profile offers more whitespace than established fighting IPs.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "zui-feng-shen",
+      "title": "最封神",
+      "logo_path": "",
+      "developer": "马什么梅游戏工作室",
+      "publisher": "河南柚笙科技有限公司",
+      "developer_country": "CN",
+      "genre": "RPG",
+      "subgenre": "Idle mythology card RPG (洪荒 x 机甲)",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-17",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 20,
+      "why_it_matters": "Fresh CN-only idle card RPG with confirmed IAP from a tiny studio, combining 洪荒 mythology with a卡通机甲 aesthetic. The idle/collection loop maps to Thailand's proven idle-RPG spend lane, and the team is small enough for real publishing whitespace.",
+      "analysis_note": "Evidence: TapTap CN all-info page shows 正式上线日期 2026-04-17, 支持语言 简体中文, 是否有内购 有内购, 供应商 yangfan, 核准主办方 河南柚笙科技有限公司, 74 MB. The page is labeled 角色扮演 with 放置/养成/挂机 mechanics. No English or Thai localization visible on the checked CN pages. User reviews already flag VIP gating and resource bottlenecks. Inference: the idle/collection RPG lane is proven in Thailand but this entry is rougher and the IP is brand-new, so conviction stays medium.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/823111"
+        },
+        {
+          "label": "TapTap all-info",
+          "url": "https://www.taptap.cn/app/823111/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/823111",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "confirmed",
+      "first_seen": "2026-04-19",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Fresh CN-only idle card RPG with confirmed IAP, but early reviews flag VIP gating; Thai fit is secondary versus stronger action/strategy adds.",
+      "priority": "medium",
+      "tags": [
+        "rpg",
+        "idle",
+        "card",
+        "mythology",
+        "mecha",
+        "collection"
+      ],
+      "fit_with_th_top_genres": [
+        "Idle RPG",
+        "Collection RPG",
+        "Light progression"
+      ],
+      "thai_market_rationale": "Idle progression and collection loops remain relevant for Thai audiences, but this is a brand-new IP with rough execution, making it a secondary breadth add rather than a top conviction pick.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "duo-la-de-ying-can-can-che",
+      "title": "朵拉的露营餐车",
+      "logo_path": "",
+      "developer": "Astro Studio",
+      "publisher": "成都彼岸之星网络技术有限公司",
+      "developer_country": "CN",
+      "genre": "Simulation",
+      "subgenre": "Cozy camping food-truck management sim",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-18",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 18,
+      "why_it_matters": "Freshly launched CN-only cozy sim from a small startup team with visible IAP (multiple privilege cards flagged in reviews). The cooking/decoration/management loop has visual cross-market appeal even if the Thai genre fit is softer than RPG/strategy.",
+      "analysis_note": "Evidence: TapTap CN 新品榜 shows 朵拉的露营餐车 at #4 with 昨天 首发 on 2026-04-19; the all-info page lists 正式上线日期 2026-04-17, 支持语言 简体中文, 供应商 成都彼岸之星网络技术有限公司, 161 MB. User reviews explicitly catalog heavy monetization: 永久免广卡98, 大月卡30, 灵感特权50, 盲盒特权卡30, 研发特权卡18, 超值通行证45. No English or Thai localization visible on the checked CN pages. Inference: the monetization depth is real but the cozy-sim lane is a softer Thai top-grossing fit than RPG and strategy, and the IP is brand-new with no established audience.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/716974"
+        },
+        {
+          "label": "TapTap all-info",
+          "url": "https://www.taptap.cn/app/716974/all-info?platform=android"
+        }
+      ],
+      "official_website": "https://as.bazx-games.com/",
+      "official_or_source_page": "https://www.taptap.cn/app/716974",
+      "monetization_model": "F2P + IAP (heavy privilege-card structure)",
+      "iap_signal": "confirmed",
+      "first_seen": "2026-04-19",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Fresh cozy sim launch with heavy visible IAP, but Thai fit is softer than RPG/strategy lanes.",
+      "priority": "low",
+      "tags": [
+        "simulation",
+        "cozy",
+        "management",
+        "cooking",
+        "decoration"
+      ],
+      "fit_with_th_top_genres": [
+        "Simulation",
+        "Collection / customization"
+      ],
+      "thai_market_rationale": "Cozy management sims have some cross-market visual appeal, but the Thai spend ceiling is usually below RPG and strategy unless strong decoration/collection monetization proves out. This is mainly a breadth-tracking add.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "lai-zi-hei-dong-de-lv-ren",
+      "title": "来自黑洞的旅人",
+      "logo_path": "",
+      "developer": "黑洞游戏工作室",
+      "publisher": "深圳驭风网络科技有限公司",
+      "developer_country": "CN",
+      "genre": "RPG",
+      "subgenre": "Anime-style 3D action card RPG",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "low",
+      "score": 19,
+      "why_it_matters": "Reserve-page anime card RPG with 3D real-time combat, tapping into the二次元 waifu-collection lane. The prereg traction is modest (~9K) but the card/combat loop has proven Thai monetization potential. Developer's prior WeChat mini-game shutdown raises trust concerns.",
+      "analysis_note": "Evidence: TapTap CN 预约榜 shows 来自黑洞的旅人 at #6 with 预约 9177 on 2026-04-19; the all-info page lists 供应商 深圳驭风网络科技有限公司, no 支持语言 or 是否有内购 field surfaced. The page description markets it as a 灵能魔幻都市题材的策略卡牌+3D即时战斗手游 with 签到立领220抽. Reviews flag the studio previously ran a WeChat mini-game that shut down without notice. No English or Thai localization visible on the checked CN pages. Inference: the anime card-RPG lane is monetizable in Thailand, but the developer's trust deficit and the lack of direct IAP confirmation on metadata lower conviction.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/835980"
+        },
+        {
+          "label": "TapTap all-info",
+          "url": "https://www.taptap.cn/app/835980/all-info?platform=android"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/835980",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "unclear",
+      "first_seen": "2026-04-19",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Reserve-page anime card RPG with combat hooks, but developer trust issues and unclear IAP metadata lower conviction.",
+      "priority": "low",
+      "tags": [
+        "rpg",
+        "card",
+        "anime",
+        "action",
+        "3d",
+        "collection"
+      ],
+      "fit_with_th_top_genres": [
+        "Collection RPG",
+        "Action RPG"
+      ],
+      "thai_market_rationale": "Anime-style card RPGs have a proven monetization lane in Thailand, but this entry has a trust-deficit developer and unclear IAP confirmation, making it a speculative add rather than a conviction pick.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
     }
   ],
   "daily_reports": [
@@ -2189,6 +2412,56 @@
           "comment": "Lineage 1 nostalgia clone with rough execution but proven Korean IP monetization potential in TH."
         }
       ]
+    },
+    {
+      "date": "2026-04-19",
+      "headline": "Fresh CN local-source scan adds one small-studio fighting-game test with confirmed IAP, one idle mythology card RPG launch, one cozy food-truck sim, and one reserve-page anime card RPG; quality is mixed with the strongest signals coming from confirmed-IAP small-team launches.",
+      "game_ids": [
+        "ge-dou-tian-xia",
+        "zui-feng-shen",
+        "duo-la-de-ying-can-can-che",
+        "lai-zi-hei-dong-de-lv-ren"
+      ],
+      "new_game_ids": [
+        "ge-dou-tian-xia",
+        "zui-feng-shen",
+        "duo-la-de-ying-can-can-che",
+        "lai-zi-hei-dong-de-lv-ren"
+      ],
+      "top_pick_ids": [
+        "ge-dou-tian-xia",
+        "zui-feng-shen"
+      ],
+      "cross_game_insight": "Today's usable adds come from CN-only TapTap surfaces rather than KR sources: 格斗天下 wins on confirmed IAP plus a very contained studio profile, 最封神 adds idle-card RPG breadth with confirmed IAP, while 朵拉的露营餐车 and 来自黑洞的旅人 are secondary adds with weaker Thai fit or developer trust concerns.",
+      "notes": [
+        "No KR title was promoted today because the quickly accessible KR local sources did not produce a better fit than these CN-only additions within the time window.",
+        "Top-pick quality is acceptable but not exceptional: both top picks have confirmed IAP but sit in narrower Thai genre lanes (fighting, idle card) than the strongest RPG/SLG candidates from prior days.",
+        "朵拉的露营餐车 has very heavy monetization visible in user reviews (multiple privilege cards totaling 271 RMB) but its cozy-sim lane is a softer Thai top-grossing fit.",
+        "来自黑洞的旅人 has developer trust issues flagged in user reviews (prior WeChat mini-game shut down without notice), which lowers conviction despite the anime card-RPG lane being monetizable.",
+        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "ge-dou-tian-xia",
+          "status": "Reviewing",
+          "comment": "Fresh small-studio fighting test with confirmed IAP, but Thai genre fit is narrower than RPG/strategy."
+        },
+        {
+          "game_id": "zui-feng-shen",
+          "status": "Reviewing",
+          "comment": "Fresh CN-only idle card RPG with confirmed IAP, but early reviews flag VIP gating; Thai fit is secondary versus stronger action/strategy adds."
+        },
+        {
+          "game_id": "duo-la-de-ying-can-can-che",
+          "status": "Reviewing",
+          "comment": "Fresh cozy sim launch with heavy visible IAP, but Thai fit is softer than RPG/strategy lanes."
+        },
+        {
+          "game_id": "lai-zi-hei-dong-de-lv-ren",
+          "status": "Reviewing",
+          "comment": "Reserve-page anime card RPG with combat hooks, but developer trust issues and unclear IAP metadata lower conviction."
+        }
+      ]
     }
   ],
   "candidate_pipeline": {
@@ -2221,7 +2494,11 @@
       "Check whether 代号：梦核 confirms IAP and a launch date during its upcoming 惊梦测试.",
       "Watch whether 末日营地 introduces clearer IAP hooks or remains primarily a small-scale indie extraction game.",
       "Confirm whether 希望城 stays CN-only through its 04/23 launch or begins surfacing SEA-facing channels.",
-      "Watch whether 梦想与征程 stabilizes after launch week or if the early quality complaints persist and limit traction."
+      "Watch whether 梦想与征程 stabilizes after launch week or if the early quality complaints persist and limit traction.",
+      "Check whether 格斗天下 stabilizes after its limited test launch or if monetization complaints emerge quickly.",
+      "Watch whether 最封神 retains players after launch week despite early VIP gating complaints.",
+      "Confirm whether 朵拉的露营餐车's heavy privilege-card structure limits player retention or if the cozy loop compensates.",
+      "Verify whether 来自黑洞的旅人 confirms IAP and a test date during its upcoming beta, and whether the developer's prior shutdown history surfaces more concerns."
     ],
     "rejected_today": [
       "Removed The Seven Deadly Sins: Origin, Arknights: Endfield, Neverness to Everness, and MONGIL: STAR DIVE because they were too large, too globally exposed, or already too close to active global servicing for local-publisher prospecting.",
@@ -2230,7 +2507,8 @@
       "2026-04-15 rejected Tencent/mihoyo-sized, multilingual, English-titled, and non-game-looking local pages in favor of four more contained CN mobile candidates from TapTap reserve surfaces.",
       "2026-04-16 rejected Tencent-sized, clearly global-exposed, offline/non-IAP-leaning, and utility-like local pages in favor of three contained CN mobile candidates from TapTap new/reserve surfaces.",
       "2026-04-17 rejected multilingual / English-visible reserve pages, giant-IP global-facing entries, and TapTap-manufacture filler in favor of four more contained CN mobile candidates from TapTap new/reserve surfaces.",
-      "2026-04-18 rejected giant-IP global-facing entries, TapTap-manufacture filler, AI-companion non-games, and quiz/test pages in favor of four contained CN mobile candidates from TapTap new/reserve surfaces."
+      "2026-04-18 rejected giant-IP global-facing entries, TapTap-manufacture filler, AI-companion non-games, and quiz/test pages in favor of four contained CN mobile candidates from TapTap new/reserve surfaces.",
+      "2026-04-19 rejected 王者荣耀世界 (Tencent mega-launch), 白银之城 (乐元素 79万 prereg, too globally exposed), 造梦西游之黎尤浩劫篇 (4399 IP, too large), and TapTap-manufacture/test/quiz pages in favor of four more contained CN mobile candidates."
     ],
     "duplicates_or_updates": [
       "2026-04-11 added four fresh CN local-source candidates from TapTap new-game surfaces; existing older entries were preserved unchanged.",
@@ -2241,7 +2519,8 @@
       "2026-04-15 added four fresh CN local-source candidates from TapTap reserve surfaces; existing older entries were preserved unchanged.",
       "2026-04-16 added three fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged.",
       "2026-04-17 added four fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged.",
-      "2026-04-18 added four fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged."
+      "2026-04-18 added four fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged.",
+      "2026-04-19 added four fresh CN local-source candidates from TapTap new/reserve surfaces; existing older entries were preserved unchanged."
     ]
   },
   "watchlists": {
@@ -2277,7 +2556,11 @@
       "远方独立游戏",
       "三点饮茶工作室",
       "潮玩星球",
-      "宜昌子画网络科技有限公司"
+      "宜昌子画网络科技有限公司",
+      "格斗工作室",
+      "马什么梅游戏工作室",
+      "Astro Studio",
+      "黑洞游戏工作室"
     ],
     "genres": [
       "Casual color-shooter card RPG",
@@ -2308,7 +2591,11 @@
       "Zombie survival extraction",
       "Cooperative extraction adventure / horror social",
       "Social sim / toy-collectible builder",
-      "Lineage 1 classic revival MMO"
+      "Lineage 1 classic revival MMO",
+      "Fighting / martial-arts action RPG",
+      "Idle mythology card RPG (洪荒 x 机甲)",
+      "Cozy camping food-truck management sim",
+      "Anime-style 3D action card RPG"
     ],
     "monetization_patterns": [
       "Ad-hybrid survival monetization",
@@ -2342,25 +2629,25 @@
     ]
   },
   "cross_game_insight": {
-    "pattern_of_the_day": "Today's strongest adds come from CN-only TapTap surfaces: 代号梦核 wins on highest prereg traction from the smallest team in the hottest extraction trend, 末日营地 adds trending indie survival extraction breadth, and 梦想与征程 supplies a Lineage nostalgia MMORPG wildcard despite rough execution.",
+    "pattern_of_the_day": "Today's usable adds come from CN-only TapTap surfaces: 格斗天下 wins on confirmed IAP plus contained studio profile, 最封神 adds idle-card RPG breadth with confirmed IAP, while 朵拉的露营餐车 and 来自黑洞的旅人 are secondary adds.",
     "caveats": [
-      "No KR title was promoted today because the quickly accessible KR local sources still did not beat these CN additions on freshness plus local-only evidence within the time window.",
-      "代号：梦核 has 25万 preregistrations from an extremely tiny first-time studio but no confirmed IAP or launch date yet, so it stays Watchlist rather than a top conviction pick.",
-      "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
+      "No KR title was promoted today because accessible KR local sources did not beat these CN additions on freshness plus local-only evidence.",
+      "Top-pick quality is narrower than the best RPG/SLG days: both picks sit in fighting and idle-card lanes rather than the strongest Thai revenue categories.",
+      "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on checked local source pages, not exhaustive region-store verification."
     ]
   },
   "team_brief": {
-    "summary": "Today's most interesting add is 代号：梦核 (highest prereg from smallest team in hottest trend); 末日营地 is a useful extraction-breadth add; 梦想与征程 is a Lineage nostalgia wildcard.",
+    "summary": "Today's most interesting add is 格斗天下 (small-studio fighting test with confirmed IAP); 最封神 adds idle-card RPG breadth; secondary adds include a cozy food-truck sim and a reserve anime card RPG with developer trust concerns.",
     "top_messages": [
-      "代号：梦核 has 25万 prereg from an extremely tiny first-time studio in the cooperative extraction adventure space — maximum publishing whitespace.",
-      "末日营地 adds trending zombie survival extraction from a genuinely small indie team, though monetization proof is thin.",
-      "梦想与征程 is a freshly launched Lineage 1 clone with rough execution but proven Korean MMORPG nostalgia monetization in Thailand."
+      "格斗天下 launched a limited non-wipe paid test from a very contained studio (武汉市噢额威文化传媒有限公司) with confirmed IAP and Chinese-only presentation.",
+      "最封神 is a fresh CN-only idle mythology card RPG launch with confirmed IAP from 马什么梅游戏工作室, but early reviews already flag VIP gating.",
+      "朵拉的露营餐车 launched yesterday with heavy visible privilege-card monetization, but the cozy-sim lane is a softer Thai fit."
     ]
   },
   "kpis": {
-    "top_picks_today": 3,
-    "candidate_pipeline": 32,
-    "pending_verification": 29,
+    "top_picks_today": 2,
+    "candidate_pipeline": 36,
+    "pending_verification": 33,
     "new_games_today": 4,
     "weekly_syntheses": 1
   }
