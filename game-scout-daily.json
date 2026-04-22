@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "CN/KR Mobile Game Research Dashboard",
-    "date": "2026-04-19",
+    "date": "2026-04-22",
     "timezone": "Asia/Bangkok",
     "mode": "analyst",
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-21T08:05:27+07:00",
+    "generated_at": "2026-04-22T10:34:39+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -1564,7 +1564,7 @@
     {
       "id": "mo-ri-ying-di",
       "title": "末日营地",
-      "logo_path": "",
+      "logo_path": "https://img-tc.tapimg.com/market/images/7c854ea578d34d82a1ea4db73b87a097.png/_tap_appicon.jpg",
       "developer": "远方独立游戏",
       "publisher": "远方网络科技（南京）有限公司",
       "developer_country": "CN",
@@ -1619,7 +1619,7 @@
     {
       "id": "dai-hao-meng-he",
       "title": "代号：梦核",
-      "logo_path": "",
+      "logo_path": "https://img-tc.tapimg.com/market/images/83c9f78ffa683c08737fe7aafe95f2a4.jpg/_tap_appicon.jpg",
       "developer": "三点饮茶工作室",
       "publisher": "三点饮茶工作室",
       "developer_country": "CN",
@@ -1675,7 +1675,7 @@
     {
       "id": "xi-wang-cheng",
       "title": "希望城",
-      "logo_path": "",
+      "logo_path": "https://img-tc.tapimg.com/market/images/c509ab5413c99198f9ff8ae55c9e39b8.png/_tap_appicon.jpg",
       "developer": "潮玩星球",
       "publisher": "深圳潮玩星球互联网科技有限公司",
       "developer_country": "CN",
@@ -1730,7 +1730,7 @@
     {
       "id": "meng-xiang-yu-zheng-cheng",
       "title": "梦想与征程",
-      "logo_path": "",
+      "logo_path": "https://img-tc.tapimg.com/market/images/3900ddcf6ce70b292426d18fbb7870e9.png/_tap_appicon.jpg",
       "developer": "宜昌子画网络科技有限公司",
       "publisher": "宜昌子画网络科技有限公司",
       "developer_country": "CN",
@@ -1786,7 +1786,7 @@
     {
       "id": "ge-dou-tian-xia",
       "title": "格斗天下",
-      "logo_path": "",
+      "logo_path": "assets/ge-dou-tian-xia.svg",
       "developer": "格斗工作室",
       "publisher": "武汉市噢额威文化传媒有限公司",
       "developer_country": "CN",
@@ -1841,7 +1841,7 @@
     {
       "id": "zui-feng-shen",
       "title": "最封神",
-      "logo_path": "",
+      "logo_path": "https://img-tc.tapimg.com/market/images/8d96be006b86f5fb09d95092274dcf58.jpg/_tap_appicon.jpg",
       "developer": "马什么梅游戏工作室",
       "publisher": "河南柚笙科技有限公司",
       "developer_country": "CN",
@@ -1898,7 +1898,7 @@
     {
       "id": "duo-la-de-ying-can-can-che",
       "title": "朵拉的露营餐车",
-      "logo_path": "",
+      "logo_path": "https://img-tc.tapimg.com/market/images/85cd610950ea238666d5b9aebb571dfc.png/_tap_appicon.jpg",
       "developer": "Astro Studio",
       "publisher": "成都彼岸之星网络技术有限公司",
       "developer_country": "CN",
@@ -1953,7 +1953,7 @@
     {
       "id": "lai-zi-hei-dong-de-lv-ren",
       "title": "来自黑洞的旅人",
-      "logo_path": "",
+      "logo_path": "https://img-tc.tapimg.com/market/images/5991ae91bb1dc0466aafa100f2f32e3f.png/_tap_appicon.jpg",
       "developer": "黑洞游戏工作室",
       "publisher": "深圳驭风网络科技有限公司",
       "developer_country": "CN",
@@ -2002,6 +2002,109 @@
         "Action RPG"
       ],
       "thai_market_rationale": "Anime-style card RPGs have a proven monetization lane in Thailand, but this entry has a trust-deficit developer and unclear IAP confirmation, making it a speculative add rather than a conviction pick.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "da-dao-xian-tu",
+      "title": "大道仙途",
+      "logo_path": "https://img-tc.tapimg.com/market/images/5158ea5c29cc943cfc2aeeea99569f29.png/_tap_appicon.jpg",
+      "developer": "六爻工作室",
+      "publisher": "金琵琶",
+      "developer_country": "CN",
+      "genre": "RPG",
+      "subgenre": "Idle xianxia RPG",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-22",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 25,
+      "why_it_matters": "Fresh CN-only idle xianxia RPG with confirmed IAP (gacha/energy systems visible in reviews), launching today via a limited delete-test. Small-studio duo (六爻工作室 dev / 金琵琶 pub) with 5.5万 pre-registrations. Maps well to Thailand's proven RPG/collection spend lane and the xianxia subgenre has demonstrated regional appeal.",
+      "analysis_note": "Evidence: TapTap CN app page shows 简体中文 only, Android/iOS, 上线日期 2026年5月, with a live test starting 2026-04-22 09:00 through 2026-04-29 (不限量删档). Reviews explicitly mention gacha, energy, and monetization systems. No English or Thai localization visible. Developer 六爻工作室 and publisher 金琵琶 are both small CN entities with no global-facing presence. Inference: the confirmed IAP signal from a genuinely small team, combined with today's test launch freshness, makes this the strongest local-source idle RPG candidate in recent passes.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/758354"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/758354",
+      "monetization_model": "F2P + IAP (gacha/energy)",
+      "iap_signal": "confirmed",
+      "first_seen": "2026-04-22",
+      "default_status": "New",
+      "status": "New",
+      "comment": "Strongest candidate today: confirmed IAP, small publishers, xianxia idle RPG test launch.",
+      "priority": "high",
+      "tags": [
+        "rpg",
+        "idle",
+        "xianxia",
+        "gacha",
+        "vertical-screen",
+        "guofeng"
+      ],
+      "fit_with_th_top_genres": [
+        "RPG",
+        "Idle RPG",
+        "Collection RPG",
+        "Long-tail progression"
+      ],
+      "thai_market_rationale": "Idle xianxia RPG is a proven CN-to-SEA travel genre; Thailand's top-grossing memory favors RPG-heavy progression with gacha monetization. Small publisher profile increases potential whitespace for local partnership.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "quan-min-you-xi-da-heng",
+      "title": "全民游戏大亨",
+      "logo_path": "https://img-tc.tapimg.com/market/images/822e7dc467207d649feb1f7409f6bcb0.jpg/_tap_appicon.jpg",
+      "developer": "小王独立游戏",
+      "publisher": "小王独立游戏",
+      "developer_country": "CN",
+      "genre": "Simulation",
+      "subgenre": "Game dev tycoon sim",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2026-04-24",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "low",
+      "score": 12,
+      "why_it_matters": "Genuinely small solo indie dev (小王独立游戏) with a game-company management sim launching April 24. The simulation/tycoon genre has niche but real appeal in CN and SEA, and the dev is actively iterating based on player feedback. Low score reflects weak monetization signal and small scope.",
+      "analysis_note": "Evidence: TapTap CN app page shows 简体中文 only, Android/iOS, 上线日期 2026-04-24, #10 on 新品榜. Game is 66MB, by a solo developer (小王) who is also the sole producer/designer/programmer. Reviews note the game is fun but shallow with limited content. No English or Thai localization visible. Inference: this is a very small indie project with unclear monetization (possibly premium or light IAP). The game-dev-tycoon niche does not map strongly to Thailand's top-grossing lanes, but it is genuinely new and local-only.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/838446"
+        }
+      ],
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/838446",
+      "monetization_model": "Unclear (possibly premium or light IAP)",
+      "iap_signal": "unclear",
+      "first_seen": "2026-04-22",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Solo indie dev, game dev sim launching April 24. Very small scope, unclear monetization. Worth tracking but low conviction.",
+      "priority": "low",
+      "tags": [
+        "simulation",
+        "tycoon",
+        "indie",
+        "game-dev"
+      ],
+      "fit_with_th_top_genres": [
+        "Simulation (niche)"
+      ],
+      "thai_market_rationale": "Weak fit for Thailand's top-grossing RPG/strategy lanes. Included primarily for completeness as a genuinely new local-only indie launch.",
       "last_status_updated": null,
       "last_comment_updated": null,
       "status_history": []
@@ -2462,6 +2565,33 @@
           "comment": "Reserve-page anime card RPG with combat hooks, but developer trust issues and unclear IAP metadata lower conviction."
         }
       ]
+    },
+    {
+      "date": "2026-04-22",
+      "headline": "Thin scan today: only two genuinely new CN local-source candidates surfaced. One strong idle xianxia RPG with confirmed IAP and small publishers (大道仙途) launching today's test; one weak solo indie game-dev sim (全民游戏大亨) launching April 24. CN mobile chart is dominated by major releases (异环, 王者荣耀世界) this week, squeezing out small/mid publisher visibility.",
+      "game_ids": [
+        "da-dao-xian-tu",
+        "quan-min-you-xi-da-heng"
+      ],
+      "new_game_ids": [
+        "da-dao-xian-tu",
+        "quan-min-you-xi-da-heng"
+      ],
+      "top_pick_ids": [
+        "da-dao-xian-tu"
+      ],
+      "game_snapshots": [
+        {
+          "id": "da-dao-xian-tu",
+          "status": "New",
+          "comment": "Strongest candidate today: confirmed IAP, small publishers, xianxia idle RPG test launch."
+        },
+        {
+          "id": "quan-min-you-xi-da-heng",
+          "status": "Reviewing",
+          "comment": "Solo indie dev, game dev sim launching April 24. Very small scope, unclear monetization. Worth tracking but low conviction."
+        }
+      ]
     }
   ],
   "candidate_pipeline": {
@@ -2645,10 +2775,10 @@
     ]
   },
   "kpis": {
-    "top_picks_today": 2,
-    "candidate_pipeline": 36,
+    "top_picks_today": 1,
+    "candidate_pipeline": 38,
     "pending_verification": 33,
-    "new_games_today": 4,
+    "new_games_today": 2,
     "weekly_syntheses": 1
   }
 }
