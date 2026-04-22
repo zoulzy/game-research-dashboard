@@ -7,7 +7,7 @@
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-22T10:34:39+07:00",
+    "generated_at": "2026-04-22T10:40:38+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -2112,42 +2112,433 @@
   ],
   "daily_reports": [
     {
-      "date": "2026-04-10",
-      "headline": "Corrected shortlist after removing invalid large/globalized candidates. Current list is now local-source and untranslated-first.",
+      "date": "2026-04-22",
+      "headline": "Thin scan today: only two genuinely new CN local-source candidates surfaced. One strong idle xianxia RPG with confirmed IAP and small publishers (大道仙途) launching today's test; one weak solo indie game-dev sim (全民游戏大亨) launching April 24. CN mobile chart is dominated by major releases (异环, 王者荣耀世界) this week, squeezing out small/mid publisher visibility.",
       "game_ids": [
-        "qi-jie-meng-tan",
-        "ye-mu-zhi-xia",
-        "xue-song"
+        "da-dao-xian-tu",
+        "quan-min-you-xi-da-heng"
       ],
       "new_game_ids": [
-        "qi-jie-meng-tan",
-        "ye-mu-zhi-xia",
-        "xue-song"
+        "da-dao-xian-tu",
+        "quan-min-you-xi-da-heng"
       ],
       "top_pick_ids": [
-        "qi-jie-meng-tan",
-        "xue-song"
-      ],
-      "cross_game_insight": "After applying the tighter filter, the best local-source opportunities skew toward untranslated RPG and strategy candidates rather than globally marketed tentpoles.",
-      "notes": [
-        "No Korean candidate was promoted in this corrected pass because the quickly accessible KR options were either too large, too globally exposed, or not verified enough.",
-        "Next pass should continue direct KR local-source scouting rather than forcing low-confidence inclusions."
+        "da-dao-xian-tu"
       ],
       "game_snapshots": [
         {
-          "game_id": "qi-jie-meng-tan",
-          "status": "Watchlist",
-          "comment": "Good RPG fit, but still need stronger source confirmation beyond TapTap."
+          "id": "da-dao-xian-tu",
+          "status": "New",
+          "comment": "Strongest candidate today: confirmed IAP, small publishers, xianxia idle RPG test launch."
         },
         {
-          "game_id": "ye-mu-zhi-xia",
+          "id": "quan-min-you-xi-da-heng",
           "status": "Reviewing",
-          "comment": "Need publisher clarity before escalation."
+          "comment": "Solo indie dev, game dev sim launching April 24. Very small scope, unclear monetization. Worth tracking but low conviction."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-21",
+      "headline": "Quiet scouting day with no new CN/KR candidates surfaced. Existing pipeline stable at 36 tracked titles. Key activity: status tracking and icon/logo verification for recent adds (April 18-19 batch). TapTap 新品榜 dominated by major releases, squeezing small/mid publisher visibility.",
+      "game_ids": [],
+      "new_game_ids": [],
+      "top_pick_ids": [],
+      "cross_game_insight": "Two consecutive thin days (Apr 20-21) suggest CN mobile chart is in a major-release cycle. Pipeline holds 38 candidates with 7 Watchlist and 25 Reviewing. 格斗天下 (April 19 add) game page returned 404 on TapTap — possible removal, needs re-verification.",
+      "game_snapshots": [
+        {
+          "id": "ge-dou-tian-xia",
+          "status": "Reviewing",
+          "comment": "TapTap page returned 404 — game possibly removed. Needs re-verification before escalating."
         },
         {
-          "game_id": "xue-song",
+          "id": "mo-ri-ying-di",
+          "status": "Reviewing",
+          "comment": "Survival sim with ad-heavy monetization reports. Keep in review."
+        },
+        {
+          "id": "dai-hao-meng-he",
+          "status": "Reviewing",
+          "comment": "Mystery/RPG hybrid, limited source data. Needs deeper TapTap all-info check."
+        },
+        {
+          "id": "zui-feng-shen",
+          "status": "Reviewing",
+          "comment": "Idle card RPG with confirmed IAP from tiny studio. Strong Thai RPG fit."
+        },
+        {
+          "id": "da-dao-xian-tu",
+          "status": "New",
+          "comment": "Not yet surfaced — will appear on next active scan day."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-20",
+      "headline": "No new CN/KR candidates surfaced today. Focus shifts to status tracking of existing pipeline: 7 Watchlist titles remain under active monitoring, 25 Reviewing candidates still pending stronger source confirmation. Scout scan returned no fresh TapTap 新品榜 or 预约榜 additions beyond already-tracked titles.",
+      "game_ids": [],
+      "new_game_ids": [],
+      "top_pick_ids": [],
+      "cross_game_insight": "Pipeline maintenance day: no fresh adds but status review confirms 七界梦谭 (Watchlist), 雪松 (Watchlist), 幻想少女公会 (Watchlist), 亿万光年 (Watchlist), 希望城 (Watchlist), 抽卡求生 (Watchlist), and 大道仙途 remain the strongest tracked candidates for Thai publishing opportunity.",
+      "game_snapshots": []
+    },
+    {
+      "date": "2026-04-19",
+      "headline": "Fresh CN local-source scan adds one small-studio fighting-game test with confirmed IAP, one idle mythology card RPG launch, one cozy food-truck sim, and one reserve-page anime card RPG; quality is mixed with the strongest signals coming from confirmed-IAP small-team launches.",
+      "game_ids": [
+        "ge-dou-tian-xia",
+        "zui-feng-shen",
+        "duo-la-de-ying-can-can-che",
+        "lai-zi-hei-dong-de-lv-ren"
+      ],
+      "new_game_ids": [
+        "ge-dou-tian-xia",
+        "zui-feng-shen",
+        "duo-la-de-ying-can-can-che",
+        "lai-zi-hei-dong-de-lv-ren"
+      ],
+      "top_pick_ids": [
+        "ge-dou-tian-xia",
+        "zui-feng-shen"
+      ],
+      "cross_game_insight": "Today's usable adds come from CN-only TapTap surfaces rather than KR sources: 格斗天下 wins on confirmed IAP plus a very contained studio profile, 最封神 adds idle-card RPG breadth with confirmed IAP, while 朵拉的露营餐车 and 来自黑洞的旅人 are secondary adds with weaker Thai fit or developer trust concerns.",
+      "notes": [
+        "No KR title was promoted today because the quickly accessible KR local sources did not produce a better fit than these CN-only additions within the time window.",
+        "Top-pick quality is acceptable but not exceptional: both top picks have confirmed IAP but sit in narrower Thai genre lanes (fighting, idle card) than the strongest RPG/SLG candidates from prior days.",
+        "朵拉的露营餐车 has very heavy monetization visible in user reviews (multiple privilege cards totaling 271 RMB) but its cozy-sim lane is a softer Thai top-grossing fit.",
+        "来自黑洞的旅人 has developer trust issues flagged in user reviews (prior WeChat mini-game shut down without notice), which lowers conviction despite the anime card-RPG lane being monetizable.",
+        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "ge-dou-tian-xia",
+          "status": "Reviewing",
+          "comment": "Fresh small-studio fighting test with confirmed IAP, but Thai genre fit is narrower than RPG/strategy."
+        },
+        {
+          "game_id": "zui-feng-shen",
+          "status": "Reviewing",
+          "comment": "Fresh CN-only idle card RPG with confirmed IAP, but early reviews flag VIP gating; Thai fit is secondary versus stronger action/strategy adds."
+        },
+        {
+          "game_id": "duo-la-de-ying-can-can-che",
+          "status": "Reviewing",
+          "comment": "Fresh cozy sim launch with heavy visible IAP, but Thai fit is softer than RPG/strategy lanes."
+        },
+        {
+          "game_id": "lai-zi-hei-dong-de-lv-ren",
+          "status": "Reviewing",
+          "comment": "Reserve-page anime card RPG with combat hooks, but developer trust issues and unclear IAP metadata lower conviction."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-18",
+      "headline": "Fresh CN local-source scan adds one high-whitespace pre-launch extraction adventure, one trending indie survival extraction game, one social sim builder, and one Lineage 1 nostalgia MMORPG clone; the extraction trend dominates but only pre-launch signals are visible.",
+      "game_ids": [
+        "mo-ri-ying-di",
+        "dai-hao-meng-he",
+        "xi-wang-cheng",
+        "meng-xiang-yu-zheng-cheng"
+      ],
+      "new_game_ids": [
+        "mo-ri-ying-di",
+        "dai-hao-meng-he",
+        "xi-wang-cheng",
+        "meng-xiang-yu-zheng-cheng"
+      ],
+      "top_pick_ids": [
+        "dai-hao-meng-he",
+        "mo-ri-ying-di",
+        "meng-xiang-yu-zheng-cheng"
+      ],
+      "cross_game_insight": "Today's strongest adds come from CN-only TapTap surfaces: 代号梦核 wins on highest prereg traction from the smallest team in the hottest extraction trend, 末日营地 adds trending indie survival extraction breadth, and 梦想与征程 supplies a Lineage nostalgia MMORPG wildcard despite rough execution.",
+      "notes": [
+        "No KR title was promoted today because the quickly accessible KR local sources still did not beat these CN additions on freshness plus local-only evidence within the time window.",
+        "代号：梦核 has 25万 preregistrations from an extremely tiny first-time studio but no confirmed IAP or launch date yet, so it stays Watchlist rather than a top conviction pick.",
+        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "dai-hao-meng-he",
           "status": "Watchlist",
-          "comment": "Most interesting strategy-side candidate; keep tracking systems and monetization clues."
+          "comment": "Highest-whitespace candidate today: 25万 prereg from an extremely tiny studio in the hottest CN extraction trend."
+        },
+        {
+          "game_id": "mo-ri-ying-di",
+          "status": "Reviewing",
+          "comment": "Trending extraction/survival loop from a tiny indie studio; monetization proof still thin but genre is hot."
+        },
+        {
+          "game_id": "xi-wang-cheng",
+          "status": "Reviewing",
+          "comment": "Distinctive toy-collectible builder with anti-grind positioning, but Thai fit is softer than RPG/strategy lanes."
+        },
+        {
+          "game_id": "meng-xiang-yu-zheng-cheng",
+          "status": "Reviewing",
+          "comment": "Lineage 1 nostalgia clone with rough execution but proven Korean IP monetization potential in TH."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-17",
+      "headline": "Fresh CN local-source scan adds three contained midcore mobile candidates plus one niche roguelike wildcard; the best signals come from small-studio-style TapTap pages, but only 英雄守御 has direct IAP confirmation today.",
+      "game_ids": [
+        "ying-xiong-shou-yu",
+        "yi-jian-xian-tu",
+        "yao-shi-ge-dou",
+        "gui-yi-rou-ge-ma-jiang"
+      ],
+      "new_game_ids": [
+        "ying-xiong-shou-yu",
+        "yi-jian-xian-tu",
+        "yao-shi-ge-dou",
+        "gui-yi-rou-ge-ma-jiang"
+      ],
+      "top_pick_ids": [
+        "ying-xiong-shou-yu",
+        "yao-shi-ge-dou",
+        "yi-jian-xian-tu"
+      ],
+      "cross_game_insight": "Today's strongest adds again came from CN-only TapTap new/reserve surfaces rather than KR sources: 英雄守御 wins on confirmed IAP plus contained publisher profile, 耀世格斗 adds the best action-side breadth, and 一剑仙途 supplies a cleaner xianxia reserve-page option with smaller-operator whitespace than the louder giant-IP pages.",
+      "notes": [
+        "No KR title was promoted today because the quickly accessible KR local sources still did not beat these CN additions on freshness plus local-only evidence within the time window.",
+        "Only 英雄守御 had direct 有内购 confirmation on the checked metadata today; the other three adds remain F2P+IAP inferences based on mobile genre norms and page framing.",
+        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "ying-xiong-shou-yu",
+          "status": "Watchlist",
+          "comment": "Best new add today: local-only card RPG with visible IAP and a near-term launch window."
+        },
+        {
+          "game_id": "yi-jian-xian-tu",
+          "status": "Watchlist",
+          "comment": "Clean local-only xianxia reserve add, but IAP remains inferred rather than confirmed."
+        },
+        {
+          "game_id": "yao-shi-ge-dou",
+          "status": "Watchlist",
+          "comment": "Best action-side add today, but still needs hard IAP confirmation from later metadata or live launch."
+        },
+        {
+          "game_id": "gui-yi-rou-ge-ma-jiang",
+          "status": "Reviewing",
+          "comment": "Fresh and local-only, but monetization clarity and Thai genre fit are weaker than the top three adds."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "headline": "Fresh CN local-source scan adds one newly launched Korean-style MMO, one newly surfaced IP card-RPG reserve page, and one lower-whitespace idle-RPG reserve add; quality is usable, but publisher-opportunity upside is mixed.",
+      "game_ids": [
+        "xin-da-feng-da-geng-ren",
+        "shen-qi-fen-zheng",
+        "zong-shi-zhi-shang"
+      ],
+      "new_game_ids": [
+        "xin-da-feng-da-geng-ren",
+        "shen-qi-fen-zheng",
+        "zong-shi-zhi-shang"
+      ],
+      "top_pick_ids": [
+        "xin-da-feng-da-geng-ren",
+        "shen-qi-fen-zheng"
+      ],
+      "cross_game_insight": "Today's usable additions again came from CN-only TapTap new/reserve surfaces rather than KR sources: 新大奉打更人 wins on fresh reserve momentum, 神泣：纷争 wins on structured live-launch proof, and 宗师之上 is the extra idle-RPG breadth add with lower whitespace.",
+      "notes": [
+        "No KR title was promoted today because the quickly accessible KR local sources still did not beat these CN additions on freshness plus local-only evidence within the time window.",
+        "Top-pick quality is mixed: 神泣：纷争 has the cleanest structured launch/IAP evidence but already shows paywall complaints, while 宗师之上 is useful category coverage but comes from a stronger self-publishing operator than ideal.",
+        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "xin-da-feng-da-geng-ren",
+          "status": "Watchlist",
+          "comment": "Best fresh reserve-page add today, but supplier / publishing capability still needs verification."
+        },
+        {
+          "game_id": "shen-qi-fen-zheng",
+          "status": "Watchlist",
+          "comment": "Strong structured evidence and fresh launch timing, but likely VIP/paywall-heavy."
+        },
+        {
+          "game_id": "zong-shi-zhi-shang",
+          "status": "Reviewing",
+          "comment": "Usable idle-RPG add, but Lingxi-sized self-publishing power lowers whitespace."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "headline": "Fresh CN local-source reserve pass adds two clearer RPG/strategy-facing candidates and two secondary breadth picks; quality is better than yesterday but still mostly CN-only.",
+      "game_ids": [
+        "lv-meng-shi-kong-zhi-sheng",
+        "xun-long-zhi-lv",
+        "wang-zhe-jian-dui",
+        "chong-ba-pa-ke"
+      ],
+      "new_game_ids": [
+        "lv-meng-shi-kong-zhi-sheng",
+        "xun-long-zhi-lv",
+        "wang-zhe-jian-dui",
+        "chong-ba-pa-ke"
+      ],
+      "top_pick_ids": [
+        "xun-long-zhi-lv",
+        "lv-meng-shi-kong-zhi-sheng"
+      ],
+      "cross_game_insight": "Today's usable additions again came from CN-only TapTap reserve pages rather than KR sources: a dragon-raising RPG and a fantasy adventure lead the batch, while a naval strategy title and a smaller horde-action test round out the list with lower conviction.",
+      "notes": [
+        "No KR title was promoted today because the quickly accessible KR local sources did not beat these CN reserve-page adds on freshness plus local-only evidence within the time window.",
+        "Top-pick quality improved versus 2026-04-14 because today's reserve field offered clearer RPG/strategy lanes with visible IAP, not just cozy/female-oriented breadth adds.",
+        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "lv-meng-shi-kong-zhi-sheng",
+          "status": "Watchlist",
+          "comment": "Best new reserve-page add today: clear CN-only presentation plus visible IAP on a fantasy adventure lane."
+        },
+        {
+          "game_id": "xun-long-zhi-lv",
+          "status": "Watchlist",
+          "comment": "Strongest Thai-fit new add today: dragon-raising RPG loop plus visible IAP and near-term launch timing."
+        },
+        {
+          "game_id": "wang-zhe-jian-dui",
+          "status": "Reviewing",
+          "comment": "Useful strategy-side add, but monetization proof is thinner than the top two reserve candidates."
+        },
+        {
+          "game_id": "chong-ba-pa-ke",
+          "status": "Reviewing",
+          "comment": "Fresh small-studio action add with visible IAP, but still a secondary bet versus the top RPG/strategy picks."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "headline": "Fresh CN local-source reserve pass adds one stronger city-builder test and two secondary female/cozy prereg candidates; conviction is usable but softer than the better RPG/SLG days.",
+      "game_ids": [
+        "hui-guang-zhi-cheng-1907",
+        "dai-hao-lian",
+        "tong-hua-shi"
+      ],
+      "new_game_ids": [
+        "hui-guang-zhi-cheng-1907",
+        "dai-hao-lian",
+        "tong-hua-shi"
+      ],
+      "top_pick_ids": [
+        "hui-guang-zhi-cheng-1907",
+        "dai-hao-lian"
+      ],
+      "cross_game_insight": "Today's usable additions again came from CN-only TapTap reserve surfaces rather than KR sources: one systems-heavier city-builder stands out, while the other two adds are secondary female/cozy candidates with weaker monetization proof.",
+      "notes": [
+        "No KR title was promoted today because the quickly accessible KR local sources still did not beat these CN-only adds on freshness plus local-only evidence within the time window.",
+        "Top-pick quality is softer than some earlier RPG/SLG days because today's reserve-page field leaned more toward sim and female-oriented titles than obvious spend-heavy lanes.",
+        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "hui-guang-zhi-cheng-1907",
+          "status": "Watchlist",
+          "comment": "Most interesting add today: local-only city-builder test with clearer systems than the other reserve pages."
+        },
+        {
+          "game_id": "dai-hao-lian",
+          "status": "Reviewing",
+          "comment": "Female-oriented hook is distinctive, but commercialization proof is still lighter than the city-builder add."
+        },
+        {
+          "game_id": "tong-hua-shi",
+          "status": "Reviewing",
+          "comment": "Clean local-only cozy signal, but monetization depth is still the main question."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "headline": "Fresh CN local-source pass adds one stronger card-RPG paid test, one strategy-side SLG near-launch, and one secondary female-oriented prereg candidate; conviction again falls off after the top two.",
+      "game_ids": [
+        "nv-shen-zhi-guang",
+        "xin-tiao-xian-luo",
+        "san-guo-tian-xia-gui-xin"
+      ],
+      "new_game_ids": [
+        "nv-shen-zhi-guang",
+        "xin-tiao-xian-luo",
+        "san-guo-tian-xia-gui-xin"
+      ],
+      "top_pick_ids": [
+        "nv-shen-zhi-guang",
+        "san-guo-tian-xia-gui-xin"
+      ],
+      "cross_game_insight": "Today's usable adds again came from CN-only TapTap surfaces rather than KR sources: the best two are a live paid-test card RPG and a near-launch war SLG, while the female-oriented add is more of a secondary economy-visible watch candidate.",
+      "notes": [
+        "No KR title was promoted today because the quickly accessible KR local sources did not beat these CN-only additions on freshness plus local-only evidence within the time window.",
+        "Top-pick quality is decent but not perfect: one strategy add is already fairly hot locally, and the female-oriented add remains a narrower Thai-fit bet.",
+        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "nv-shen-zhi-guang",
+          "status": "Watchlist",
+          "comment": "Fresh CN-only card RPG with visible IAP and paid-test structure; strongest new RPG add today."
+        },
+        {
+          "game_id": "xin-tiao-xian-luo",
+          "status": "Reviewing",
+          "comment": "Visible prereg economy is real, but female-oriented fit is secondary versus stronger RPG/SLG lanes."
+        },
+        {
+          "game_id": "san-guo-tian-xia-gui-xin",
+          "status": "Watchlist",
+          "comment": "Best strategy-side add today: clear SLG fit and visible draw/resource economy, but already fairly hot locally."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-12",
+      "headline": "Fresh CN local-source pass adds one newly launched survival roguelike and two prereg titles with visible live-service structure, but conviction falls off quickly after the top two.",
+      "game_ids": [
+        "chou-ka-qiu-sheng-huang-dao",
+        "long-dao-yi-shou-qi-yuan",
+        "luan-tu-cai-shi-jie"
+      ],
+      "new_game_ids": [
+        "chou-ka-qiu-sheng-huang-dao",
+        "long-dao-yi-shou-qi-yuan",
+        "luan-tu-cai-shi-jie"
+      ],
+      "top_pick_ids": [
+        "chou-ka-qiu-sheng-huang-dao",
+        "long-dao-yi-shou-qi-yuan"
+      ],
+      "cross_game_insight": "Today's usable adds again come from CN-only TapTap surfaces rather than KR sources: one just-launched smaller-scale survival roguelike, one high-traction dinosaur survival prereg title, and one secondary color-shooter/gacha prereg page with explicit pull-economy rewards.",
+      "notes": [
+        "No KR title was promoted today because the quickly accessible KR local sources did not beat these CN-only additions on freshness plus local-only evidence within the time window.",
+        "Top-pick quality is mixed: one add already looks ad-hybrid, while the dinosaur survival title may be too hot locally to offer much whitespace.",
+        "Today's third add is explicitly secondary quality: 乱涂彩世界 shows a clearer gacha economy than many filler prereg pages, but Thai fit is still softer than survival/RPG lanes."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "chou-ka-qiu-sheng-huang-dao",
+          "status": "Reviewing",
+          "comment": "Fresh CN launch with local-only evidence, but monetization already looks ad-heavy."
+        },
+        {
+          "game_id": "long-dao-yi-shou-qi-yuan",
+          "status": "Reviewing",
+          "comment": "Big local traction makes it worth tracking, but whitespace is narrower than for smaller teams."
+        },
+        {
+          "game_id": "luan-tu-cai-shi-jie",
+          "status": "Reviewing",
+          "comment": "Local-only prereg with explicit gacha rewards, but Thai fit is softer than the survival add."
         }
       ]
     },
@@ -2207,389 +2598,42 @@
       ]
     },
     {
-      "date": "2026-04-12",
-      "headline": "Fresh CN local-source pass adds one newly launched survival roguelike and two prereg titles with visible live-service structure, but conviction falls off quickly after the top two.",
+      "date": "2026-04-10",
+      "headline": "Corrected shortlist after removing invalid large/globalized candidates. Current list is now local-source and untranslated-first.",
       "game_ids": [
-        "chou-ka-qiu-sheng-huang-dao",
-        "long-dao-yi-shou-qi-yuan",
-        "luan-tu-cai-shi-jie"
+        "qi-jie-meng-tan",
+        "ye-mu-zhi-xia",
+        "xue-song"
       ],
       "new_game_ids": [
-        "chou-ka-qiu-sheng-huang-dao",
-        "long-dao-yi-shou-qi-yuan",
-        "luan-tu-cai-shi-jie"
+        "qi-jie-meng-tan",
+        "ye-mu-zhi-xia",
+        "xue-song"
       ],
       "top_pick_ids": [
-        "chou-ka-qiu-sheng-huang-dao",
-        "long-dao-yi-shou-qi-yuan"
+        "qi-jie-meng-tan",
+        "xue-song"
       ],
-      "cross_game_insight": "Today's usable adds again come from CN-only TapTap surfaces rather than KR sources: one just-launched smaller-scale survival roguelike, one high-traction dinosaur survival prereg title, and one secondary color-shooter/gacha prereg page with explicit pull-economy rewards.",
+      "cross_game_insight": "After applying the tighter filter, the best local-source opportunities skew toward untranslated RPG and strategy candidates rather than globally marketed tentpoles.",
       "notes": [
-        "No KR title was promoted today because the quickly accessible KR local sources did not beat these CN-only additions on freshness plus local-only evidence within the time window.",
-        "Top-pick quality is mixed: one add already looks ad-hybrid, while the dinosaur survival title may be too hot locally to offer much whitespace.",
-        "Today's third add is explicitly secondary quality: 乱涂彩世界 shows a clearer gacha economy than many filler prereg pages, but Thai fit is still softer than survival/RPG lanes."
+        "No Korean candidate was promoted in this corrected pass because the quickly accessible KR options were either too large, too globally exposed, or not verified enough.",
+        "Next pass should continue direct KR local-source scouting rather than forcing low-confidence inclusions."
       ],
       "game_snapshots": [
         {
-          "game_id": "chou-ka-qiu-sheng-huang-dao",
-          "status": "Reviewing",
-          "comment": "Fresh CN launch with local-only evidence, but monetization already looks ad-heavy."
-        },
-        {
-          "game_id": "long-dao-yi-shou-qi-yuan",
-          "status": "Reviewing",
-          "comment": "Big local traction makes it worth tracking, but whitespace is narrower than for smaller teams."
-        },
-        {
-          "game_id": "luan-tu-cai-shi-jie",
-          "status": "Reviewing",
-          "comment": "Local-only prereg with explicit gacha rewards, but Thai fit is softer than the survival add."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-13",
-      "headline": "Fresh CN local-source pass adds one stronger card-RPG paid test, one strategy-side SLG near-launch, and one secondary female-oriented prereg candidate; conviction again falls off after the top two.",
-      "game_ids": [
-        "nv-shen-zhi-guang",
-        "xin-tiao-xian-luo",
-        "san-guo-tian-xia-gui-xin"
-      ],
-      "new_game_ids": [
-        "nv-shen-zhi-guang",
-        "xin-tiao-xian-luo",
-        "san-guo-tian-xia-gui-xin"
-      ],
-      "top_pick_ids": [
-        "nv-shen-zhi-guang",
-        "san-guo-tian-xia-gui-xin"
-      ],
-      "cross_game_insight": "Today's usable adds again came from CN-only TapTap surfaces rather than KR sources: the best two are a live paid-test card RPG and a near-launch war SLG, while the female-oriented add is more of a secondary economy-visible watch candidate.",
-      "notes": [
-        "No KR title was promoted today because the quickly accessible KR local sources did not beat these CN-only additions on freshness plus local-only evidence within the time window.",
-        "Top-pick quality is decent but not perfect: one strategy add is already fairly hot locally, and the female-oriented add remains a narrower Thai-fit bet.",
-        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
-      ],
-      "game_snapshots": [
-        {
-          "game_id": "nv-shen-zhi-guang",
+          "game_id": "qi-jie-meng-tan",
           "status": "Watchlist",
-          "comment": "Fresh CN-only card RPG with visible IAP and paid-test structure; strongest new RPG add today."
+          "comment": "Good RPG fit, but still need stronger source confirmation beyond TapTap."
         },
         {
-          "game_id": "xin-tiao-xian-luo",
+          "game_id": "ye-mu-zhi-xia",
           "status": "Reviewing",
-          "comment": "Visible prereg economy is real, but female-oriented fit is secondary versus stronger RPG/SLG lanes."
+          "comment": "Need publisher clarity before escalation."
         },
         {
-          "game_id": "san-guo-tian-xia-gui-xin",
+          "game_id": "xue-song",
           "status": "Watchlist",
-          "comment": "Best strategy-side add today: clear SLG fit and visible draw/resource economy, but already fairly hot locally."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-14",
-      "headline": "Fresh CN local-source reserve pass adds one stronger city-builder test and two secondary female/cozy prereg candidates; conviction is usable but softer than the better RPG/SLG days.",
-      "game_ids": [
-        "hui-guang-zhi-cheng-1907",
-        "dai-hao-lian",
-        "tong-hua-shi"
-      ],
-      "new_game_ids": [
-        "hui-guang-zhi-cheng-1907",
-        "dai-hao-lian",
-        "tong-hua-shi"
-      ],
-      "top_pick_ids": [
-        "hui-guang-zhi-cheng-1907",
-        "dai-hao-lian"
-      ],
-      "cross_game_insight": "Today's usable additions again came from CN-only TapTap reserve surfaces rather than KR sources: one systems-heavier city-builder stands out, while the other two adds are secondary female/cozy candidates with weaker monetization proof.",
-      "notes": [
-        "No KR title was promoted today because the quickly accessible KR local sources still did not beat these CN-only adds on freshness plus local-only evidence within the time window.",
-        "Top-pick quality is softer than some earlier RPG/SLG days because today's reserve-page field leaned more toward sim and female-oriented titles than obvious spend-heavy lanes.",
-        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
-      ],
-      "game_snapshots": [
-        {
-          "game_id": "hui-guang-zhi-cheng-1907",
-          "status": "Watchlist",
-          "comment": "Most interesting add today: local-only city-builder test with clearer systems than the other reserve pages."
-        },
-        {
-          "game_id": "dai-hao-lian",
-          "status": "Reviewing",
-          "comment": "Female-oriented hook is distinctive, but commercialization proof is still lighter than the city-builder add."
-        },
-        {
-          "game_id": "tong-hua-shi",
-          "status": "Reviewing",
-          "comment": "Clean local-only cozy signal, but monetization depth is still the main question."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-15",
-      "headline": "Fresh CN local-source reserve pass adds two clearer RPG/strategy-facing candidates and two secondary breadth picks; quality is better than yesterday but still mostly CN-only.",
-      "game_ids": [
-        "lv-meng-shi-kong-zhi-sheng",
-        "xun-long-zhi-lv",
-        "wang-zhe-jian-dui",
-        "chong-ba-pa-ke"
-      ],
-      "new_game_ids": [
-        "lv-meng-shi-kong-zhi-sheng",
-        "xun-long-zhi-lv",
-        "wang-zhe-jian-dui",
-        "chong-ba-pa-ke"
-      ],
-      "top_pick_ids": [
-        "xun-long-zhi-lv",
-        "lv-meng-shi-kong-zhi-sheng"
-      ],
-      "cross_game_insight": "Today's usable additions again came from CN-only TapTap reserve pages rather than KR sources: a dragon-raising RPG and a fantasy adventure lead the batch, while a naval strategy title and a smaller horde-action test round out the list with lower conviction.",
-      "notes": [
-        "No KR title was promoted today because the quickly accessible KR local sources did not beat these CN reserve-page adds on freshness plus local-only evidence within the time window.",
-        "Top-pick quality improved versus 2026-04-14 because today's reserve field offered clearer RPG/strategy lanes with visible IAP, not just cozy/female-oriented breadth adds.",
-        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
-      ],
-      "game_snapshots": [
-        {
-          "game_id": "lv-meng-shi-kong-zhi-sheng",
-          "status": "Watchlist",
-          "comment": "Best new reserve-page add today: clear CN-only presentation plus visible IAP on a fantasy adventure lane."
-        },
-        {
-          "game_id": "xun-long-zhi-lv",
-          "status": "Watchlist",
-          "comment": "Strongest Thai-fit new add today: dragon-raising RPG loop plus visible IAP and near-term launch timing."
-        },
-        {
-          "game_id": "wang-zhe-jian-dui",
-          "status": "Reviewing",
-          "comment": "Useful strategy-side add, but monetization proof is thinner than the top two reserve candidates."
-        },
-        {
-          "game_id": "chong-ba-pa-ke",
-          "status": "Reviewing",
-          "comment": "Fresh small-studio action add with visible IAP, but still a secondary bet versus the top RPG/strategy picks."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-16",
-      "headline": "Fresh CN local-source scan adds one newly launched Korean-style MMO, one newly surfaced IP card-RPG reserve page, and one lower-whitespace idle-RPG reserve add; quality is usable, but publisher-opportunity upside is mixed.",
-      "game_ids": [
-        "xin-da-feng-da-geng-ren",
-        "shen-qi-fen-zheng",
-        "zong-shi-zhi-shang"
-      ],
-      "new_game_ids": [
-        "xin-da-feng-da-geng-ren",
-        "shen-qi-fen-zheng",
-        "zong-shi-zhi-shang"
-      ],
-      "top_pick_ids": [
-        "xin-da-feng-da-geng-ren",
-        "shen-qi-fen-zheng"
-      ],
-      "cross_game_insight": "Today's usable additions again came from CN-only TapTap new/reserve surfaces rather than KR sources: 新大奉打更人 wins on fresh reserve momentum, 神泣：纷争 wins on structured live-launch proof, and 宗师之上 is the extra idle-RPG breadth add with lower whitespace.",
-      "notes": [
-        "No KR title was promoted today because the quickly accessible KR local sources still did not beat these CN additions on freshness plus local-only evidence within the time window.",
-        "Top-pick quality is mixed: 神泣：纷争 has the cleanest structured launch/IAP evidence but already shows paywall complaints, while 宗师之上 is useful category coverage but comes from a stronger self-publishing operator than ideal.",
-        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
-      ],
-      "game_snapshots": [
-        {
-          "game_id": "xin-da-feng-da-geng-ren",
-          "status": "Watchlist",
-          "comment": "Best fresh reserve-page add today, but supplier / publishing capability still needs verification."
-        },
-        {
-          "game_id": "shen-qi-fen-zheng",
-          "status": "Watchlist",
-          "comment": "Strong structured evidence and fresh launch timing, but likely VIP/paywall-heavy."
-        },
-        {
-          "game_id": "zong-shi-zhi-shang",
-          "status": "Reviewing",
-          "comment": "Usable idle-RPG add, but Lingxi-sized self-publishing power lowers whitespace."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-17",
-      "headline": "Fresh CN local-source scan adds three contained midcore mobile candidates plus one niche roguelike wildcard; the best signals come from small-studio-style TapTap pages, but only 英雄守御 has direct IAP confirmation today.",
-      "game_ids": [
-        "ying-xiong-shou-yu",
-        "yi-jian-xian-tu",
-        "yao-shi-ge-dou",
-        "gui-yi-rou-ge-ma-jiang"
-      ],
-      "new_game_ids": [
-        "ying-xiong-shou-yu",
-        "yi-jian-xian-tu",
-        "yao-shi-ge-dou",
-        "gui-yi-rou-ge-ma-jiang"
-      ],
-      "top_pick_ids": [
-        "ying-xiong-shou-yu",
-        "yao-shi-ge-dou",
-        "yi-jian-xian-tu"
-      ],
-      "cross_game_insight": "Today's strongest adds again came from CN-only TapTap new/reserve surfaces rather than KR sources: 英雄守御 wins on confirmed IAP plus contained publisher profile, 耀世格斗 adds the best action-side breadth, and 一剑仙途 supplies a cleaner xianxia reserve-page option with smaller-operator whitespace than the louder giant-IP pages.",
-      "notes": [
-        "No KR title was promoted today because the quickly accessible KR local sources still did not beat these CN additions on freshness plus local-only evidence within the time window.",
-        "Only 英雄守御 had direct 有内购 confirmation on the checked metadata today; the other three adds remain F2P+IAP inferences based on mobile genre norms and page framing.",
-        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
-      ],
-      "game_snapshots": [
-        {
-          "game_id": "ying-xiong-shou-yu",
-          "status": "Watchlist",
-          "comment": "Best new add today: local-only card RPG with visible IAP and a near-term launch window."
-        },
-        {
-          "game_id": "yi-jian-xian-tu",
-          "status": "Watchlist",
-          "comment": "Clean local-only xianxia reserve add, but IAP remains inferred rather than confirmed."
-        },
-        {
-          "game_id": "yao-shi-ge-dou",
-          "status": "Watchlist",
-          "comment": "Best action-side add today, but still needs hard IAP confirmation from later metadata or live launch."
-        },
-        {
-          "game_id": "gui-yi-rou-ge-ma-jiang",
-          "status": "Reviewing",
-          "comment": "Fresh and local-only, but monetization clarity and Thai genre fit are weaker than the top three adds."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-18",
-      "headline": "Fresh CN local-source scan adds one high-whitespace pre-launch extraction adventure, one trending indie survival extraction game, one social sim builder, and one Lineage 1 nostalgia MMORPG clone; the extraction trend dominates but only pre-launch signals are visible.",
-      "game_ids": [
-        "mo-ri-ying-di",
-        "dai-hao-meng-he",
-        "xi-wang-cheng",
-        "meng-xiang-yu-zheng-cheng"
-      ],
-      "new_game_ids": [
-        "mo-ri-ying-di",
-        "dai-hao-meng-he",
-        "xi-wang-cheng",
-        "meng-xiang-yu-zheng-cheng"
-      ],
-      "top_pick_ids": [
-        "dai-hao-meng-he",
-        "mo-ri-ying-di",
-        "meng-xiang-yu-zheng-cheng"
-      ],
-      "cross_game_insight": "Today's strongest adds come from CN-only TapTap surfaces: 代号梦核 wins on highest prereg traction from the smallest team in the hottest extraction trend, 末日营地 adds trending indie survival extraction breadth, and 梦想与征程 supplies a Lineage nostalgia MMORPG wildcard despite rough execution.",
-      "notes": [
-        "No KR title was promoted today because the quickly accessible KR local sources still did not beat these CN additions on freshness plus local-only evidence within the time window.",
-        "代号：梦核 has 25万 preregistrations from an extremely tiny first-time studio but no confirmed IAP or launch date yet, so it stays Watchlist rather than a top conviction pick.",
-        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
-      ],
-      "game_snapshots": [
-        {
-          "game_id": "dai-hao-meng-he",
-          "status": "Watchlist",
-          "comment": "Highest-whitespace candidate today: 25万 prereg from an extremely tiny studio in the hottest CN extraction trend."
-        },
-        {
-          "game_id": "mo-ri-ying-di",
-          "status": "Reviewing",
-          "comment": "Trending extraction/survival loop from a tiny indie studio; monetization proof still thin but genre is hot."
-        },
-        {
-          "game_id": "xi-wang-cheng",
-          "status": "Reviewing",
-          "comment": "Distinctive toy-collectible builder with anti-grind positioning, but Thai fit is softer than RPG/strategy lanes."
-        },
-        {
-          "game_id": "meng-xiang-yu-zheng-cheng",
-          "status": "Reviewing",
-          "comment": "Lineage 1 nostalgia clone with rough execution but proven Korean IP monetization potential in TH."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-19",
-      "headline": "Fresh CN local-source scan adds one small-studio fighting-game test with confirmed IAP, one idle mythology card RPG launch, one cozy food-truck sim, and one reserve-page anime card RPG; quality is mixed with the strongest signals coming from confirmed-IAP small-team launches.",
-      "game_ids": [
-        "ge-dou-tian-xia",
-        "zui-feng-shen",
-        "duo-la-de-ying-can-can-che",
-        "lai-zi-hei-dong-de-lv-ren"
-      ],
-      "new_game_ids": [
-        "ge-dou-tian-xia",
-        "zui-feng-shen",
-        "duo-la-de-ying-can-can-che",
-        "lai-zi-hei-dong-de-lv-ren"
-      ],
-      "top_pick_ids": [
-        "ge-dou-tian-xia",
-        "zui-feng-shen"
-      ],
-      "cross_game_insight": "Today's usable adds come from CN-only TapTap surfaces rather than KR sources: 格斗天下 wins on confirmed IAP plus a very contained studio profile, 最封神 adds idle-card RPG breadth with confirmed IAP, while 朵拉的露营餐车 and 来自黑洞的旅人 are secondary adds with weaker Thai fit or developer trust concerns.",
-      "notes": [
-        "No KR title was promoted today because the quickly accessible KR local sources did not produce a better fit than these CN-only additions within the time window.",
-        "Top-pick quality is acceptable but not exceptional: both top picks have confirmed IAP but sit in narrower Thai genre lanes (fighting, idle card) than the strongest RPG/SLG candidates from prior days.",
-        "朵拉的露营餐车 has very heavy monetization visible in user reviews (multiple privilege cards totaling 271 RMB) but its cozy-sim lane is a softer Thai top-grossing fit.",
-        "来自黑洞的旅人 has developer trust issues flagged in user reviews (prior WeChat mini-game shut down without notice), which lowers conviction despite the anime card-RPG lane being monetizable.",
-        "SEA/Thailand non-launch status is inferred from absence of visible EN/TH localization on the checked local source pages, not exhaustive region-store verification."
-      ],
-      "game_snapshots": [
-        {
-          "game_id": "ge-dou-tian-xia",
-          "status": "Reviewing",
-          "comment": "Fresh small-studio fighting test with confirmed IAP, but Thai genre fit is narrower than RPG/strategy."
-        },
-        {
-          "game_id": "zui-feng-shen",
-          "status": "Reviewing",
-          "comment": "Fresh CN-only idle card RPG with confirmed IAP, but early reviews flag VIP gating; Thai fit is secondary versus stronger action/strategy adds."
-        },
-        {
-          "game_id": "duo-la-de-ying-can-can-che",
-          "status": "Reviewing",
-          "comment": "Fresh cozy sim launch with heavy visible IAP, but Thai fit is softer than RPG/strategy lanes."
-        },
-        {
-          "game_id": "lai-zi-hei-dong-de-lv-ren",
-          "status": "Reviewing",
-          "comment": "Reserve-page anime card RPG with combat hooks, but developer trust issues and unclear IAP metadata lower conviction."
-        }
-      ]
-    },
-    {
-      "date": "2026-04-22",
-      "headline": "Thin scan today: only two genuinely new CN local-source candidates surfaced. One strong idle xianxia RPG with confirmed IAP and small publishers (大道仙途) launching today's test; one weak solo indie game-dev sim (全民游戏大亨) launching April 24. CN mobile chart is dominated by major releases (异环, 王者荣耀世界) this week, squeezing out small/mid publisher visibility.",
-      "game_ids": [
-        "da-dao-xian-tu",
-        "quan-min-you-xi-da-heng"
-      ],
-      "new_game_ids": [
-        "da-dao-xian-tu",
-        "quan-min-you-xi-da-heng"
-      ],
-      "top_pick_ids": [
-        "da-dao-xian-tu"
-      ],
-      "game_snapshots": [
-        {
-          "id": "da-dao-xian-tu",
-          "status": "New",
-          "comment": "Strongest candidate today: confirmed IAP, small publishers, xianxia idle RPG test launch."
-        },
-        {
-          "id": "quan-min-you-xi-da-heng",
-          "status": "Reviewing",
-          "comment": "Solo indie dev, game dev sim launching April 24. Very small scope, unclear monetization. Worth tracking but low conviction."
+          "comment": "Most interesting strategy-side candidate; keep tracking systems and monetization clues."
         }
       ]
     }
