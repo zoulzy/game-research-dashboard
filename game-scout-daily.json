@@ -7,7 +7,7 @@
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-22T10:40:38+07:00",
+    "generated_at": "2026-04-22T11:07:17+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -2061,66 +2061,67 @@
       "status_history": []
     },
     {
-      "id": "quan-min-you-xi-da-heng",
-      "title": "全民游戏大亨",
-      "logo_path": "https://img-tc.tapimg.com/market/images/822e7dc467207d649feb1f7409f6bcb0.jpg/_tap_appicon.jpg",
-      "developer": "小王独立游戏",
-      "publisher": "小王独立游戏",
+      "id": "xiao-ji-shou-wei",
+      "title": "小鸡守卫",
+      "logo_path": "https://img-tc.tapimg.com/market/images/00ca24c2dddc6bbd2d5c42419e274626.png/_tap_appicon.jpg",
+      "developer": "太古游工作室",
+      "publisher": "深圳市一七玩信息技术有限公司",
       "developer_country": "CN",
-      "genre": "Simulation",
-      "subgenre": "Game dev tycoon sim",
+      "genre": "Strategy",
+      "subgenre": "Idle tower-defense / merge",
       "platforms": [
         "Android",
         "iOS"
       ],
-      "first_server_launch_date": "2026-04-24",
+      "first_server_launch_date": "2026-04-20",
       "launch_status_sea": "not launched",
       "launch_status_thailand": "not launched",
-      "confidence": "low",
-      "score": 12,
-      "why_it_matters": "Genuinely small solo indie dev (小王独立游戏) with a game-company management sim launching April 24. The simulation/tycoon genre has niche but real appeal in CN and SEA, and the dev is actively iterating based on player feedback. Low score reflects weak monetization signal and small scope.",
-      "analysis_note": "Evidence: TapTap CN app page shows 简体中文 only, Android/iOS, 上线日期 2026-04-24, #10 on 新品榜. Game is 66MB, by a solo developer (小王) who is also the sole producer/designer/programmer. Reviews note the game is fun but shallow with limited content. No English or Thai localization visible. Inference: this is a very small indie project with unclear monetization (possibly premium or light IAP). The game-dev-tycoon niche does not map strongly to Thailand's top-grossing lanes, but it is genuinely new and local-only.",
+      "confidence": "medium",
+      "score": 20,
+      "why_it_matters": "Small-studio idle tower-defense with merge mechanics and confirmed IAP. The idle/auto-battle loop plus hero collection maps to Thailand's proven casual-midcore spend lane.",
+      "analysis_note": "Evidence: TapTap CN all-info shows 正式上线日期 2026-04-20, 支持语言 简体中文, 是否有内购 有内购, 266MB Android. Supplier is 深圳太古游科技有限公司, small team with only 1 review and 20 follows. No English or Thai localization visible. Inference: tower-defense/merge idle is a secondary Thai fit below RPG/SLG, but confirmed IAP and tiny studio profile make it worth tracking.",
       "source_links": [
         {
           "label": "TapTap local source",
-          "url": "https://www.taptap.cn/app/838446"
+          "url": "https://www.taptap.cn/app/760508"
+        },
+        {
+          "label": "TapTap game info",
+          "url": "https://www.taptap.cn/app/760508/all-info?platform=android"
         }
       ],
       "official_website": "",
-      "official_or_source_page": "https://www.taptap.cn/app/838446",
-      "monetization_model": "Unclear (possibly premium or light IAP)",
-      "iap_signal": "unclear",
-      "first_seen": "2026-04-22",
+      "official_or_source_page": "https://www.taptap.cn/app/760508",
+      "monetization_model": "F2P + IAP",
+      "iap_signal": "confirmed",
+      "first_seen": "2026-04-20",
       "default_status": "Reviewing",
       "status": "Reviewing",
-      "comment": "Solo indie dev, game dev sim launching April 24. Very small scope, unclear monetization. Worth tracking but low conviction.",
-      "priority": "low",
+      "comment": "Small-studio idle TD with confirmed IAP. Secondary Thai fit but good publishing whitespace.",
+      "priority": "medium",
       "tags": [
-        "simulation",
-        "tycoon",
-        "indie",
-        "game-dev"
+        "strategy",
+        "tower-defense",
+        "idle",
+        "merge",
+        "hero-collection"
       ],
       "fit_with_th_top_genres": [
-        "Simulation (niche)"
+        "Casual midcore",
+        "Idle progression"
       ],
-      "thai_market_rationale": "Weak fit for Thailand's top-grossing RPG/strategy lanes. Included primarily for completeness as a genuinely new local-only indie launch.",
-      "last_status_updated": null,
-      "last_comment_updated": null,
-      "status_history": []
+      "thai_market_rationale": "Tower-defense/merge idle is below the clearest RPG/SLG lane for Thailand, but confirmed IAP and small team give it publishing-opportunity value."
     }
   ],
   "daily_reports": [
     {
       "date": "2026-04-22",
-      "headline": "Thin scan today: only two genuinely new CN local-source candidates surfaced. One strong idle xianxia RPG with confirmed IAP and small publishers (大道仙途) launching today's test; one weak solo indie game-dev sim (全民游戏大亨) launching April 24. CN mobile chart is dominated by major releases (异环, 王者荣耀世界) this week, squeezing out small/mid publisher visibility.",
+      "headline": "One strong idle xianxia RPG (大道仙途) with confirmed IAP from a small studio, launching today's limited delete-test. CN chart dominated by major releases (异环, 王者荣耀世界).",
       "game_ids": [
-        "da-dao-xian-tu",
-        "quan-min-you-xi-da-heng"
+        "da-dao-xian-tu"
       ],
       "new_game_ids": [
-        "da-dao-xian-tu",
-        "quan-min-you-xi-da-heng"
+        "da-dao-xian-tu"
       ],
       "top_pick_ids": [
         "da-dao-xian-tu"
@@ -2136,51 +2137,44 @@
           "status": "Reviewing",
           "comment": "Solo indie dev, game dev sim launching April 24. Very small scope, unclear monetization. Worth tracking but low conviction."
         }
-      ]
+      ],
+      "cross_game_insight": "大道仙途 is the strongest recent candidate: confirmed IAP, genuinely small publishers (六爻/金琵琶), and idle xianxia RPG maps cleanly to Thailand's proven spend lane."
     },
     {
       "date": "2026-04-21",
-      "headline": "Quiet scouting day with no new CN/KR candidates surfaced. Existing pipeline stable at 36 tracked titles. Key activity: status tracking and icon/logo verification for recent adds (April 18-19 batch). TapTap 新品榜 dominated by major releases, squeezing small/mid publisher visibility.",
-      "game_ids": [],
+      "headline": "No new candidates surfaced today. Previously tracked 王者舰队 (naval 5v5 strategy) officially launched with confirmed IAP, but from a listed publisher (华清飞扬) with self-publishing capability. Pipeline maintenance day.",
+      "game_ids": [
+        "wang-zhe-jian-dui"
+      ],
       "new_game_ids": [],
       "top_pick_ids": [],
-      "cross_game_insight": "Two consecutive thin days (Apr 20-21) suggest CN mobile chart is in a major-release cycle. Pipeline holds 38 candidates with 7 Watchlist and 25 Reviewing. 格斗天下 (April 19 add) game page returned 404 on TapTap — possible removal, needs re-verification.",
+      "cross_game_insight": "王者舰队 moved from prereg to live launch — no new candidates surfaced. Pipeline holds 38 tracked titles. CN chart dominated by 异环 (tomorrow launch) and 王者荣耀世界 (5 days old), squeezing small/mid visibility.",
       "game_snapshots": [
         {
-          "id": "ge-dou-tian-xia",
+          "id": "wang-zhe-jian-dui",
           "status": "Reviewing",
-          "comment": "TapTap page returned 404 — game possibly removed. Needs re-verification before escalating."
-        },
-        {
-          "id": "mo-ri-ying-di",
-          "status": "Reviewing",
-          "comment": "Survival sim with ad-heavy monetization reports. Keep in review."
-        },
-        {
-          "id": "dai-hao-meng-he",
-          "status": "Reviewing",
-          "comment": "Mystery/RPG hybrid, limited source data. Needs deeper TapTap all-info check."
-        },
-        {
-          "id": "zui-feng-shen",
-          "status": "Reviewing",
-          "comment": "Idle card RPG with confirmed IAP from tiny studio. Strong Thai RPG fit."
-        },
-        {
-          "id": "da-dao-xian-tu",
-          "status": "New",
-          "comment": "Not yet surfaced — will appear on next active scan day."
+          "comment": "Officially launched April 21. Confirmed IAP but listed publisher limits whitespace."
         }
       ]
     },
     {
       "date": "2026-04-20",
-      "headline": "No new CN/KR candidates surfaced today. Focus shifts to status tracking of existing pipeline: 7 Watchlist titles remain under active monitoring, 25 Reviewing candidates still pending stronger source confirmation. Scout scan returned no fresh TapTap 新品榜 or 预约榜 additions beyond already-tracked titles.",
-      "game_ids": [],
-      "new_game_ids": [],
+      "headline": "One idle tower-defense/merge launch surfaced from a small CN studio with confirmed IAP (小鸡守卫). CN chart dominated by major releases squeezing small/mid publisher visibility.",
+      "game_ids": [
+        "xiao-ji-shou-wei"
+      ],
+      "new_game_ids": [
+        "xiao-ji-shou-wei"
+      ],
       "top_pick_ids": [],
-      "cross_game_insight": "Pipeline maintenance day: no fresh adds but status review confirms 七界梦谭 (Watchlist), 雪松 (Watchlist), 幻想少女公会 (Watchlist), 亿万光年 (Watchlist), 希望城 (Watchlist), 抽卡求生 (Watchlist), and 大道仙途 remain the strongest tracked candidates for Thai publishing opportunity.",
-      "game_snapshots": []
+      "cross_game_insight": "Thin day with one usable add: 小鸡守卫 is a tiny-studio idle TD with confirmed IAP. Tower-defense/merge is secondary for Thai revenue but the studio profile offers real publishing whitespace.",
+      "game_snapshots": [
+        {
+          "id": "xiao-ji-shou-wei",
+          "status": "Reviewing",
+          "comment": "Small-studio idle TD/merge with confirmed IAP. 266MB, CN-only presentation. Keep tracking."
+        }
+      ]
     },
     {
       "date": "2026-04-19",
@@ -2822,7 +2816,7 @@
     "top_picks_today": 1,
     "candidate_pipeline": 38,
     "pending_verification": 33,
-    "new_games_today": 2,
+    "new_games_today": 1,
     "weekly_syntheses": 1
   }
 }
