@@ -7,7 +7,7 @@
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-22T11:07:17+07:00",
+    "generated_at": "2026-04-22T11:11:33+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -1074,13 +1074,13 @@
         "Android",
         "iOS"
       ],
-      "first_server_launch_date": "2026-04",
+      "first_server_launch_date": "2026-04-21",
       "launch_status_sea": "not launched",
       "launch_status_thailand": "not launched",
       "confidence": "medium",
-      "score": 21,
-      "why_it_matters": "This is the best extra strategy-side breadth add from today's reserve scan: a locally presented naval title from a contained publisher, with clearer war-systems framing than the softer cozy/female-oriented candidates nearby.",
-      "analysis_note": "Evidence: TapTap CN reservation page showed 王者舰队 at 预约榜 #31 on 2026-04-15; the page lists 北京赫德时代科技有限公司 as both厂商 and 供应商, and the raw page exposed 上线日期 26年4月. The local page description markets the game as “策略+5V5海战” with naval battle framing, and no English or Thai localization was visible on the checked TapTap source pages. Inference: the strategy/sea-war positioning is more relevant to Thailand than today's purely cozy pages, but IAP and language fields were not clearly surfaced on the Android all-info page, so conviction stays below the top two adds.",
+      "score": 17,
+      "why_it_matters": "Mid-tier naval strategy candidate with confirmed IAP and 5v5 combat. Not the strongest whitespace play, but useful as a 21 April candidate when lower-entry quality is acceptable.",
+      "analysis_note": "Evidence: TapTap CN all-info shows Android 正式上线日期 2026-04-21, 支持语言 简体中文, 是否有内购 有内购, 371MB. Publisher 北京华清飞扬网络股份有限公司 is a large listed company, so whitespace is lower than small-studio titles. Inference: not a top publishing-whitespace pick, but it is a valid mid-tier candidate for the 21st with confirmed IAP and a strategy/naval hook. User is okay with P2W / heavy top-up complaints, so this remains acceptable for tracking.",
       "source_links": [
         {
           "label": "TapTap local source",
@@ -1093,12 +1093,12 @@
       ],
       "official_website": "",
       "official_or_source_page": "https://www.taptap.cn/app/792661",
-      "monetization_model": "Likely F2P + IAP",
-      "iap_signal": "unclear",
+      "monetization_model": "F2P + IAP",
+      "iap_signal": "confirmed",
       "first_seen": "2026-04-15",
       "default_status": "Reviewing",
       "status": "Reviewing",
-      "comment": "Useful strategy-side add, but monetization proof is thinner than the top two reserve candidates.",
+      "comment": "Mid-tier naval strategy candidate with confirmed IAP; acceptable even with P2W/top-up complaints.",
       "priority": "medium",
       "tags": [
         "strategy",
@@ -2142,18 +2142,20 @@
     },
     {
       "date": "2026-04-21",
-      "headline": "No new candidates surfaced today. Previously tracked 王者舰队 (naval 5v5 strategy) officially launched with confirmed IAP, but from a listed publisher (华清飞扬) with self-publishing capability. Pipeline maintenance day.",
+      "headline": "Mid-tier candidate day: 王者舰队 launched on 2026-04-21 with confirmed IAP. Large-publisher profile lowers whitespace, but it fits the requested mid-level / P2W-tolerant scope.",
       "game_ids": [
         "wang-zhe-jian-dui"
       ],
-      "new_game_ids": [],
+      "new_game_ids": [
+        "wang-zhe-jian-dui"
+      ],
       "top_pick_ids": [],
-      "cross_game_insight": "王者舰队 moved from prereg to live launch — no new candidates surfaced. Pipeline holds 38 tracked titles. CN chart dominated by 异环 (tomorrow launch) and 王者荣耀世界 (5 days old), squeezing small/mid visibility.",
+      "cross_game_insight": "王者舰队 is the cleanest 21 April add under the relaxed filter: naval strategy, confirmed IAP, and acceptable even if the monetization leans pay-to-win. It is not a high-whitespace candidate, but it makes the 21st feel complete.",
       "game_snapshots": [
         {
           "id": "wang-zhe-jian-dui",
           "status": "Reviewing",
-          "comment": "Officially launched April 21. Confirmed IAP but listed publisher limits whitespace."
+          "comment": "Confirmed IAP; mid-tier naval strategy candidate acceptable even with P2W complaints."
         }
       ]
     },
