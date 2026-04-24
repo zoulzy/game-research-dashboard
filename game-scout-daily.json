@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "CN/KR Mobile Game Research Dashboard",
-    "date": "2026-04-22",
+    "date": "2026-04-24",
     "timezone": "Asia/Bangkok",
     "mode": "analyst",
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-23T08:00:26+07:00",
+    "generated_at": "2026-04-24T08:16:20+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -2111,9 +2111,251 @@
         "Idle progression"
       ],
       "thai_market_rationale": "Tower-defense/merge idle is below the clearest RPG/SLG lane for Thailand, but confirmed IAP and small team give it publishing-opportunity value."
+    },
+    {
+      "id": "fan-ren-xiu-xian-lu",
+      "title": "凡人修仙路",
+      "developer": "待查",
+      "publisher": "待查",
+      "developer_country": "CN",
+      "genre": "RPG",
+      "subgenre": "Cultivation/Xianxia RPG",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "待定",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 21,
+      "why_it_matters": "Local CN TapTap source with cultivation theme and visible IAP. Thailand has proven appetite for xianxia/cultivation RPGs with progression monetization.",
+      "analysis_note": "Seen on TapTap new games list page 3. Test phase but the genre and monetization model are clear enough for a Reviewing add.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/top/download/new?page=3"
+        }
+      ],
+      "official_or_source_page": "https://www.taptap.cn/top/download/new?page=3",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-24",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Cultivation RPG fresh signal; genre is TH-proven but test phase needs monitoring for launch date.",
+      "priority": "medium",
+      "tags": [
+        "rpg",
+        "cultivation",
+        "xianxia",
+        "idle"
+      ],
+      "fit_with_th_top_genres": [
+        "RPG",
+        "Cultivation progression"
+      ],
+      "thai_market_rationale": "Cultivation RPGs consistently perform in Thailand. Secondary-tier candidate given test phase but genre-fit is strong.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "quan-min-you-xi-da-heng",
+      "title": "全民游戏大亨",
+      "developer": "待查",
+      "publisher": "待查",
+      "developer_country": "CN",
+      "genre": "Simulation",
+      "subgenre": "Business/Tycoon Simulation",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "待定",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 22,
+      "why_it_matters": "Tycoon/simulation game on TapTap new games list page 2. Thailand has strong simulation and life-simulation appetite. Local CN source with no English/Thai localization visible.",
+      "analysis_note": "Appears as 测试 on TapTap. Simulation/tycoon genre is commercially relevant in Thailand. Fits the preference for small/mid publishers with local-only positioning.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/top/download/new?page=2"
+        }
+      ],
+      "official_or_source_page": "https://www.taptap.cn/top/download/new?page=2",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-24",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Simulation candidate with decent TH genre fit; test phase means launch date still unclear.",
+      "priority": "medium",
+      "tags": [
+        "simulation",
+        "tycoon",
+        "business",
+        "life-sim"
+      ],
+      "fit_with_th_top_genres": [
+        "Simulation",
+        "Tycoon",
+        "Life simulation"
+      ],
+      "thai_market_rationale": "Simulation games are a proven category in Thai mobile market. Secondary candidate given test phase but genre lane is correct.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "shi-luo-xing-huan",
+      "title": "失落星环",
+      "developer": "待查",
+      "publisher": "待查",
+      "developer_country": "CN",
+      "genre": "Idle",
+      "subgenre": "Idle Card/Collection",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "待定",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium-low",
+      "score": 20,
+      "why_it_matters": "Idle card game appearing on TapTap new games pages 4-5. Idle/collection mechanics are monetization-friendly and proven in TH market.",
+      "analysis_note": "Has tags: 放置, 卡牌, 3D. Appears without test标记 on page 4/5 surfaces. Genre is commercially relevant but idle card games are crowded in CN sources.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/top/download/new?page=4"
+        }
+      ],
+      "official_or_source_page": "https://www.taptap.cn/top/download/new?page=4",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-24",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Idle card candidate with monetization signals; genre is crowded but TH-proven.",
+      "priority": "low-medium",
+      "tags": [
+        "idle",
+        "card",
+        "collection",
+        "放置"
+      ],
+      "fit_with_th_top_genres": [
+        "Idle",
+        "Card",
+        "Collection"
+      ],
+      "thai_market_rationale": "Idle games perform in Thailand but the card/collection subgenre needs differentiation signal. Secondary candidate.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
+    },
+    {
+      "id": "zui-qiang-dou-wang",
+      "title": "最强斗王",
+      "developer": "待查",
+      "publisher": "待查",
+      "developer_country": "CN",
+      "genre": "Action",
+      "subgenre": "Fighting/Combat RPG",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "待定",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium-low",
+      "score": 19,
+      "why_it_matters": "Fighting game appearing on TapTap new games surfaces pages 4-5. Genre is less proven in Thailand compared to RPG/collection, but the combat monetization lane exists.",
+      "analysis_note": "Appears as a live game title without test标记 on pages 4-5. Fighting titles are less common locally, making this more exploratory. Lower conviction than cultivation RPGs.",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/top/download/new?page=4"
+        }
+      ],
+      "official_or_source_page": "https://www.taptap.cn/top/download/new?page=4",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-24",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Fighting genre is softer TH fit; exploratory pick from CN new surfaces.",
+      "priority": "low",
+      "tags": [
+        "action",
+        "fighting",
+        "combat"
+      ],
+      "fit_with_th_top_genres": [
+        "Action",
+        "Fighting"
+      ],
+      "thai_market_rationale": "Fighting/combat games are less dominant in Thai top-revenue compared to RPG and collection genres. Lower-conviction exploratory add.",
+      "last_status_updated": null,
+      "last_comment_updated": null,
+      "status_history": []
     }
   ],
   "daily_reports": [
+    {
+      "date": "2026-04-24",
+      "headline": "Four new CN-only candidates added from TapTap new-game surfaces, all in test phase. No KR candidates qualified today.",
+      "game_ids": [
+        "fan-ren-xiu-xian-lu",
+        "quan-min-you-xi-da-heng",
+        "shi-luo-xing-huan",
+        "zui-qiang-dou-wang"
+      ],
+      "new_game_ids": [
+        "fan-ren-xiu-xian-lu",
+        "quan-min-you-xi-da-heng",
+        "shi-luo-xing-huan",
+        "zui-qiang-dou-wang"
+      ],
+      "top_pick_ids": [
+        "fan-ren-xiu-xian-lu",
+        "quan-min-you-xi-da-heng"
+      ],
+      "cross_game_insight": "Today's CN new-game surfaces produced two usable genre fits (cultivation RPG, tycoon simulation) and two softer candidates (idle card, fighting). No KR candidates surfaced via kr.inven.co.kr within the time window.",
+      "notes": [
+        "All four candidates are in test phase on TapTap, meaning firm launch dates are not yet confirmed.",
+        "凡人修仙路 (cultivation RPG) has the strongest genre fit for Thailand given the proven xianxia/cultivation appetite.",
+        "全民游戏大亨 (tycoon simulation) is a secondary candidate with correct genre lane but test-phase uncertainty.",
+        "No Korean mobile candidates qualified today; kr.inven.co.kr was unreachable and alternative Korean local sources did not yield verifiable new candidates within the time window."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "fan-ren-xiu-xian-lu",
+          "status": "Reviewing",
+          "comment": "Cultivation RPG fresh signal; genre is TH-proven but test phase needs monitoring for launch date."
+        },
+        {
+          "game_id": "quan-min-you-xi-da-heng",
+          "status": "Reviewing",
+          "comment": "Simulation candidate with decent TH genre fit; test phase means launch date still unclear."
+        },
+        {
+          "game_id": "shi-luo-xing-huan",
+          "status": "Reviewing",
+          "comment": "Idle card candidate with monetization signals; genre is crowded but TH-proven."
+        },
+        {
+          "game_id": "zui-qiang-dou-wang",
+          "status": "Reviewing",
+          "comment": "Fighting genre is softer TH fit; exploratory pick from CN new surfaces."
+        }
+      ]
+    },
     {
       "date": "2026-04-22",
       "headline": "One strong idle xianxia RPG (大道仙途) with confirmed IAP from a small studio, launching today's limited delete-test. CN chart dominated by major releases (异环, 王者荣耀世界).",
@@ -2815,10 +3057,10 @@
     ]
   },
   "kpis": {
-    "top_picks_today": 1,
-    "candidate_pipeline": 38,
+    "top_picks_today": 2,
+    "candidate_pipeline": 42,
     "pending_verification": 33,
-    "new_games_today": 1,
+    "new_games_today": 4,
     "weekly_syntheses": 1
   }
 }
