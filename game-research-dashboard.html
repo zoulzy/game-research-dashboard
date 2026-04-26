@@ -480,9 +480,9 @@
     }
 
     function logoHtml(game) {
-      const logoUrl = `/assets/logo-proxy/${encodeURIComponent(game.id || '')}`;
-      const fallbackUrl = game.logo_path || '';
-      return `<div class="logo-title"><img class="logo" src="${logoUrl}" alt="${escapeHtml(game.title)} logo" loading="eager" referrerpolicy="no-referrer" data-fallback-src="${escapeHtml(fallbackUrl)}" onerror="if(this.dataset.fallbackSrc && !this.dataset.fallbackTried){this.dataset.fallbackTried='1';this.src=this.dataset.fallbackSrc;return;}this.style.display='none';"><div class="meta-lines"><div><strong>${escapeHtml(game.title)}</strong></div><div class="small">${escapeHtml(game.developer || 'Unknown developer')}</div><div class="small">Country: ${escapeHtml(game.developer_country || 'Unknown')}</div></div></div>`;
+      const primaryUrl = game.logo_path || '';
+      const proxyUrl = `/assets/logo-proxy/${encodeURIComponent(game.id || '')}`;
+      return `<div class="logo-title"><img class="logo" src="${primaryUrl}" alt="${escapeHtml(game.title)} logo" loading="eager" referrerpolicy="no-referrer" data-proxy-src="${proxyUrl}" onerror="if(this.dataset.proxySrc && !this.dataset.proxyTried){this.dataset.proxyTried='1';this.src=this.dataset.proxySrc;return;}this.style.display='none';"><div class="meta-lines"><div><strong>${escapeHtml(game.title)}</strong></div><div class="small">${escapeHtml(game.developer || 'Unknown developer')}</div><div class="small">Country: ${escapeHtml(game.developer_country || 'Unknown')}</div></div></div>`;
     }
 
     function topPickMobileCard(game, report, snap) {
