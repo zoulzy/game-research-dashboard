@@ -7,7 +7,7 @@
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-26T20:23:17+07:00",
+    "generated_at": "2026-04-26T20:24:06+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -2556,7 +2556,8 @@
       "new_game_ids": [],
       "top_pick_ids": [],
       "game_snapshots": [],
-      "cross_game_insight": "Apr 23 was a compression day. No new candidates met the scouting criteria."
+      "cross_game_insight": "Apr 23 was a compression day. No new candidates met the scouting criteria.",
+      "notes": []
     },
     {
       "date": "2026-04-22",
@@ -2582,7 +2583,8 @@
           "comment": "Solo indie dev, game dev sim launching April 24. Very small scope, unclear monetization. Worth tracking but low conviction."
         }
       ],
-      "cross_game_insight": "大道仙途 is the strongest recent candidate: confirmed IAP, genuinely small publishers (六爻/金琵琶), and idle xianxia RPG maps cleanly to Thailand's proven spend lane."
+      "cross_game_insight": "大道仙途 is the strongest recent candidate: confirmed IAP, genuinely small publishers (六爻/金琵琶), and idle xianxia RPG maps cleanly to Thailand's proven spend lane.",
+      "notes": []
     },
     {
       "date": "2026-04-21",
@@ -2601,7 +2603,8 @@
           "status": "Reviewing",
           "comment": "Confirmed IAP; mid-tier naval strategy candidate acceptable even with P2W complaints."
         }
-      ]
+      ],
+      "notes": []
     },
     {
       "date": "2026-04-20",
@@ -2620,7 +2623,8 @@
           "status": "Reviewing",
           "comment": "Small-studio idle TD/merge with confirmed IAP. 266MB, CN-only presentation. Keep tracking."
         }
-      ]
+      ],
+      "notes": []
     },
     {
       "date": "2026-04-19",
@@ -3092,7 +3096,9 @@
         "jie-yan"
       ],
       "cross_game_insight": "借眼 is indie with no SEA plans visible - best candidate. 洛克王国 is Tencent (high risk of SEA competition).",
-      "notes": "Scraped TapTap 新品榜 for new listings. 借眼 (horror puzzle, 8.6 rating) and 洛克王国：世界 (Tencent pet collection) confirmed not in JSON. Most other 新品榜 entries already tracked.",
+      "notes": [
+        "Scraped TapTap 新品榜 for new listings. 借眼 (horror puzzle, 8.6 rating) and 洛克王国：世界 (Tencent pet collection) confirmed not in JSON. Most other 新品榜 entries already tracked."
+      ],
       "game_snapshots": [
         {
           "game_id": "qi-jie-meng-tan",
