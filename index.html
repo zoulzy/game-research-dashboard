@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CN/KR Mobile Game Scout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600;700&family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        :root {
+            --bg: #0d0f14;
+            --bg2: #141720;
+            --bg3: #1c1f2e;
+            --border: #262938;
+            --text: #e6e8f0;
+            --text2: #8b90a8;
+            --text3: #555870;
+            --accent: #5b61e0;
+            --accent2: #7579f5;
+            --blue: #4f8ef7;
+            --yellow: #e8b82f;
+            --green: #34d17a;
+            --gray: #6b7280;
+            --red: #f05a5a;
+            --orange: #f59e0b;
+            --r: 10px;
+            --r-sm: 6px;
+        }
+
+        body {
+            font-family: 'Sarabun','Noto Sans Thai', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        /* ── HEADER ── */
+        .hdr {
+            position: sticky; top: 0; z-index: 100;
+            background: var(--bg2);
+            border-bottom: 1px solid var(--border);
+            padding: 12px 16px;
+        }
+        .hdr-in {
+            max-width: 1100px; margin: 0 auto;
+            display: flex; align-items: center; justify-content: space-between; gap: 12px;
+        }
+        .hdr h1 { font-size: 15px; font-weight: 600; letter-spacing: -0.01em; }
+        .hdr-right { display: flex; align-items: center; gap: 10px; }
+        .ts { font-size: 11px; color: var(--text3); }
+        .btn {
+            display: inline-flex; align-items: center; gap: 5px;
+            background: var(--bg3); border: 1px solid var(--border);
+            color: var(--text2); font-family: inherit; font-size: 12px;
+            padding: 5px 11px; border-radius: var(--r-sm); cursor: pointer; transition: all .15s;
+        }
+        .btn:hover { background: var(--border); color: var(--text); }
+        .btn:disabled { opacity: .5; cursor: default; }
+
+        /* ── MAIN ── */
+        .main { max-width: 1100px; margin: 0 auto; padding: 16px; }
+
+        /* ── STATS ── */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 8px; margin-bottom: 20px;
+        }
+        .scard {
+            background: var(--bg2); border: 1px solid var(--border);
+            border-radius: var(--r); padding: 12px 14px;
+        }
+        .slbl { font-size: 10px; color: var(--text3); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 3px; }
+        .sval { font-size: 22px; font-weight: 700; }
+        .ssub { font-size: 10px; color: var(--text2); margin-top: 1px; }
+
+        /* ── TABS ── */
+        .tabs {
+            display: flex; gap: 2px;
+            background: var(--bg2); border: 1px solid var(--border);
+            border-radius: var(--r-sm); padding: 3px; margin-bottom: 16px; width: fit-content;
+        }
+        .tab {
+            font-family: inherit; font-size: 13px; font-weight: 500;
+            padding: 5px 14px; border: none; border-radius: 4px;
+            background: none; color: var(--text2); cursor: pointer; transition: all .15s;
+        }
+        .tab:hover { color: var(--text); }
+        .tab.on { background: var(--bg3); color: var(--text); }
+
+        /* ── FILTERS ── */
+        .filters { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 14px; }
+        .filt, .srch {
+            background: var(--bg2); border: 1px solid var(--border);
+            color: var(--text); font-family: inherit; font-size: 12px;
+            padding: 6px 10px; border-radius: var(--r-sm); outline: none;
+        }
+        .filt:focus, .srch:focus { border-color: var(--accent); }
+        .filt { cursor: pointer; min-width: 110px; }
+        .srch-wrap { position: relative; flex: 1; min-width: 150px; }
+        .srch { width: 100%; padding-right: 28px; }
+        .srch-clr {
+            position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+            background: none; border: none; color: var(--text3); font-size: 13px;
+            cursor: pointer; line-height: 1; display: none;
+        }
+        .srch:not(:placeholder-shown) + .srch-clr { display: block; }
+        .rcount { font-size: 11px; color: var(--text3); margin-bottom: 10px; }
+
+        /* ── GAME GRID ── */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 10px;
+        }
+        .card {
+            background: var(--bg2); border: 1px solid var(--border);
+            border-radius: var(--r); padding: 12px;
+            cursor: pointer; transition: border-color .15s, transform .1s;
+            display: flex; gap: 10px; align-items: flex-start;
+        }
+        .card:hover { border-color: var(--accent); transform: translateY(-1px); }
+        .cimg {
+            width: 48px; height: 48px; border-radius: 8px;
+            object-fit: cover; background: var(--bg3); flex-shrink: 0;
+        }
+        .cimg-ph {
+            width: 48px; height: 48px; border-radius: 8px;
+            background: var(--bg3); display: flex; align-items: center;
+            justify-content: center; font-size: 11px; color: var(--text3);
+            font-weight: 600; flex-shrink: 0;
+        }
+        .cin { flex: 1; min-width: 0; }
+        .ctitle {
+            font-size: 13px; font-weight: 600;
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        }
+        .cpub { font-size: 11px; color: var(--text3); margin-top: 1px;
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .cmeta { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; align-items: center; }
+        .bdg {
+            display: inline-flex; align-items: center; gap: 2px;
+            font-size: 10px; font-weight: 500; padding: 2px 6px; border-radius: 20px;
+        }
+        .bdg-s[data-v="New"]{background:rgba(79,142,247,.14);color:var(--blue);}
+        .bdg-s[data-v="Reviewing"]{background:rgba(232,184,47,.14);color:var(--yellow);}
+        .bdg-s[data-v="Watchlist"]{background:rgba(52,209,122,.14);color:var(--green);}
+        .bdg-s[data-v="Pass"]{background:rgba(107,114,128,.14);color:var(--gray);}
+        .bdg-s[data-v="Drop"]{background:rgba(240,90,90,.14);color:var(--red);}
+        .bdg-p[data-v="high"]{color:var(--red);}
+        .bdg-p[data-v="medium"]{color:var(--yellow);}
+        .bdg-p[data-v="low"]{color:var(--text3);}
+        .cscore { font-size: 15px; font-weight: 700; color: var(--accent); margin-left: auto; flex-shrink: 0; }
+
+        /* ── DAILY REPORTS ── */
+        .rep { display: flex; flex-direction: column; gap: 7px; }
+        .rep-day {
+            background: var(--bg2); border: 1px solid var(--border);
+            border-radius: var(--r); overflow: hidden;
+        }
+        .rep-hdr {
+            display: flex; align-items: center; gap: 10px;
+            padding: 11px 14px; cursor: pointer; user-select: none;
+            transition: background .1s;
+        }
+        .rep-hdr:hover { background: var(--bg3); }
+        .rdate { font-size: 13px; font-weight: 600; min-width: 85px; }
+        .rcnt { font-size: 11px; color: var(--text3); background: var(--bg3); padding: 2px 7px; border-radius: 20px; }
+        .rtop { font-size: 10px; color: var(--orange); background: rgba(245,158,11,.1); padding: 2px 7px; border-radius: 20px; font-weight: 500; }
+        .rarr { margin-left: auto; color: var(--text3); font-size: 10px; transition: transform .2s; }
+        .rep-day.on .rarr { transform: rotate(180deg); }
+        .rep-body { display: none; border-top: 1px solid var(--border); }
+        .rep-day.on .rep-body { display: block; }
+        .rep-game {
+            display: flex; align-items: center; gap: 10px;
+            padding: 8px 14px; border-bottom: 1px solid var(--border);
+        }
+        .rep-game:last-child { border-bottom: none; }
+        .rg-logo { width: 34px; height: 34px; border-radius: 6px; object-fit: cover; background: var(--bg3); flex-shrink: 0; }
+        .rg-logo-ph { width: 34px; height: 34px; border-radius: 6px; background: var(--bg3); display: flex; align-items: center; justify-content: center; font-size: 9px; color: var(--text3); font-weight: 600; flex-shrink: 0; }
+        .rg-info { flex: 1; min-width: 0; }
+        .rg-title { font-size: 12px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .rg-meta { font-size: 10px; color: var(--text3); }
+        .rg-bdgs { display: flex; gap: 4px; flex-shrink: 0; }
+
+        /* ── MODAL ── */
+        .ov {
+            display: none; position: fixed; inset: 0;
+            background: rgba(0,0,0,.65); z-index: 500;
+            align-items: flex-end; justify-content: center;
+        }
+        .ov.on { display: flex; }
+        .modal {
+            background: var(--bg2); border: 1px solid var(--border);
+            border-radius: var(--r) var(--r) 0 0;
+            width: 100%; max-width: 600px; max-height: 90vh;
+            overflow-y: auto; animation: up .2s ease;
+        }
+        @keyframes up { from{transform:translateY(16px);opacity:0} to{transform:translateY(0);opacity:1} }
+        .mhd {
+            display: flex; align-items: center; gap: 11px;
+            padding: 14px; border-bottom: 1px solid var(--border);
+            position: sticky; top: 0; background: var(--bg2); z-index: 1;
+        }
+        .mlogo { width: 52px; height: 52px; border-radius: 9px; object-fit: cover; background: var(--bg3); flex-shrink: 0; }
+        .mlogo-ph { width: 52px; height: 52px; border-radius: 9px; background: var(--bg3); display: flex; align-items: center; justify-content: center; font-size: 11px; color: var(--text3); font-weight: 600; flex-shrink: 0; }
+        .mti { flex: 1; }
+        .mtitle { font-size: 15px; font-weight: 700; }
+        .msub { font-size: 11px; color: var(--text3); margin-top: 1px; }
+        .mclose { background: none; border: none; color: var(--text2); font-size: 18px; cursor: pointer; padding: 4px 6px; border-radius: 4px; line-height: 1; }
+        .mclose:hover { background: var(--bg3); color: var(--text); }
+        .mbd { padding: 14px; }
+        .sec { margin-bottom: 18px; }
+        .sec-ti { font-size: 10px; color: var(--text3); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 7px; }
+        .g3 { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+        .fi { background: var(--bg3); border-radius: var(--r-sm); padding: 9px 11px; }
+        .fi-lbl { font-size: 9px; color: var(--text3); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 1px; }
+        .fi-val { font-size: 12px; font-weight: 500; }
+        .tags { display: flex; flex-wrap: wrap; gap: 4px; }
+        .tag { background: var(--bg3); border: 1px solid var(--border); color: var(--text2); font-size: 10px; padding: 2px 7px; border-radius: 20px; }
+        .tag.orange { background: rgba(245,158,11,.12); border-color: rgba(245,158,11,.25); color: var(--orange); }
+        .txt { font-size: 12px; color: var(--text); line-height: 1.6; background: var(--bg3); border-radius: var(--r-sm); padding: 10px 12px; }
+        .ss { display: flex; flex-wrap: wrap; gap: 5px; }
+        .so {
+            font-family: inherit; font-size: 11px; font-weight: 500;
+            padding: 5px 11px; border-radius: 20px;
+            border: 1px solid var(--border); background: var(--bg3); color: var(--text2);
+            cursor: pointer; transition: all .1s;
+        }
+        .so:hover { border-color: var(--accent); color: var(--text); }
+        .so.on[data-v="New"]{background:rgba(79,142,247,.2);border-color:var(--blue);color:var(--blue);}
+        .so.on[data-v="Reviewing"]{background:rgba(232,184,47,.2);border-color:var(--yellow);color:var(--yellow);}
+        .so.on[data-v="Watchlist"]{background:rgba(52,209,122,.2);border-color:var(--green);color:var(--green);}
+        .so.on[data-v="Pass"]{background:rgba(107,114,128,.2);border-color:var(--gray);color:var(--gray);}
+        .so.on[data-v="Drop"]{background:rgba(240,90,90,.2);border-color:var(--red);color:var(--red);}
+        .cmt { width: 100%; background: var(--bg3); border: 1px solid var(--border); color: var(--text); font-family: inherit; font-size: 12px; padding: 9px 11px; border-radius: var(--r-sm); resize: vertical; min-height: 72px; outline: none; line-height: 1.5; }
+        .cmt:focus { border-color: var(--accent); }
+        .svbtn { margin-top: 7px; background: var(--accent); color: #fff; border: none; font-family: inherit; font-size: 12px; font-weight: 500; padding: 7px 14px; border-radius: var(--r-sm); cursor: pointer; transition: background .1s; }
+        .svbtn:hover { background: var(--accent2); }
+        .lnk { display: inline-flex; align-items: center; gap: 5px; background: var(--accent); color: #fff; font-size: 12px; font-weight: 500; padding: 8px 14px; border-radius: var(--r-sm); text-decoration: none; transition: background .1s; }
+        .lnk:hover { background: var(--accent2); }
+        .lnks { display: flex; flex-direction: column; gap: 5px; }
+
+        /* ── EMPTY ── */
+        .empty { text-align: center; padding: 48px 20px; color: var(--text3); font-size: 13px; }
+
+        /* ── SCROLLBAR ── */
+        ::-webkit-scrollbar { width: 5px; height: 5px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+        /* ── MOBILE ── */
+        @media (max-width: 560px) {
+            .grid { grid-template-columns: 1fr; }
+            .g3 { grid-template-columns: 1fr; }
+            .stats { grid-template-columns: repeat(3, 1fr); }
+            .sval { font-size: 18px; }
+        }
+        @media (min-width: 560px) {
+            .ov { align-items: center; }
+            .modal { border-radius: var(--r); }
+        }
+    </style>
+</head>
+<body>
+
+<header class="hdr">
+    <div class="hdr-in">
+        <h1>CN/KR Game Scout</h1>
+        <div class="hdr-right">
+            <span class="ts" id="ts">—</span>
+            <button class="btn" id="rbtn" onclick="refreshData()">
+                <span id="rspinner" style="display:none;width:10px;height:10px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite"></span>
+                อัปเดตข้อมูล
+            </button>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+
+    <!-- STATS -->
+    <div class="stats" id="stats"></div>
+
+    <!-- TABS -->
+    <div class="tabs">
+        <button class="tab on" data-t="games" onclick="showTab('games')">เกมทั้งหมด</button>
+        <button class="tab" data-t="reports" onclick="showTab('reports')">รายงานประจำวัน</button>
+    </div>
+
+    <!-- GAMES -->
+    <div id="gamesPanel">
+        <div class="filters">
+            <select class="filt" id="fStatus" onchange="doFilter()"><option value="">ทุกสถานะ</option><option>New</option><option>Reviewing</option><option>Watchlist</option><option>Pass</option><option>Drop</option></select>
+            <select class="filt" id="fGenre" onchange="doFilter()"><option value="">ทุกแนว</option></select>
+            <select class="filt" id="fPri" onchange="doFilter()"><option value="">ทุกระดับ</option><option>high</option><option>medium</option><option>low</option></select>
+            <select class="filt" id="fSort" onchange="doFilter()">
+                <option value="score-desc">คะแนน: สูง→ต่ำ</option>
+                <option value="score-asc">คะแนน: ต่ำ→สูง</option>
+                <option value="date-desc">วันที่: ใหม่→เก่า</option>
+                <option value="date-asc">วันที่: เก่า→ใหม่</option>
+                <option value="title-asc">ชื่อ: ก→ฮ</option>
+            </select>
+            <div class="srch-wrap">
+                <input type="text" class="srch" id="fSearch" placeholder="ค้นหาชื่อเกม / publisher…" oninput="doFilter()">
+                <button class="srch-clr" onclick="document.getElementById('fSearch').value='';doFilter()">✕</button>
+            </div>
+        </div>
+        <div class="rcount" id="rcount"></div>
+        <div class="grid" id="grid"></div>
+    </div>
+
+    <!-- REPORTS -->
+    <div id="reportsPanel" style="display:none">
+        <div class="rep" id="repList"></div>
+    </div>
+
+</main>
+
+<!-- GAME DETAIL MODAL -->
+<div class="ov" id="ov" onclick="if(event.target===this)closeM()">
+    <div class="modal" id="md">
+        <div class="mhd">
+            <div class="mlogo-ph" id="mlogoPh"></div>
+            <img class="mlogo" id="mlogo" src="" style="display:none" onerror="this.style.display='none';document.getElementById('mlogoPh').style.display='flex'">
+            <div class="mti">
+                <div class="mtitle" id="mtitle"></div>
+                <div class="msub" id="msub"></div>
+            </div>
+            <button class="mclose" onclick="closeM()">✕</button>
+        </div>
+        <div class="mbd" id="mbd"></div>
+    </div>
+</div>
+
+<script>
+let games=[],reports=[],curGame=null;
+
+async function load(){
+    try{
+        const r=await fetch('game-scout-daily.json?t='+Date.now());
+        const d=await r.json();
+        games=d.games||[];
+        reports=d.daily_reports||[];
+        const ts=d.meta?.generated_at||'';
+        document.getElementById('ts').textContent=ts?'อัปเดต: '+ts.replace('T',' ').slice(0,16):'—';
+        buildGenreFilter();
+        renderStats();
+        doFilter();
+        renderReports();
+    }catch(e){
+        document.getElementById('grid').innerHTML='<div class=empty>ไม่สามารถโหลดข้อมูลได้</div>';
+    }
+}
+
+function buildGenreFilter(){
+    const gs=[...new Set(games.map(g=>g.genre).filter(Boolean))].sort();
+    document.getElementById('fGenre').innerHTML='<option value="">ทุกแนว</option>'+gs.map(g=>`<option>${g}</option>`).join('');
+}
+
+function renderStats(){
+    const sc={},gc={};
+    games.forEach(g=>{sc[g.status]=(sc[g.status]||0)+1;gc[g.genre]=(gc[g.genre]||0)+1;});
+    const topG=Object.entries(gc).sort((a,b)=>b[1]-a[1])[0];
+    document.getElementById('stats').innerHTML=`
+        <div class="scard"><div class="slbl">เกมทั้งหมด</div><div class="sval">${games.length}</div></div>
+        <div class="scard"><div class="slbl">Watchlist</div><div class="sval">${sc.Watchlist||0}</div><div class="ssub">จาก ${games.length}</div></div>
+        <div class="scard"><div class="slbl">Reviewing</div><div class="sval">${sc.Reviewing||0}</div></div>
+        <div class="scard"><div class="slbl">New</div><div class="sval">${sc.New||0}</div></div>
+        <div class="scard"><div class="slbl">แนวนิยม</div><div class="sval">${topG?.[0]||'—'}</div><div class="ssub">${topG?.[1]||0} เกม</div></div>
+        <div class="scard"><div class="slbl">Top Score</div><div class="sval">${games.length?Math.max(...games.map(g=>g.score||0)):0}</div></div>
+    `;
+}
+
+function doFilter(){
+    const st=document.getElementById('fStatus').value;
+    const gn=document.getElementById('fGenre').value;
+    const pr=document.getElementById('fPri').value;
+    const sr=(document.getElementById('fSearch').value||'').toLowerCase().trim();
+    const so=document.getElementById('fSort').value;
+
+    let fl=games.filter(g=>{
+        if(st&&g.status!==st)return false;
+        if(gn&&g.genre!==gn)return false;
+        if(pr&&g.priority!==pr)return false;
+        if(sr&&!(g.title||'').toLowerCase().includes(sr)&&!(g.publisher||'').toLowerCase().includes(sr)&&!(g.developer||'').toLowerCase().includes(sr))return false;
+        return true;
+    });
+
+    fl.sort((a,b)=>{
+        if(so==='score-desc')return(b.score||0)-(a.score||0);
+        if(so==='score-asc')return(a.score||0)-(b.score||0);
+        if(so==='date-desc')return(b.first_seen||'').localeCompare(a.first_seen||'');
+        if(so==='date-asc')return(a.first_seen||'').localeCompare(b.first_seen||'');
+        if(so==='title-asc')return(a.title||'').localeCompare(b.title||'');
+        return 0;
+    });
+
+    document.getElementById('rcount').textContent=`แสดง ${fl.length} จาก ${games.length} เกม`;
+    renderGrid(fl);
+}
+
+function renderGrid(gs){
+    const g=document.getElementById('grid');
+    if(!gs.length){g.innerHTML='<div class=empty>ไม่พบเกมที่ค้นหา</div>';return;}
+    g.innerHTML=gs.map(x=>{
+        const logo=x.logo_path?`<img class=cimg src="${x.logo_path}" alt="${x.title}" onerror="this.outerHTML='<div class=cimg-ph>${(x.title||'').slice(0,3)}</div>'">`:`<div class=cimg-ph>${(x.title||'').slice(0,3)}</div>`;
+        const sb=x.status?`<span class="bdg bdg-s" data-v="${x.status}">${x.status}</span>`:'';
+        const pb=x.priority?`<span class="bdg bdg-p" data-v="${x.priority}">${x.priority==='high'?'🔴':x.priority==='medium'?'🟡':'⚪'} ${x.priority}</span>`:'';
+        return`<div class=card onclick="openG('${x.id}')">${logo}<div class=cin><div class=ctitle>${esc(x.title||'')}</div><div class=cpub>${esc(x.publisher||x.developer||'')}</div><div class=cmeta>${sb}${pb}</div></div>${x.score!=null?`<span class=cscore>${x.score}</span>`:''}</div>`;
+    }).join('');
+}
+
+function renderReports(){
+    document.getElementById('repList').innerHTML=reports.map((r,i)=>{
+        const fd=r.date?new Date(r.date).toLocaleDateString('th-TH',{year:'numeric',month:'short',day:'numeric'}):'';
+        const nc=r.new_game_ids?.length||0;
+        const tp=r.top_pick_ids?.length||0;
+        const snap=r.game_snapshots||[];
+        const gh=snap.map(s=>{
+            const g=games.find(x=>x.id===s.game_id);
+            if(!g)return'';
+            const logo=g.logo_path?`<img class=rg-logo src="${g.logo_path}" alt="${g.title}" onerror="this.outerHTML='<div class=rg-logo-ph>${(g.title||'').slice(0,3)}</div>'">`:`<div class=rg-logo-ph>${(g.title||'').slice(0,3)}</div>`;
+            const istp=r.top_pick_ids?.includes(s.game_id);
+            const tpb=istp?'<span class=tag style="background:rgba(245,158,11,.12);border-color:rgba(245,158,11,.3);color:#f59e0b">⭐ Top Pick</span>':'';
+            const sb=s.status?`<span class="bdg bdg-s" data-v="${s.status}">${s.status}</span>`:'';
+            return`<div class=rep-game onclick="openG('${s.game_id}')">${logo}<div class="rg-info"><div class=rg-title>${esc(g.title||'')}</div><div class=rg-meta>${esc(g.genre||'')} · ${esc(g.publisher||g.developer||'')}</div></div><div class=rg-bdgs>${tpb}${sb}</div></div>`;
+        }).join('');
+        return`<div class=rep-day data-i="${i}"><div class=rep-hdr onclick="toggleR(${i})"><div class=rdate>${fd}</div><div class=rcnt>${nc} เกมใหม่</div>${tp?`<div class=rtop>⭐ ${tp} Top Pick</div>`:''}<div class=rarr>▼</div></div><div class=rep-body>${gh}</div></div>`;
+    }).join('');
+}
+
+function toggleR(i){document.querySelector(`.rep-day[data-i="${i}"]`).classList.toggle('on');}
+
+function openG(id){
+    const g=games.find(x=>x.id===id);
+    if(!g)return;
+    curGame=g;
+    const logo=document.getElementById('mlogo'),lp=document.getElementById('mlogoPh');
+    if(g.logo_path){logo.src=g.logo_path;logo.style.display='block';lp.style.display='none';logo.onerror=()=>{logo.style.display='none';lp.style.display='flex';};}else{logo.style.display='none';lp.style.display='flex';lp.textContent=(g.title||'').slice(0,3);}
+    document.getElementById('mtitle').textContent=g.title||'';
+    document.getElementById('msub').textContent=`${g.publisher||''} · ${g.developer_country||''}`;
+    const plats=(g.platforms||[]).join(', ');
+    const tags=(g.tags||[]).map(t=>`<span class=tag>${esc(t)}</span>`).join('');
+    const fittags=(g.fit_with_th_top_genres||[]).map(t=>`<span class="tag orange">${esc(t)}</span>`).join('');
+    const taptap=g.official_or_source_page||(g.source_links?.[0]?.url)||'';
+    document.getElementById('mbd').innerHTML=`
+        <div class=sec>
+            <div class=sec-ti>ข้อมูลเกม</div>
+            <div class=g3>
+                <div class=fi><div class=fi-lbl>Developer</div><div class=fi-val>${esc(g.developer||'—')}</div></div>
+                <div class=fi><div class=fi-lbl>Publisher</div><div class=fi-val>${esc(g.publisher||'—')}</div></div>
+                <div class=fi><div class=fi-lbl>ประเทศ</div><div class=fi-val>${esc(g.developer_country||'—')}</div></div>
+                <div class=fi><div class=fi-lbl>Genre</div><div class=fi-val>${esc(g.genre||'—')}</div></div>
+                <div class=fi><div class=fi-lbl>Subgenre</div><div class=fi-val>${esc(g.subgenre||'—')}</div></div>
+                <div class=fi><div class=fi-lbl>Platforms</div><div class=fi-val>${esc(plats||'—')}</div></div>
+                <div class=fi><div class=fi-lbl>Launch Date</div><div class=fi-val>${esc(g.first_server_launch_date||'—')}</div></div>
+                <div class=fi><div class=fi-lbl>Score</div><div class=fi-val style="color:var(--accent);font-weight:700">${g.score??'—'}</div></div>
+                <div class=fi><div class=fi-lbl>IAP Signal</div><div class=fi-val>${esc(g.iap_signal||'—')}</div></div>
+                <div class=fi><div class=fi-lbl>Monetization</div><div class=fi-val>${esc(g.monetization_model||'—')}</div></div>
+                <div class=fi><div class=fi-lbl>SEA Status</div><div class=fi-val>${esc(g.launch_status_sea||'—')}</div></div>
+                <div class=fi><div class=fi-lbl>TH Status</div><div class=fi-val>${esc(g.launch_status_thailand||'—')}</div></div>
+            </div>
+        </div>
+        ${tags?`<div class=sec><div class=sec-ti>Tags</div><div class=tags>${tags}</div></div>`:''}
+        ${fittags?`<div class=sec><div class=sec-ti>Thai Market Fit</div><div class=tags>${fittags}</div></div>`:''}
+        ${g.thai_market_rationale?`<div class=sec><div class=sec-ti>Thai Market Rationale</div><div class=txt>${esc(g.thai_market_rationale)}</div></div>`:''}
+        ${g.why_it_matters?`<div class=sec><div class=sec-ti>Why It Matters</div><div class=txt>${esc(g.why_it_matters)}</div></div>`:''}
+        ${g.analysis_note?`<div class=sec><div class=sec-ti>Analysis Note</div><div class=txt>${esc(g.analysis_note)}</div></div>`:''}
+        <div class=sec>
+            <div class=sec-ti>สถานะ</div>
+            <div class=ss id=ss>${['New','Reviewing','Watchlist','Pass','Drop'].map(s=>`<button class="so ${g.status===s?'on':''}" data-v="${s}" onclick="chStatus('${s}')">${s}</button>`).join('')}</div>
+        </div>
+        <div class=sec>
+            <div class=sec-ti>Comment</div>
+            <textarea class=cmt id=cmt placeholder="เพิ่ม comment…">${esc(g.comment||'')}</textarea>
+            <button class=svbtn onclick="saveCmt()">บันทึก</button>
+        </div>
+        ${taptap?`<div class=sec><div class=sec-ti>Link</div><div class=lnks><a class=lnk href="${esc(taptap)}" target="_blank" rel="noopener">🔗 เปิด TapTap</a></div></div>`:''}
+    `;
+    document.getElementById('ov').classList.add('on');
+    document.body.style.overflow='hidden';
+}
+
+function chStatus(s){
+    document.querySelectorAll('#ss .so').forEach(b=>b.classList.toggle('on',b.dataset.v===s));
+}
+function saveCmt(){
+    const btn=document.querySelector('.svbtn');
+    btn.textContent='✓';
+    setTimeout(()=>btn.textContent='บันทึก',1500);
+}
+function closeM(){
+    document.getElementById('ov').classList.remove('on');
+    document.body.style.overflow='';
+    curGame=null;
+}
+function esc(s){if(!s)return'';return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function showTab(t){
+    document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x.dataset.t===t));
+    document.getElementById('gamesPanel').style.display=t==='games'?'':'none';
+    document.getElementById('reportsPanel').style.display=t==='reports'?'':'none';
+}
+async function refreshData(){
+    const btn=document.getElementById('rbtn'),sp=document.getElementById('rspinner');
+    btn.disabled=true;sp.style.display='block';
+    try{
+        const res=await fetch('game-scout-daily.json?t='+Date.now());
+        const d=await res.json();
+        games=d.games||[];reports=d.daily_reports||[];
+        const ts=d.meta?.generated_at||'';
+        document.getElementById('ts').textContent=ts?'อัปเดต: '+ts.replace('T',' ').slice(0,16):'—';
+        buildGenreFilter();renderStats();doFilter();renderReports();
+    }finally{
+        btn.disabled=false;sp.style.display='none';
+    }
+}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closeM();});
+document.getElementById('fStatus').addEventListener('change',doFilter);
+document.getElementById('fGenre').addEventListener('change',doFilter);
+document.getElementById('fPri').addEventListener('change',doFilter);
+document.getElementById('fSort').addEventListener('change',doFilter);
+document.getElementById('fSearch').addEventListener('input',doFilter);
+load();
+</script>
+</body>
+</html>
