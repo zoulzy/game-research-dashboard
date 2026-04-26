@@ -7,7 +7,7 @@
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-26T20:38:44+07:00",
+    "generated_at": "2026-04-26T21:52:08+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -94,7 +94,9 @@
           "from": "Drop",
           "to": "Watchlist"
         }
-      ]
+      ],
+      "priority_score": 64,
+      "trending_direction": null
     },
     {
       "id": "ye-mu-zhi-xia",
@@ -145,7 +147,9 @@
       "thai_market_rationale": "Not as clean a fit as combat-heavy RPG, but still closer to a proven spend category than cozy simulation candidates. Worth watching, not yet a top conviction title.",
       "last_status_updated": null,
       "last_comment_updated": "2026-04-10T21:39:36+07:00",
-      "status_history": []
+      "status_history": [],
+      "priority_score": 63,
+      "trending_direction": null
     },
     {
       "id": "xue-song",
@@ -201,7 +205,9 @@
           "from": "New",
           "to": "Watchlist"
         }
-      ]
+      ],
+      "priority_score": 45,
+      "trending_direction": null
     },
     {
       "id": "huan-xiang-shao-nu-gong-hui",
@@ -253,7 +259,9 @@
       "thai_market_rationale": "The strongest angle is long-tail RPG collection and light-idle retention, which is still closer to Thai spend behavior than casual utility-style titles.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 62,
+      "trending_direction": null
     },
     {
       "id": "yi-wan-guang-nian",
@@ -305,7 +313,9 @@
       "thai_market_rationale": "Thailand continues to support large-scale strategy progression games, so a CN-only space SLG/RTS hybrid is still commercially relevant even if the publisher is not especially small.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 43,
+      "trending_direction": null
     },
     {
       "id": "xiao-hua-xian-la-bei-er-zhi-yue",
@@ -356,7 +366,9 @@
       "thai_market_rationale": "This is more exploratory than conviction-led: it has monetizable fashion/social loops, but it does not fit Thailand's strongest remembered spend lanes as cleanly as RPG and strategy.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 35,
+      "trending_direction": null
     },
     {
       "id": "li-ming-zhi-qian",
@@ -408,7 +420,9 @@
       "thai_market_rationale": "The survival-defense structure is more exportable than its tiny presentation suggests, but it is still below the clearer RPG and SLG fits for Thailand.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 40,
+      "trending_direction": null
     },
     {
       "id": "xi-er-lan-si-zhan-ji",
@@ -464,7 +478,9 @@
       "thai_market_rationale": "Thailand does support strategy progression spend, but tower-defense/card hybrids usually rank below the clearest RPG and SLG lanes, so this is better as a secondary review candidate than a lead pick.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 44,
+      "trending_direction": null
     },
     {
       "id": "chou-ka-qiu-sheng-huang-dao",
@@ -519,7 +535,9 @@
       "thai_market_rationale": "The survival-systems loop is more exportable than the presentation suggests, but the ad-heavy feel lowers its value versus cleaner RPG/SLG candidates.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 42,
+      "trending_direction": null
     },
     {
       "id": "long-dao-yi-shou-qi-yuan",
@@ -576,7 +594,9 @@
       "thai_market_rationale": "Its best angle is long-tail survival progression plus creature growth, which is more commercially plausible in Thailand than pure cozy or puzzle-led candidates.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 37,
+      "trending_direction": null
     },
     {
       "id": "luan-tu-cai-shi-jie",
@@ -628,7 +648,9 @@
       "thai_market_rationale": "The clearest hook is lightweight gacha/live-service structure rather than genre fit; it is a breadth add, not a conviction-led top pick.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 35,
+      "trending_direction": null
     },
     {
       "id": "nv-shen-zhi-guang",
@@ -684,7 +706,9 @@
       "thai_market_rationale": "The strongest export angle is familiar: collectible fantasy units, progression depth, and likely banner-driven monetization, which fits Thai RPG spending patterns better than today's softer sim/creator titles.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 64,
+      "trending_direction": null
     },
     {
       "id": "xin-tiao-xian-luo",
@@ -739,7 +763,9 @@
       "thai_market_rationale": "It is more commercially interesting than a pure narrative VN because the page already signals gacha/currency structure, but it still sits below broader RPG and strategy candidates for Thai market conviction.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 63,
+      "trending_direction": null
     },
     {
       "id": "san-guo-tian-xia-gui-xin",
@@ -796,7 +822,9 @@
       "thai_market_rationale": "Thailand's top-grossing memory still supports war/SLG spend lanes, so a lighter-but-still-systemic 国战 title is a cleaner commercial fit than today's niche sim or creator-platform candidates.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 45,
+      "trending_direction": null
     },
     {
       "id": "hui-guang-zhi-cheng-1907",
@@ -847,7 +875,9 @@
       "thai_market_rationale": "It is not as direct a fit as RPG or war SLG, but system-heavy construction and economy loops can still travel better than pure cozy/decorative titles when live-ops depth is real.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 33,
+      "trending_direction": null
     },
     {
       "id": "dai-hao-lian",
@@ -897,7 +927,9 @@
       "thai_market_rationale": "This is more of a breadth watch candidate than a core conviction pick, but female-oriented live-service romance can still matter if collection and event cadence prove out later.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 34,
+      "trending_direction": null
     },
     {
       "id": "tong-hua-shi",
@@ -948,7 +980,9 @@
       "thai_market_rationale": "This is mainly a breadth-tracking add: it may localize well visually, but its likely spending ceiling looks below RPG and strategy lanes unless strong decoration/collection monetization appears later.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 33,
+      "trending_direction": null
     },
     {
       "id": "lv-meng-shi-kong-zhi-sheng",
@@ -1003,7 +1037,9 @@
       "thai_market_rationale": "Thai spend patterns still skew more toward RPG-style progression than pure cozy sim. A local-only fantasy adventure with visible IAP is a more commercially relevant watch candidate than today's softer decorative pages.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 52,
+      "trending_direction": null
     },
     {
       "id": "xun-long-zhi-lv",
@@ -1059,7 +1095,9 @@
       "thai_market_rationale": "Creature collection plus long-tail progression is still easier to imagine in Thailand than the day's lighter sim/casual additions, so this is the best commercial-fit add despite the mid-sized publisher profile.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 63,
+      "trending_direction": null
     },
     {
       "id": "wang-zhe-jian-dui",
@@ -1115,7 +1153,9 @@
       "thai_market_rationale": "Thailand continues to support war/strategy progression games, so even a narrower naval hybrid is more commercially relevant than purely decorative or narrative reserve fillers.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 44,
+      "trending_direction": null
     },
     {
       "id": "chong-ba-pa-ke",
@@ -1170,7 +1210,9 @@
       "thai_market_rationale": "The action-survival loop can travel, but it looks more like a secondary breadth watch than a lead monetization candidate for Thailand.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 44,
+      "trending_direction": null
     },
     {
       "id": "xin-da-feng-da-geng-ren",
@@ -1226,7 +1268,9 @@
       "thai_market_rationale": "Thailand still monetizes around RPG collection and character-driven progression. 新大奉打更人 is not as obviously mass-market as an MMO, but the card/story lane gives it clearer adaptation potential than today's lower-confidence side picks.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 64,
+      "trending_direction": null
     },
     {
       "id": "shen-qi-fen-zheng",
@@ -1281,7 +1325,9 @@
       "thai_market_rationale": "Thailand can still sustain nostalgia-led MMORPG spenders, especially when account growth, guild coordination, and faction rivalry are visible. 神泣：纷争 is rougher than the best polished global MMO launches, but the local-only rollout keeps it relevant for scouting.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 65,
+      "trending_direction": null
     },
     {
       "id": "zong-shi-zhi-shang",
@@ -1337,7 +1383,9 @@
       "thai_market_rationale": "Idle progression and easy-session RPG loops can still travel well to Thailand, but this one is more valuable as a watch candidate than as a pure local-publishing opportunity because the operator already looks strong.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 62,
+      "trending_direction": null
     },
     {
       "id": "ying-xiong-shou-yu",
@@ -1393,7 +1441,9 @@
       "thai_market_rationale": "Thailand still monetizes around accessible RPG progression and collection loops. 英雄守御 is rougher and more text-heavy than mainstream hits, but its smaller-team feel and confirmed IAP make it a more credible local-publishing watch candidate than another giant-IP reserve page.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 64,
+      "trending_direction": null
     },
     {
       "id": "yi-jian-xian-tu",
@@ -1448,7 +1498,9 @@
       "thai_market_rationale": "Cultivation and fantasy RPG loops remain legible to Thai RPG audiences, especially when paired with progression-heavy live-service structure. 一剑仙途 is less flashy than a big-IP MMO, but it preserves more whitespace for regional publishing.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 61,
+      "trending_direction": null
     },
     {
       "id": "yao-shi-ge-dou",
@@ -1504,7 +1556,9 @@
       "thai_market_rationale": "Pure fighters are not the safest Thai revenue lane, but build-heavy side-scrolling combat with gear progression can still travel if live-ops and economy depth are real. 耀世格斗 is worth tracking because it stays locally surfaced and not obviously globalized yet.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 52,
+      "trending_direction": null
     },
     {
       "id": "gui-yi-rou-ge-ma-jiang",
@@ -1559,7 +1613,9 @@
       "thai_market_rationale": "This is not a core Thai top-grossing lane, but quirky system-heavy roguelikes can still be worth monitoring when they remain early, local-only, and publisher-light. It is more of a speculative benchmark than a top publishing lead.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 33,
+      "trending_direction": null
     },
     {
       "id": "mo-ri-ying-di",
@@ -1614,7 +1670,9 @@
       "thai_market_rationale": "The extraction loop is the hottest CN casual-core trend right now, and survival themes travel well to Thai audiences. Smaller team means more publishing whitespace, but production scale is modest.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 46,
+      "trending_direction": null
     },
     {
       "id": "dai-hao-meng-he",
@@ -1670,7 +1728,9 @@
       "thai_market_rationale": "Extraction/co-op adventure is the hottest CN multiplayer trend and has crossover potential to Thai audiences who already support co-op action titles. The tiny team profile offers maximum publishing whitespace.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 45,
+      "trending_direction": null
     },
     {
       "id": "xi-wang-cheng",
@@ -1725,7 +1785,9 @@
       "thai_market_rationale": "The collectible/builder loop has some export potential, but social sim is a softer Thai top-grossing fit than RPG and strategy lanes. Worth secondary tracking.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 35,
+      "trending_direction": null
     },
     {
       "id": "meng-xiang-yu-zheng-cheng",
@@ -1781,7 +1843,9 @@
       "thai_market_rationale": "Lineage-style MMORPGs have proven monetization in Thailand, but this is a low-budget clone with mixed early reviews, so conviction is low.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 62,
+      "trending_direction": null
     },
     {
       "id": "ge-dou-tian-xia",
@@ -1836,7 +1900,9 @@
       "thai_market_rationale": "Pure fighters are not the safest Thai revenue lane, but build-heavy martial-arts combat with gear/character progression can still travel if the economy depth is real. The small-studio profile offers more whitespace than established fighting IPs.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 55,
+      "trending_direction": null
     },
     {
       "id": "zui-feng-shen",
@@ -1893,7 +1959,9 @@
       "thai_market_rationale": "Idle progression and collection loops remain relevant for Thai audiences, but this is a brand-new IP with rough execution, making it a secondary breadth add rather than a top conviction pick.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 56,
+      "trending_direction": null
     },
     {
       "id": "duo-la-de-ying-can-can-che",
@@ -1948,7 +2016,9 @@
       "thai_market_rationale": "Cozy management sims have some cross-market visual appeal, but the Thai spend ceiling is usually below RPG and strategy unless strong decoration/collection monetization proves out. This is mainly a breadth-tracking add.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 36,
+      "trending_direction": null
     },
     {
       "id": "lai-zi-hei-dong-de-lv-ren",
@@ -2004,7 +2074,9 @@
       "thai_market_rationale": "Anime-style card RPGs have a proven monetization lane in Thailand, but this entry has a trust-deficit developer and unclear IAP confirmation, making it a speculative add rather than a conviction pick.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 61,
+      "trending_direction": null
     },
     {
       "id": "da-dao-xian-tu",
@@ -2058,7 +2130,9 @@
       "thai_market_rationale": "Idle xianxia RPG is a proven CN-to-SEA travel genre; Thailand's top-grossing memory favors RPG-heavy progression with gacha monetization. Small publisher profile increases potential whitespace for local partnership.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 71,
+      "trending_direction": null
     },
     {
       "id": "xiao-ji-shou-wei",
@@ -2110,7 +2184,10 @@
         "Casual midcore",
         "Idle progression"
       ],
-      "thai_market_rationale": "Tower-defense/merge idle is below the clearest RPG/SLG lane for Thailand, but confirmed IAP and small team give it publishing-opportunity value."
+      "thai_market_rationale": "Tower-defense/merge idle is below the clearest RPG/SLG lane for Thailand, but confirmed IAP and small team give it publishing-opportunity value.",
+      "status_history": [],
+      "priority_score": 39,
+      "trending_direction": null
     },
     {
       "id": "fan-ren-xiu-xian-lu",
@@ -2159,7 +2236,9 @@
       "thai_market_rationale": "Cultivation RPGs consistently perform in Thailand. Secondary-tier candidate given test phase but genre-fit is strong.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 64,
+      "trending_direction": "stable"
     },
     {
       "id": "quan-min-you-xi-da-heng",
@@ -2209,7 +2288,9 @@
       "thai_market_rationale": "Simulation games are a proven category in Thai mobile market. Secondary candidate given test phase but genre lane is correct.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 39,
+      "trending_direction": "stable"
     },
     {
       "id": "shi-luo-xing-huan",
@@ -2259,7 +2340,9 @@
       "thai_market_rationale": "Idle games perform in Thailand but the card/collection subgenre needs differentiation signal. Secondary candidate.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 45,
+      "trending_direction": "stable"
     },
     {
       "id": "zui-qiang-dou-wang",
@@ -2307,7 +2390,9 @@
       "thai_market_rationale": "Fighting/combat games are less dominant in Thai top-revenue compared to RPG and collection genres. Lower-conviction exploratory add.",
       "last_status_updated": null,
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 44,
+      "trending_direction": "stable"
     },
     {
       "id": "jie-yan",
@@ -2336,7 +2421,12 @@
       "first_seen": "2026-04-26",
       "default_status": "Reviewing",
       "status": "Reviewing",
-      "comment": "Indie horror puzzle - blind girl sees ghosts after vision transplant. High 8.6 rating. Small indie dev, no SEA presence visible."
+      "comment": "Indie horror puzzle - blind girl sees ghosts after vision transplant. High 8.6 rating. Small indie dev, no SEA presence visible.",
+      "tags": [],
+      "fit_with_th_top_genres": [],
+      "status_history": [],
+      "priority_score": 8,
+      "trending_direction": "up"
     },
     {
       "id": "luo-ke-wang-guo-shi-jie",
@@ -2366,7 +2456,12 @@
       "first_seen": "2026-04-26",
       "default_status": "Reviewing",
       "status": "Reviewing",
-      "comment": "Massive Tencent IP - childhood pet game revival. 878K followers, 539W downloads. No SEA launch confirmed but large publisher means high risk of TH/SEA plans."
+      "comment": "Massive Tencent IP - childhood pet game revival. 878K followers, 539W downloads. No SEA launch confirmed but large publisher means high risk of TH/SEA plans.",
+      "tags": [],
+      "fit_with_th_top_genres": [],
+      "status_history": [],
+      "priority_score": 21,
+      "trending_direction": "up"
     },
     {
       "id": "999-miao-sheng-cun-zhe",
@@ -2417,7 +2512,9 @@
       "thai_market_rationale": "Survivor-like genre is trending globally and in SEA. Small indie = high publishing whitespace. No monetization limits publisher upside.",
       "last_status_updated": "2026-04-26T19:55:00+07:00",
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 39,
+      "trending_direction": "up"
     },
     {
       "id": "tian-xu-chuan-shuo",
@@ -2469,10 +2566,288 @@
       "thai_market_rationale": "Thailand has strong RPG appetite; dark fantasy MMO with confirmed IAP and multi-platform launch is a solid publishing prospect from a mid-size studio.",
       "last_status_updated": "2026-04-26T19:55:00+07:00",
       "last_comment_updated": null,
-      "status_history": []
+      "status_history": [],
+      "priority_score": 67,
+      "trending_direction": "up"
     }
   ],
   "daily_reports": [
+    {
+      "date": "2026-04-26",
+      "headline": "2 new CN candidates found on TapTap 新品榜. Small indie and one massive Tencent IP.",
+      "game_ids": [
+        "jie-yan",
+        "luo-ke-wang-guo-shi-jie",
+        "tian-xu-chuan-shuo"
+      ],
+      "new_game_ids": [
+        "jie-yan",
+        "luo-ke-wang-guo-shi-jie",
+        "tian-xu-chuan-shuo"
+      ],
+      "top_pick_ids": [
+        "jie-yan",
+        "tian-xu-chuan-shuo"
+      ],
+      "cross_game_insight": "借眼 is indie with no SEA plans visible - best candidate. 洛克王国 is Tencent (high risk of SEA competition).",
+      "notes": [
+        "Scraped TapTap 新品榜 for new listings. 借眼 (horror puzzle, 8.6 rating) and 洛克王国：世界 (Tencent pet collection) confirmed not in JSON. Most other 新品榜 entries already tracked."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "qi-jie-meng-tan",
+          "status": "Watchlist",
+          "comment": "Good RPG fit, but still need stronger source confirmation beyond TapTap."
+        },
+        {
+          "game_id": "ye-mu-zhi-xia",
+          "status": "Reviewing",
+          "comment": "Need publisher clarity before escalation."
+        },
+        {
+          "game_id": "xue-song",
+          "status": "Watchlist",
+          "comment": "Most interesting strategy-side candidate; keep tracking systems and monetization clues."
+        },
+        {
+          "game_id": "huan-xiang-shao-nu-gong-hui",
+          "status": "Watchlist",
+          "comment": "Fresh CN-only idle RPG signal, but self-publishing capability lowers whitespace."
+        },
+        {
+          "game_id": "yi-wan-guang-nian",
+          "status": "Watchlist",
+          "comment": "Best strategy-side new launch today, but server stability and monetization need watching."
+        },
+        {
+          "game_id": "xiao-hua-xian-la-bei-er-zhi-yue",
+          "status": "Reviewing",
+          "comment": "Live-service signals are real, but Thai fit is softer and the IP is already sizable."
+        },
+        {
+          "game_id": "li-ming-zhi-qian",
+          "status": "Reviewing",
+          "comment": "Local-source freshness is good, but the monetization mix looks ad-heavy."
+        },
+        {
+          "game_id": "xi-er-lan-si-zhan-ji",
+          "status": "Reviewing",
+          "comment": "Fresh CN-only launch with visible IAP, but early complaints already lean paywall-heavy."
+        },
+        {
+          "game_id": "chou-ka-qiu-sheng-huang-dao",
+          "status": "Reviewing",
+          "comment": "Fresh CN launch with local-only evidence, but monetization already looks ad-heavy."
+        },
+        {
+          "game_id": "long-dao-yi-shou-qi-yuan",
+          "status": "Reviewing",
+          "comment": "Big local traction makes it worth tracking, but whitespace is narrower than for smaller teams."
+        },
+        {
+          "game_id": "luan-tu-cai-shi-jie",
+          "status": "Reviewing",
+          "comment": "Local-only prereg with explicit gacha rewards, but Thai fit is softer than the survival add."
+        },
+        {
+          "game_id": "nv-shen-zhi-guang",
+          "status": "Watchlist",
+          "comment": "Fresh CN-only card RPG with visible IAP and paid-test structure; strongest new RPG add today."
+        },
+        {
+          "game_id": "xin-tiao-xian-luo",
+          "status": "Reviewing",
+          "comment": "Visible prereg economy is real, but female-oriented fit is secondary versus stronger RPG/SLG lanes."
+        },
+        {
+          "game_id": "san-guo-tian-xia-gui-xin",
+          "status": "Watchlist",
+          "comment": "Best strategy-side add today: clear SLG fit and visible draw/resource economy, but already fairly hot locally."
+        },
+        {
+          "game_id": "hui-guang-zhi-cheng-1907",
+          "status": "Watchlist",
+          "comment": "Most interesting add today: local-only city-builder test with clearer systems than the other reserve pages."
+        },
+        {
+          "game_id": "dai-hao-lian",
+          "status": "Reviewing",
+          "comment": "Female-oriented hook is distinctive, but commercialization proof is still lighter than the city-builder add."
+        },
+        {
+          "game_id": "tong-hua-shi",
+          "status": "Reviewing",
+          "comment": "Clean local-only cozy signal, but monetization depth is still the main question."
+        },
+        {
+          "game_id": "lv-meng-shi-kong-zhi-sheng",
+          "status": "Watchlist",
+          "comment": "Best new reserve-page add today: clear CN-only presentation plus visible IAP on a fantasy adventure lane."
+        },
+        {
+          "game_id": "xun-long-zhi-lv",
+          "status": "Watchlist",
+          "comment": "Strongest Thai-fit new add today: dragon-raising RPG loop plus visible IAP and near-term launch timing."
+        },
+        {
+          "game_id": "wang-zhe-jian-dui",
+          "status": "Reviewing",
+          "comment": "Mid-tier naval strategy candidate with confirmed IAP; acceptable even with P2W/top-up complaints."
+        },
+        {
+          "game_id": "chong-ba-pa-ke",
+          "status": "Reviewing",
+          "comment": "Fresh small-studio action add with visible IAP, but still a secondary bet versus the top RPG/strategy picks."
+        },
+        {
+          "game_id": "xin-da-feng-da-geng-ren",
+          "status": "Watchlist",
+          "comment": "Best fresh reserve-page add today, but supplier / publishing capability still needs verification."
+        },
+        {
+          "game_id": "shen-qi-fen-zheng",
+          "status": "Watchlist",
+          "comment": "Strong structured evidence and fresh launch timing, but likely VIP/paywall-heavy."
+        },
+        {
+          "game_id": "zong-shi-zhi-shang",
+          "status": "Reviewing",
+          "comment": "Usable idle-RPG add, but Lingxi-sized self-publishing power lowers whitespace."
+        },
+        {
+          "game_id": "ying-xiong-shou-yu",
+          "status": "Watchlist",
+          "comment": "Best new add today: local-only card RPG with visible IAP and a near-term launch window."
+        },
+        {
+          "game_id": "yi-jian-xian-tu",
+          "status": "Watchlist",
+          "comment": "Clean local-only xianxia reserve add, but IAP remains inferred rather than confirmed."
+        },
+        {
+          "game_id": "yao-shi-ge-dou",
+          "status": "Watchlist",
+          "comment": "Best action-side add today, but still needs hard IAP confirmation from later metadata or live launch."
+        },
+        {
+          "game_id": "gui-yi-rou-ge-ma-jiang",
+          "status": "Reviewing",
+          "comment": "Fresh and local-only, but monetization clarity and Thai genre fit are weaker than the top three adds."
+        },
+        {
+          "game_id": "mo-ri-ying-di",
+          "status": "Reviewing",
+          "comment": "Trending extraction/survival loop from a tiny indie studio; monetization proof still thin but genre is hot."
+        },
+        {
+          "game_id": "dai-hao-meng-he",
+          "status": "Watchlist",
+          "comment": "Highest-whitespace candidate today: 25万 prereg from an extremely tiny studio in the hottest CN extraction trend."
+        },
+        {
+          "game_id": "xi-wang-cheng",
+          "status": "Reviewing",
+          "comment": "Distinctive toy-collectible builder with anti-grind positioning, but Thai fit is softer than RPG/strategy lanes."
+        },
+        {
+          "game_id": "meng-xiang-yu-zheng-cheng",
+          "status": "Reviewing",
+          "comment": "Lineage 1 nostalgia clone with rough execution but proven Korean IP monetization potential in TH."
+        },
+        {
+          "game_id": "ge-dou-tian-xia",
+          "status": "Reviewing",
+          "comment": "Fresh small-studio fighting test with confirmed IAP, but Thai genre fit is narrower than RPG/strategy."
+        },
+        {
+          "game_id": "zui-feng-shen",
+          "status": "Reviewing",
+          "comment": "Fresh CN-only idle card RPG with confirmed IAP, but early reviews flag VIP gating; Thai fit is secondary versus stronger action/strategy adds."
+        },
+        {
+          "game_id": "duo-la-de-ying-can-can-che",
+          "status": "Reviewing",
+          "comment": "Fresh cozy sim launch with heavy visible IAP, but Thai fit is softer than RPG/strategy lanes."
+        },
+        {
+          "game_id": "lai-zi-hei-dong-de-lv-ren",
+          "status": "Reviewing",
+          "comment": "Reserve-page anime card RPG with combat hooks, but developer trust issues and unclear IAP metadata lower conviction."
+        },
+        {
+          "game_id": "da-dao-xian-tu",
+          "status": "New",
+          "comment": "Strongest candidate today: confirmed IAP, small publishers, xianxia idle RPG test launch."
+        },
+        {
+          "game_id": "xiao-ji-shou-wei",
+          "status": "Reviewing",
+          "comment": "Small-studio idle TD with confirmed IAP. Secondary Thai fit but good publishing whitespace."
+        },
+        {
+          "game_id": "fan-ren-xiu-xian-lu",
+          "status": "Reviewing",
+          "comment": "Cultivation RPG fresh signal; genre is TH-proven but test phase needs monitoring for launch date."
+        },
+        {
+          "game_id": "quan-min-you-xi-da-heng",
+          "status": "Reviewing",
+          "comment": "Simulation candidate with decent TH genre fit; test phase means launch date still unclear."
+        },
+        {
+          "game_id": "shi-luo-xing-huan",
+          "status": "Reviewing",
+          "comment": "Idle card candidate with monetization signals; genre is crowded but TH-proven."
+        },
+        {
+          "game_id": "zui-qiang-dou-wang",
+          "status": "Reviewing",
+          "comment": "Fighting genre is softer TH fit; exploratory pick from CN new surfaces."
+        },
+        {
+          "game_id": "jie-yan",
+          "status": "Reviewing",
+          "comment": "Indie horror puzzle - blind girl sees ghosts after vision transplant. High 8.6 rating. Small indie dev, no SEA presence visible."
+        },
+        {
+          "game_id": "luo-ke-wang-guo-shi-jie",
+          "status": "Reviewing",
+          "comment": "Massive Tencent IP - childhood pet game revival. 878K followers, 539W downloads. No SEA launch confirmed but large publisher means high risk of TH/SEA plans."
+        },
+        {
+          "game_id": "tian-xu-chuan-shuo",
+          "status": "Reviewing",
+          "comment": "Dark fantasy MMO, Score 8.8, Rank #3 on 新品榜, Launch Apr 27. 200W prereg. Indie dev. SEA presence unknown."
+        }
+      ]
+    },
+    {
+      "date": "2026-04-25",
+      "headline": "One new roguelike survivor candidate added. CN new-game surfaces dominated by major releases (异环, 王者荣耀世界) compressing the small/mid publisher window.",
+      "game_ids": [
+        "999-miao-sheng-cun-zhe"
+      ],
+      "new_game_ids": [
+        "999-miao-sheng-cun-zhe"
+      ],
+      "top_pick_ids": [
+        "999-miao-sheng-cun-zhe"
+      ],
+      "cross_game_insight": "Apr 25 was compressed by major releases. Only 999秒!幸存者 qualified as a small indie candidate with clean local-only signals. 天墟传说 was not yet live on Apr 25 (launch Apr 27) and will be captured in Apr 26 pass.",
+      "notes": [
+        "999秒!幸存者: small indie, permanent free/no-ads, roguelike survivor genre trending globally.",
+        "Major CN releases (异环, 王者荣耀世界) dominated charts on Apr 25, compressing small publisher discovery window.",
+        "天墟传说 launch Apr 27 - captured in Apr 26 report.",
+        "No KR candidates qualified on Apr 25."
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "999-miao-sheng-cun-zhe",
+          "status": "Reviewing",
+          "comment": "Fresh indie roguelike survivor - permanent free, no ads, rank #8 on 新品榜. Genre trending in SEA. Publishing model needs negotiation."
+        }
+      ]
+    },
     {
       "date": "2026-04-24",
       "headline": "Four new CN-only candidates added from TapTap new-game surfaces, all in test phase. No KR candidates qualified today.",
@@ -2523,33 +2898,6 @@
       ]
     },
     {
-      "date": "2026-04-25",
-      "headline": "One new roguelike survivor candidate added. CN new-game surfaces dominated by major releases (异环, 王者荣耀世界) compressing the small/mid publisher window.",
-      "game_ids": [
-        "999-miao-sheng-cun-zhe"
-      ],
-      "new_game_ids": [
-        "999-miao-sheng-cun-zhe"
-      ],
-      "top_pick_ids": [
-        "999-miao-sheng-cun-zhe"
-      ],
-      "cross_game_insight": "Apr 25 was compressed by major releases. Only 999秒!幸存者 qualified as a small indie candidate with clean local-only signals. 天墟传说 was not yet live on Apr 25 (launch Apr 27) and will be captured in Apr 26 pass.",
-      "notes": [
-        "999秒!幸存者: small indie, permanent free/no-ads, roguelike survivor genre trending globally.",
-        "Major CN releases (异环, 王者荣耀世界) dominated charts on Apr 25, compressing small publisher discovery window.",
-        "天墟传说 launch Apr 27 - captured in Apr 26 report.",
-        "No KR candidates qualified on Apr 25."
-      ],
-      "game_snapshots": [
-        {
-          "game_id": "999-miao-sheng-cun-zhe",
-          "status": "Reviewing",
-          "comment": "Fresh indie roguelike survivor - permanent free, no ads, rank #8 on 新品榜. Genre trending in SEA. Publishing model needs negotiation."
-        }
-      ]
-    },
-    {
       "date": "2026-04-23",
       "headline": "No new CN/KR candidates surfaced on April 23. TapTap charts dominated by major releases (异环, 王者荣耀世界) — compression day with limited small/publisher prospecting surface.",
       "game_ids": [],
@@ -2584,7 +2932,9 @@
         }
       ],
       "cross_game_insight": "大道仙途 is the strongest recent candidate: confirmed IAP, genuinely small publishers (六爻/金琵琶), and idle xianxia RPG maps cleanly to Thailand's proven spend lane.",
-      "notes": []
+      "notes": [
+        "มีเกมใหม่ 1 ตัว: 大道仙途 (RPG) — score 25/30."
+      ]
     },
     {
       "date": "2026-04-21",
@@ -2604,7 +2954,9 @@
           "comment": "Confirmed IAP; mid-tier naval strategy candidate acceptable even with P2W complaints."
         }
       ],
-      "notes": []
+      "notes": [
+        "มีเกมใหม่ 1 ตัว: 王者舰队 (Strategy) — score 17/30."
+      ]
     },
     {
       "date": "2026-04-20",
@@ -2624,7 +2976,9 @@
           "comment": "Small-studio idle TD/merge with confirmed IAP. 266MB, CN-only presentation. Keep tracking."
         }
       ],
-      "notes": []
+      "notes": [
+        "มีเกมใหม่ 1 ตัว: 小鸡守卫 (Strategy) — score 20/30."
+      ]
     },
     {
       "date": "2026-04-19",
@@ -3080,255 +3434,6 @@
           "comment": "Most interesting strategy-side candidate; keep tracking systems and monetization clues."
         }
       ]
-    },
-    {
-      "date": "2026-04-26",
-      "headline": "2 new CN candidates found on TapTap 新品榜. Small indie and one massive Tencent IP.",
-      "game_ids": [
-        "jie-yan",
-        "luo-ke-wang-guo-shi-jie",
-        "tian-xu-chuan-shuo"
-      ],
-      "new_game_ids": [
-        "jie-yan",
-        "luo-ke-wang-guo-shi-jie",
-        "tian-xu-chuan-shuo"
-      ],
-      "top_pick_ids": [
-        "jie-yan",
-        "tian-xu-chuan-shuo"
-      ],
-      "cross_game_insight": "借眼 is indie with no SEA plans visible - best candidate. 洛克王国 is Tencent (high risk of SEA competition).",
-      "notes": [
-        "Scraped TapTap 新品榜 for new listings. 借眼 (horror puzzle, 8.6 rating) and 洛克王国：世界 (Tencent pet collection) confirmed not in JSON. Most other 新品榜 entries already tracked."
-      ],
-      "game_snapshots": [
-        {
-          "game_id": "qi-jie-meng-tan",
-          "status": "Watchlist",
-          "comment": "Good RPG fit, but still need stronger source confirmation beyond TapTap."
-        },
-        {
-          "game_id": "ye-mu-zhi-xia",
-          "status": "Reviewing",
-          "comment": "Need publisher clarity before escalation."
-        },
-        {
-          "game_id": "xue-song",
-          "status": "Watchlist",
-          "comment": "Most interesting strategy-side candidate; keep tracking systems and monetization clues."
-        },
-        {
-          "game_id": "huan-xiang-shao-nu-gong-hui",
-          "status": "Watchlist",
-          "comment": "Fresh CN-only idle RPG signal, but self-publishing capability lowers whitespace."
-        },
-        {
-          "game_id": "yi-wan-guang-nian",
-          "status": "Watchlist",
-          "comment": "Best strategy-side new launch today, but server stability and monetization need watching."
-        },
-        {
-          "game_id": "xiao-hua-xian-la-bei-er-zhi-yue",
-          "status": "Reviewing",
-          "comment": "Live-service signals are real, but Thai fit is softer and the IP is already sizable."
-        },
-        {
-          "game_id": "li-ming-zhi-qian",
-          "status": "Reviewing",
-          "comment": "Local-source freshness is good, but the monetization mix looks ad-heavy."
-        },
-        {
-          "game_id": "xi-er-lan-si-zhan-ji",
-          "status": "Reviewing",
-          "comment": "Fresh CN-only launch with visible IAP, but early complaints already lean paywall-heavy."
-        },
-        {
-          "game_id": "chou-ka-qiu-sheng-huang-dao",
-          "status": "Reviewing",
-          "comment": "Fresh CN launch with local-only evidence, but monetization already looks ad-heavy."
-        },
-        {
-          "game_id": "long-dao-yi-shou-qi-yuan",
-          "status": "Reviewing",
-          "comment": "Big local traction makes it worth tracking, but whitespace is narrower than for smaller teams."
-        },
-        {
-          "game_id": "luan-tu-cai-shi-jie",
-          "status": "Reviewing",
-          "comment": "Local-only prereg with explicit gacha rewards, but Thai fit is softer than the survival add."
-        },
-        {
-          "game_id": "nv-shen-zhi-guang",
-          "status": "Watchlist",
-          "comment": "Fresh CN-only card RPG with visible IAP and paid-test structure; strongest new RPG add today."
-        },
-        {
-          "game_id": "xin-tiao-xian-luo",
-          "status": "Reviewing",
-          "comment": "Visible prereg economy is real, but female-oriented fit is secondary versus stronger RPG/SLG lanes."
-        },
-        {
-          "game_id": "san-guo-tian-xia-gui-xin",
-          "status": "Watchlist",
-          "comment": "Best strategy-side add today: clear SLG fit and visible draw/resource economy, but already fairly hot locally."
-        },
-        {
-          "game_id": "hui-guang-zhi-cheng-1907",
-          "status": "Watchlist",
-          "comment": "Most interesting add today: local-only city-builder test with clearer systems than the other reserve pages."
-        },
-        {
-          "game_id": "dai-hao-lian",
-          "status": "Reviewing",
-          "comment": "Female-oriented hook is distinctive, but commercialization proof is still lighter than the city-builder add."
-        },
-        {
-          "game_id": "tong-hua-shi",
-          "status": "Reviewing",
-          "comment": "Clean local-only cozy signal, but monetization depth is still the main question."
-        },
-        {
-          "game_id": "lv-meng-shi-kong-zhi-sheng",
-          "status": "Watchlist",
-          "comment": "Best new reserve-page add today: clear CN-only presentation plus visible IAP on a fantasy adventure lane."
-        },
-        {
-          "game_id": "xun-long-zhi-lv",
-          "status": "Watchlist",
-          "comment": "Strongest Thai-fit new add today: dragon-raising RPG loop plus visible IAP and near-term launch timing."
-        },
-        {
-          "game_id": "wang-zhe-jian-dui",
-          "status": "Reviewing",
-          "comment": "Mid-tier naval strategy candidate with confirmed IAP; acceptable even with P2W/top-up complaints."
-        },
-        {
-          "game_id": "chong-ba-pa-ke",
-          "status": "Reviewing",
-          "comment": "Fresh small-studio action add with visible IAP, but still a secondary bet versus the top RPG/strategy picks."
-        },
-        {
-          "game_id": "xin-da-feng-da-geng-ren",
-          "status": "Watchlist",
-          "comment": "Best fresh reserve-page add today, but supplier / publishing capability still needs verification."
-        },
-        {
-          "game_id": "shen-qi-fen-zheng",
-          "status": "Watchlist",
-          "comment": "Strong structured evidence and fresh launch timing, but likely VIP/paywall-heavy."
-        },
-        {
-          "game_id": "zong-shi-zhi-shang",
-          "status": "Reviewing",
-          "comment": "Usable idle-RPG add, but Lingxi-sized self-publishing power lowers whitespace."
-        },
-        {
-          "game_id": "ying-xiong-shou-yu",
-          "status": "Watchlist",
-          "comment": "Best new add today: local-only card RPG with visible IAP and a near-term launch window."
-        },
-        {
-          "game_id": "yi-jian-xian-tu",
-          "status": "Watchlist",
-          "comment": "Clean local-only xianxia reserve add, but IAP remains inferred rather than confirmed."
-        },
-        {
-          "game_id": "yao-shi-ge-dou",
-          "status": "Watchlist",
-          "comment": "Best action-side add today, but still needs hard IAP confirmation from later metadata or live launch."
-        },
-        {
-          "game_id": "gui-yi-rou-ge-ma-jiang",
-          "status": "Reviewing",
-          "comment": "Fresh and local-only, but monetization clarity and Thai genre fit are weaker than the top three adds."
-        },
-        {
-          "game_id": "mo-ri-ying-di",
-          "status": "Reviewing",
-          "comment": "Trending extraction/survival loop from a tiny indie studio; monetization proof still thin but genre is hot."
-        },
-        {
-          "game_id": "dai-hao-meng-he",
-          "status": "Watchlist",
-          "comment": "Highest-whitespace candidate today: 25万 prereg from an extremely tiny studio in the hottest CN extraction trend."
-        },
-        {
-          "game_id": "xi-wang-cheng",
-          "status": "Reviewing",
-          "comment": "Distinctive toy-collectible builder with anti-grind positioning, but Thai fit is softer than RPG/strategy lanes."
-        },
-        {
-          "game_id": "meng-xiang-yu-zheng-cheng",
-          "status": "Reviewing",
-          "comment": "Lineage 1 nostalgia clone with rough execution but proven Korean IP monetization potential in TH."
-        },
-        {
-          "game_id": "ge-dou-tian-xia",
-          "status": "Reviewing",
-          "comment": "Fresh small-studio fighting test with confirmed IAP, but Thai genre fit is narrower than RPG/strategy."
-        },
-        {
-          "game_id": "zui-feng-shen",
-          "status": "Reviewing",
-          "comment": "Fresh CN-only idle card RPG with confirmed IAP, but early reviews flag VIP gating; Thai fit is secondary versus stronger action/strategy adds."
-        },
-        {
-          "game_id": "duo-la-de-ying-can-can-che",
-          "status": "Reviewing",
-          "comment": "Fresh cozy sim launch with heavy visible IAP, but Thai fit is softer than RPG/strategy lanes."
-        },
-        {
-          "game_id": "lai-zi-hei-dong-de-lv-ren",
-          "status": "Reviewing",
-          "comment": "Reserve-page anime card RPG with combat hooks, but developer trust issues and unclear IAP metadata lower conviction."
-        },
-        {
-          "game_id": "da-dao-xian-tu",
-          "status": "New",
-          "comment": "Strongest candidate today: confirmed IAP, small publishers, xianxia idle RPG test launch."
-        },
-        {
-          "game_id": "xiao-ji-shou-wei",
-          "status": "Reviewing",
-          "comment": "Small-studio idle TD with confirmed IAP. Secondary Thai fit but good publishing whitespace."
-        },
-        {
-          "game_id": "fan-ren-xiu-xian-lu",
-          "status": "Reviewing",
-          "comment": "Cultivation RPG fresh signal; genre is TH-proven but test phase needs monitoring for launch date."
-        },
-        {
-          "game_id": "quan-min-you-xi-da-heng",
-          "status": "Reviewing",
-          "comment": "Simulation candidate with decent TH genre fit; test phase means launch date still unclear."
-        },
-        {
-          "game_id": "shi-luo-xing-huan",
-          "status": "Reviewing",
-          "comment": "Idle card candidate with monetization signals; genre is crowded but TH-proven."
-        },
-        {
-          "game_id": "zui-qiang-dou-wang",
-          "status": "Reviewing",
-          "comment": "Fighting genre is softer TH fit; exploratory pick from CN new surfaces."
-        },
-        {
-          "game_id": "jie-yan",
-          "status": "Reviewing",
-          "comment": "Indie horror puzzle - blind girl sees ghosts after vision transplant. High 8.6 rating. Small indie dev, no SEA presence visible."
-        },
-        {
-          "game_id": "luo-ke-wang-guo-shi-jie",
-          "status": "Reviewing",
-          "comment": "Massive Tencent IP - childhood pet game revival. 878K followers, 539W downloads. No SEA launch confirmed but large publisher means high risk of TH/SEA plans."
-        },
-        {
-          "game_id": "tian-xu-chuan-shuo",
-          "status": "Reviewing",
-          "comment": "Dark fantasy MMO, Score 8.8, Rank #3 on 新品榜, Launch Apr 27. 200W prereg. Indie dev. SEA presence unknown."
-        }
-      ]
     }
   ],
   "candidate_pipeline": {
@@ -3516,7 +3621,15 @@
     "candidate_pipeline": 46,
     "pending_verification": 33,
     "new_games_today": 3,
-    "weekly_syntheses": 1
+    "weekly_syntheses": 1,
+    "games_total": 46,
+    "duplicates_removed": 0,
+    "trending_games": 4,
+    "watchlist_count": 15,
+    "reviewing_count": 30,
+    "dropped_count": 0,
+    "avg_priority_score": 48,
+    "last_scouted": "2026-04-26"
   },
   "reports": [
     {
