@@ -7,7 +7,7 @@
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-26T20:24:06+07:00",
+    "generated_at": "2026-04-26T20:35:46+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -2371,7 +2371,7 @@
     {
       "id": "999-miao-sheng-cun-zhe",
       "title": "999秒!幸存者",
-      "logo_path": "https://img-tc.tapimg.com/market/images/placeholder.jpg",
+      "logo_path": "https://img-tc.tapimg.com/market/images/6d7a69f689718f1e41a5b9d4287db1f0.png/_tap_appicon.jpg",
       "developer": "哈洛游戏工作室",
       "publisher": "哈洛游戏工作室",
       "developer_country": "CN",
@@ -2422,7 +2422,7 @@
     {
       "id": "tian-xu-chuan-shuo",
       "title": "天墟传说",
-      "logo_path": "https://img-tc.tapimg.com/market/images/placeholder.jpg",
+      "logo_path": "https://img-tc.tapimg.com/market/images/7f50149c9e5526365c0d878a124f118c.jpg/_tap_appicon.jpg",
       "developer": "西安品沃网络科技有限公司",
       "publisher": "西安品沃网络科技有限公司",
       "developer_country": "CN",
@@ -3086,14 +3086,17 @@
       "headline": "2 new CN candidates found on TapTap 新品榜. Small indie and one massive Tencent IP.",
       "game_ids": [
         "jie-yan",
-        "luo-ke-wang-guo-shi-jie"
+        "luo-ke-wang-guo-shi-jie",
+        "tian-xu-chuan-shuo"
       ],
       "new_game_ids": [
         "jie-yan",
-        "luo-ke-wang-guo-shi-jie"
+        "luo-ke-wang-guo-shi-jie",
+        "tian-xu-chuan-shuo"
       ],
       "top_pick_ids": [
-        "jie-yan"
+        "jie-yan",
+        "tian-xu-chuan-shuo"
       ],
       "cross_game_insight": "借眼 is indie with no SEA plans visible - best candidate. 洛克王国 is Tencent (high risk of SEA competition).",
       "notes": [
@@ -3319,6 +3322,11 @@
           "game_id": "luo-ke-wang-guo-shi-jie",
           "status": "Reviewing",
           "comment": "Massive Tencent IP - childhood pet game revival. 878K followers, 539W downloads. No SEA launch confirmed but large publisher means high risk of TH/SEA plans."
+        },
+        {
+          "game_id": "tian-xu-chuan-shuo",
+          "status": "Reviewing",
+          "comment": "Dark fantasy MMO, Score 8.8, Rank #3 on 新品榜, Launch Apr 27. 200W prereg. Indie dev. SEA presence unknown."
         }
       ]
     }
@@ -3504,10 +3512,10 @@
     ]
   },
   "kpis": {
-    "top_picks_today": 1,
+    "top_picks_today": 2,
     "candidate_pipeline": 46,
     "pending_verification": 33,
-    "new_games_today": 2,
+    "new_games_today": 3,
     "weekly_syntheses": 1
   },
   "reports": [
