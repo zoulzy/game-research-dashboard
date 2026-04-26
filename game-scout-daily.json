@@ -7,7 +7,7 @@
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-26T20:15:50+07:00",
+    "generated_at": "2026-04-26T20:23:17+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -2541,12 +2541,13 @@
         "天墟传说 launch Apr 27 - captured in Apr 26 report.",
         "No KR candidates qualified on Apr 25."
       ],
-      "game_snapshots": {
-        "999-miao-sheng-cun-zhe": {
+      "game_snapshots": [
+        {
+          "game_id": "999-miao-sheng-cun-zhe",
           "status": "Reviewing",
           "comment": "Fresh indie roguelike survivor - permanent free, no ads, rank #8 on 新品榜. Genre trending in SEA. Publishing model needs negotiation."
         }
-      }
+      ]
     },
     {
       "date": "2026-04-23",
@@ -3092,184 +3093,228 @@
       ],
       "cross_game_insight": "借眼 is indie with no SEA plans visible - best candidate. 洛克王国 is Tencent (high risk of SEA competition).",
       "notes": "Scraped TapTap 新品榜 for new listings. 借眼 (horror puzzle, 8.6 rating) and 洛克王国：世界 (Tencent pet collection) confirmed not in JSON. Most other 新品榜 entries already tracked.",
-      "game_snapshots": {
-        "qi-jie-meng-tan": {
+      "game_snapshots": [
+        {
+          "game_id": "qi-jie-meng-tan",
           "status": "Watchlist",
           "comment": "Good RPG fit, but still need stronger source confirmation beyond TapTap."
         },
-        "ye-mu-zhi-xia": {
+        {
+          "game_id": "ye-mu-zhi-xia",
           "status": "Reviewing",
           "comment": "Need publisher clarity before escalation."
         },
-        "xue-song": {
+        {
+          "game_id": "xue-song",
           "status": "Watchlist",
           "comment": "Most interesting strategy-side candidate; keep tracking systems and monetization clues."
         },
-        "huan-xiang-shao-nu-gong-hui": {
+        {
+          "game_id": "huan-xiang-shao-nu-gong-hui",
           "status": "Watchlist",
           "comment": "Fresh CN-only idle RPG signal, but self-publishing capability lowers whitespace."
         },
-        "yi-wan-guang-nian": {
+        {
+          "game_id": "yi-wan-guang-nian",
           "status": "Watchlist",
           "comment": "Best strategy-side new launch today, but server stability and monetization need watching."
         },
-        "xiao-hua-xian-la-bei-er-zhi-yue": {
+        {
+          "game_id": "xiao-hua-xian-la-bei-er-zhi-yue",
           "status": "Reviewing",
           "comment": "Live-service signals are real, but Thai fit is softer and the IP is already sizable."
         },
-        "li-ming-zhi-qian": {
+        {
+          "game_id": "li-ming-zhi-qian",
           "status": "Reviewing",
           "comment": "Local-source freshness is good, but the monetization mix looks ad-heavy."
         },
-        "xi-er-lan-si-zhan-ji": {
+        {
+          "game_id": "xi-er-lan-si-zhan-ji",
           "status": "Reviewing",
           "comment": "Fresh CN-only launch with visible IAP, but early complaints already lean paywall-heavy."
         },
-        "chou-ka-qiu-sheng-huang-dao": {
+        {
+          "game_id": "chou-ka-qiu-sheng-huang-dao",
           "status": "Reviewing",
           "comment": "Fresh CN launch with local-only evidence, but monetization already looks ad-heavy."
         },
-        "long-dao-yi-shou-qi-yuan": {
+        {
+          "game_id": "long-dao-yi-shou-qi-yuan",
           "status": "Reviewing",
           "comment": "Big local traction makes it worth tracking, but whitespace is narrower than for smaller teams."
         },
-        "luan-tu-cai-shi-jie": {
+        {
+          "game_id": "luan-tu-cai-shi-jie",
           "status": "Reviewing",
           "comment": "Local-only prereg with explicit gacha rewards, but Thai fit is softer than the survival add."
         },
-        "nv-shen-zhi-guang": {
+        {
+          "game_id": "nv-shen-zhi-guang",
           "status": "Watchlist",
           "comment": "Fresh CN-only card RPG with visible IAP and paid-test structure; strongest new RPG add today."
         },
-        "xin-tiao-xian-luo": {
+        {
+          "game_id": "xin-tiao-xian-luo",
           "status": "Reviewing",
           "comment": "Visible prereg economy is real, but female-oriented fit is secondary versus stronger RPG/SLG lanes."
         },
-        "san-guo-tian-xia-gui-xin": {
+        {
+          "game_id": "san-guo-tian-xia-gui-xin",
           "status": "Watchlist",
           "comment": "Best strategy-side add today: clear SLG fit and visible draw/resource economy, but already fairly hot locally."
         },
-        "hui-guang-zhi-cheng-1907": {
+        {
+          "game_id": "hui-guang-zhi-cheng-1907",
           "status": "Watchlist",
           "comment": "Most interesting add today: local-only city-builder test with clearer systems than the other reserve pages."
         },
-        "dai-hao-lian": {
+        {
+          "game_id": "dai-hao-lian",
           "status": "Reviewing",
           "comment": "Female-oriented hook is distinctive, but commercialization proof is still lighter than the city-builder add."
         },
-        "tong-hua-shi": {
+        {
+          "game_id": "tong-hua-shi",
           "status": "Reviewing",
           "comment": "Clean local-only cozy signal, but monetization depth is still the main question."
         },
-        "lv-meng-shi-kong-zhi-sheng": {
+        {
+          "game_id": "lv-meng-shi-kong-zhi-sheng",
           "status": "Watchlist",
           "comment": "Best new reserve-page add today: clear CN-only presentation plus visible IAP on a fantasy adventure lane."
         },
-        "xun-long-zhi-lv": {
+        {
+          "game_id": "xun-long-zhi-lv",
           "status": "Watchlist",
           "comment": "Strongest Thai-fit new add today: dragon-raising RPG loop plus visible IAP and near-term launch timing."
         },
-        "wang-zhe-jian-dui": {
+        {
+          "game_id": "wang-zhe-jian-dui",
           "status": "Reviewing",
           "comment": "Mid-tier naval strategy candidate with confirmed IAP; acceptable even with P2W/top-up complaints."
         },
-        "chong-ba-pa-ke": {
+        {
+          "game_id": "chong-ba-pa-ke",
           "status": "Reviewing",
           "comment": "Fresh small-studio action add with visible IAP, but still a secondary bet versus the top RPG/strategy picks."
         },
-        "xin-da-feng-da-geng-ren": {
+        {
+          "game_id": "xin-da-feng-da-geng-ren",
           "status": "Watchlist",
           "comment": "Best fresh reserve-page add today, but supplier / publishing capability still needs verification."
         },
-        "shen-qi-fen-zheng": {
+        {
+          "game_id": "shen-qi-fen-zheng",
           "status": "Watchlist",
           "comment": "Strong structured evidence and fresh launch timing, but likely VIP/paywall-heavy."
         },
-        "zong-shi-zhi-shang": {
+        {
+          "game_id": "zong-shi-zhi-shang",
           "status": "Reviewing",
           "comment": "Usable idle-RPG add, but Lingxi-sized self-publishing power lowers whitespace."
         },
-        "ying-xiong-shou-yu": {
+        {
+          "game_id": "ying-xiong-shou-yu",
           "status": "Watchlist",
           "comment": "Best new add today: local-only card RPG with visible IAP and a near-term launch window."
         },
-        "yi-jian-xian-tu": {
+        {
+          "game_id": "yi-jian-xian-tu",
           "status": "Watchlist",
           "comment": "Clean local-only xianxia reserve add, but IAP remains inferred rather than confirmed."
         },
-        "yao-shi-ge-dou": {
+        {
+          "game_id": "yao-shi-ge-dou",
           "status": "Watchlist",
           "comment": "Best action-side add today, but still needs hard IAP confirmation from later metadata or live launch."
         },
-        "gui-yi-rou-ge-ma-jiang": {
+        {
+          "game_id": "gui-yi-rou-ge-ma-jiang",
           "status": "Reviewing",
           "comment": "Fresh and local-only, but monetization clarity and Thai genre fit are weaker than the top three adds."
         },
-        "mo-ri-ying-di": {
+        {
+          "game_id": "mo-ri-ying-di",
           "status": "Reviewing",
           "comment": "Trending extraction/survival loop from a tiny indie studio; monetization proof still thin but genre is hot."
         },
-        "dai-hao-meng-he": {
+        {
+          "game_id": "dai-hao-meng-he",
           "status": "Watchlist",
           "comment": "Highest-whitespace candidate today: 25万 prereg from an extremely tiny studio in the hottest CN extraction trend."
         },
-        "xi-wang-cheng": {
+        {
+          "game_id": "xi-wang-cheng",
           "status": "Reviewing",
           "comment": "Distinctive toy-collectible builder with anti-grind positioning, but Thai fit is softer than RPG/strategy lanes."
         },
-        "meng-xiang-yu-zheng-cheng": {
+        {
+          "game_id": "meng-xiang-yu-zheng-cheng",
           "status": "Reviewing",
           "comment": "Lineage 1 nostalgia clone with rough execution but proven Korean IP monetization potential in TH."
         },
-        "ge-dou-tian-xia": {
+        {
+          "game_id": "ge-dou-tian-xia",
           "status": "Reviewing",
           "comment": "Fresh small-studio fighting test with confirmed IAP, but Thai genre fit is narrower than RPG/strategy."
         },
-        "zui-feng-shen": {
+        {
+          "game_id": "zui-feng-shen",
           "status": "Reviewing",
           "comment": "Fresh CN-only idle card RPG with confirmed IAP, but early reviews flag VIP gating; Thai fit is secondary versus stronger action/strategy adds."
         },
-        "duo-la-de-ying-can-can-che": {
+        {
+          "game_id": "duo-la-de-ying-can-can-che",
           "status": "Reviewing",
           "comment": "Fresh cozy sim launch with heavy visible IAP, but Thai fit is softer than RPG/strategy lanes."
         },
-        "lai-zi-hei-dong-de-lv-ren": {
+        {
+          "game_id": "lai-zi-hei-dong-de-lv-ren",
           "status": "Reviewing",
           "comment": "Reserve-page anime card RPG with combat hooks, but developer trust issues and unclear IAP metadata lower conviction."
         },
-        "da-dao-xian-tu": {
+        {
+          "game_id": "da-dao-xian-tu",
           "status": "New",
           "comment": "Strongest candidate today: confirmed IAP, small publishers, xianxia idle RPG test launch."
         },
-        "xiao-ji-shou-wei": {
+        {
+          "game_id": "xiao-ji-shou-wei",
           "status": "Reviewing",
           "comment": "Small-studio idle TD with confirmed IAP. Secondary Thai fit but good publishing whitespace."
         },
-        "fan-ren-xiu-xian-lu": {
+        {
+          "game_id": "fan-ren-xiu-xian-lu",
           "status": "Reviewing",
           "comment": "Cultivation RPG fresh signal; genre is TH-proven but test phase needs monitoring for launch date."
         },
-        "quan-min-you-xi-da-heng": {
+        {
+          "game_id": "quan-min-you-xi-da-heng",
           "status": "Reviewing",
           "comment": "Simulation candidate with decent TH genre fit; test phase means launch date still unclear."
         },
-        "shi-luo-xing-huan": {
+        {
+          "game_id": "shi-luo-xing-huan",
           "status": "Reviewing",
           "comment": "Idle card candidate with monetization signals; genre is crowded but TH-proven."
         },
-        "zui-qiang-dou-wang": {
+        {
+          "game_id": "zui-qiang-dou-wang",
           "status": "Reviewing",
           "comment": "Fighting genre is softer TH fit; exploratory pick from CN new surfaces."
         },
-        "jie-yan": {
+        {
+          "game_id": "jie-yan",
           "status": "Reviewing",
           "comment": "Indie horror puzzle - blind girl sees ghosts after vision transplant. High 8.6 rating. Small indie dev, no SEA presence visible."
         },
-        "luo-ke-wang-guo-shi-jie": {
+        {
+          "game_id": "luo-ke-wang-guo-shi-jie",
           "status": "Reviewing",
           "comment": "Massive Tencent IP - childhood pet game revival. 878K followers, 539W downloads. No SEA launch confirmed but large publisher means high risk of TH/SEA plans."
         }
-      }
+      ]
     }
   ],
   "candidate_pipeline": {
