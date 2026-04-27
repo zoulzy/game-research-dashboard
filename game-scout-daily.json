@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "CN/KR Mobile Game Research Dashboard",
-    "date": "2026-04-26",
+    "date": "2026-04-27",
     "timezone": "Asia/Bangkok",
     "mode": "analyst",
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-26T22:33:22+07:00",
+    "generated_at": "2026-04-27T08:08:56+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -2238,7 +2238,7 @@
       "last_comment_updated": null,
       "status_history": [],
       "priority_score": 64,
-      "trending_direction": "stable"
+      "trending_direction": null
     },
     {
       "id": "quan-min-you-xi-da-heng",
@@ -2290,7 +2290,7 @@
       "last_comment_updated": null,
       "status_history": [],
       "priority_score": 39,
-      "trending_direction": "stable"
+      "trending_direction": null
     },
     {
       "id": "shi-luo-xing-huan",
@@ -2342,7 +2342,7 @@
       "last_comment_updated": null,
       "status_history": [],
       "priority_score": 45,
-      "trending_direction": "stable"
+      "trending_direction": null
     },
     {
       "id": "zui-qiang-dou-wang",
@@ -2392,7 +2392,7 @@
       "last_comment_updated": null,
       "status_history": [],
       "priority_score": 44,
-      "trending_direction": "stable"
+      "trending_direction": null
     },
     {
       "id": "jie-yan",
@@ -2514,7 +2514,7 @@
       "last_comment_updated": null,
       "status_history": [],
       "priority_score": 39,
-      "trending_direction": "up"
+      "trending_direction": "stable"
     },
     {
       "id": "tian-xu-chuan-shuo",
@@ -2569,9 +2569,576 @@
       "status_history": [],
       "priority_score": 67,
       "trending_direction": "up"
+    },
+    {
+      "id": "sha-sha-bu-jian-ta",
+      "app_id": 838670,
+      "title": "杀戮不尖塔",
+      "logo_path": "https://img-tc.tapimg.com/market/images/fef5797d6036f6b35865e52d1b2c1927.png/_tap_appicon.jpg",
+      "developer": "梦游猫",
+      "publisher": "梦游猫",
+      "developer_country": "CN",
+      "genre": "策略",
+      "subgenre": "Roguelike塔防",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-27",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "Roguelike自动战斗爬塔，3人组队+遗物Build，70层，单手极简操作，8分钟/局。TapTap 2026新上的本土创意塔防，有差异化。",
+      "score": 7.0,
+      "fans": 1265,
+      "official_or_source_page": "https://www.taptap.cn/app/838670",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/838670"
+        }
+      ],
+      "tags": [],
+      "fit_with_th_top_genres": [],
+      "status_history": [],
+      "priority_score": 16,
+      "trending_direction": "up"
+    },
+    {
+      "id": "ling-jue-tian-xia",
+      "app_id": 839030,
+      "title": "灵决天下",
+      "logo_path": "https://img-tc.tapimg.com/market/images/051b2474107c88e332b56455ccf44a52.png/_tap_appicon.jpg",
+      "developer": "云龙漫格",
+      "publisher": "云龙漫格",
+      "developer_country": "CN",
+      "genre": "角色扮演",
+      "subgenre": "放置修仙RPG",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-27",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "竖屏放置修仙，护肝+智能拾取回收，随机词条装备系统。TapTap评分9.4本土放置RPG，近期新上。",
+      "score": 9.4,
+      "fans": 1791,
+      "official_or_source_page": "https://www.taptap.cn/app/839030",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/839030"
+        }
+      ],
+      "tags": [],
+      "fit_with_th_top_genres": [],
+      "status_history": [],
+      "priority_score": 18,
+      "trending_direction": "up"
+    },
+    {
+      "id": "wu-jin-zhi-mi",
+      "app_id": 839335,
+      "title": "无尽之秘",
+      "logo_path": "https://img-tc.tapimg.com/market/images/ca3dd7cbf117f92904a7c17cfe257b40.png/_tap_appicon.jpg",
+      "developer": "天之梦游戏",
+      "publisher": "天之梦游戏",
+      "developer_country": "CN",
+      "genre": "冒险",
+      "subgenre": "多时间线策略冒险",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-27",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "三国历史失控+时间泡/时间污染机制，平行世界冒险。TapTap评分8.4，策略深度题材有新意。",
+      "score": 8.4,
+      "fans": 316,
+      "official_or_source_page": "https://www.taptap.cn/app/839335",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/839335"
+        }
+      ],
+      "tags": [],
+      "fit_with_th_top_genres": [],
+      "status_history": [],
+      "priority_score": 17,
+      "trending_direction": "up"
+    },
+    {
+      "id": "deathplunder-wang-ming-jie-du-zhe",
+      "app_id": 839915,
+      "title": "DeathPlunder亡命掠夺者",
+      "logo_path": "https://img-tc.tapimg.com/market/images/2dd146cf5272a04053b4f98fa45d782b.png/_tap_appicon.jpg",
+      "developer": "FourOneGames工作室",
+      "publisher": "FourOneGames工作室",
+      "developer_country": "CN",
+      "genre": "角色扮演",
+      "subgenre": "末日生存搜打撤",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-27",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "末日生存+2D射击搜打撤，角色构筑+僵尸岛搜刮，TapTap评分9.3，粉丝18345，本土工作室独立游戏，题材在SEA有潜力。",
+      "score": 9.3,
+      "fans": 18345,
+      "official_or_source_page": "https://www.taptap.cn/app/839915",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/839915"
+        }
+      ],
+      "tags": [],
+      "fit_with_th_top_genres": [],
+      "status_history": [],
+      "priority_score": 18,
+      "trending_direction": "up"
+    },
+    {
+      "id": "huan-xing-zhan-zheng",
+      "app_id": 837405,
+      "title": "环形战争",
+      "logo_path": "https://img-tc.tapimg.com/market/images/0039720fa0f7846a4b87ff7c23745552.png/_tap_appicon.jpg",
+      "developer": "NIRVANA",
+      "publisher": "NIRVANA",
+      "developer_country": "CN",
+      "genre": "策略",
+      "subgenre": "暗黑战棋策略",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-27",
+      "default_status": "Reviewing",
+      "status": "Reviewing",
+      "comment": "暗黑风战棋策略，中世纪骑士战争+克系视觉，虚幻引擎开发，佣兵团构筑。TapTap 2026新上，战棋+暗黑题材有差异化。",
+      "score": 0,
+      "fans": 1,
+      "official_or_source_page": "https://www.taptap.cn/app/837405",
+      "source_links": [
+        {
+          "label": "TapTap local source",
+          "url": "https://www.taptap.cn/app/837405"
+        }
+      ],
+      "tags": [],
+      "fit_with_th_top_genres": [],
+      "status_history": [],
+      "priority_score": 9,
+      "trending_direction": "up"
     }
   ],
   "daily_reports": [
+    {
+      "date": "2026-04-27",
+      "game_ids": [
+        "qi-jie-meng-tan",
+        "ye-mu-zhi-xia",
+        "xue-song",
+        "huan-xiang-shao-nu-gong-hui",
+        "yi-wan-guang-nian",
+        "xiao-hua-xian-la-bei-er-zhi-yue",
+        "li-ming-zhi-qian",
+        "xi-er-lan-si-zhan-ji",
+        "chou-ka-qiu-sheng-huang-dao",
+        "long-dao-yi-shou-qi-yuan",
+        "luan-tu-cai-shi-jie",
+        "nv-shen-zhi-guang",
+        "xin-tiao-xian-luo",
+        "san-guo-tian-xia-gui-xin",
+        "hui-guang-zhi-cheng-1907",
+        "dai-hao-lian",
+        "tong-hua-shi",
+        "lv-meng-shi-kong-zhi-sheng",
+        "xun-long-zhi-lv",
+        "wang-zhe-jian-dui",
+        "chong-ba-pa-ke",
+        "xin-da-feng-da-geng-ren",
+        "shen-qi-fen-zheng",
+        "zong-shi-zhi-shang",
+        "ying-xiong-shou-yu",
+        "yi-jian-xian-tu",
+        "yao-shi-ge-dou",
+        "gui-yi-rou-ge-ma-jiang",
+        "mo-ri-ying-di",
+        "dai-hao-meng-he",
+        "xi-wang-cheng",
+        "meng-xiang-yu-zheng-cheng",
+        "ge-dou-tian-xia",
+        "zui-feng-shen",
+        "duo-la-de-ying-can-can-che",
+        "lai-zi-hei-dong-de-lv-ren",
+        "da-dao-xian-tu",
+        "xiao-ji-shou-wei",
+        "fan-ren-xiu-xian-lu",
+        "quan-min-you-xi-da-heng",
+        "shi-luo-xing-huan",
+        "zui-qiang-dou-wang",
+        "jie-yan",
+        "luo-ke-wang-guo-shi-jie",
+        "999-miao-sheng-cun-zhe",
+        "tian-xu-chuan-shuo",
+        "sha-sha-bu-jian-ta",
+        "ling-jue-tian-xia",
+        "wu-jin-zhi-mi",
+        "deathplunder-wang-ming-jie-du-zhe",
+        "huan-xing-zhan-zheng"
+      ],
+      "new_game_ids": [
+        "sha-sha-bu-jian-ta",
+        "ling-jue-tian-xia",
+        "wu-jin-zhi-mi",
+        "deathplunder-wang-ming-jie-du-zhe",
+        "huan-xing-zhan-zheng"
+      ],
+      "top_pick_ids": [
+        "deathplunder-wang-ming-jie-du-zhe",
+        "ling-jue-tian-xia",
+        "sha-sha-bu-jian-ta"
+      ],
+      "game_snapshots": [
+        {
+          "game_id": "qi-jie-meng-tan",
+          "title": "七界梦谭",
+          "status": "Watchlist",
+          "comment": "Good RPG fit, but still need stronger source confirmation beyond TapTap."
+        },
+        {
+          "game_id": "ye-mu-zhi-xia",
+          "title": "夜幕之下",
+          "status": "Reviewing",
+          "comment": "Need publisher clarity before escalation."
+        },
+        {
+          "game_id": "xue-song",
+          "title": "雪松",
+          "status": "Watchlist",
+          "comment": "Most interesting strategy-side candidate; keep tracking systems and monetization clues."
+        },
+        {
+          "game_id": "huan-xiang-shao-nu-gong-hui",
+          "title": "幻想少女公会",
+          "status": "Watchlist",
+          "comment": "Fresh CN-only idle RPG signal, but self-publishing capability lowers whitespace."
+        },
+        {
+          "game_id": "yi-wan-guang-nian",
+          "title": "亿万光年",
+          "status": "Watchlist",
+          "comment": "Best strategy-side new launch today, but server stability and monetization need watching."
+        },
+        {
+          "game_id": "xiao-hua-xian-la-bei-er-zhi-yue",
+          "title": "小花仙：拉贝尔之约",
+          "status": "Reviewing",
+          "comment": "Live-service signals are real, but Thai fit is softer and the IP is already sizable."
+        },
+        {
+          "game_id": "li-ming-zhi-qian",
+          "title": "黎明之前",
+          "status": "Reviewing",
+          "comment": "Local-source freshness is good, but the monetization mix looks ad-heavy."
+        },
+        {
+          "game_id": "xi-er-lan-si-zhan-ji",
+          "title": "希尔兰斯战记",
+          "status": "Reviewing",
+          "comment": "Fresh CN-only launch with visible IAP, but early complaints already lean paywall-heavy."
+        },
+        {
+          "game_id": "chou-ka-qiu-sheng-huang-dao",
+          "title": "抽卡求生：荒岛",
+          "status": "Reviewing",
+          "comment": "Fresh CN launch with local-only evidence, but monetization already looks ad-heavy."
+        },
+        {
+          "game_id": "long-dao-yi-shou-qi-yuan",
+          "title": "龙岛异兽起源",
+          "status": "Reviewing",
+          "comment": "Big local traction makes it worth tracking, but whitespace is narrower than for smaller teams."
+        },
+        {
+          "game_id": "luan-tu-cai-shi-jie",
+          "title": "乱涂彩世界",
+          "status": "Reviewing",
+          "comment": "Local-only prereg with explicit gacha rewards, but Thai fit is softer than the survival add."
+        },
+        {
+          "game_id": "nv-shen-zhi-guang",
+          "title": "女神之光",
+          "status": "Watchlist",
+          "comment": "Fresh CN-only card RPG with visible IAP and paid-test structure; strongest new RPG add today."
+        },
+        {
+          "game_id": "xin-tiao-xian-luo",
+          "title": "心跳陷落",
+          "status": "Reviewing",
+          "comment": "Visible prereg economy is real, but female-oriented fit is secondary versus stronger RPG/SLG lanes."
+        },
+        {
+          "game_id": "san-guo-tian-xia-gui-xin",
+          "title": "三国：天下归心",
+          "status": "Watchlist",
+          "comment": "Best strategy-side add today: clear SLG fit and visible draw/resource economy, but already fairly hot locally."
+        },
+        {
+          "game_id": "hui-guang-zhi-cheng-1907",
+          "title": "辉光之城1907",
+          "status": "Watchlist",
+          "comment": "Most interesting add today: local-only city-builder test with clearer systems than the other reserve pages."
+        },
+        {
+          "game_id": "dai-hao-lian",
+          "title": "代号莲",
+          "status": "Reviewing",
+          "comment": "Female-oriented hook is distinctive, but commercialization proof is still lighter than the city-builder add."
+        },
+        {
+          "game_id": "tong-hua-shi",
+          "title": "童话师",
+          "status": "Reviewing",
+          "comment": "Clean local-only cozy signal, but monetization depth is still the main question."
+        },
+        {
+          "game_id": "lv-meng-shi-kong-zhi-sheng",
+          "title": "绿梦：时空之声",
+          "status": "Watchlist",
+          "comment": "Best new reserve-page add today: clear CN-only presentation plus visible IAP on a fantasy adventure lane."
+        },
+        {
+          "game_id": "xun-long-zhi-lv",
+          "title": "驯龙之旅",
+          "status": "Watchlist",
+          "comment": "Strongest Thai-fit new add today: dragon-raising RPG loop plus visible IAP and near-term launch timing."
+        },
+        {
+          "game_id": "wang-zhe-jian-dui",
+          "title": "王者舰队",
+          "status": "Reviewing",
+          "comment": "Mid-tier naval strategy candidate with confirmed IAP; acceptable even with P2W/top-up complaints."
+        },
+        {
+          "game_id": "chong-ba-pa-ke",
+          "title": "冲吧！帕克",
+          "status": "Reviewing",
+          "comment": "Fresh small-studio action add with visible IAP, but still a secondary bet versus the top RPG/strategy picks."
+        },
+        {
+          "game_id": "xin-da-feng-da-geng-ren",
+          "title": "新大奉打更人",
+          "status": "Watchlist",
+          "comment": "Best fresh reserve-page add today, but supplier / publishing capability still needs verification."
+        },
+        {
+          "game_id": "shen-qi-fen-zheng",
+          "title": "神泣：纷争",
+          "status": "Watchlist",
+          "comment": "Strong structured evidence and fresh launch timing, but likely VIP/paywall-heavy."
+        },
+        {
+          "game_id": "zong-shi-zhi-shang",
+          "title": "宗师之上",
+          "status": "Reviewing",
+          "comment": "Usable idle-RPG add, but Lingxi-sized self-publishing power lowers whitespace."
+        },
+        {
+          "game_id": "ying-xiong-shou-yu",
+          "title": "英雄守御",
+          "status": "Watchlist",
+          "comment": "Best new add today: local-only card RPG with visible IAP and a near-term launch window."
+        },
+        {
+          "game_id": "yi-jian-xian-tu",
+          "title": "一剑仙途",
+          "status": "Watchlist",
+          "comment": "Clean local-only xianxia reserve add, but IAP remains inferred rather than confirmed."
+        },
+        {
+          "game_id": "yao-shi-ge-dou",
+          "title": "耀世格斗",
+          "status": "Watchlist",
+          "comment": "Best action-side add today, but still needs hard IAP confirmation from later metadata or live launch."
+        },
+        {
+          "game_id": "gui-yi-rou-ge-ma-jiang",
+          "title": "诡异肉鸽麻将",
+          "status": "Reviewing",
+          "comment": "Fresh and local-only, but monetization clarity and Thai genre fit are weaker than the top three adds."
+        },
+        {
+          "game_id": "mo-ri-ying-di",
+          "title": "末日营地",
+          "status": "Reviewing",
+          "comment": "Trending extraction/survival loop from a tiny indie studio; monetization proof still thin but genre is hot."
+        },
+        {
+          "game_id": "dai-hao-meng-he",
+          "title": "代号：梦核",
+          "status": "Watchlist",
+          "comment": "Highest-whitespace candidate today: 25万 prereg from an extremely tiny studio in the hottest CN extraction trend."
+        },
+        {
+          "game_id": "xi-wang-cheng",
+          "title": "希望城",
+          "status": "Reviewing",
+          "comment": "Distinctive toy-collectible builder with anti-grind positioning, but Thai fit is softer than RPG/strategy lanes."
+        },
+        {
+          "game_id": "meng-xiang-yu-zheng-cheng",
+          "title": "梦想与征程",
+          "status": "Reviewing",
+          "comment": "Lineage 1 nostalgia clone with rough execution but proven Korean IP monetization potential in TH."
+        },
+        {
+          "game_id": "ge-dou-tian-xia",
+          "title": "格斗天下",
+          "status": "Reviewing",
+          "comment": "Fresh small-studio fighting test with confirmed IAP, but Thai genre fit is narrower than RPG/strategy."
+        },
+        {
+          "game_id": "zui-feng-shen",
+          "title": "最封神",
+          "status": "Reviewing",
+          "comment": "Fresh CN-only idle card RPG with confirmed IAP, but early reviews flag VIP gating; Thai fit is secondary versus stronger action/strategy adds."
+        },
+        {
+          "game_id": "duo-la-de-ying-can-can-che",
+          "title": "朵拉的露营餐车",
+          "status": "Reviewing",
+          "comment": "Fresh cozy sim launch with heavy visible IAP, but Thai fit is softer than RPG/strategy lanes."
+        },
+        {
+          "game_id": "lai-zi-hei-dong-de-lv-ren",
+          "title": "来自黑洞的旅人",
+          "status": "Reviewing",
+          "comment": "Reserve-page anime card RPG with combat hooks, but developer trust issues and unclear IAP metadata lower conviction."
+        },
+        {
+          "game_id": "da-dao-xian-tu",
+          "title": "大道仙途",
+          "status": "New",
+          "comment": "Strongest candidate today: confirmed IAP, small publishers, xianxia idle RPG test launch."
+        },
+        {
+          "game_id": "xiao-ji-shou-wei",
+          "title": "小鸡守卫",
+          "status": "Reviewing",
+          "comment": "Small-studio idle TD with confirmed IAP. Secondary Thai fit but good publishing whitespace."
+        },
+        {
+          "game_id": "fan-ren-xiu-xian-lu",
+          "title": "凡人修仙路",
+          "status": "Reviewing",
+          "comment": "Cultivation RPG fresh signal; genre is TH-proven but test phase needs monitoring for launch date."
+        },
+        {
+          "game_id": "quan-min-you-xi-da-heng",
+          "title": "全民游戏大亨",
+          "status": "Reviewing",
+          "comment": "Simulation candidate with decent TH genre fit; test phase means launch date still unclear."
+        },
+        {
+          "game_id": "shi-luo-xing-huan",
+          "title": "失落星环",
+          "status": "Reviewing",
+          "comment": "Idle card candidate with monetization signals; genre is crowded but TH-proven."
+        },
+        {
+          "game_id": "zui-qiang-dou-wang",
+          "title": "最强斗王",
+          "status": "Reviewing",
+          "comment": "Fighting genre is softer TH fit; exploratory pick from CN new surfaces."
+        },
+        {
+          "game_id": "jie-yan",
+          "title": "借眼",
+          "status": "Reviewing",
+          "comment": "Indie horror puzzle - blind girl sees ghosts after vision transplant. High 8.6 rating. Small indie dev, no SEA presence visible."
+        },
+        {
+          "game_id": "luo-ke-wang-guo-shi-jie",
+          "title": "洛克王国：世界",
+          "status": "Reviewing",
+          "comment": "Massive Tencent IP - childhood pet game revival. 878K followers, 539W downloads. No SEA launch confirmed but large publisher means high risk of TH/SEA plans."
+        },
+        {
+          "game_id": "999-miao-sheng-cun-zhe",
+          "title": "999秒!幸存者",
+          "status": "Reviewing",
+          "comment": "Roguelike survivor - permanent free/no-ads confirmed by dev. Genre trending globally. Small indie. Low publisher monetization but interesting for audience."
+        },
+        {
+          "game_id": "tian-xu-chuan-shuo",
+          "title": "天墟传说",
+          "status": "Reviewing",
+          "comment": "Dark fantasy MMO launch Apr 27 - strong signals: 8.8 score, 200W prereg, rank #3. Mid-size studio, multi-platform. Fits TH RPG appetite."
+        },
+        {
+          "game_id": "sha-sha-bu-jian-ta",
+          "title": "杀戮不尖塔",
+          "status": "Reviewing",
+          "comment": "Roguelike自动战斗爬塔，3人组队+遗物Build，70层，单手极简操作，8分钟/局。TapTap 2026新上的本土创意塔防，有差异化。"
+        },
+        {
+          "game_id": "ling-jue-tian-xia",
+          "title": "灵决天下",
+          "status": "Reviewing",
+          "comment": "竖屏放置修仙，护肝+智能拾取回收，随机词条装备系统。TapTap评分9.4本土放置RPG，近期新上。"
+        },
+        {
+          "game_id": "wu-jin-zhi-mi",
+          "title": "无尽之秘",
+          "status": "Reviewing",
+          "comment": "三国历史失控+时间泡/时间污染机制，平行世界冒险。TapTap评分8.4，策略深度题材有新意。"
+        },
+        {
+          "game_id": "deathplunder-wang-ming-jie-du-zhe",
+          "title": "DeathPlunder亡命掠夺者",
+          "status": "Reviewing",
+          "comment": "末日生存+2D射击搜打撤，角色构筑+僵尸岛搜刮，TapTap评分9.3，粉丝18345，本土工作室独立游戏，题材在SEA有潜力。"
+        },
+        {
+          "game_id": "huan-xing-zhan-zheng",
+          "title": "环形战争",
+          "status": "Reviewing",
+          "comment": "暗黑风战棋策略，中世纪骑士战争+克系视觉，虚幻引擎开发，佣兵团构筑。TapTap 2026新上，战棋+暗黑题材有差异化。"
+        }
+      ],
+      "note": "Added 5 new games from TapTap CN scanning ID ranges 836500-840000. Sources: TapTap v6 detail API.",
+      "notes": [
+        "พบเกมใหม่ 5 ตัววันนี้ นำโดย 灵决天下 (score 9.4/30).",
+        "กลุ่ม genre หลัก: 角色扮演 (2 ตัว)",
+        "5 ตัวมี IAP signal ชัด — มี monetization potential."
+      ]
+    },
     {
       "date": "2026-04-26",
       "headline": "2 new CN candidates found on TapTap 新品榜. Small indie and one massive Tencent IP.",
@@ -3617,19 +4184,19 @@
     ]
   },
   "kpis": {
-    "top_picks_today": 2,
+    "top_picks_today": 3,
     "candidate_pipeline": 46,
     "pending_verification": 33,
-    "new_games_today": 3,
+    "new_games_today": 5,
     "weekly_syntheses": 1,
-    "games_total": 46,
+    "games_total": 51,
     "duplicates_removed": 0,
-    "trending_games": 4,
+    "trending_games": 8,
     "watchlist_count": 15,
-    "reviewing_count": 30,
+    "reviewing_count": 35,
     "dropped_count": 0,
-    "avg_priority_score": 48,
-    "last_scouted": "2026-04-26"
+    "avg_priority_score": 45,
+    "last_scouted": "2026-04-27"
   },
   "reports": [
     {
