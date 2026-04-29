@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "CN/KR Mobile Game Research Dashboard",
-    "date": "2026-04-28",
+    "date": "2026-04-29",
     "timezone": "Asia/Bangkok",
     "mode": "analyst",
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-29T08:34:45+07:00",
+    "generated_at": "2026-04-29T09:48:20.219548+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -2984,9 +2984,153 @@
       "logo_path": "https://img-tc.tapimg.com/market/images/f46df3bbf6aee053352581da5ad06a93.png/_tap_appicon.jpg",
       "priority_score": 20,
       "trending_direction": "up"
+    },
+    {
+      "id": "zhi-jing-xiao-xian-tu",
+      "app_id": 841960,
+      "title": "纸境小仙途",
+      "logo_path": "https://img-tc.tapimg.com/market/images/2a7fccf8c52103158deb5906f9e3ee0f.png/_tap_appicon.jpg",
+      "developer": "零梦",
+      "publisher": "零梦",
+      "developer_country": "CN",
+      "genre": "Roguelike Survival",
+      "subgenre": "修仙Roguelike",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2025-04-11",
+      "launch_status_sea": "Not launched",
+      "launch_status_thailand": "Not launched",
+      "confidence": "probable",
+      "score": 0,
+      "monetization_model": "F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-29",
+      "status": "New",
+      "comment": "修仙题材Roguelike生存策略游戏，以纸雕艺术为灵感。玩家扮演修仙者，研习神通、祭炼法宝、修炼功法、加入宗门、收服灵宠。",
+      "priority": 30,
+      "tags": [
+        "策略",
+        "模拟",
+        "角色扮演",
+        "休闲",
+        "动作"
+      ],
+      "fit_with_th_top_genres": [],
+      "thai_market_rationale": "Chinese dev, 修仙Roguelike, local CN source",
+      "source_links": [
+        "https://www.taptap.cn/app/841960"
+      ],
+      "status_history": [
+        {
+          "date": "2026-04-29",
+          "status": "New"
+        }
+      ]
+    },
+    {
+      "id": "gua-ji-ba-kuo-li-yong-zhe2",
+      "app_id": 840915,
+      "title": "挂机吧！骷髅勇者2",
+      "logo_path": "https://img-tc.tapimg.com/market/images/bb715c43aa69122e7049a814bd3b45bd.png/_tap_appicon.jpg",
+      "developer": "阿柴工作室",
+      "publisher": "阿柴工作室",
+      "developer_country": "CN",
+      "genre": "Idle RPG",
+      "subgenre": "放置RPG",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2025-04-08",
+      "launch_status_sea": "Not launched",
+      "launch_status_thailand": "Not launched",
+      "confidence": "probable",
+      "score": 9.2,
+      "monetization_model": "F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-29",
+      "status": "New",
+      "comment": "轻松躺平，神装毕业！挂机刷宝，在线离线不停歇。放置类RPG。",
+      "priority": 18,
+      "tags": [
+        "放置"
+      ],
+      "fit_with_th_top_genres": [
+        "Idle RPG"
+      ],
+      "thai_market_rationale": "Chinese dev, 放置RPG, local CN source",
+      "source_links": [
+        "https://www.taptap.cn/app/840915"
+      ],
+      "status_history": [
+        {
+          "date": "2026-04-29",
+          "status": "New"
+        }
+      ]
+    },
+    {
+      "id": "huo-chai-ren-zhan-zheng-lian-meng",
+      "app_id": 841195,
+      "title": "火柴人战争联盟",
+      "logo_path": "https://img-tc.tapimg.com/market/images/c88da55c16237ec5c7eb079569b4e356.png/_tap_appicon.jpg",
+      "developer": "南凝服务游戏工作室",
+      "publisher": "南凝服务游戏工作室",
+      "developer_country": "CN",
+      "genre": "Strategy",
+      "subgenre": "策略对战",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "2025-04-08",
+      "launch_status_sea": "Not launched",
+      "launch_status_thailand": "Not launched",
+      "confidence": "probable",
+      "score": 0,
+      "monetization_model": "F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-29",
+      "status": "New",
+      "comment": "经典火柴人策略游戏，融合极简策略、城建养成、兵种对战与联盟团战多元玩法，离线挂机自动囤资源。",
+      "priority": 30,
+      "tags": [
+        "策略"
+      ],
+      "fit_with_th_top_genres": [
+        "Strategy"
+      ],
+      "thai_market_rationale": "Chinese dev, 策略对战, local CN source",
+      "source_links": [
+        "https://www.taptap.cn/app/841195"
+      ],
+      "status_history": [
+        {
+          "date": "2026-04-29",
+          "status": "New"
+        }
+      ]
     }
   ],
   "daily_reports": [
+    {
+      "date": "2026-04-29",
+      "new_game_ids": [
+        "zhi-jing-xiao-xian-tu",
+        "gua-ji-ba-kuo-li-yong-zhe2",
+        "huo-chai-ren-zhan-zheng-lian-meng"
+      ],
+      "top_pick_ids": [
+        "zhi-jing-xiao-xian-tu",
+        "gua-ji-ba-kuo-li-yong-zhe2"
+      ],
+      "game_snapshots": [],
+      "notes": [
+        "พบเกมใหม่ 3 ตัววันที่ 29 เมษา นำโดย 纸境小仙途 และ 三国战天下"
+      ]
+    },
     {
       "date": "2026-04-28",
       "new_game_ids": [
