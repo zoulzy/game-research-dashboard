@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "CN/KR Mobile Game Research Dashboard",
-    "date": "2026-04-27",
+    "date": "2026-04-28",
     "timezone": "Asia/Bangkok",
     "mode": "analyst",
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-28T08:22:26+07:00",
+    "generated_at": "2026-04-29T08:34:45+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -2426,7 +2426,7 @@
       "fit_with_th_top_genres": [],
       "status_history": [],
       "priority_score": 8,
-      "trending_direction": "up"
+      "trending_direction": "stable"
     },
     {
       "id": "luo-ke-wang-guo-shi-jie",
@@ -2461,7 +2461,7 @@
       "fit_with_th_top_genres": [],
       "status_history": [],
       "priority_score": 21,
-      "trending_direction": "up"
+      "trending_direction": "stable"
     },
     {
       "id": "999-miao-sheng-cun-zhe",
@@ -2514,7 +2514,7 @@
       "last_comment_updated": null,
       "status_history": [],
       "priority_score": 39,
-      "trending_direction": "stable"
+      "trending_direction": null
     },
     {
       "id": "tian-xu-chuan-shuo",
@@ -2568,7 +2568,7 @@
       "last_comment_updated": null,
       "status_history": [],
       "priority_score": 67,
-      "trending_direction": "up"
+      "trending_direction": "stable"
     },
     {
       "id": "sha-sha-bu-jian-ta",
@@ -2754,9 +2754,258 @@
       "status_history": [],
       "priority_score": 9,
       "trending_direction": "up"
+    },
+    {
+      "id": "an-hei-xian-tu",
+      "title": "暗黑仙途",
+      "developer": "幻想症的工作室",
+      "publisher": "",
+      "developer_country": "CN",
+      "genre": "冒险",
+      "subgenre": "冒险",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 9.5,
+      "why_it_matters": "",
+      "analysis_note": "",
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/842650",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-28",
+      "default_status": "New",
+      "status": "New",
+      "comment": "",
+      "priority": "high",
+      "tags": [
+        "冒险"
+      ],
+      "fit_with_th_top_genres": [],
+      "thai_market_rationale": "",
+      "last_status_updated": "2026-04-28T08:52:16+07:00",
+      "last_comment_updated": null,
+      "status_history": [],
+      "source_links": [
+        {
+          "label": "TapTap",
+          "url": "https://www.taptap.cn/app/842650"
+        }
+      ],
+      "logo_path": "https://img-tc.tapimg.com/market/images/28c548cdfd9fff83c7e20a8cc7e27d78.png/_tap_appicon.jpg",
+      "priority_score": 20,
+      "trending_direction": "up"
+    },
+    {
+      "id": "fei-ni-xi-ya-zhan-ji",
+      "title": "菲尼西雅战记",
+      "developer": "子木工作室",
+      "publisher": "",
+      "developer_country": "CN",
+      "genre": "角色扮演",
+      "subgenre": "角色扮演",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 5.2,
+      "why_it_matters": "",
+      "analysis_note": "",
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/844130",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-28",
+      "default_status": "New",
+      "status": "New",
+      "comment": "",
+      "priority": "medium",
+      "tags": [
+        "角色扮演"
+      ],
+      "fit_with_th_top_genres": [],
+      "thai_market_rationale": "",
+      "last_status_updated": "2026-04-28T08:52:17+07:00",
+      "last_comment_updated": null,
+      "status_history": [],
+      "source_links": [
+        {
+          "label": "TapTap",
+          "url": "https://www.taptap.cn/app/844130"
+        }
+      ],
+      "logo_path": "https://img-tc.tapimg.com/market/images/a09bda21acfce8f9486aad076570a2e1.jpg/_tap_appicon.jpg",
+      "priority_score": 16,
+      "trending_direction": "up"
+    },
+    {
+      "id": "zhan-gui-zhi-lu",
+      "title": "斩鬼之路",
+      "developer": "心院游戏工坊",
+      "publisher": "",
+      "developer_country": "CN",
+      "genre": "冒险",
+      "subgenre": "冒险",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 8.7,
+      "why_it_matters": "",
+      "analysis_note": "",
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/843870",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-28",
+      "default_status": "New",
+      "status": "New",
+      "comment": "",
+      "priority": "high",
+      "tags": [
+        "冒险"
+      ],
+      "fit_with_th_top_genres": [],
+      "thai_market_rationale": "",
+      "last_status_updated": "2026-04-28T08:52:18+07:00",
+      "last_comment_updated": null,
+      "status_history": [],
+      "source_links": [
+        {
+          "label": "TapTap",
+          "url": "https://www.taptap.cn/app/843870"
+        }
+      ],
+      "logo_path": "https://img-tc.tapimg.com/market/images/4b1be27d519851636ab7c74f553983d6.png/_tap_appicon.jpg",
+      "priority_score": 19,
+      "trending_direction": "up"
+    },
+    {
+      "id": "mo-ri-sheng-cun",
+      "title": "末日生存",
+      "developer": "顾笙工作室",
+      "publisher": "",
+      "developer_country": "CN",
+      "genre": "策略",
+      "subgenre": "策略",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 0.0,
+      "why_it_matters": "",
+      "analysis_note": "",
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/839730",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "unclear",
+      "first_seen": "2026-04-28",
+      "default_status": "New",
+      "status": "New",
+      "comment": "",
+      "priority": "medium",
+      "tags": [
+        "策略"
+      ],
+      "fit_with_th_top_genres": [],
+      "thai_market_rationale": "",
+      "last_status_updated": "2026-04-28T08:52:19+07:00",
+      "last_comment_updated": null,
+      "status_history": [],
+      "source_links": [
+        {
+          "label": "TapTap",
+          "url": "https://www.taptap.cn/app/839730"
+        }
+      ],
+      "logo_path": "https://img-tc.tapimg.com/market/images/96e97b01a80994c9ec97d727f422c4b8.png/_tap_appicon.jpg",
+      "priority_score": 10,
+      "trending_direction": "up"
+    },
+    {
+      "id": "san-guo-zhan-tian-xia",
+      "title": "三国战天下",
+      "developer": "火火火工作室",
+      "publisher": "",
+      "developer_country": "CN",
+      "genre": "角色扮演",
+      "subgenre": "角色扮演",
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "first_server_launch_date": "",
+      "launch_status_sea": "not launched",
+      "launch_status_thailand": "not launched",
+      "confidence": "medium",
+      "score": 9.4,
+      "why_it_matters": "",
+      "analysis_note": "",
+      "official_website": "",
+      "official_or_source_page": "https://www.taptap.cn/app/840780",
+      "monetization_model": "Likely F2P + IAP",
+      "iap_signal": "probable",
+      "first_seen": "2026-04-28",
+      "default_status": "New",
+      "status": "New",
+      "comment": "",
+      "priority": "high",
+      "tags": [
+        "角色扮演"
+      ],
+      "fit_with_th_top_genres": [],
+      "thai_market_rationale": "",
+      "last_status_updated": "2026-04-28T08:52:19+07:00",
+      "last_comment_updated": null,
+      "status_history": [],
+      "source_links": [
+        {
+          "label": "TapTap",
+          "url": "https://www.taptap.cn/app/840780"
+        }
+      ],
+      "logo_path": "https://img-tc.tapimg.com/market/images/f46df3bbf6aee053352581da5ad06a93.png/_tap_appicon.jpg",
+      "priority_score": 20,
+      "trending_direction": "up"
     }
   ],
   "daily_reports": [
+    {
+      "date": "2026-04-28",
+      "new_game_ids": [
+        "an-hei-xian-tu",
+        "fei-ni-xi-ya-zhan-ji",
+        "zhan-gui-zhi-lu",
+        "mo-ri-sheng-cun",
+        "san-guo-zhan-tian-xia"
+      ],
+      "top_pick_ids": [
+        "an-hei-xian-tu",
+        "zhan-gui-zhi-lu",
+        "san-guo-zhan-tian-xia"
+      ],
+      "notes": [
+        "พบเกมใหม่ 5 ตัววันที่ 28 เมษา นำโดย ['暗黑仙途', '菲尼西雅战记', '斩鬼之路']"
+      ],
+      "game_snapshots": []
+    },
     {
       "date": "2026-04-27",
       "game_ids": [
@@ -4189,14 +4438,14 @@
     "pending_verification": 33,
     "new_games_today": 5,
     "weekly_syntheses": 1,
-    "games_total": 51,
+    "games_total": 56,
     "duplicates_removed": 0,
-    "trending_games": 8,
+    "trending_games": 10,
     "watchlist_count": 15,
     "reviewing_count": 35,
     "dropped_count": 0,
-    "avg_priority_score": 45,
-    "last_scouted": "2026-04-27"
+    "avg_priority_score": 42,
+    "last_scouted": "2026-04-28"
   },
   "reports": [
     {
