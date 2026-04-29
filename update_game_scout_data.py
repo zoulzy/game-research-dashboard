@@ -203,6 +203,10 @@ def fix_field_types(data):
         g.setdefault('tags', [])
         g.setdefault('fit_with_th_top_genres', [])
         g.setdefault('status_history', [])
+        # Fix source_links: convert ["url"] string array → [{"label": "...", "url": "..."}] object array
+        sl = g.get('source_links', [])
+        if sl and isinstance(sl[0], str):
+            g['source_links'] = [{"label": "TapTap local source", "url": sl[0]}]
 
 
 def main():
