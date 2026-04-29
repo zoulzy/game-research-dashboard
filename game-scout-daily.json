@@ -7,7 +7,7 @@
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-04-29T09:48:20.219548+07:00",
+    "generated_at": "2026-04-29T15:03:05+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -2426,7 +2426,7 @@
       "fit_with_th_top_genres": [],
       "status_history": [],
       "priority_score": 8,
-      "trending_direction": "stable"
+      "trending_direction": null
     },
     {
       "id": "luo-ke-wang-guo-shi-jie",
@@ -2461,7 +2461,7 @@
       "fit_with_th_top_genres": [],
       "status_history": [],
       "priority_score": 21,
-      "trending_direction": "stable"
+      "trending_direction": null
     },
     {
       "id": "999-miao-sheng-cun-zhe",
@@ -2568,7 +2568,7 @@
       "last_comment_updated": null,
       "status_history": [],
       "priority_score": 67,
-      "trending_direction": "stable"
+      "trending_direction": null
     },
     {
       "id": "sha-sha-bu-jian-ta",
@@ -2605,7 +2605,7 @@
       "fit_with_th_top_genres": [],
       "status_history": [],
       "priority_score": 16,
-      "trending_direction": "up"
+      "trending_direction": "stable"
     },
     {
       "id": "ling-jue-tian-xia",
@@ -2642,7 +2642,7 @@
       "fit_with_th_top_genres": [],
       "status_history": [],
       "priority_score": 18,
-      "trending_direction": "up"
+      "trending_direction": "stable"
     },
     {
       "id": "wu-jin-zhi-mi",
@@ -2679,7 +2679,7 @@
       "fit_with_th_top_genres": [],
       "status_history": [],
       "priority_score": 17,
-      "trending_direction": "up"
+      "trending_direction": "stable"
     },
     {
       "id": "deathplunder-wang-ming-jie-du-zhe",
@@ -2716,7 +2716,7 @@
       "fit_with_th_top_genres": [],
       "status_history": [],
       "priority_score": 18,
-      "trending_direction": "up"
+      "trending_direction": "stable"
     },
     {
       "id": "huan-xing-zhan-zheng",
@@ -2753,7 +2753,7 @@
       "fit_with_th_top_genres": [],
       "status_history": [],
       "priority_score": 9,
-      "trending_direction": "up"
+      "trending_direction": "stable"
     },
     {
       "id": "an-hei-xian-tu",
@@ -3030,7 +3030,9 @@
           "date": "2026-04-29",
           "status": "New"
         }
-      ]
+      ],
+      "priority_score": 12,
+      "trending_direction": "up"
     },
     {
       "id": "gua-ji-ba-kuo-li-yong-zhe2",
@@ -3075,7 +3077,9 @@
           "date": "2026-04-29",
           "status": "New"
         }
-      ]
+      ],
+      "priority_score": 43,
+      "trending_direction": "up"
     },
     {
       "id": "huo-chai-ren-zhan-zheng-lian-meng",
@@ -3120,7 +3124,9 @@
           "date": "2026-04-29",
           "status": "New"
         }
-      ]
+      ],
+      "priority_score": 28,
+      "trending_direction": "up"
     }
   ],
   "daily_reports": [
@@ -4586,19 +4592,19 @@
     ]
   },
   "kpis": {
-    "top_picks_today": 3,
+    "top_picks_today": 2,
     "candidate_pipeline": 46,
     "pending_verification": 33,
-    "new_games_today": 5,
+    "new_games_today": 3,
     "weekly_syntheses": 1,
-    "games_total": 56,
+    "games_total": 59,
     "duplicates_removed": 0,
-    "trending_games": 10,
+    "trending_games": 8,
     "watchlist_count": 15,
     "reviewing_count": 35,
     "dropped_count": 0,
-    "avg_priority_score": 42,
-    "last_scouted": "2026-04-28"
+    "avg_priority_score": 41,
+    "last_scouted": "2026-04-29"
   },
   "reports": [
     {
