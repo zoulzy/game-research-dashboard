@@ -7,7 +7,7 @@
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-05-03T10:15:55+07:00",
+    "generated_at": "2026-05-03T10:23:08+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -3127,9 +3127,123 @@
       ],
       "priority_score": 28,
       "trending_direction": null
+    },
+    {
+      "app_id": "842444",
+      "title_cn": "天羽传奇",
+      "developer": "?",
+      "rating": 0,
+      "fans": 3008,
+      "tags": [
+        "角色扮演"
+      ],
+      "update_time": "2026-04-29",
+      "icon_url": "",
+      "description": "角色扮演游戏",
+      "taplink": "https://www.taptap.cn/app/842444",
+      "status": "New",
+      "priority": "high",
+      "added_date": "2026-05-03"
+    },
+    {
+      "app_id": "842450",
+      "title_cn": "千侠传",
+      "developer": "?",
+      "rating": 0,
+      "fans": 1172,
+      "tags": [
+        "角色扮演",
+        "放置",
+        "武侠"
+      ],
+      "update_time": "2026-04-30",
+      "icon_url": "",
+      "description": "放置武侠角色扮演",
+      "taplink": "https://www.taptap.cn/app/842450",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-03"
+    },
+    {
+      "app_id": "842281",
+      "title_cn": "三界轮回",
+      "developer": "?",
+      "rating": 0,
+      "fans": 703,
+      "tags": [
+        "修仙",
+        "放置",
+        "养成"
+      ],
+      "update_time": "2026-05-01",
+      "icon_url": "",
+      "description": "修仙放置养成",
+      "taplink": "https://www.taptap.cn/app/842281",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-03"
+    },
+    {
+      "app_id": "842221",
+      "title_cn": "深渊冒险团",
+      "developer": "?",
+      "rating": 0,
+      "fans": 714,
+      "tags": [
+        "竖屏",
+        "Roguelike",
+        "角色扮演"
+      ],
+      "update_time": "2026-04-16",
+      "icon_url": "",
+      "description": "竖屏Roguelike角色扮演",
+      "taplink": "https://www.taptap.cn/app/842221",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-03"
+    },
+    {
+      "app_id": "842209",
+      "title_cn": "怪兽分解公司",
+      "developer": "?",
+      "rating": 0,
+      "fans": 148,
+      "tags": [
+        "模拟"
+      ],
+      "update_time": "2026-04-21",
+      "icon_url": "",
+      "description": "模拟经营",
+      "taplink": "https://www.taptap.cn/app/842209",
+      "status": "New",
+      "priority": "low",
+      "added_date": "2026-05-03"
     }
   ],
   "daily_reports": [
+    {
+      "date": "2026-05-03",
+      "headline": "พบเกมจีนใหม่ 5 ตัวจากการ scan ID range 841961-842500",
+      "game_ids": [
+        "842444",
+        "842450",
+        "842281",
+        "842221",
+        "842209"
+      ],
+      "new_game_ids": [
+        "842444",
+        "842450",
+        "842281",
+        "842221",
+        "842209"
+      ],
+      "top_pick_ids": [
+        "842444"
+      ],
+      "notes": "ID range 841961-842500 ส่วนใหญ่เป็น PC/Steam games แต่พบเกมจีน mobile 5 ตัวที่ยังไม่มีในระบบ",
+      "game_snapshots": []
+    },
     {
       "date": "2026-05-03",
       "new_games": [],
