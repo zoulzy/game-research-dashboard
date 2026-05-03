@@ -7,7 +7,7 @@
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-05-03T06:52:20+07:00",
+    "generated_at": "2026-05-03T10:15:55+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -3130,6 +3130,21 @@
     }
   ],
   "daily_reports": [
+    {
+      "date": "2026-05-03",
+      "new_games": [],
+      "new_game_ids": [],
+      "summary": "Scanned TapTap IDs 838500-839000. Found 0 valid candidates. TapTap API is protected by Alibaba Cloud WAF requiring JavaScript challenge - not accessible from automated scripts.",
+      "found": 0,
+      "added": 0,
+      "notes": [
+        "TapTap API (webapiv2) is protected by Alibaba Cloud WAF requiring JavaScript challenge solving.",
+        "Automated Python/curl requests return HTTP 400 with INVALID_XUA error.",
+        "Scanned IDs 838500-839000 - all returned invalid X-UA errors.",
+        "Session-based approach with cookies also blocked by WAF.",
+        "Recommendation: Use browser automation (Playwright/Selenium) for future TapTap scans."
+      ]
+    },
     {
       "date": "2026-05-03",
       "new_game_ids": [],
