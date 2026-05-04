@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "CN/KR Mobile Game Research Dashboard",
-    "date": "2026-05-03",
+    "date": "2026-05-04",
     "timezone": "Asia/Bangkok",
     "mode": "analyst",
     "status": "active",
     "source_of_truth": "Obsidian Vault",
     "delivery_target": "Daily 08:00",
-    "generated_at": "2026-05-03T10:23:08+07:00",
+    "generated_at": "2026-05-04T08:07:52+07:00",
     "is_demo": false,
     "status_options": [
       "New",
@@ -3129,64 +3129,236 @@
       "trending_direction": null
     },
     {
-      "app_id": "842444",
-      "title_cn": "天羽传奇",
-      "developer": "?",
+      "app_id": "841987",
+      "title_cn": "手办模拟战",
+      "developer": "H-GIRL",
       "rating": 0,
-      "fans": 3008,
+      "fans": 0,
       "tags": [
-        "角色扮演"
+        "抢先体验",
+        "策略",
+        "模拟",
+        "动作"
       ],
-      "update_time": "2026-04-29",
-      "icon_url": "",
-      "description": "角色扮演游戏",
-      "taplink": "https://www.taptap.cn/app/842444",
+      "update_time": "2026-04-13",
+      "icon_url": "https://img-tc.tapimg.com/market/images/fde4457a578c5fb1d7a8bd852f7ada86.png/_tap_appicon.jpg",
+      "description": "动作策略同时进行<br class=\"bbcode-paragraph-br\"/><br class=\"bbcode-paragraph-br\"/>自由摆放自己的战场<br class=\"bbcode-paragraph-br\"/><br class=\"bbcode-paragraph-br\"/>什么样的战场取决于大家的想象力<br class=\"bbcode-paragraph-br\"/><br",
+      "taplink": "https://www.taptap.cn/app/841987",
       "status": "New",
-      "priority": "high",
-      "added_date": "2026-05-03"
+      "priority": "medium",
+      "added_date": "2026-05-04"
     },
     {
-      "app_id": "842450",
-      "title_cn": "千侠传",
-      "developer": "?",
+      "app_id": "842011",
+      "title_cn": "炼金幻想R ~ 少女的炼金炉 ~",
+      "developer": "みじいし",
       "rating": 0,
-      "fans": 1172,
+      "fans": 0,
       "tags": [
         "角色扮演",
-        "放置",
-        "武侠"
+        "休闲",
+        "冒险"
       ],
-      "update_time": "2026-04-30",
-      "icon_url": "",
-      "description": "放置武侠角色扮演",
-      "taplink": "https://www.taptap.cn/app/842450",
+      "update_time": "2026-04-13",
+      "icon_url": "https://img-tc.tapimg.com/market/images/1292baed9d75e9ba8675f2cc96ba88b0.png/_tap_appicon.jpg",
+      "description": "村子里的年轻炼金术士米提，和她的男朋友尼禄一起开始寻找失踪的师父，米提能进行魔物炼成的能力帮助两人解决了在途中遇到的各种挑战，并发现了改变他们生活的秘密。",
+      "taplink": "https://www.taptap.cn/app/842011",
       "status": "New",
       "priority": "medium",
-      "added_date": "2026-05-03"
+      "added_date": "2026-05-04"
     },
     {
-      "app_id": "842281",
-      "title_cn": "三界轮回",
-      "developer": "?",
+      "app_id": "842020",
+      "title_cn": "不给糖就去死!",
+      "developer": "Saona Studios",
       "rating": 0,
-      "fans": 703,
+      "fans": 0,
       "tags": [
-        "修仙",
-        "放置",
-        "养成"
+        "冒险",
+        "动作"
       ],
-      "update_time": "2026-05-01",
-      "icon_url": "",
-      "description": "修仙放置养成",
-      "taplink": "https://www.taptap.cn/app/842281",
+      "update_time": "2026-04-13",
+      "icon_url": "https://img-tc.tapimg.com/market/images/d68d3b13b37c330e922b551772192cba.png/_tap_appicon.jpg",
+      "description": "万圣节从这个世界上消失了！扮演幽灵“吓老板”，重建小镇，夺回万圣节吧！《不给糖就去死！》是一款2D肉鸽动作劈砍类游戏，采用了手绘背景和传统动画。你需要搭配各种武器和技能，探索不同区域，击败成群的敌人。",
+      "taplink": "https://www.taptap.cn/app/842020",
       "status": "New",
       "priority": "medium",
-      "added_date": "2026-05-03"
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842034",
+      "title_cn": "怒潮：被侵蚀",
+      "developer": "Gustav",
+      "rating": 0,
+      "fans": 0,
+      "tags": [
+        "冒险"
+      ],
+      "update_time": "2026-04-13",
+      "icon_url": "https://img-tc.tapimg.com/market/images/26403ea30899ac304c9b1e1f9ea78ffb.png/_tap_appicon.jpg",
+      "description": "怒潮是氛围沉重的一款生存游戏。和主角一起探险多彩梦幻的世界吧。收集散落在各地的珍珠，逃离这个世界为游戏目的。",
+      "taplink": "https://www.taptap.cn/app/842034",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842046",
+      "title_cn": "琉璃编年史",
+      "developer": "Error 300",
+      "rating": 0,
+      "fans": 0,
+      "tags": [
+        "休闲"
+      ],
+      "update_time": "2026-04-13",
+      "icon_url": "https://img-tc.tapimg.com/market/images/2958656a08d19dcd202380218e56fbd7.png/_tap_appicon.jpg",
+      "description": "仔细听着，我的朋友——我要给你讲一个关于勇气、爱、运气的故事，一个由美丽的彩绘玻璃承载的故事。这个故事还会告诉你阅读理解能力是多么重要！50幅拼图向你讲述了两个精彩的故事：《占星术》与《幸运节》，改编自白俄罗斯作家奥尔加·葛罗米柯的知名小说系列。",
+      "taplink": "https://www.taptap.cn/app/842046",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842113",
+      "title_cn": "Tsuro通路——造路游戏 ",
+      "developer": "Thunderbox Entertainment",
+      "rating": 0,
+      "fans": 0,
+      "tags": [
+        "策略",
+        "休闲"
+      ],
+      "update_time": "2026-04-13",
+      "icon_url": "https://img-tc.tapimg.com/market/images/e5721797717b267d2c500021f44f3eb8.png/_tap_appicon.jpg",
+      "description": "屡获大奖的桌面策略游戏，现已支持 Steam。",
+      "taplink": "https://www.taptap.cn/app/842113",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842117",
+      "title_cn": "失落矿场",
+      "developer": "Cannibal Goose",
+      "rating": 0,
+      "fans": 0,
+      "tags": [
+        "策略",
+        "角色扮演"
+      ],
+      "update_time": "2026-04-13",
+      "icon_url": "https://img-tc.tapimg.com/market/images/d8c8bc7771f5a22c7395619cae975ed9.png/_tap_appicon.jpg",
+      "description": "在这款小巧精致的战术轻度 Rogue 角色扮演游戏中，向地精、兽人、骷髅和恶魔发起复仇，从敌人手中夺回失落的矿场。在每周目充满挑战性的快节奏游戏中，组建最完美的远征队，让地下世界血流成河。",
+      "taplink": "https://www.taptap.cn/app/842117",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842133",
+      "title_cn": "天下镖局",
+      "developer": "有杕之杜",
+      "rating": 0,
+      "fans": 0,
+      "tags": [
+        "策略",
+        "模拟",
+        "冒险"
+      ],
+      "update_time": "2026-04-13",
+      "icon_url": "https://img-tc.tapimg.com/market/images/3cc0302f8c9baa9aeae0f7182fe03796.png/_tap_appicon.jpg",
+      "description": "·盟主仙逝，江湖动乱，各势力间暗流涌动<br/>·各攀高枝，各取所需，镖行门派相互勾结<br/>·一家独大，欺行霸市，鱼肉百姓为祸武林<br/>·划破黑暗，匡扶侠义，重塑镖行昔日荣光<br class=\"bbcode-paragraph-br\"/><br class=\"bbcode-paragraph-br\"/>·百位镖师，千种武学<br/>·多样的组合策略，创造独特镖队<br/>·走镖赚钱，各显",
+      "taplink": "https://www.taptap.cn/app/842133",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842136",
+      "title_cn": "深渊之下",
+      "developer": "Globiss Interactive",
+      "rating": 0,
+      "fans": 0,
+      "tags": [
+        "策略",
+        "冒险",
+        "动作"
+      ],
+      "update_time": "2026-04-13",
+      "icon_url": "https://img-tc.tapimg.com/market/images/3e28f4c84469bf181b9066f12c69f82b.png/_tap_appicon.jpg",
+      "description": "进入一战老兵亚历山大·多科特的心灵深处，体验令人绝望的恐怖梦魇。试图从一艘不断下沉的邮轮上逃脱，而阻挡在面前的是你从未见过的“大家伙”。",
+      "taplink": "https://www.taptap.cn/app/842136",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842179",
+      "title_cn": "你来找找看",
+      "developer": "芹 赵",
+      "rating": 0,
+      "fans": 2,
+      "tags": [],
+      "update_time": "2026-04-14",
+      "icon_url": "https://img-tc.tapimg.com/market/images/da86725df56e28d3844582ce33632492.png/_tap_appicon.jpg",
+      "description": "欢迎来到九宫格的迷你舞台：格子整整齐齐，鸽子蹦蹦跳跳，问题只有一个：每一只，该站在哪儿才最“对味”？<br class=\"bbcode-paragraph-br\"/><br class=\"bbcode-paragraph-br\"/>“连点两下 ”把鸽子轻轻放进格子里，规则会从“好简单”悄悄变成“咦，原来要这样”：同一种颜色只能放一只，四周不能再挤另一只，同一行、同一列也不能撞车——毕竟，爱跳舞的鸽",
+      "taplink": "https://www.taptap.cn/app/842179",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842190",
+      "title_cn": "血流麻将-虚拟AI伴你搓麻",
+      "developer": "湖北网韵逸动科技有限公司",
+      "rating": 0,
+      "fans": 3,
+      "tags": [],
+      "update_time": "2026-04-11",
+      "icon_url": "https://img-tc.tapimg.com/market/images/d9622312db079859905b4bdfbe804742.png/_tap_appicon.jpg",
+      "description": "【深度智能AI，模拟角色趣无穷】<br/>众多角色无限邂逅，丰富的世界观设定，超高自由度，无论聊天的白天还是emo的夜晚，24h消息秒回。<br/>【角色养成，随心选择】<br/>我们提供丰富多样的角色供你选择，均拥有专属装扮，语音包，表情包，可在对局中展示独特特性，体验升级养成的快乐。<br/>【角色权益，自由演绎】<br/>逐步解锁角色权益，邻家小妹妹也可以为你穿上漂亮的小裙子，霸道总裁也有露",
+      "taplink": "https://www.taptap.cn/app/842190",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842209",
+      "title_cn": "怪兽分解公司",
+      "developer": "圣灯工作室",
+      "rating": 0,
+      "fans": 154,
+      "tags": [
+        "模拟"
+      ],
+      "update_time": "2026-04-21",
+      "icon_url": "https://img-tc.tapimg.com/market/images/b7b36b0bdb105ad2a6b92eb77c2de98d.png/_tap_appicon.jpg",
+      "description": "《怪兽分解公司》是一款以分解怪兽为核心的模拟经营游戏。作为公司管理者，您将组建最多24人的专业团队，在5大主线与20处自由场景中处理7类怪兽，并通过机甲建造、动态市场交易、怪兽博物馆与主题餐厅等多元玩法，逐步拓展业务版图。游戏融合策略决策与轻松趣味，为您带来层次丰富、经营与战斗并存的独特体验。",
+      "taplink": "https://www.taptap.cn/app/842209",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842212",
+      "title_cn": "123 - 点击顺序",
+      "developer": "Hyunjoon Seo",
+      "rating": 0,
+      "fans": 2,
+      "tags": [],
+      "update_time": "2026-04-11",
+      "icon_url": "https://img-tc.tapimg.com/market/images/477c25569a6390886b896f0437071b89.png/_tap_appicon.jpg",
+      "description": "123 - 点击顺序是一款简单但上瘾的数字顺序游戏。<br/>等级越高，格子越多，考验你的专注与速度。<br/>刷新最佳成绩，冲击TOP10排名。<br/>失误会消耗爱心，需要时可使用提示查看下一个数字位置。<br/>规则简单，乐趣十足，随时随地快速开玩。",
+      "taplink": "https://www.taptap.cn/app/842212",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
     },
     {
       "app_id": "842221",
       "title_cn": "深渊冒险团",
-      "developer": "?",
+      "developer": "时迹网络",
       "rating": 0,
       "fans": 714,
       "tags": [
@@ -3195,32 +3367,472 @@
         "角色扮演"
       ],
       "update_time": "2026-04-16",
-      "icon_url": "",
-      "description": "竖屏Roguelike角色扮演",
+      "icon_url": "https://img-tc.tapimg.com/market/images/6f79e92e22d0dcaf0bd4db06da38ccb3.png/_tap_appicon.jpg",
+      "description": "《深渊冒险团》是一款可爱风暗黑自走棋 roguelike 冒险游戏。<br/>你将率领鬼新娘、小女巫、疯医生等一群反差萌鬼怪角色，组成冒险团深入层层诡异的深渊，开启刷刷刷之旅。<br class=\"bbcode-paragraph-br\"/><br class=\"bbcode-paragraph-br\"/>独特自走棋战斗：棋盘式自动战斗，可爱鬼怪们会自己冲锋陷阵，策略搭配决定胜负<br/>暗黑式刷",
       "taplink": "https://www.taptap.cn/app/842221",
       "status": "New",
       "priority": "medium",
-      "added_date": "2026-05-03"
+      "added_date": "2026-05-04"
     },
     {
-      "app_id": "842209",
-      "title_cn": "怪兽分解公司",
-      "developer": "?",
+      "app_id": "842228",
+      "title_cn": "神行九歌",
+      "developer": "有意思工作室",
       "rating": 0,
-      "fans": 148,
+      "fans": 21,
       "tags": [
+        "塔防",
+        "卡牌",
+        "放置",
+        "养成",
+        "策略",
+        "轻度Roguelike",
+        "角色扮演",
+        "冒险"
+      ],
+      "update_time": "2026-04-29",
+      "icon_url": "https://img-tc.tapimg.com/market/images/cc29f326d61342ea6bf8ed2fdfd19df1.jpg/_tap_appicon.jpg",
+      "description": "《神行九歌》是一款塔防策略与卡牌收集融合的roguelike手游，茅山道士堕入妖潮肆虐之境，国风剪影勾勒奇幻战场；你将化身捉妖师执掌灵契，号令魂将构筑防线，入千重妖域证轮回之道！​​<br/>【肉鸽觉醒，以谋证道】<br/>【无双瞬爆，酣战割草】<br/>【魂将召唤，天命归位】<br/>【瞬息万变，统御战场】",
+      "taplink": "https://www.taptap.cn/app/842228",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842263",
+      "title_cn": "三国指点消",
+      "developer": "Way_Z_Studio",
+      "rating": 0,
+      "fans": 77,
+      "tags": [
+        "休闲"
+      ],
+      "update_time": "2026-04-14",
+      "icon_url": "https://img-tc.tapimg.com/market/images/71279ade9460b006b938e05c0a977699.png/_tap_appicon.jpg",
+      "description": "捏泡泡纸般的解压快感，搭配转魔方般的操作感受！在这款“类三消”的2x2合成游戏中，指尖轻点即可合成出兵，在简单的操作中享受运筹帷幄的满足感，随时随地来一局解压良药！",
+      "taplink": "https://www.taptap.cn/app/842263",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842274",
+      "title_cn": "捞女幸存者",
+      "developer": "捞女幸存者工作室",
+      "rating": 0,
+      "fans": 3,
+      "tags": [
+        "冒险"
+      ],
+      "update_time": "2026-04-15",
+      "icon_url": "https://img-tc.tapimg.com/market/images/451057e8291a0cceb9a4d7c30954fca0.png/_tap_appicon.jpg",
+      "description": "当捞女遭遇丧尸危机，五星酒店变成人间炼狱，她们能否用金钱至上的价值观逃离生命危险？曾经看不起的“底层人”，会变成队友，还是敌人……？一切的决定权都在你手中！",
+      "taplink": "https://www.taptap.cn/app/842274",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842281",
+      "title_cn": "三界轮回",
+      "developer": "巨好玩工作室",
+      "rating": 0,
+      "fans": 923,
+      "tags": [
+        "修仙",
+        "放置",
+        "养成",
         "模拟"
       ],
-      "update_time": "2026-04-21",
-      "icon_url": "",
-      "description": "模拟经营",
-      "taplink": "https://www.taptap.cn/app/842209",
+      "update_time": "2026-05-01",
+      "icon_url": "https://img-tc.tapimg.com/market/images/f9b25955c9f9ded7043b775d22172e86.jpg/_tap_appicon.jpg",
+      "description": "你将以掌门身份开宗立派，招募弟子、传授功法、炼制丹药、打造法宝，带领门下弟子探索秘境、争夺机缘，在凡界一步步壮大宗门势力。游戏融合了弟子养成、宗门经营、秘境历练、战斗成长与资源交易等玩法，每位弟子的资质、寿元、功法搭配与培养方向，都会影响宗门未来的兴衰。是广收门徒稳扎稳打，还是集中资源培养天骄逆天改命，一切都由你来决定。",
+      "taplink": "https://www.taptap.cn/app/842281",
       "status": "New",
-      "priority": "low",
-      "added_date": "2026-05-03"
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842331",
+      "title_cn": "像素摇摆",
+      "developer": "浓墨游戏",
+      "rating": 0,
+      "fans": 2,
+      "tags": [
+        "休闲"
+      ],
+      "update_time": "2026-04-13",
+      "icon_url": "https://img-tc.tapimg.com/market/images/7c86c9707ed2591c8a611169d684aaf1.png/_tap_appicon.jpg",
+      "description": "一款让你“飞檐走壁”的物理摆荡跑酷游戏！化身身手矫健的像素小人，手中仅有一根万能绳索。是向上攀登更高的平台，还是向前飞跃骇人的深渊？全凭你的指尖操作！",
+      "taplink": "https://www.taptap.cn/app/842331",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842346",
+      "title_cn": "快救小翠",
+      "developer": "哨兵游戏工作室",
+      "rating": 0,
+      "fans": 2,
+      "tags": [
+        "休闲"
+      ],
+      "update_time": "2026-04-25",
+      "icon_url": "https://img-tc.tapimg.com/market/images/7d1641641e8a975ac76a4e188315682e.png/_tap_appicon.jpg",
+      "description": "《千里江山图》中一只翠鸟历经千年修炼，终于可以自由飞翔在美丽的山河，无忧无虑。美好的日子总是那么短暂，画中一只黑猫被神秘力量复活，他被告知吞噬三只翠鸟的灵魂就可以冲出古画，成为一只真正的猫！他无休止地追逐小翠鸟，小翠鸟惊慌失措，怎样才能逃出生天？摆脱这无尽的追杀？小翠很危险，她在等你！",
+      "taplink": "https://www.taptap.cn/app/842346",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842360",
+      "title_cn": "萌战小厨娘",
+      "developer": "Guangzhou Xinchen Network Technology Company Limited",
+      "rating": 0,
+      "fans": 37,
+      "tags": [],
+      "update_time": "2026-04-29",
+      "icon_url": "https://img-tc.tapimg.com/market/images/cc78428acbdc05a657ed8233ae36676a.png/_tap_appicon.jpg",
+      "description": "运河之上，一船一世界，一菜一江湖。<br class=\"bbcode-paragraph-br\"/><br class=\"bbcode-paragraph-br\"/>这一次，你不仅是掌舵美食的舫主，更是与厨伶们共度朝夕的知己。<br class=\"bbcode-paragraph-br\"/><br class=\"bbcode-paragraph-br\"/>从一艘小船开始，扩建精致厢房、研发浪漫风味",
+      "taplink": "https://www.taptap.cn/app/842360",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842361",
+      "title_cn": "隐藏物体之谜:解谜游戏",
+      "developer": "TRIMECH Dhaker",
+      "rating": 0,
+      "fans": 1,
+      "tags": [],
+      "update_time": "2026-04-11",
+      "icon_url": "https://img-tc.tapimg.com/market/images/f19affea7cfad0307438efea6af4f51e.png/_tap_appicon.jpg",
+      "description": "喜欢神秘故事？用Enquete成为真正的侦探，在令人惊叹的3D环境中破解精彩案件。<br class=\"bbcode-paragraph-br\"/><br class=\"bbcode-paragraph-br\"/>55个原创调查<br class=\"bbcode-paragraph-br\"/><br class=\"bbcode-paragraph-br\"/>每个关卡都有独特的故事。魔法面包店的蛋糕",
+      "taplink": "https://www.taptap.cn/app/842361",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842364",
+      "title_cn": "プログラミング検定",
+      "developer": "RYO ITO",
+      "rating": 0,
+      "fans": 0,
+      "tags": [],
+      "update_time": "2026-04-09",
+      "icon_url": "https://img-tc.tapimg.com/market/images/732d9a2c25902cff5a225a39a7d9c728.png/_tap_appicon.jpg",
+      "description": "<br/>『Programming Quiz』は、クイズ形式で楽しくプログラミング言語の知識を測ることができる本格学習アプリです！<br class=\"bbcode-paragraph-br\"/><br class=\"bbcode-paragraph-br\"/>初学者から現役エンジニアの知識の再確認まで、幅広いレベルの方に最適です。日々のスキマ時間やITエンジニアの面接対策、新しい言語の仕様をサク",
+      "taplink": "https://www.taptap.cn/app/842364",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842381",
+      "title_cn": "上手に焼けました〜",
+      "developer": "ayumu kamachi",
+      "rating": 0,
+      "fans": 0,
+      "tags": [],
+      "update_time": "2026-04-19",
+      "icon_url": "https://img-tc.tapimg.com/market/images/40d66a22e241898896faf0daf7097e59.png/_tap_appicon.jpg",
+      "description": "ゲージを止めて、こんがり肉を焼こう。<br/>操作はタップだけ。シンプルだけどクセになるタイミングゲーム。<br class=\"bbcode-paragraph-br\"/><br class=\"bbcode-paragraph-br\"/>タイミング次第で結果が変わる、誰でも楽しめるカジュアルゲームです。<br class=\"bbcode-paragraph-br\"/><br class=\"bbco",
+      "taplink": "https://www.taptap.cn/app/842381",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842392",
+      "title_cn": "妍妍",
+      "developer": "zaihuan",
+      "rating": 0,
+      "fans": 0,
+      "tags": [
+        "休闲"
+      ],
+      "update_time": "2026-04-14",
+      "icon_url": "https://img-tc.tapimg.com/market/images/97caa5d39d2e2d82cc84ecbf2eb7aabe.jpg/_tap_appicon.jpg",
+      "description": "这个家伙很懒，什么也没说……",
+      "taplink": "https://www.taptap.cn/app/842392",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842414",
+      "title_cn": "跳跃小子",
+      "developer": "腾跃网络科技",
+      "rating": 0,
+      "fans": 7,
+      "tags": [
+        "休闲"
+      ],
+      "update_time": "2026-04-14",
+      "icon_url": "https://img-tc.tapimg.com/market/images/6e53e21a3263db74e3374e03ddc13012.png/_tap_appicon.jpg",
+      "description": "一款休闲小游戏",
+      "taplink": "https://www.taptap.cn/app/842414",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842416",
+      "title_cn": "货物堆叠大师",
+      "developer": "重剑工作室",
+      "rating": 0,
+      "fans": 4,
+      "tags": [
+        "休闲"
+      ],
+      "update_time": "2026-04-22",
+      "icon_url": "https://img-tc.tapimg.com/market/images/1c46e1b975b40df7b26bf4f41ace3e09.png/_tap_appicon.jpg",
+      "description": "这是一款融合了创意搭建、物理闯关与操作技巧的趣味游戏。你需要利用不同形状的方块自由拼装货车结构，使用有限的材料内打造稳定又高效的货物堆叠结构，让车辆装载货物冲向终点。游戏支持触屏抓取、直接拖拽、旋转调整等多种操作精准调整货物位置，还加入了分数挑战，让每一次搭建都充满策略、想象力与成就感。",
+      "taplink": "https://www.taptap.cn/app/842416",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842432",
+      "title_cn": "量子郵局Quantum Post",
+      "developer": "YUE CHENG WU",
+      "rating": 0,
+      "fans": 0,
+      "tags": [],
+      "update_time": "2026-04-12",
+      "icon_url": "https://img-tc.tapimg.com/market/images/175d16c9aab580af235969231bc6a1a6.png/_tap_appicon.jpg",
+      "description": "《量子郵局》是一款文字敘事與路線選擇遊戲。<br class=\"bbcode-paragraph-br\"/><br class=\"bbcode-paragraph-br\"/>你是夜班郵局的信使，負責處理那些不能被拆開、不能被問太多、也不能送錯宇宙的郵件。每一封信都有不同的寄件人、包裹性質與忌諱；你要在三輪選擇中替它安排路線，然後接受宇宙給你的回執。<br class=\"bbcode-paragra",
+      "taplink": "https://www.taptap.cn/app/842432",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842436",
+      "title_cn": "伴塘科技",
+      "developer": "伴塘科技",
+      "rating": 0,
+      "fans": 3,
+      "tags": [
+        "休闲"
+      ],
+      "update_time": "2026-04-17",
+      "icon_url": "https://img-tc.tapimg.com/market/images/14a01402cbc9d68d4de69a10caeaa100.png/_tap_appicon.jpg",
+      "description": "一款连连看小游戏",
+      "taplink": "https://www.taptap.cn/app/842436",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842444",
+      "title_cn": "天羽传奇",
+      "developer": "龙吟九州",
+      "rating": 0,
+      "fans": 3441,
+      "tags": [
+        "角色扮演"
+      ],
+      "update_time": "2026-04-29",
+      "icon_url": "https://img-tc.tapimg.com/market/images/eac1d898636234bd78fcb47dabf8fc7b.png/_tap_appicon.jpg",
+      "description": "加客服领礼包，快人一步！无硬性逼氪，不卡进度，散人、平民、大佬根据自身追求安排。PVP、PVE玩法丰富，想PK就去野外，想刷宝就去秘境，想躺平就挂机收菜。",
+      "taplink": "https://www.taptap.cn/app/842444",
+      "status": "New",
+      "priority": "high",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842450",
+      "title_cn": "千侠传",
+      "developer": "萤火互动",
+      "rating": 0,
+      "fans": 1339,
+      "tags": [
+        "角色扮演",
+        "放置",
+        "武侠"
+      ],
+      "update_time": "2026-04-30",
+      "icon_url": "https://img-tc.tapimg.com/market/images/9051f6a5c6d4eb38c82a745ddd76b1b6.jpg/_tap_appicon.jpg",
+      "description": "一款打破传统武侠框架的沉浸式开放世界RPG。在这里，你不再是循规蹈矩的江湖过客，而是手握“武林令”的潜在至尊——从初入江湖的无名小卒，到统御各大门派的武林盟主，每一步成长都伴随着权谋、热血与抉择。<br/>游戏以“动态江湖生态”为核心：各大门派并非固定阵营，你可加入少林参悟禅武合一，亦可投身唐门钻研诡谲暗器，甚至联合散修创建专属帮派，制定江湖规则。独创的“权谋系统”让NPC拥有独立意志——今日并肩",
+      "taplink": "https://www.taptap.cn/app/842450",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842455",
+      "title_cn": "合租恋人：恋爱进行时",
+      "developer": "LumaGate Games",
+      "rating": 0,
+      "fans": 1,
+      "tags": [
+        "模拟",
+        "角色扮演",
+        "冒险"
+      ],
+      "update_time": "2026-04-14",
+      "icon_url": "https://img-tc.tapimg.com/market/images/a14360bc672839a9b88a923b11865010.jpg/_tap_appicon.jpg",
+      "description": "背负房贷与生活压力的唐小路，只能出租闲置房间并努力工作。成熟知性、极具个人魅力的女总裁，精致容貌身材火辣的美女主播，曾经的最爱初恋白月光，青梅竹马的邻家小妹，相继闯入生活，四人的到来，让这场恋爱争夺战愈发激烈......",
+      "taplink": "https://www.taptap.cn/app/842455",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842456",
+      "title_cn": "我和美女锁在办公室了",
+      "developer": "Inster",
+      "rating": 0,
+      "fans": 2,
+      "tags": [
+        "模拟",
+        "角色扮演"
+      ],
+      "update_time": "2026-04-14",
+      "icon_url": "https://img-tc.tapimg.com/market/images/ff37342500a6530ad931864ee1db6f06.jpg/_tap_appicon.jpg",
+      "description": "你的选择决定命运的互动式密室逃脱游戏。<br/>就在“黄金周”长假前夕，你因不明原因与美女们一起被困在公司。收集线索，与她们合作，逃离这里吧！",
+      "taplink": "https://www.taptap.cn/app/842456",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842457",
+      "title_cn": "金羊毛",
+      "developer": "心启工作室",
+      "rating": 0,
+      "fans": 1,
+      "tags": [
+        "冒险"
+      ],
+      "update_time": "2026-04-26",
+      "icon_url": "https://img-tc.tapimg.com/market/images/e979e53b002c525ac52050058f1f7dcf.png/_tap_appicon.jpg",
+      "description": "金羊毛（英文名：F.L.E.E.C.E）是一款巧妙融合平台跳跃与解谜元素的独立游戏。在这里世界本身即是终极谜题，你所看到的一切皆为谜题的一部分。身为破局者你需要将自身与“伙伴”的能力编织成“钥匙”，在虚实之间寻路前行，揭秘真相。这不仅是一段解谜闯关的旅程，也将促使你思考规则与存在的意义。<br class=\"bbcode-paragraph-br\"/><br class=\"bbcode-parag",
+      "taplink": "https://www.taptap.cn/app/842457",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
+    },
+    {
+      "app_id": "842460",
+      "title_cn": "最后的加油站",
+      "developer": "Alawar",
+      "rating": 0,
+      "fans": 1,
+      "tags": [
+        "模拟",
+        "休闲",
+        "冒险"
+      ],
+      "update_time": "2026-04-14",
+      "icon_url": "https://img-tc.tapimg.com/market/images/7f1168c877671958ad117f6eebd8390e.png/_tap_appicon.jpg",
+      "description": "在电动汽车大行其道的世界里，你成为了荒郊野外一座老旧加油站的老板。在这款小巧精致的加油站模拟器中，你需要建立贸易、拓展业务，揭开这个陌生之地的秘密。",
+      "taplink": "https://www.taptap.cn/app/842460",
+      "status": "New",
+      "priority": "medium",
+      "added_date": "2026-05-04"
     }
   ],
   "daily_reports": [
+    {
+      "date": "2026-05-04",
+      "headline": "Auto-scout: พบเกมจีนใหม่ 35 ตัว (scan 841961-842460)",
+      "game_ids": [
+        "841987",
+        "842011",
+        "842020",
+        "842034",
+        "842046",
+        "842113",
+        "842117",
+        "842133",
+        "842136",
+        "842179",
+        "842190",
+        "842209",
+        "842212",
+        "842221",
+        "842228",
+        "842263",
+        "842274",
+        "842281",
+        "842331",
+        "842346",
+        "842360",
+        "842361",
+        "842364",
+        "842381",
+        "842392",
+        "842414",
+        "842416",
+        "842432",
+        "842436",
+        "842444",
+        "842450",
+        "842455",
+        "842456",
+        "842457",
+        "842460"
+      ],
+      "new_game_ids": [
+        "841987",
+        "842011",
+        "842020",
+        "842034",
+        "842046",
+        "842113",
+        "842117",
+        "842133",
+        "842136",
+        "842179",
+        "842190",
+        "842209",
+        "842212",
+        "842221",
+        "842228",
+        "842263",
+        "842274",
+        "842281",
+        "842331",
+        "842346",
+        "842360",
+        "842361",
+        "842364",
+        "842381",
+        "842392",
+        "842414",
+        "842416",
+        "842432",
+        "842436",
+        "842444",
+        "842450",
+        "842455",
+        "842456",
+        "842457",
+        "842460"
+      ],
+      "top_pick_ids": [
+        "842444"
+      ],
+      "notes": "ID range 841961-842460, 35 ตัวเข้าเกณฑ์",
+      "game_snapshots": []
+    },
+    {
+      "date": "2026-05-04",
+      "game_ids": [],
+      "new_game_ids": [],
+      "top_pick_ids": [],
+      "notes": [
+        "Scanned TapTap ID range 842000-849000 — overwhelmingly PC/Steam titles and non-Chinese mobile games. No new CN mobile candidates matching F2P+IAP + small/mid publisher + untranslated criteria were found."
+      ],
+      "game_snapshots": []
+    },
     {
       "date": "2026-05-03",
       "headline": "พบเกมจีนใหม่ 5 ตัวจากการ scan ID range 841961-842500",
@@ -3241,7 +3853,9 @@
       "top_pick_ids": [
         "842444"
       ],
-      "notes": "ID range 841961-842500 ส่วนใหญ่เป็น PC/Steam games แต่พบเกมจีน mobile 5 ตัวที่ยังไม่มีในระบบ",
+      "notes": [
+        "ID range 841961-842500 ส่วนใหญ่เป็น PC/Steam games แต่พบเกมจีน mobile 5 ตัวที่ยังไม่มีในระบบ"
+      ],
       "game_snapshots": []
     },
     {
@@ -3257,7 +3871,9 @@
         "Scanned IDs 838500-839000 - all returned invalid X-UA errors.",
         "Session-based approach with cookies also blocked by WAF.",
         "Recommendation: Use browser automation (Playwright/Selenium) for future TapTap scans."
-      ]
+      ],
+      "game_snapshots": [],
+      "top_pick_ids": []
     },
     {
       "date": "2026-05-03",
@@ -4764,13 +5380,13 @@
     "new_games_today": 0,
     "weekly_syntheses": 1,
     "games_total": 59,
-    "duplicates_removed": 0,
+    "duplicates_removed": 5,
     "trending_games": 0,
     "watchlist_count": 15,
     "reviewing_count": 35,
     "dropped_count": 0,
     "avg_priority_score": 41,
-    "last_scouted": "2026-05-03"
+    "last_scouted": "2026-05-04"
   },
   "reports": [
     {
